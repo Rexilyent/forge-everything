@@ -77,6 +77,10 @@
     "block_properties": false,
     "mod_name": true
   },
+  "modern_industrialization": {
+    "overclock": true,
+    "pipe": true
+  },
   "waystones": {
     "waystone": true
   },
