@@ -6,8 +6,8 @@
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
     "energy_storage.style": "PROGRESS_BAR",
-    "item_storage.normal_amount": 9,
     "item_storage": true,
+    "item_storage.normal_amount": 9,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -52,19 +52,15 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "apothic_spawners": {
+    "spawner": true
+  },
   "jade_access": {
     "held_item": true,
     "sign": true,
     "block": true,
     "entity": true,
     "entity_variant": true
-  },
-  "mekanism": {
-    "chemical": true,
-    "remove_builtin": true,
-    "fluid": true,
-    "energy": true,
-    "tooltip_renderer": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -77,15 +73,15 @@
     "block_properties": false,
     "mod_name": true
   },
+  "apotheosis": {
+    "adventure": true
+  },
   "modern_industrialization": {
     "overclock": true,
     "pipe": true
   },
-  "waystones": {
-    "waystone": true
-  },
-  "gravestone": {
-    "grave": true
+  "apothic_enchanting": {
+    "ench": true
   },
   "balm": {
     "jade": true
@@ -101,5 +97,35 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "productivebees": {
+    "bee": true,
+    "solitary_nest": true,
+    "canvas_beehive": true,
+    "bee_attributes": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "projecte": {
+    "emc_provider": true
+  },
+  "mekanism": {
+    "chemical": true,
+    "remove_builtin": true,
+    "fluid": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "gravestone": {
+    "grave": true
+  },
+  "mysticalagriculture": {
+    "infused_farmland": true,
+    "crop": true,
+    "inferium_crop": true
   }
 }

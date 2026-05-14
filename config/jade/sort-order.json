@@ -11,6 +11,10 @@
   "ae2:part_tooltip": null,
   "ae2:pattern_provider": null,
   "ae2:power_storage": null,
+  "apotheosis:adventure": null,
+  "apothic_enchanting:ench": null,
+  "apothic_spawners:spawner": null,
+  "ars_nouveau:mob_jar": null,
   "balm:jade": null,
   "gravestone:grave": null,
   "jade:block_face": null,
@@ -81,5 +85,12 @@
   "modern_industrialization:overclock": null,
   "modern_industrialization:pipe": null,
   "modern_industrialization:tank": null,
+  "mysticalagriculture:crop": null,
+  "mysticalagriculture:inferium_crop": null,
+  "mysticalagriculture:infused_farmland": null,
+  "productivebees:bee": null,
+  "productivebees:canvas_beehive": null,
+  "productivebees:solitary_nest": null,
+  "projecte:emc_provider": null,
   "waystones:waystone": null
 }
