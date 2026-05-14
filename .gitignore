@@ -15,3 +15,5 @@ usercache.json
 usernamecache.json
 options.txt
 accessories.json5
+iris.properties
+indigo-renderer.properties
