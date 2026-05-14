@@ -1,0 +1,17 @@
+#Folders
+schematics/
+logs/
+local/
+downloads/
+saves/
+data/
+crash-reports/
+xaero/
+XaeroWaypoints_BACKUP240807/
+.mixin.out
+
+#Files
+usercache.json
+usernamecache.json
+options.txt
+accessories.json5
