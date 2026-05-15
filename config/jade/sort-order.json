@@ -85,6 +85,7 @@
   "modern_industrialization:overclock": null,
   "modern_industrialization:pipe": null,
   "modern_industrialization:tank": null,
+  "mysticalagradditions:infused_farmland": null,
   "mysticalagriculture:crop": null,
   "mysticalagriculture:inferium_crop": null,
   "mysticalagriculture:infused_farmland": null,
@@ -92,5 +93,8 @@
   "productivebees:canvas_beehive": null,
   "productivebees:solitary_nest": null,
   "projecte:emc_provider": null,
+  "twilightforest:chiseled_bookshelf_spawner": null,
+  "twilightforest:drying_rack": null,
+  "twilightforest:quest_ram_wool": null,
   "waystones:waystone": null
 }
