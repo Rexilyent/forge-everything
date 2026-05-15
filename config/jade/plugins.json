@@ -62,6 +62,9 @@
     "entity": true,
     "entity_variant": true
   },
+  "extrastorage": {
+    "advanced_crafter": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -80,11 +83,23 @@
     "overclock": true,
     "pipe": true
   },
+  "extendedae": {
+    "jade_chamber": true,
+    "jade_wireless": true
+  },
   "apothic_enchanting": {
     "ench": true
   },
   "balm": {
     "jade": true
+  },
+  "integrateddynamicscompat": {
+    "proxy": true,
+    "mechanical_squeezer": true,
+    "mechanical_drying_basin": true,
+    "drying_basin": true,
+    "part": true,
+    "squeezer": true
   },
   "ae2": {
     "part_icon": true,
@@ -103,6 +118,11 @@
     "solitary_nest": true,
     "canvas_beehive": true,
     "bee_attributes": true
+  },
+  "xycraft": {
+    "energy_pipe_debug": true,
+    "tank_component": true,
+    "extractor_component": true
   },
   "ars_nouveau": {
     "mob_jar": true

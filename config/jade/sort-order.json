@@ -16,7 +16,17 @@
   "apothic_spawners:spawner": null,
   "ars_nouveau:mob_jar": null,
   "balm:jade": null,
+  "extendedae:jade_chamber": null,
+  "extendedae:jade_wireless": null,
+  "extendedae:tile_data": null,
+  "extrastorage:advanced_crafter": null,
   "gravestone:grave": null,
+  "integrateddynamicscompat:drying_basin": null,
+  "integrateddynamicscompat:mechanical_drying_basin": null,
+  "integrateddynamicscompat:mechanical_squeezer": null,
+  "integrateddynamicscompat:part": null,
+  "integrateddynamicscompat:proxy": null,
+  "integrateddynamicscompat:squeezer": null,
   "jade:block_face": null,
   "jade:block_properties": null,
   "jade:block_states": null,
@@ -96,5 +106,9 @@
   "twilightforest:chiseled_bookshelf_spawner": null,
   "twilightforest:drying_rack": null,
   "twilightforest:quest_ram_wool": null,
-  "waystones:waystone": null
+  "waystones:waystone": null,
+  "xycraft:energy_pipe_debug": null,
+  "xycraft:extractor_component": null,
+  "xycraft:extractor_output": null,
+  "xycraft:tank_component": null
 }
