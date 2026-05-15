@@ -1,0 +1,58 @@
+{
+	id: "1C750D27FEF7C386"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			id: "14A618CA341F152F"
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:capacitor_blazing"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 1
+			weight: 10.0f
+		}
+		{
+			id: "14CBAFE3CE2D90B6"
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:crystal_blazing"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 1
+			weight: 25.0f
+		}
+		{ id: "0BC33BF00EF2DBBB", item: { components: { "ftbquests:missing_item": "powah:energy_cell_blazing" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			id: "6E51B1353D46290A"
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:energy_cable_blazing"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 2
+			weight: 10.0f
+		}
+		{
+			id: "183755D5721E4C14"
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:energizing_rod_blazing"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 5.0f
+		}
+		{ id: "72FDAD250E3B880B", item: { components: { "ftbquests:missing_item": "powah:solar_panel_blazing" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "4FA55F3399705441", item: { components: { "ftbquests:missing_item": "powah:blazing_crystal_block" }, count: 1, id: "ftbquests:missing_item" } }
+	]
+	use_title: true
+}

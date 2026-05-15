@@ -405,6 +405,14 @@
     "curseForgeHash": 2029315625,
     "modrinthHash": "049799f0622e990216cc4f25c8d9fe5d199ec2ea"
   },
+  "BridgingMod-2.6.2+1.21.1.neoforge-release.jar": {
+    "jarName": "BridgingMod-2.6.2+1.21.1.neoforge-release.jar",
+    "modId": "bridgingmod",
+    "name": "Bridging Mod",
+    "version": "2.6.2+1.21.1",
+    "curseForgeHash": 3953435592,
+    "modrinthHash": "18c4fdadf7d1b4632ae0e0914e4075847306b52f"
+  },
   "bundle-api-neoforge-1.1.0.jar": {
     "jarName": "bundle-api-neoforge-1.1.0.jar",
     "modId": "bundleapi",
@@ -468,6 +476,14 @@
     "version": "15.0.140",
     "curseForgeHash": 1440957232,
     "modrinthHash": "c3e5733ba4503b102589a026000fd5ce0212f6f2"
+  },
+  "cobweb-neoforge-1.21-1.4.0.jar": {
+    "jarName": "cobweb-neoforge-1.21-1.4.0.jar",
+    "modId": "cobweb",
+    "name": "Cobweb",
+    "version": "1.4.0",
+    "curseForgeHash": 3953893040,
+    "modrinthHash": "5ae5dbf4184a62b9ff5bd31f6f8ba62943dd197d"
   },
   "CodeChickenLib-1.21.1-4.6.1.526.jar": {
     "jarName": "CodeChickenLib-1.21.1-4.6.1.526.jar",
@@ -933,6 +949,14 @@
     "curseForgeHash": 4138408898,
     "modrinthHash": "459b5f4c7297b2f7649d43137f3e5a069b69b707"
   },
+  "FramedBlocks-10.5.3.jar": {
+    "jarName": "FramedBlocks-10.5.3.jar",
+    "modId": "framedblocks",
+    "name": "FramedBlocks",
+    "version": "10.5.3",
+    "curseForgeHash": 2592242677,
+    "modrinthHash": "bbbd02f99ab559bc68a72e3441e821c5cf81d8f1"
+  },
   "ftb-essentials-neoforge-2101.1.9.jar": {
     "jarName": "ftb-essentials-neoforge-2101.1.9.jar",
     "modId": "ftbessentials",
@@ -1044,6 +1068,14 @@
     "version": "4.0.3",
     "curseForgeHash": 2517848455,
     "modrinthHash": "8ecd27f1d66f9b742cfae3c8ffa773765f574b52"
+  },
+  "harvest-with-ease-neoforge-1.21-9.4.0.jar": {
+    "jarName": "harvest-with-ease-neoforge-1.21-9.4.0.jar",
+    "modId": "harvest_with_ease",
+    "name": "Harvest with ease",
+    "version": "9.4.0",
+    "curseForgeHash": 917328710,
+    "modrinthHash": "26d0f6f428f04110351f0274fda4ffe3620df38d"
   },
   "Highlighter-1.21-neoforge-1.1.11.jar": {
     "jarName": "Highlighter-1.21-neoforge-1.1.11.jar",
@@ -1290,13 +1322,13 @@
     "curseForgeHash": 3986180117,
     "modrinthHash": "e920dbb720c2c010c45b137d195a5cc72a9afdd2"
   },
-  "lithostitched-1.7.3-neoforge-21.1.jar": {
-    "jarName": "lithostitched-1.7.3-neoforge-21.1.jar",
+  "lithostitched-1.7.5-neoforge-21.1.jar": {
+    "jarName": "lithostitched-1.7.5-neoforge-21.1.jar",
     "modId": "lithostitched",
     "name": "Lithostitched",
-    "version": "1.7.3",
-    "curseForgeHash": 2169185092,
-    "modrinthHash": "d4ec9689721502154dbd587642de142261688316"
+    "version": "1.7.5",
+    "curseForgeHash": 4036205515,
+    "modrinthHash": "a4bd924dda20fa56faf08df2f9766834d72f0494"
   },
   "lmft-1.1.1+1.21.9-neoforge.jar": {
     "jarName": "lmft-1.1.1+1.21.9-neoforge.jar",
@@ -1681,6 +1713,38 @@
     "version": "0.12.15.5-beta.1+1.21",
     "curseForgeHash": 990455198,
     "modrinthHash": "48dda11a6710591cf162bdbedf982ea21dd1f2ed"
+  },
+  "pamhc2crops-NEOFORGE-1.21.1-1.0.0.jar": {
+    "jarName": "pamhc2crops-NEOFORGE-1.21.1-1.0.0.jar",
+    "modId": "pamhc2crops",
+    "name": "Pam\u0027s HarvestCraft - Crops",
+    "version": "1.0.0",
+    "curseForgeHash": 2632427717,
+    "modrinthHash": "15f0bffa9f3c8c0868d29f9d33c75e586d55425d"
+  },
+  "pamhc2foodcore-NEOFORGE-1.21.1-1.0.2.jar": {
+    "jarName": "pamhc2foodcore-NEOFORGE-1.21.1-1.0.2.jar",
+    "modId": "pamhc2foodcore",
+    "name": "Pam\u0027s HarvestCraft - Food Core",
+    "version": "1.0.2",
+    "curseForgeHash": 3268753738,
+    "modrinthHash": "aa757abe71467b1d39a6e40c0bfecac9ae3f1e14"
+  },
+  "pamhc2foodextended-NEOFORGE-1.21.1-1.0.0.jar": {
+    "jarName": "pamhc2foodextended-NEOFORGE-1.21.1-1.0.0.jar",
+    "modId": "pamhc2foodextended",
+    "name": "Pam\u0027s HarvestCraft - Food Extended",
+    "version": "1.0.0",
+    "curseForgeHash": 1858117128,
+    "modrinthHash": "0cf7f668fdedef93446f33215484913991185102"
+  },
+  "pamhc2trees-NEOFORGE-1.21.1-1.0.4.jar": {
+    "jarName": "pamhc2trees-NEOFORGE-1.21.1-1.0.4.jar",
+    "modId": "pamhc2trees",
+    "name": "Pam\u0027s HarvestCraft - Trees",
+    "version": "1.0.4",
+    "curseForgeHash": 3691824599,
+    "modrinthHash": "98ac1ede402d94efdc9e1d714591483e3c1e6025"
   },
   "Placebo-1.21.1-9.9.1.jar": {
     "jarName": "Placebo-1.21.1-9.9.1.jar",
@@ -2153,6 +2217,14 @@
     "version": "0.4.13",
     "curseForgeHash": 4006676556,
     "modrinthHash": "35ccf44ed96e4e42ddbf5a2228f8dc4a3d458993"
+  },
+  "variantsandventures-neoforge-1.0.24+mc1.21.1.jar": {
+    "jarName": "variantsandventures-neoforge-1.0.24+mc1.21.1.jar",
+    "modId": "variantsandventures",
+    "name": "Variants\u0026Ventures",
+    "version": "1.0.24",
+    "curseForgeHash": 1589526782,
+    "modrinthHash": "e9ac63dcd62988323301678134ca3d6ecb5fc791"
   },
   "VisualWorkbench-v21.1.1-1.21.1-NeoForge.jar": {
     "jarName": "VisualWorkbench-v21.1.1-1.21.1-NeoForge.jar",

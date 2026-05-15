@@ -15,7 +15,7 @@
 			}
 			"ftbquests:quests": {
 				enabled: true
-				x: 1
+				x: 2
 				y: 1
 			}
 			"ftblibrary:toggle/night": {
@@ -25,12 +25,12 @@
 			}
 			"ftbessentials:trash_can": {
 				enabled: true
-				x: 3
+				x: 4
 				y: 1
 			}
 			"ftbultimine:config": {
 				enabled: true
-				x: 2
+				x: 3
 				y: 1
 			}
 			"ftbteams:team_lives": {

@@ -1,0 +1,346 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_aether"
+	group: "5A4775CCD6D26C80"
+	icon: {
+		id: "aether:aether_portal_frame"
+	}
+	id: "4F399E6C5C694F3E"
+	images: [{
+		height: 7.0d
+		image: "aether:textures/gui/title/aether.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: -5.0d
+		y: 3.5d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "aether:aether_grass_block"
+			}
+			id: "0CEF4F2B17EAD575"
+			rewards: [
+				{
+					id: "0A0AC2BBC8825EAE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66424A0B525E9E80"
+					table_id: 4735891526512463799L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				advancement: "aether:the_aether"
+				criterion: ""
+				id: "354FA017F58E5F75"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			id: "25557E5CB0192471"
+			invisible: true
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "1F582CAF5B96BAA1"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "53FFAFDE70F92C5A"
+			shape: "diamond"
+			tasks: [{
+				id: "1B348A1E4C52D1EF"
+				structure: "aether:bronze_dungeon"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["53FFAFDE70F92C5A"]
+			id: "5891FEDF35FF02F7"
+			shape: "diamond"
+			tasks: [{
+				id: "369C52E595F5A887"
+				structure: "aether:silver_dungeon"
+				type: "structure"
+			}]
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"53FFAFDE70F92C5A"
+				"5891FEDF35FF02F7"
+			]
+			id: "69F457C904D01439"
+			shape: "diamond"
+			tasks: [{
+				id: "09C9F6E0CCF55667"
+				structure: "aether:gold_dungeon"
+				type: "structure"
+			}]
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"5891FEDF35FF02F7"
+				"53FFAFDE70F92C5A"
+			]
+			id: "62FAACA22CC42277"
+			shape: "diamond"
+			tasks: [{
+				id: "2D5A22C57A104E49"
+				structure: "deep_aether:brass_dungeon"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["0CEF4F2B17EAD575"]
+			id: "067A1CDF6F754A8E"
+			rewards: [{
+				id: "20B872C36D17CB1A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "aether:read_lore"
+				criterion: ""
+				id: "237426587BE9EA1C"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0CEF4F2B17EAD575"]
+			id: "5C9A9857888BD7FD"
+			tasks: [{
+				advancement: "aether:blue_aercloud"
+				criterion: ""
+				id: "3D118D9F915EA3C0"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5C9A9857888BD7FD"]
+			id: "05F80E7F18250598"
+			tasks: [{
+				advancement: "aether:mount_phyg"
+				criterion: ""
+				id: "237E00E42D602A56"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["220A9B18453723D1"]
+			id: "2F28CD0684762567"
+			tasks: [{
+				advancement: "aether:zanite"
+				criterion: ""
+				id: "130E718BF21DFB64"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			id: "0A5A56F6AEEA1D93"
+			tasks: [{
+				id: "0999D36587E9F4D2"
+				item: { count: 1, id: "aether:altar" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"53FFAFDE70F92C5A"
+				"3183DD323B1EF8B2"
+			]
+			id: "0A6A1630E0AD463B"
+			shape: "diamond"
+			tasks: [{
+				id: "078CE4A047E9965E"
+				item: { count: 1, id: "aether:phoenix_bow" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"5891FEDF35FF02F7"
+				"55DB9BB53AA6A3CA"
+			]
+			id: "272F4579F20E0AAF"
+			shape: "diamond"
+			tasks: [{
+				id: "5FB22119FCC8DA77"
+				item: { count: 1, id: "aether:valkyrie_chestplate" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5891FEDF35FF02F7"]
+			id: "511E85E8C74B60FF"
+			shape: "diamond"
+			tasks: [{
+				id: "5460B9D6008BEB0F"
+				item: { count: 1, id: "aether:valkyrie_cape" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0CEF4F2B17EAD575"]
+			id: "220A9B18453723D1"
+			rewards: [
+				{
+					id: "0271999973BCDD65"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "224EFA923948D714"
+					table_id: 4735891526512463799L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1EBAFED54BD54B4E"
+				item: { count: 1, id: "aether:holystone_pickaxe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69F457C904D01439"]
+			id: "4CEA5A4FC7D33074"
+			tasks: [{
+				id: "7103FCE26F6426FF"
+				item: { count: 1, id: "aether:sun_altar" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["69F457C904D01439"]
+			id: "56835C10987D0A42"
+			tasks: [{
+				id: "642ABD0310142EDC"
+				item: { count: 1, id: "aether:cloud_staff" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"53FFAFDE70F92C5A"
+				"3183DD323B1EF8B2"
+			]
+			id: "5D6A0B3C81174802"
+			shape: "diamond"
+			tasks: [{
+				id: "397EAE558D72EEEE"
+				item: { count: 1, id: "aether:valkyrie_lance" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"53FFAFDE70F92C5A"
+				"3183DD323B1EF8B2"
+			]
+			id: "1730B77BA9A97A22"
+			shape: "diamond"
+			tasks: [{
+				id: "4762F536DA7C12D0"
+				item: { count: 1, id: "aether:hammer_of_kingbdogz" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["067A1CDF6F754A8E"]
+			id: "10C80357842CE6FE"
+			tasks: [{
+				advancement: "aether:loreception"
+				criterion: ""
+				id: "0A669EC9747FDF1A"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["53FFAFDE70F92C5A"]
+			id: "3183DD323B1EF8B2"
+			shape: "diamond"
+			tasks: [{
+				entity: "aether:slider"
+				icon: {
+					components: {
+						"ftbquests:icon": "deep_aether:item/slider_eye"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "755B8125F3DB87DC"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"5891FEDF35FF02F7"
+				"3183DD323B1EF8B2"
+			]
+			id: "55DB9BB53AA6A3CA"
+			shape: "diamond"
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				id: "369AA132D01EF35D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+	]
+}

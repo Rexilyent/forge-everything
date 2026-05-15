@@ -1,0 +1,108 @@
+{
+	id: "4B19C9059B3AA9AC"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			count: 2
+			id: "777D292F706227A0"
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:capacitor_basic_tiny"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 2
+			weight: 25.0f
+		}
+		{
+			id: "56720EA6CD2C678B"
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:capacitor_basic"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 2
+			weight: 25.0f
+		}
+		{
+			id: "15051651E356624D"
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:capacitor_basic_large"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "3FF158FA5CC4CD95"
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:dielectric_casing"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 1
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "71916BAF4E34A010"
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:energy_cable_starter"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 4
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "299531078F9EE241"
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:energy_cable_basic"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 4
+			weight: 10.0f
+		}
+		{
+			id: "47C6A2B6EE3D8EA8"
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:energizing_rod_starter"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 1
+			weight: 5.0f
+		}
+		{
+			id: "06388D875EE885DE"
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:energizing_rod_basic"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 1
+			weight: 5.0f
+		}
+		{ id: "0711DB895A347C92", item: { components: { "ftbquests:missing_item": "powah:solar_panel_starter" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "214AC42869EC5DE5", item: { components: { "ftbquests:missing_item": "powah:solar_panel_basic" }, count: 1, id: "ftbquests:missing_item" } }
+	]
+	use_title: true
+}
