@@ -389,6 +389,14 @@
     "curseForgeHash": 3796214890,
     "modrinthHash": "47b6dbe51693d5a2b3eac15c6322f357de365f15"
   },
+  "baubley-heart-canisters-1.21.1-1.4.0.jar": {
+    "jarName": "baubley-heart-canisters-1.21.1-1.4.0.jar",
+    "modId": "bhc",
+    "name": "Baubley Heart Canisters",
+    "version": "1.21.1-1.4.0",
+    "curseForgeHash": 2477594453,
+    "modrinthHash": "ccaae33c804d4897039b55a98e9da608b15fee8b"
+  },
   "bellsandwhistles-0.4.7-1.21.1.jar": {
     "jarName": "bellsandwhistles-0.4.7-1.21.1.jar",
     "modId": "bellsandwhistles",
@@ -517,6 +525,14 @@
     "curseForgeHash": 3047069464,
     "modrinthHash": "49ea32e2872c9738363eb76a97ce0553bd2ff756"
   },
+  "bwncr-neoforge-1.21.1-3.20.4.jar": {
+    "jarName": "bwncr-neoforge-1.21.1-3.20.4.jar",
+    "modId": "bwncr",
+    "name": "Bad Wither No Cookie Reloaded",
+    "version": "3.20.4",
+    "curseForgeHash": 905028723,
+    "modrinthHash": "acd114fabe85bf819087c8fc9a5db6306ffb4b31"
+  },
   "cable_facades-1.21.1-NeoForge-2.0.2.jar": {
     "jarName": "cable_facades-1.21.1-NeoForge-2.0.2.jar",
     "modId": "cable_facades",
@@ -573,6 +589,14 @@
     "curseForgeHash": 1440957232,
     "modrinthHash": "c3e5733ba4503b102589a026000fd5ce0212f6f2"
   },
+  "Clumps-neoforge-1.21.1-19.0.0.1.jar": {
+    "jarName": "Clumps-neoforge-1.21.1-19.0.0.1.jar",
+    "modId": "clumps",
+    "name": "Clumps",
+    "version": "19.0.0.1",
+    "curseForgeHash": 2871381177,
+    "modrinthHash": "fa2576297c7bd12b28aa7070e8141792bd66da4c"
+  },
   "cobblegengalore-1.21.1-0.2.8.jar": {
     "jarName": "cobblegengalore-1.21.1-0.2.8.jar",
     "modId": "cobblegengalore",
@@ -597,6 +621,30 @@
     "curseForgeHash": 872213290,
     "modrinthHash": "6a278b5a2788c2fee7ae52d17f24187332d436b2"
   },
+  "colorfulhearts-neoforge-1.21.1-10.5.9.jar": {
+    "jarName": "colorfulhearts-neoforge-1.21.1-10.5.9.jar",
+    "modId": "colorfulhearts",
+    "name": "Colorful Hearts",
+    "version": "10.5.9",
+    "curseForgeHash": 83917681,
+    "modrinthHash": "ec63110d126cf95dabe220116bd394e701265de7"
+  },
+  "colorwheel-neoforge-1.2.6+mc1.21.1.jar": {
+    "jarName": "colorwheel-neoforge-1.2.6+mc1.21.1.jar",
+    "modId": "colorwheel",
+    "name": "Colorwheel",
+    "version": "1.2.6+mc1.21.1",
+    "curseForgeHash": 2561868415,
+    "modrinthHash": "d482d4b6bffe9809b7ca8774fa390cb7b28af3cd"
+  },
+  "colorwheel_patcher-neoforge-1.0.5+mc1.21.1.jar": {
+    "jarName": "colorwheel_patcher-neoforge-1.0.5+mc1.21.1.jar",
+    "modId": "colorwheel_patcher",
+    "name": "Colorwheel Patcher",
+    "version": "1.0.5+mc1.21.1",
+    "curseForgeHash": 2737522093,
+    "modrinthHash": "0e63780e5b8af294bf58609ac866b9866ab9537b"
+  },
   "commoncapabilities-1.21.1-neoforge-2.11.4.jar": {
     "jarName": "commoncapabilities-1.21.1-neoforge-2.11.4.jar",
     "modId": "commoncapabilities",
@@ -605,6 +653,22 @@
     "curseForgeHash": 1384972586,
     "modrinthHash": "8bd6ecb1649ba4b2a50b10b70a0d85a1e43a0d5f"
   },
+  "connectedglass-1.1.14-neoforge-mc1.21.jar": {
+    "jarName": "connectedglass-1.1.14-neoforge-mc1.21.jar",
+    "modId": "connectedglass",
+    "name": "Connected Glass",
+    "version": "1.1.14",
+    "curseForgeHash": 3174804230,
+    "modrinthHash": "0a44c13d6744e0eeec5bf38f58756a8e86e96f55"
+  },
+  "ConstructionSticks-1.21.1-1.3.0.jar": {
+    "jarName": "ConstructionSticks-1.21.1-1.3.0.jar",
+    "modId": "constructionstick",
+    "name": "Construction Sticks",
+    "version": "1.3.0",
+    "curseForgeHash": 4146524074,
+    "modrinthHash": "86f3bf55e8365e831c2856b35bb6ac6eff86a28d"
+  },
   "Controlling-neoforge-1.21.1-19.0.5.jar": {
     "jarName": "Controlling-neoforge-1.21.1-19.0.5.jar",
     "modId": "controlling",
@@ -612,6 +676,14 @@
     "version": "19.0.5",
     "curseForgeHash": 1306717928,
     "modrinthHash": "8a34424fc1428778be2fdbfa4da67b21b70bcbfe"
+  },
+  "cookingforblockheads-neoforge-1.21.1-21.1.23.jar": {
+    "jarName": "cookingforblockheads-neoforge-1.21.1-21.1.23.jar",
+    "modId": "cookingforblockheads",
+    "name": "Cooking for Blockheads",
+    "version": "21.1.23",
+    "curseForgeHash": 836323786,
+    "modrinthHash": "cf0996ea5f6a9114ab32d697529e4eb04b5ae9d7"
   },
   "copycats-3.0.4+mc.1.21.1-neoforge.jar": {
     "jarName": "copycats-3.0.4+mc.1.21.1-neoforge.jar",
@@ -2081,6 +2153,14 @@
     "version": "21.1.39",
     "curseForgeHash": 3066111022,
     "modrinthHash": "bcc0900fbbf6d6fc5ca05039cd5725e6145225f2"
+  },
+  "railways-0.2.0+neoforge-mc1.21.1.jar": {
+    "jarName": "railways-0.2.0+neoforge-mc1.21.1.jar",
+    "modId": "railways",
+    "name": "Create: Steam \u0027n\u0027 Rails 1.21.1",
+    "version": "0.2.0+neoforge-mc1.21.1",
+    "curseForgeHash": 2889177364,
+    "modrinthHash": "9d52eef0772b81de397271b98c0201a59733f9c6"
   },
   "Rainbows-1.21-1.5.jar": {
     "jarName": "Rainbows-1.21-1.5.jar",
