@@ -9,6 +9,7 @@ crash-reports/
 xaero/
 XaeroWaypoints_BACKUP240807/
 .mixin.out
+debug/
 
 #Files
 usercache.json
