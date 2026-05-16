@@ -4,17 +4,9 @@
 	filename: "bounty_board"
 	group: ""
 	icon: {
-		id: "minecraft:zombie_head"
+		id: "minecraft:creeper_head"
 	}
 	id: "18A429E7F56AF5A9"
-	images: [{
-		height: 3.0d
-		image: "atm:textures/questpics/bounty.png"
-		rotation: 0.0d
-		width: 12.0d
-		x: 0.0d
-		y: -10.0d
-	}]
 	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -389,6 +381,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
 				advancement: "minecraft:adventure/kill_a_mob"
@@ -397,192 +390,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 0.0d
-		}
-		{
-			icon: {
-				components: {
-					"ftbquests:icon": "minecraft:textures/entity_icon/enderdragon/dragon.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "728BE1816DA23DC0"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3E3A9EB1F3AAB283"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5DE4B3BE0F590D71"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					id: "26ADAC29B5369011"
-					type: "xp"
-					xp: 500
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				id: "1809F1F9A3043683"
-				type: "kill"
-				value: 1L
-			}]
-			x: -1.5d
-			y: 2.5d
-		}
-		{
-			icon: {
-				components: {
-					"ftbquests:icon": "minecraft:textures/entity_icon/wither/wither.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "09C82CDDA800D8C9"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "794A9665B0D9CCF1"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1434B9579016D3A0"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					id: "2D22E6C0EABD5BFF"
-					type: "xp"
-					xp: 500
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				entity: "minecraft:wither"
-				id: "171FD27057746E80"
-				type: "kill"
-				value: 1L
-			}]
-			x: 0.0d
-			y: 2.5d
-		}
-		{
-			icon: {
-				components: {
-					"ftbquests:icon": "minecraft:textures/entity_icon/guardian_elder.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "08D1CC753F6B4283"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2B969D67BA8AFD3B"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					id: "6871AA890A24F11B"
-					type: "xp"
-					xp: 250
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				entity: "minecraft:elder_guardian"
-				id: "2F28B803C75DA3B2"
-				type: "kill"
-				value: 1L
-			}]
-			x: 0.0d
-			y: 5.5d
-		}
-		{
-			id: "56DA46DC82F6665D"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0F951F75DBAF4D7C"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4296A74144EBD7F1"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					id: "3F227FD8C4577EAE"
-					type: "xp"
-					xp: 500
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				entity: "ars_nouveau:wilden_boss"
-				icon: {
-					id: "ars_nouveau:wilden_tribute"
-				}
-				id: "452B65E139D9E12D"
-				type: "kill"
-				value: 1L
-			}]
-			x: 0.75d
-			y: 4.0d
-		}
-		{
-			icon: {
-				components: {
-					"ftbquests:icon": "minecraft:textures/entity_icon/wandering_trader.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "0F55D0B4D5094EDB"
-			optional: true
-			rewards: [
-				{
-					id: "26EF416511A49817"
-					item: {
-						components: {
-							"minecraft:custom_name": "{\"italic\":false,\"text\":\"Sword of AlfredGG\"}"
-							"minecraft:lore": ["{\"italic\":false,\"text\":\"For those brave enough to slaughter the Mighty and Annoying Trader\"}"]
-						}
-						count: 1
-						id: "minecraft:iron_sword"
-					}
-					type: "item"
-				}
-				{
-					id: "2052F84B9D14A141"
-					type: "xp"
-					xp: 100
-				}
-			]
-			size: 1.5d
-			tasks: [
-				{
-					entity: "minecraft:wandering_trader"
-					id: "596ABB45C0612AAF"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "minecraft:trader_llama"
-					id: "1D136D138EF82DA9"
-					type: "kill"
-					value: 2L
-				}
-			]
-			x: 0.0d
-			y: 8.25d
+			y: -0.8d
 		}
 		{
 			id: "17F3AC15ADCFB175"
@@ -847,7 +655,7 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: -2.5d
 		}
 		{
@@ -873,7 +681,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: -4.0d
 		}
 		{
@@ -908,7 +716,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: -5.5d
 		}
 		{
@@ -935,8 +743,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 3.0d
-			y: -7.0d
+			x: 4.95d
+			y: -7.050000000000001d
 		}
 		{
 			id: "5AC497F76A086A5C"
@@ -1085,8 +893,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 1.0d
-			y: -7.0d
+			x: 1.05d
+			y: -7.050000000000001d
 		}
 		{
 			id: "3371F9248D403664"
@@ -1120,7 +928,7 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: 5.0d
+			x: 3.0d
 			y: -2.5d
 		}
 		{
@@ -1146,7 +954,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 5.0d
+			x: 3.0d
 			y: -4.0d
 		}
 		{
@@ -1189,7 +997,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			x: 5.0d
+			x: 3.0d
 			y: -5.5d
 		}
 		{
@@ -1216,62 +1024,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 5.0d
-			y: -7.0d
-		}
-		{
-			icon: {
-				components: {
-					"ftbquests:icon": "minecraft:textures/entity_icon/warden/warden.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "0E20A9B79D1C6637"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "49202375E31213C8"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3B094578896C0276"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					id: "48C26A872754A4F8"
-					type: "xp"
-					xp: 500
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				entity: "minecraft:warden"
-				id: "69678CAC075C8EA5"
-				type: "kill"
-				value: 1L
-			}]
-			x: 1.5d
-			y: 2.5d
-		}
-		{
-			id: "08B60D8A25008CCC"
-			invisible: true
-			optional: true
-			tasks: [
-				{
-					id: "00CBF98DE4E9CC90"
-					type: "checkmark"
-				}
-				{
-					id: "65E53C9C5AE98B69"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: -1.5d
+			x: 3.0000000000000004d
+			y: -7.050000000000001d
 		}
 		{
 			dependencies: ["2B05A29C62676EB2"]
@@ -1657,239 +1411,17 @@
 			y: -1.0d
 		}
 		{
-			icon: {
-				components: {
-					"ftbquests:icon": "eternal_starlight:textures/painting/monstrous.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "13BB75A7E1973488"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "47EE9DED85C4DFB2"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2A3EF5F2876D7235"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					id: "2FE20DB8B55821D1"
-					type: "xp"
-					xp: 500
-				}
-			]
-			size: 1.5d
+			dependencies: ["6141DE779232C8AA"]
+			hide_until_deps_complete: true
+			id: "66363BA2BA04DA92"
 			tasks: [{
-				entity: "eternal_starlight:lunar_monstrosity"
-				id: "17866842A275B4AA"
-				type: "kill"
-				value: 1L
+				count: 100L
+				id: "625BD88B5DC7652F"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
 			}]
-			x: -2.25d
-			y: 4.0d
-		}
-		{
-			icon: {
-				components: {
-					"ftbquests:icon": "eternal_starlight:block/chiseled_golem_steel_block"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "6DCDD55786025911"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0FEDB3F957B8EFBA"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4B040CCA92509D76"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					id: "327AD5CF0D35765B"
-					type: "xp"
-					xp: 500
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				entity: "eternal_starlight:starlight_golem"
-				id: "38E34F997A59FDC3"
-				type: "kill"
-				value: 1L
-			}]
-			x: -0.75d
-			y: 4.0d
-		}
-		{
-			icon: {
-				components: {
-					"ftbquests:icon": "ftbchunks:textures/faces/undergarden/forgotten_guardian.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "199932BF623A6785"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "60C889EE9A26BB7D"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "721928BA80B3CDEC"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					id: "00FCD620346CD937"
-					type: "xp"
-					xp: 500
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				entity: "undergarden:forgotten_guardian"
-				id: "4A68FB4E1FED5F47"
-				type: "kill"
-				value: 1L
-			}]
-			x: 2.25d
-			y: 4.0d
-		}
-		{
-			icon: {
-				components: {
-					"ftbquests:icon": "minecraft:textures/entity_icon/illager/ravager.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "734411D931A8CDBF"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5B7DCC94C0CF66C4"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					id: "22F455F176233430"
-					type: "xp"
-					xp: 250
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				entity: "minecraft:ravager"
-				id: "6219443664D0465C"
-				type: "kill"
-				value: 1L
-			}]
-			x: -1.5d
-			y: 5.5d
-		}
-		{
-			icon: {
-				components: {
-					"ftbquests:icon": "minecraft:textures/entity_icon/piglin/piglin_brute.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "3813F5C1760C3A79"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "78725DEDE162CADD"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					id: "493A6DE589C23218"
-					type: "xp"
-					xp: 250
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				entity: "minecraft:piglin_brute"
-				id: "5EB07157D785C3FC"
-				type: "kill"
-				value: 1L
-			}]
-			x: 1.5d
-			y: 5.5d
-		}
-		{
-			icon: {
-				components: {
-					"ftbquests:missing_item": "hostilenetworks:data_model"
-				}
-				id: "ftbquests:missing_item"
-			}
-			id: "2001998045ABC04C"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "45464BCE599CBDEE"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					id: "01EE7F8B1CA150E2"
-					type: "xp"
-					xp: 250
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				entity: "eternal_starlight:tangled_hatred"
-				id: "42D1B6FC8C202EF7"
-				type: "kill"
-				value: 1L
-			}]
-			x: -0.75d
-			y: 7.0d
-		}
-		{
-			icon: {
-				components: {
-					"ftbquests:icon": "ftbchunks:textures/faces/undergarden/rotbeast.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "2CA9394459C24012"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "460EB4768EF41335"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					id: "4CB0208C2757B1F3"
-					type: "xp"
-					xp: 250
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				entity: "undergarden:rotbeast"
-				id: "42474723672C2787"
-				type: "kill"
-				value: 1L
-			}]
-			x: 0.75d
-			y: 7.0d
+			x: 5.0d
+			y: -1.1d
 		}
 	]
 }

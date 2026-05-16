@@ -13,7 +13,6 @@
 	chapter.193F91842D2ED7D9.title: "Industrial Foregoing"
 	chapter.1B175B2C955D8395.title: "Allthemodium"
 	chapter.1B8E80D09BFBD0C0.title: "Eidolon: Repraised"
-	chapter.1BE666F01EFFC00D.title: "Tips og triks"
 	chapter.1D42B373285DEF81.title: "Silent Gear"
 	chapter.1DB294A8F8686321.title: "Grunnleggende lagring"
 	chapter.220BE62A7F8EA359.title: "Nullpunktsmodul"
@@ -710,7 +709,6 @@
 		"Remember, you can always use the multi-block preview by finding the Pentacle in the &bDictionary of Spirits&r to help you build the structure."
 	]
 	quest.08B1A64B01A8A604.title: "&bCapturing&r &dDemons&r"
-	quest.08D1CC753F6B4283.title: "Kill the Elder Guardian"
 	quest.08D48D7C2C6EEF54.quest_desc: ["What good is regular Tungsten? Well, since you asked, it is an integral component of many IV Machines, primarily in the form of Tungsten Cables"]
 	quest.08DA36DAD1422B0A.quest_desc: ["Increases damage done when poisoned."]
 	quest.08DA36DAD1422B0A.quest_subtitle: "Drops from the Arachnarch's Loot Bag"
@@ -777,7 +775,6 @@
 		"To \\\"unmount\\\" the blocks from the Minecart, simply turn off the redstone signal and let the Minecart ride through."
 	]
 	quest.09C7343DCCD5157E.title: "Zero Point Module Age"
-	quest.09C82CDDA800D8C9.title: "Kill the Wither"
 	quest.09CCC797BF15ADFC.quest_desc: [
 		"The Mystical Dagger is used to break Dragon Heads down to Dragon Scales."
 		""
@@ -1112,7 +1109,6 @@
 	quest.0E057B7F76401421.title: "Iron Backpack"
 	quest.0E0CAA31480EC0A1.quest_subtitle: "Allows the backpack to pick up items."
 	quest.0E0CAA31480EC0A1.title: "Pickup Upgrade"
-	quest.0E20A9B79D1C6637.title: "Kill the Warden"
 	quest.0E25CDB09FE88A63.title: "Saltpeter Seeds"
 	quest.0E2AD156E5EF263A.quest_desc: ["Used to inscribe spells on with the Scribe's Table."]
 	quest.0E3B4EFE149E0C72.quest_desc: ["Requires a Crux (Next Quest)"]
@@ -1258,15 +1254,6 @@
 	quest.0F3D51FFD2FE8DCB.title: "&cTo The Nether&r!"
 	quest.0F3DF502872A308E.quest_desc: ["Neutronium Doped wafers. The highest grade and quality silicon!"]
 	quest.0F3DF502872A308E.quest_subtitle: "Slices"
-	quest.0F55D0B4D5094EDB.quest_desc: [
-		"Mens jeg laget mange av quest-linjene for ATM7, syntes handelsvillageren det var morsomt å konstant dytte meg rundt på quest-skjermen."
-		""
-		"Få dem ut. Alle sammen."
-		""
-		"- AlfredGG"
-	]
-	quest.0F55D0B4D5094EDB.quest_subtitle: "'Dette er personlig.' - AlfredGG"
-	quest.0F55D0B4D5094EDB.title: "Kill the Trader Villager and His Annoying Llamas"
 	quest.0F6FB959B352121D.quest_desc: [
 		"Have you been having any voltage issues? Well, this wire will help!"
 		""
@@ -6662,8 +6649,6 @@
 	quest.56B80A7EBFE21428.title: "&eAdvanced Pump Upgrade&r"
 	quest.56CD54A4422FF473.quest_desc: ["For real, this would be for normal play. It increases your damage by double, but you take 5 times more damage."]
 	quest.56CD54A4422FF473.quest_subtitle: "I WOULD NOT SUGGEST USING THIS WITH CURSED RING CHALLENGE"
-	quest.56DA46DC82F6665D.quest_subtitle: "Dette er ikke engang min høyeste form"
-	quest.56DA46DC82F6665D.title: "Drep den ville kimeran"
 	quest.56FB82DEB944F758.quest_desc: ["Holding right click will charge up the Mace to do an AoE attack using &cBlood&r. Sneak-right clicking will change the power level. The higher the power level, the more damage it will do at a higher cost of Blood."]
 	quest.57167FE67CFAC255.quest_subtitle: "Used to add Bees to a Filter"
 	quest.57282D7E31EE61EE.quest_desc: [
@@ -8785,7 +8770,6 @@
 	quest.7255B9A6E1319DCA.title: "Almandine Vein"
 	quest.72717D1135486D7F.quest_desc: ["Let's gather some seeds."]
 	quest.72717D1135486D7F.title: "Punch the Grass"
-	quest.728BE1816DA23DC0.title: "Kill the Ender Drage"
 	quest.72989212DD45DC10.quest_desc: [
 		"To find this egg, you'll need to brush away &aSuspicious Sand&r in Warm Ocean Ruins. "
 		""

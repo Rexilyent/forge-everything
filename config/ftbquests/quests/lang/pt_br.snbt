@@ -13,7 +13,6 @@
 	chapter.193F91842D2ED7D9.title: "Industrial Foregoing"
 	chapter.1B175B2C955D8395.title: "Todo o modio"
 	chapter.1B8E80D09BFBD0C0.title: "Eidolon: Repraised"
-	chapter.1BE666F01EFFC00D.title: "Dicas e truques"
 	chapter.1D42B373285DEF81.title: "Silent Gear"
 	chapter.1DB294A8F8686321.title: "Armazenamento Básico"
 	chapter.220BE62A7F8EA359.title: "Módulo Ponto Zero"
@@ -704,7 +703,6 @@
 		"Lembre-se, você sempre pode usar a visualização de vários blocos encontrando o Pentáculo no &bDicionário de Espíritos&r para ajudá-lo a construir a estrutura."
 	]
 	quest.08B1A64B01A8A604.title: "&bCapturando&r &dDemônios&r"
-	quest.08D1CC753F6B4283.title: "Mate o Guardião Ancião"
 	quest.08D48D7C2C6EEF54.quest_desc: ["Para que serve o tungstênio normal? Bem, já que você perguntou, é um componente integral de muitas máquinas IV, principalmente na forma de cabos de tungstênio"]
 	quest.08DA36DAD1422B0A.quest_desc: ["Aumenta o dano causado quando envenenado."]
 	quest.08DA36DAD1422B0A.quest_subtitle: "Drops da Bolsa de Itens do Aracnarca"
@@ -771,7 +769,6 @@
 		"Para “desmontar” os blocos do Minecart, basta desligar o sinal redstone e deixar o Minecart passar."
 	]
 	quest.09C7343DCCD5157E.title: "Idade do Módulo Ponto Zero"
-	quest.09C82CDDA800D8C9.title: "Mate o Murchar"
 	quest.09CCC797BF15ADFC.quest_desc: [
 		"A Adaga Mística é usada para quebrar Cabeças de Dragão em Escamas de Dragão."
 		""
@@ -1106,7 +1103,6 @@
 	quest.0E057B7F76401421.title: "Mochila de Ferro"
 	quest.0E0CAA31480EC0A1.quest_subtitle: "Permite que a mochila pegue itens."
 	quest.0E0CAA31480EC0A1.title: "Atualização de coleta"
-	quest.0E20A9B79D1C6637.title: "Mate o Diretor"
 	quest.0E25CDB09FE88A63.title: "Sementes de Salitre"
 	quest.0E2AD156E5EF263A.quest_desc: ["Usado para inscrever feitiços na Mesa do Escriba."]
 	quest.0E3B4EFE149E0C72.quest_desc: ["Requer um ponto crucial (próxima missão)"]
@@ -1252,15 +1248,6 @@
 	quest.0F3D51FFD2FE8DCB.title: "&cPara o Nether&r!"
 	quest.0F3DF502872A308E.quest_desc: ["Wafers dopados com neutrônio. Silício da mais alta qualidade e qualidade!"]
 	quest.0F3DF502872A308E.quest_subtitle: "Fatias"
-	quest.0F55D0B4D5094EDB.quest_desc: [
-		"‘Enquanto fazia muitas missões para o ATM7, o Trader Villager achou que seria engraçado me empurrar constantemente na tela de missões."
-		""
-		"Leve-os para fora. Todos eles.'"
-		""
-		"- AlfredGG"
-	]
-	quest.0F55D0B4D5094EDB.quest_subtitle: "'Isso é pessoal' - AlfredGG"
-	quest.0F55D0B4D5094EDB.title: "Mate o aldeão comerciante e suas lhamas irritantes"
 	quest.0F6FB959B352121D.quest_desc: [
 		"Você tem tido algum problema de voltagem? Bem, este fio vai ajudar!"
 		""
@@ -6661,8 +6648,6 @@
 	quest.56B80A7EBFE21428.title: "&eAtualização avançada da bomba&r"
 	quest.56CD54A4422FF473.quest_desc: ["Na verdade, isso seria para um jogo normal. Aumenta seu dano em dobro, mas você sofre 5 vezes mais dano."]
 	quest.56CD54A4422FF473.quest_subtitle: "EU NÃO SUGERIRIA USAR ISSO COM O DESAFIO DO ANEL AMALDIÇOADO"
-	quest.56DA46DC82F6665D.quest_subtitle: "Esta nem é minha forma final."
-	quest.56DA46DC82F6665D.title: "Mate a Quimera Wilden"
 	quest.56FB82DEB944F758.quest_desc: ["Manter pressionado o botão direito carregará o Mace para fazer um ataque AoE usando &cBlood&r. Clicar furtivamente com o botão direito alterará o nível de potência. Quanto maior o nível de poder, mais dano causará com um custo maior de Sangue."]
 	quest.57167FE67CFAC255.quest_subtitle: "Usado para adicionar abelhas a um filtro"
 	quest.57282D7E31EE61EE.quest_desc: [
@@ -8783,7 +8768,6 @@
 	quest.7255B9A6E1319DCA.title: "Veia Almandina"
 	quest.72717D1135486D7F.quest_desc: ["Vamos colher algumas sementes."]
 	quest.72717D1135486D7F.title: "Dê um soco na grama"
-	quest.728BE1816DA23DC0.title: "Mate o Dragão Ender"
 	quest.72989212DD45DC10.quest_desc: [
 		"Para encontrar este ovo, você precisará limpar &aSuspicious Sand&r nas Ruínas do Oceano Quente. "
 		""

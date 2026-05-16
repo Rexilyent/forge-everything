@@ -12,7 +12,7 @@
   "c:ingots/steel": "createbigcannons:steel_ingot",
   "c:ingots/platinum": "modern_industrialization:platinum_ingot",
   "c:ingots/lead": "mekanism:ingot_lead",
-  "c:ingots/graphite": "null",
+  "c:ingots/graphite": "bigreactors:graphite_ingot",
   "c:ingots/uranium": "mekanism:ingot_uranium",
   "c:ingots/aluminum": "electrodynamics:ingotaluminum",
   "c:ingots/iridium": "modern_industrialization:iridium_ingot",

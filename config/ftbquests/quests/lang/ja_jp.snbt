@@ -12,7 +12,6 @@
 	chapter.12AD9789D962B179.title: "Apothic Enchanting"
 	chapter.18A429E7F56AF5A9.title: "賞金首ボート"
 	chapter.193F91842D2ED7D9.title: "Industrial Foregoing"
-	chapter.1BE666F01EFFC00D.title: "ヒントとコツ"
 	chapter.1D42B373285DEF81.title: "Silent Gear"
 	chapter.1DB294A8F8686321.title: "基本的なストレージ"
 	chapter.1FAAEF0B9FD05CB9.title: "Productive Trees"
@@ -31,8 +30,6 @@
 	chapter.3DEB33F78398EAD6.chapter_subtitle: ["そして LaserIO"]
 	chapter.3DEB33F78398EAD6.title: "基本的な物流"
 	chapter.415BA265E2C00859.title: "スタートガイド"
-	chapter.4293754F9B2D05F0.title: "&aチャプター2&r: &eオールザモディウム"
-	chapter.43BB00A7A7E1042C.title: "Mahou Tsukai"
 	chapter.4791C8461B1B4D5F.title: "基本的な防具"
 	chapter.48410B67C276ED1F.title: "The Bumblezone"
 	chapter.48DB721214AA88E0.title: "爆縮パワー"
@@ -55,7 +52,6 @@
 	chapter.732824E03978A934.title: "&aチャプター1&r: &b始まり&r"
 	chapter.76DF5FAA7961E5E7.title: "Iron's Spells 'n Spellbooks"
 	chapter.7732CF7AAA63DB3A.title: "黄昏の森"
-	chapter.7A5C327771634A7D.title: "建築のヒント"
 	chapter.7A72E12C3839D165.title: "Nature's Aura"
 	chapter.7AF827D2D101D343.title: "Artifacts"
 	chapter_group.02FE661031A105D8.title: "魔法"
@@ -1076,14 +1072,11 @@
 		"構造を構築するのに役立つマルチブロックプレビューをいつでも使用できます。&bスピリッツの辞典&rでペンタクルを見つけてください"
 	]
 	quest.08B1A64B01A8A604.title: "&bデーモンを&r &d捕獲する&r"
-	quest.08B60D8A25008CCC.quest_desc: ["これらのクエストは &6AllTheModsスタッフ &rまたは &2コミュニティ寄与者 &rによって AllTheModsモッドパック 内での使用目的のために作成されました。\n\nすべての&6AllTheMods&rパックは &eAll Rights Reserved &r（著作権留保）ライセンス下のため、これらのクエストは &6AllTheModsチーム &rにより公式に配布されていない公開パッケージにおいて、明示的な許可なく本クエストを使用することは禁止されています。\n\nこのクエストは意図的に非表示になっています。クエストが見えている場合は編集モードになっています。"]
 	quest.08C0B0FD4DEA4E15.quest_desc: ["粉砕された manganese と sulfuric を組み合わせると、manganese sulfuric solution が得られます。"]
 	quest.08C66BCA3AAE765B.quest_desc: ["これは &2&lMinecraft&r 以外のブロックを追加するものなので、ここでは説明しません"]
 	quest.08C66BCA3AAE765B.title: "&b&lMacaw's Roofs"
 	quest.08C6B7D2DAE87222.quest_subtitle: "オークと白樺"
 	quest.08CE14FFED813992.quest_subtitle: "13個の濡れたダークピンクブロック"
-	quest.08D1CC753F6B4283.quest_desc: ["エルダーガーディアンは、ウォーデンの前にマインクラフトの第3のボスと考えられていましたが、私はミニボスだと考えています。\n\nエルダーガーディアンは海底神殿でスポーンします。3体がそこにスポーンし、近くにいる誰にでも採掘疲労を与えます。\n\n海底神殿の宝物が欲しければ、彼らを見つけて倒す必要があります！（ヒント：私はいつも1体を最上階の部屋に、1体を左端に、1体を右端に見つけています！）\n\n彼らは80のハートを持ち、通常のガーディアンのように攻撃します。レーザーとソーンです！\n\nスポンジ、プリズマリン、そして彼らの昼食を落とします..."]
-	quest.08D1CC753F6B4283.title: "エルダーガーディアンを倒す"
 	quest.08D48D7C2C6EEF54.quest_desc: ["通常のタングステンの何が良いのかって？ 聞いてくれてありがとう、それは多くのIVマシンの主要な部品であり、主にタングステンケーブルの形で使用されます"]
 	quest.08D9C809CF4062E8.quest_desc: ["生のまま食べたり、焼いたり、棒に刺したり。\n\nアンダービーンでできないことはありません！"]
 	quest.08DA36DAD1422B0A.quest_desc: ["毒状態の時に与えるダメージが増加します"]
@@ -1168,8 +1161,6 @@
 	quest.09BA45CBBFB4AE26.quest_desc: ["このMODの次の段階では、&3Assembly Line&rのセットアップが必要です。&3Assembly Line&rのメインコンポーネントは&3Assembly Controller&rです。\n\nここに圧力がかかります"]
 	quest.09BA45CBBFB4AE26.quest_subtitle: "常に必要"
 	quest.09C7343DCCD5157E.title: "ゼロポイントモジュール時代"
-	quest.09C82CDDA800D8C9.quest_desc: ["ウィザーは2番目のマインクラフトボスで、より選択的なボスです。\n\nウィザーを出現させるには、T字型に4つのソウルサンドを置き、その上に3つのウィザースケルトンの頭蓋骨を置く必要があります！\n\nウィザーは300のハートを持ち、プレイヤーやモブに向かってウィザースカルを発射しながら飛び回ります。\n\n体力が半分になると、飛び道具に対する防御シールドを得て、剣や斧で倒す必要があります。\n\n倒すと、ネザースター、Withering Soulのドロップチャンス、そして大量の Corail アイテムを落とします"]
-	quest.09C82CDDA800D8C9.title: "ウィザーを倒す"
 	quest.09CCC797BF15ADFC.quest_desc: [
 		"ミスティカルダガーは、ドラゴンヘッドをドラゴンスケールに分解するために使用されます"
 		""
@@ -1645,8 +1636,6 @@
 	quest.0E0CAA31480EC0A1.quest_desc: ["バックパックでアイテムを拾えるようになります"]
 	quest.0E0CAA31480EC0A1.quest_subtitle: "バックパックでアイテムを拾う"
 	quest.0E1ABCAA87120367.quest_subtitle: "ティア: &c5"
-	quest.0E20A9B79D1C6637.quest_desc: ["ウォーデンは1.20で追加されたボスです。\n\n自然生成された Sculk Shrieker が3回連続で鳴るか、最初のウォーデンが出現した後に任意の Shrieker が鳴ると出現します。\n\nMinecraft で追加された最も強力なモブで、500ハートの体力と20ハート以上のダメージを与える攻撃を持っています。\n\n攻撃には近接攻撃と遠距離用のソナーブラストがあります。\n\n唯一の弱点は盲目であることですが、デアデビルのように他の感覚が非常に鋭くなっています！近くにいると匂いを嗅ぎ取れるので、音を立てないように注意してください！\n\n倒すことができれば、Sculk Catalyst、Warden Carapace、Heart of the Deep をドロップします"]
-	quest.0E20A9B79D1C6637.title: "ウォーデンを倒す"
 	quest.0E2515424291BB59.quest_desc: ["&bダイアモンド&r バージョンの &d&lアルス・ヌーヴォー&r 防具！"]
 	quest.0E2515424291BB59.quest_subtitle: "20"
 	quest.0E2515424291BB59.title: "&5バトルメイジの装備"
@@ -1842,15 +1831,6 @@
 	quest.0F49E9167B5E97C9.quest_desc: ["落下時に受けるダメージ（防具を無視）は、近くのモブにも与えられます"]
 	quest.0F49E9167B5E97C9.quest_subtitle: "最大: 1"
 	quest.0F5549B02D1B383B.quest_desc: ["洞窟グモを16体倒してください。\n\n心配無用です。&6&lBumblezone&r には毒に対抗するためのアイテムがたくさんあります"]
-	quest.0F55D0B4D5094EDB.quest_desc: [
-		"ATM7のクエストラインを作成している間、行商人はクエスト編集中に私を押し回してました"
-		""
-		"棺桶リストに入れてあげましょう"
-		""
-		"- AlfredGG"
-	]
-	quest.0F55D0B4D5094EDB.quest_subtitle: "「これは個人的な問題だ」 - AlfredGG"
-	quest.0F55D0B4D5094EDB.title: "行商人と愉快なラマを倒す"
 	quest.0F6FB959B352121D.quest_desc: [
 		"電圧の問題がありましたか？ このワイヤーが役立ちます！"
 		""
@@ -2322,8 +2302,6 @@
 		""
 		"{image:atm:textures/questpics/blueskies/blueskies_gatekeeper_portal.png width:200 height:150 align:1}"
 	]
-	quest.13BB75A7E1973488.quest_desc: ["Lunar Monstrosity （月光の怪物） は Eternal Starlight で追加された最初のボスです。\n\nこのボスは Cursed Garden の中心に住んでいます。見つけて戦うのに幸運を！"]
-	quest.13BB75A7E1973488.title: "Lunar Monstrosity （月光の怪物） を倒す"
 	quest.13D401048A926A74.quest_desc: [
 		"&aボタニア&rは、魔法のモッドに見えるテクノロジーモッドですが、遊ぶのにとてもクールな小物やおもちゃがたくさんあります！"
 		""
@@ -3063,8 +3041,6 @@
 		"固有の能力:"
 		"- 溶岩修復"
 	]
-	quest.199932BF623A6785.quest_desc: ["Forgotten Guardian は Undergarden のボスです。\n\nカタコンブ構造物で休んでいます"]
-	quest.199932BF623A6785.title: "Forgotten Guardian を倒す"
 	quest.199E7C89584C3DB1.quest_subtitle: "悪いポーション効果を除去"
 	quest.19A2016B54C6FA34.quest_desc: ["&l&6Theurgy&r の一部のマシンは、起動するために熱が必要です！ただし、&l&6Theurgy&r はマシンが熱を得る方法について非常に限定的で、これら2つのマシンしか熱源として使用できません。\n\n（熱を使用するマシン：Liquefaction Cauldron、Calcination Oven、&c水銀&r Distiller、Incubator）"]
 	quest.19A2016B54C6FA34.quest_subtitle: "暑いね！"
@@ -3734,8 +3710,6 @@
 	quest.1FFAF26888F6EF00.quest_subtitle: "高温ケーシング... ソーセージになる？"
 	quest.1FFF00B5D90C3905.quest_desc: ["Mundabitur Dust を入手する方法はたくさんありますので、Arcane Crystal について簡単に説明します！\n\nはい、これは作成するための材料です。\n\nまず Arcane Crystal を採掘する必要があります。その後、MA やミツバチを使ってより多く作ることができます！"]
 	quest.1FFF00B5D90C3905.title: "Arcane Crystal"
-	quest.2001998045ABC04C.quest_desc: ["Tangled Hatred （タングルドの怨念） は Eternal Starlight のミニボスです。\n\nLunar Monstrosity （月光の怪物） と一緒に Cursed Gardens にスポーンします"]
-	quest.2001998045ABC04C.title: "Tangled Hatred （タングルドの怨念） を倒す"
 	quest.2002AB7D061007FA.quest_desc: ["Artisan Relic は村の建物で見つけることができます。\n\nClibano で使用すると Obsidiansteel を作ることができます。\n\nForge で使用すると経験値の消費が少なくなります！"]
 	quest.2002AB7D061007FA.title: "Artisan Relic"
 	quest.2007EF64F0406090.quest_subtitle: "&f24&r &4ダメージ&r"
@@ -5199,8 +5173,6 @@
 	quest.2CA4D7253DA1825F.quest_subtitle: "ウッドネストを使用してスポーン"
 	quest.2CA71999959C0184.quest_desc: ["この斧を作ることで、ユーザーはより多くのダメージを与え、時々敵の頭蓋骨を落とします"]
 	quest.2CA71999959C0184.quest_subtitle: "頭を与えますよ"
-	quest.2CA9394459C24012.quest_desc: ["Rotbeast はアンダーガーデンのあらゆる場所でスポーンするミニボスです"]
-	quest.2CA9394459C24012.title: "Rotbeast を倒す"
 	quest.2CB69634F6A6E53E.quest_desc: [
 		"中央から大きなビームが出ているので、見逃すことは難しいでしょう"
 		""
@@ -6503,8 +6475,6 @@
 	]
 	quest.380D3212D1CBA593.title: "&cRotwalker&r"
 	quest.38135FFD9ED64395.title: "ヴィブラニウム-オールザモディウム合金"
-	quest.3813F5C1760C3A79.quest_desc: ["ピグリンブルートをここに含めることは議論を呼ぶかもしれませんが、私はこれをミニボスとして考えています。\n\n彼らは通常の Piglin と一緒に Bastion でスポーンしますが、中立ではなく敵対的です。個人的にはこれが嫌いで、特に彼らを攻撃すると全ての Piglin が敵対的になってしまうからです。\n\n彼らは50ハートを持ち、金の斧であなたを攻撃します。通常、金の斧はほとんどダメージを与えませんが、彼らが使うとなぜか強力です！\n\n何もドロップせず、Bastion の障害物として機能します！"]
-	quest.3813F5C1760C3A79.title: "ピグリンブルートを倒す"
 	quest.38451B61E3FC075B.quest_desc: [
 		"待って、Steel が戻ってきたということは、(Coal) Coke も戻ってくるということですか？はい！\nCoke を入手するには Coke Oven が必要です。作るには26個の Coke Oven Brick が必要で、中央が空洞の3x3x3で配置します。GUI にアクセスでき、テクスチャが統一されていれば完成です。\n\n石炭や石炭ブロックを置くと Coke と液体 Creosote が得られます！原木を入れることで木炭と Creosote を得ることもできます"
 		"{image:atm:textures/questpics/railcraft/rail_coke.png width:100 height:100 align:center}"
@@ -10356,8 +10326,6 @@
 	quest.56CD54A4422FF473.quest_subtitle: "呪われたリングチャレンジでの使用はお勧めしません"
 	quest.56CE6CF9C99FB522.quest_desc: ["&8ラジエーター&rには通常の&8鋼の薄板&r、新しい&9水入りバケツ&r、そして&6コンスタンタンプレート&rが必要です。\n\n&6コンスタンタン&rは&6銅&rと&7ニッケル&rを&l&6合金窯&rで組み合わせて作る合金です"]
 	quest.56CE6CF9C99FB522.title: "&8ラジエーターブロック"
-	quest.56DA46DC82F6665D.quest_desc: ["Wilden Chimeraは アルス・ヌーヴォー によって追加されたボスで、進行に必要です。\n\n儀式を通じて召喚し、戦う必要があります！"]
-	quest.56DA46DC82F6665D.title: "ワイルドキメラを倒す"
 	quest.56E30438AE512475.quest_desc: ["炎を燃やしましょう！\n\nプレヒーターは&l&4改良型溶鉱炉&rへのとてもシンプルな追加です。\n\n単に&l&4改良型溶鉱炉&rの左右に設置してください。その後、上部に電力を接続すると&l&4改良型溶鉱炉&rの速度が上がり始めます"]
 	quest.56EC79AF11B0869E.quest_desc: ["&9ゼオヴレンス・アジュア&rは&5所有の儀式&rの最高ティアです。これには2つの用途しかありません：ブラウンチョークの主成分である残酷さのエッセンスの作成と、基本的に不死で、より多くのダメージを与えるアイロンゴーレムであるイエスニウムゴーレムの作成です。"]
 	quest.56EC79AF11B0869E.quest_subtitle: "最大の所有"
@@ -13125,8 +13093,6 @@
 	quest.6DB65926EE6D6C2E.quest_desc: ["これらの&cTrack Kit&rは&7トロッコ&rの勢いを変更するためのものです。\n\n&cTransition Kit&rは通過する&5機関車&rの速度を変更します。レッドストーン信号が必要です。\n&cBooster Kit&rは、レッドストーン信号を受けると&7トロッコ&rを加速させ、信号がないと減速させます。\n&cControl Kit&rは&7トロッコ&rを少し押し出します。レッドストーン信号を受けると押し出す方向が変わります。\n&cThrottle Kit&rは通過する&5機関車&rの速度を設定された速度に変更します。レッドストーン信号が必要です。\n&cLauncher Kit&rは文字通り&7トロッコ&rを投げ飛ばします！"]
 	quest.6DB65926EE6D6C2E.title: "&7トロッコ&rを動かすための&cTrack Kit&r"
 	quest.6DBF9CAB37B9BBF3.quest_subtitle: "ミツバチの生産性を120%向上させる"
-	quest.6DCDD55786025911.quest_desc: ["Starlight Golem は Eternal Starlight の2番目のボスです。\n\nGolem Forge で充電を行い、プレイヤーが戦いに来るのを待っています！"]
-	quest.6DCDD55786025911.title: "Starlight Golem を倒す"
 	quest.6DD7D0A248FEAC00.quest_desc: [
 		"隠された領域に到達すると、基本的な戦利品が入ったチェストを見つけることができます"
 		""
@@ -13719,8 +13685,6 @@
 	quest.72717D1135486D7F.title: "草をパンチ"
 	quest.7279700A93E8630B.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_unobtainium.png width:100 height:150 align:center}"]
 	quest.7279700A93E8630B.title: "アンオブタニウム"
-	quest.728BE1816DA23DC0.quest_desc: ["エンダードラゴンはエンドを守るボスです。\\n\\nエンドポータルに入ると、彼が出現するエンド島に到着します。\\n\\n彼は200ハートを持ち、ファイアボールやあなたに突進して攻撃できます。\\n\\n彼を倒すには、彼を回復させる柱の上のエンドクリスタルを壊す必要があります！\\n\\n彼を倒すと、彼はドロップします：アルケインエッセンス、エピックシェーダーバッグ、ドラゴンスキン、2つの異なるMODからのドラゴンスケール、そして大量の経験値！\\n\\nその後、オーバーワールドに戻るためのポータルが開きます。または、外側の島を探索するためのエンドゲートウェイを見つけることもできます。また、ポータルの上にドラゴンエッグも見つかります。"]
-	quest.728BE1816DA23DC0.title: "エンダードラゴンを倒す"
 	quest.72917C96C322A922.title: "La Bee-da Loca"
 	quest.7297391D026EE9A6.quest_desc: ["エネルギー生成の新しい刺激的な方法をお探しですか？ポーションを使うのはどうでしょう！Potion Generator はポーションを使ってエネルギーを生成します。効果の強さと持続時間に応じてエネルギー生成量が変化します"]
 	quest.7297391D026EE9A6.title: "Potion Generator"
@@ -13886,8 +13850,6 @@
 	quest.73362EDC984B8A0F.quest_subtitle: "それらはモデレーターであり、冷却剤ではありません"
 	quest.73362EDC984B8A0F.title: "リアクターモデレーター"
 	quest.7338CA23B27B2AF8.quest_subtitle: "&f12 &c攻撃力"
-	quest.734411D931A8CDBF.quest_desc: ["ラヴェジャーは、より難しい襲撃でのみ出現するミニボスです。\n\n襲撃とは何か、または更新された方法を理解していなくても、それは全く問題ありません。それがクエストの目的です！\n\nバナーを持っている略奪者の長を倒すと、不吉なポーションを入手できます。それを飲むと不吉な予感の効果を得られます。その後、村の近くを歩くと襲撃が始まります。\n\n襲撃では、略奪者、ヴィンディケーター、エヴォーカー、魔女、そしてラヴェジャーが戦いに現れます！"]
-	quest.734411D931A8CDBF.title: "ラヴェジャーを倒す"
 	quest.734A72A4C898BDFB.quest_subtitle: "鉄 + ニッケル"
 	quest.734A72A4C898BDFB.title: "インバーミツバチ"
 	quest.734F61A03FFA13ED.quest_subtitle: "クリービー + 鉄"

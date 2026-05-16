@@ -11,7 +11,6 @@
 	chapter.18A429E7F56AF5A9.title: "Tableau des primes"
 	chapter.193F91842D2ED7D9.title: "Industrial Foregoing"
 	chapter.1B175B2C955D8395.title: "Allthemodium"
-	chapter.1BE666F01EFFC00D.title: "Astuces et Conseils"
 	chapter.1D42B373285DEF81.title: "Silent Gear"
 	chapter.1DB294A8F8686321.title: "Stockage de base"
 	chapter.220BE62A7F8EA359.title: "Enchantement d'Apotheosis"
@@ -59,8 +58,6 @@
 	quest.076DFB0B39A4259F.quest_desc: ["Si vous voulez plus d'Eterna et d'Arcana, vous aurez besoin de Bibliothèques marines infusées. Pour les obtenir, vous avez besoin d'au moins 22,5 Eterna, 15% de Quanta et 10% d'Arcana. La meilleure façon de les obtenir serait avec 15 bibliothèques et 5 Bibliothèques marine. (15% Quanta est la valeur par défaut, vous n'aurez besoin d'aucune Bibliothèque de l'Enfer pour cela)."]
 	quest.076DFB0B39A4259F.title: "Bibliothèque Marine infusée"
 	quest.0790D3BB481162A6.title: "l'Artisanat... sur un bâton!"
-	quest.08D1CC753F6B4283.title: "Tuer le Gardien Ancien"
-	quest.09C82CDDA800D8C9.title: "Tuer le Wither"
 	quest.0A70CC1A0F4F1CD1.quest_subtitle: "Peu commun"
 	quest.0A70CC1A0F4F1CD1.title: "&2Tissu Ancien&r"
 	quest.0C1EC499EB16C604.quest_desc: ["Cela peut être trouvé en &2brossant&r du &aSable d'Âme Suspect&r dans les &dBastions&r du &cNether&r."]
@@ -74,12 +71,8 @@
 	quest.0D6D45DBA64E612D.title: "Retard maximum de Spawn"
 	quest.0E02CE4469FCA4C9.quest_desc: ["L'Activation Redstone donne à votre générateur un interrupteur marche/arrêt. Sans alimentation Redstone, il ne produira pas de spawn."]
 	quest.0E02CE4469FCA4C9.title: "Redstone Active"
-	quest.0E20A9B79D1C6637.title: "Tuer le Gardien des Profondeurs"
 	quest.0EB5B926E1FBAF0E.quest_desc: ["L'enchantement subit quelques modifications avec Apotheosis. Pour le résumer, 15 bibliothèques ne suffiront plus maintenant. De nouvelles bibliothèques ont été introduites, et des fonctionnalités supplémentaires sont désormais disponibles avec les tables d'enchantement. Nous espérons que ces quêtes vous fourniront les informations nécessaires pour une meilleure compréhension."]
 	quest.0EB5B926E1FBAF0E.title: "Enchantement avec Apotheosis"
-	quest.0F55D0B4D5094EDB.quest_desc: ["'En créant de nombreuses lignes de quêtes pour l'ATM7, le Villageois Marchand a pensé que ce serait amusant de me pousser constamment dans l'écran de quête.\\n\\nÉliminez-les. Tous.'\\n\\n- AlfredGG"]
-	quest.0F55D0B4D5094EDB.quest_subtitle: "'C'est personnel' - AlfredGG"
-	quest.0F55D0B4D5094EDB.title: "Tuer le Villageois Marchand et ses Ennuyeux Lamas"
 	quest.0F77A9AD1F422537.quest_desc: ["La Bibliothèque de l'Enfer Lumineuse est une amélioration de la Bibliothèque de l'Enfer Infusée. Elle augmente également l'Eterna max, mais ce ne sont pas les statistiques que nous recherchons pour l'enchantement. Indubitablement utile pour l'enchantement ordinaire toutefois!"]
 	quest.0F77A9AD1F422537.title: "Bibliothèque de l'Enfer Lumineuse"
 	quest.0F89BFD4A3F63A48.quest_desc: ["Certains mobs (principalement des monstres) ont besoin de certains niveaux de lumière pour apparaître. Ceux hostiles ont besoin de niveaux plus bas et les pacifiques ont besoin de niveaux plus élevés. L'utilisation d'une Lanterne d'Âme fait en sorte que vous n'ayez jamais à vous soucier des niveaux de lumière car elle les ignore! Cela n'ignore pas les autres conditions de génération telles que les animaux d'élevage ayant besoin d'herbe. C'est une autre condition qui est négligée par l'Œuf de Dragon."]
@@ -262,8 +255,6 @@
 	quest.544011D1C48D8E65.title: "Améliorer les Gemmes"
 	quest.553DD7CBD4351A71.title: "&bOutils en Vibranium&r"
 	quest.56B80A7EBFE21428.title: "&eModule de pompe amélioré"
-	quest.56DA46DC82F6665D.quest_subtitle: "Ce n'est même pas ma forme finale"
-	quest.56DA46DC82F6665D.title: "Tuer la Chimère Wilden"
 	quest.57CF8C6C867B9BDA.title: "&eModule de filtre avancée"
 	quest.58E3D29E2E034BA2.quest_desc: [
 		"Vous trouverez une tonne de minerais dans l'Autre-Monde. Elle regorge de génération de minerais incroyable, ainsi que de Forêts Anciennes."
@@ -326,7 +317,6 @@
 	quest.722978AC0C1B2649.title: "Eau infinie"
 	quest.7234CB42AEF6C941.quest_desc: ["Quanta détermine la randomité des enchantements que vous obtenez. Cela peut être utilisé contre vous en fonction de la Rectification. Si le Quanta est élevé et la Rectification est faible, vous avez plus de chances d'obtenir de mauvais enchantements et des malédictions. Le Quanta par défaut est de 15% et son maximum est de 100%. La Rectification par défaut est de 0% et le maximum est de 100%."]
 	quest.7234CB42AEF6C941.title: "Quanta"
-	quest.728BE1816DA23DC0.title: "Tuer l'Ender Dragon"
 	quest.731686C758AD9A99.quest_desc: [
 		"&dAllthemodium&r est le mod central dans tous les modpacks Allthemods. Ce mod ajoute des minerais de fin de partie dans le monde, amplifiant ainsi votre expérience moddée."
 		""

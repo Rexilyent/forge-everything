@@ -6,13 +6,13 @@
 	chapter.0A52D0932DA3F809.title: "Hostile Neural Networks"
 	chapter.0AB4F9AED808DE48.title: "Modular Routers"
 	chapter.0E81CBCD6B1D1895.title: "Apothic Spawners"
+	chapter.0F146A1177B626D7.title: "Mystcraft"
 	chapter.0F96DC3563DA78EF.title: "Mystical Agriculture"
 	chapter.100C477F4E63F20A.title: "Create"
 	chapter.11919EBB416B2BD0.title: "Relics"
 	chapter.12AD9789D962B179.title: "Apothic Enchanting"
-	chapter.18A429E7F56AF5A9.title: "Bounty Board"
+	chapter.18A429E7F56AF5A9.title: "The Hunt Board"
 	chapter.193F91842D2ED7D9.title: "Industrial Foregoing"
-	chapter.1BE666F01EFFC00D.title: "Tips and Tricks"
 	chapter.1D42B373285DEF81.title: "Silent Gear"
 	chapter.1DB294A8F8686321.title: "Basic Storage"
 	chapter.1FAAEF0B9FD05CB9.title: "Productive Trees"
@@ -31,8 +31,7 @@
 	chapter.3DEB33F78398EAD6.chapter_subtitle: ["And LaserIO"]
 	chapter.3DEB33F78398EAD6.title: "Basic Logistics"
 	chapter.415BA265E2C00859.title: "Getting Started"
-	chapter.4293754F9B2D05F0.title: "&aChapter 2&r: &eAllthemodium"
-	chapter.43BB00A7A7E1042C.title: "Mahou Tsukai"
+	chapter.428A7D163A6DD7B2.title: "Productive Metalworks"
 	chapter.478DD7F721E6A7B6.title: "Tropicraft"
 	chapter.4791C8461B1B4D5F.title: "Basic Armor"
 	chapter.48410B67C276ED1F.title: "The Bumblezone"
@@ -48,6 +47,7 @@
 	chapter.5C764279146E5E66.title: "Mystical Agriculture"
 	chapter.5D045EF1AB73DF70.title: "Basic Power"
 	chapter.5E31DF282998B992.title: "PneumaticCraft"
+	chapter.6036B787FF96088F.title: "Stellaris"
 	chapter.65A95C2312976E49.title: "The Undergarden"
 	chapter.69299302373C4CBC.title: "Integrated Dynamics"
 	chapter.6AEC23C6D526F362.title: "Eternal Starlight"
@@ -57,14 +57,13 @@
 	chapter.732824E03978A934.title: "&aChapter 1&r: &bThe Beginning"
 	chapter.76DF5FAA7961E5E7.title: "Iron's Spells 'n Spellbooks"
 	chapter.7732CF7AAA63DB3A.title: "The Twilight Forest"
-	chapter.7A5C327771634A7D.title: "Building Tips"
 	chapter.7A72E12C3839D165.title: "Nature's Aura"
 	chapter.7A94E61DCDCAF194.title: "ProjectE"
 	chapter.7AF827D2D101D343.title: "Artifacts"
 	chapter_group.02FE661031A105D8.title: "Magic"
 	chapter_group.15E5B587D291A4AA.title: "Tools and Gear"
 	chapter_group.1AC60211DE7427FC.title: "Storage"
-	chapter_group.2084F3F6FB861C5B.title: "Main Questline"
+	chapter_group.2084F3F6FB861C5B.title: "Main Quests"
 	chapter_group.22FB35B0FEF1343D.title: "Tools and Weapons"
 	chapter_group.295BE417292024EC.title: "Modern Industrialization"
 	chapter_group.2B51AC12041E3F89.title: "Tech"
@@ -74,7 +73,7 @@
 	chapter_group.6614EE2378B8AFB9.title: "Resources"
 	chapter_group.6700DB960E16A321.title: "Modern Industrialization"
 	chapter_group.68BDE5700A9B0002.title: "Tools and Gear"
-	file.0000000000000001.title: "Forge Everything"
+	file.0000000000000001.title: "&6Forge Everything&r"
 	quest.00075A5F9AC120ED.quest_desc: ["This will take the items out of your input chest."]
 	quest.00075A5F9AC120ED.quest_subtitle: "Always Required"
 	quest.000C1ECD781F3F81.quest_desc: ["&2&lNature&r is made for using the Earth to our advantage by &2Poisoning&r and &2Weakening&r our enemies! Just like what Big Corporations do to the Earth itself! \\n&2&lNature's&r Focus Material is &2Poisonous Potato&r. \\n\\nThe &2Scrolls&r are &aLight Green&r with &2Dark Green&r text."]
@@ -953,14 +952,11 @@
 		"Remember, you can always use the multi-block preview by finding the Pentacle in the &bDictionary of Spirits&r to help you build the structure."
 	]
 	quest.08B1A64B01A8A604.title: "&bCapturing &dDemons"
-	quest.08B60D8A25008CCC.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. \\n\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. \\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
 	quest.08C0B0FD4DEA4E15.quest_desc: ["Combining crushed manganese and sulfuric will give you manganese sulfuric solution."]
 	quest.08C66BCA3AAE765B.quest_desc: ["This one adds Non-&2&lMinecraft&r Blocks so I'd rather not discuss it."]
 	quest.08C66BCA3AAE765B.title: "&b&lMacaw's Roofs"
 	quest.08C6B7D2DAE87222.quest_subtitle: "Oak + Birch"
 	quest.08CE14FFED813992.quest_subtitle: "13 Wet Dark Pink Blocks"
-	quest.08D1CC753F6B4283.quest_desc: ["The Elder Guardian was considered a third Boss for Minecraft before the Warden, but I consider him a Miniboss. \\n\\nThe Elder Guardians spawn in Ocean Monuments. Three of them spawn there and will inflict Mining Fatigue on anyone nearby. \\n\\nIf you want the treasures of the OCean Monument, you'll need to find and kill them! (Tip: I've always found 1 in the top Room, 1 on the far left, and 1 on the far right!) \\n\\nThey have 80 Hearts and attack like normal Guardians, Lasers and Thorns! \\n\\nOn death they will drop: Sponges, Prismarine, and their lunch..."]
-	quest.08D1CC753F6B4283.title: "Kill A Elder Guardian"
 	quest.08D48D7C2C6EEF54.quest_desc: ["What good is regular Tungsten? Well, since you asked, it is an integral component of many IV Machines, primarily in the form of Tungsten Cables"]
 	quest.08D9C809CF4062E8.quest_desc: ["Eat em raw, roast them, put them on a Stick. \\n\\nWhat can't you do with Underbeans!"]
 	quest.08DA36DAD1422B0A.quest_desc: ["Increases damage done when poisoned."]
@@ -1031,8 +1027,6 @@
 	quest.09BA45CBBFB4AE26.quest_desc: ["The next stage of this mod requires you to set up &3Assembly Lines&r. The main component of an &3Assembly Line&r is the &3Assembly Controller&r.\\n\\nThis is where the pressure will go."]
 	quest.09BA45CBBFB4AE26.quest_subtitle: "Always Required"
 	quest.09C7343DCCD5157E.title: "Zero Point Module Age"
-	quest.09C82CDDA800D8C9.quest_desc: ["The Wither is the second Minecraft Boss, this one being more elective. \\n\\nYou'll have to build the Wither to spawn him in. Using 4 Soul Sand in a T shape and placing 3 Wither Skeleton Skulls on top will spawn him in! \\n\\nHe has 300 Hearts and will fly around shooting Wither Skulls at Players or Mobs. \\n\\nWhen taken to half Health he will gain a shield against Projectiles and will need to be killed with a Sword or Axe. \\n\\nOnce you kill him he'll drop: Nether Star, chance at a Withering Soul, and a ton of Corail Items."]
-	quest.09C82CDDA800D8C9.title: "Kill The Wither"
 	quest.09CCC797BF15ADFC.quest_desc: [
 		"The Mystical Dagger is used to break Dragon Heads down to Dragon Scales."
 		""
@@ -1492,8 +1486,6 @@
 	quest.0E0CAA31480EC0A1.quest_desc: ["Allows the Backpack to pick up items."]
 	quest.0E0CAA31480EC0A1.quest_subtitle: "Allows the backpack to pick up items."
 	quest.0E1ABCAA87120367.quest_subtitle: "Tier: &c5"
-	quest.0E20A9B79D1C6637.quest_desc: ["The Warden is a boss added in 1.20. \\n\\nHe spawns by having 3 naturally spawning Sculk Shriekers going off in a row, or any Shriekers going off after a first Warden has spawned. \\n\\nHe is the most powerful Mob added by Minecraft, with 500 Hearts and over 20 Hearts damage with his attacks. \\n\\nHis attacks include hitting you and Sonar Blasts for those farther. \\n\\nHis only weakness is being blind, but like daredevil it just made his other senses much stronger! If you are close he can smell you and careful with making noise! \\n\\nIf you somehow kill him he will drop: Sculk Catalysts, Warden Carapace, and Heart of the Deep."]
-	quest.0E20A9B79D1C6637.title: "Kill The Warden"
 	quest.0E2515424291BB59.quest_desc: ["&bDiamond&r version of &d&lArs&r Armors!"]
 	quest.0E2515424291BB59.quest_subtitle: "20"
 	quest.0E2515424291BB59.title: "&5Battlemages Outfit"
@@ -1658,9 +1650,6 @@
 	quest.0F49E9167B5E97C9.quest_desc: ["Any damage you take when falling (ignoring armor) will also be dealt to nearby mobs."]
 	quest.0F49E9167B5E97C9.quest_subtitle: "Max: 1"
 	quest.0F5549B02D1B383B.quest_desc: ["Kill 16 Cave Spiders. \\n\\nDon't worry there is plenty of things from &6&lBumblezone&r to help with Poison."]
-	quest.0F55D0B4D5094EDB.quest_desc: ["While making a lot of the questlines for ATM7, the Trader Villager thought it'd be funny to constantly push me around in the quest screen.\\n\\n\"Take them out. All of them.\"\\n\\n- AlfredGG \\n\\n\"I second this!\" \\n\\n- Toshiba"]
-	quest.0F55D0B4D5094EDB.quest_subtitle: "\"This is Personal\" - AlfredGG"
-	quest.0F55D0B4D5094EDB.title: "Kill The Trader Villager and His Annoying Llamas"
 	quest.0F6FB959B352121D.quest_desc: [
 		"Have you been having any voltage issues? Well, this wire will help!"
 		""
@@ -2079,8 +2068,6 @@
 		""
 		"{image:atm:textures/questpics/blueskies/blueskies_gatekeeper_portal.png width:200 height:150 align:1}"
 	]
-	quest.13BB75A7E1973488.quest_desc: ["The Lunar Monstrosity is the first Boss added in Eternal Starlight. \\n\\nThis one lives in the middle of the Cursed Garden, good luck finding and fighting him!"]
-	quest.13BB75A7E1973488.title: "Kill The Lunar Monstrosity"
 	quest.13D401048A926A74.quest_desc: [
 		"&aBotania&r is a tech mod disguised as a magic mod, but with TONS of cool trinkets and toys to play with!"
 		""
@@ -2511,7 +2498,7 @@
 		"{image:atm:textures/questpics/eternal/starlight_thirst.png width:100 height:125 align:center}"
 	]
 	quest.17EC65B33AC5F0B4.title: "Thirst Walker"
-	quest.17F3AC15ADCFB175.title: "&l&9The End Bounty:&r&e Endermen"
+	quest.17F3AC15ADCFB175.title: "&d&lThe End Bounty:&r&e Endermen"
 	quest.17F7964611D893BE.quest_desc: ["The Fluid Loader will be helpful to keeping your &3Steam Locomotives&r up and running. It has to be placed a few blocks above the &6Tracks&r and it will deploy fluids into either the &5Locomotive&r or &7Carts&r."]
 	quest.17F7964611D893BE.title: "Fluid Loader"
 	quest.17FCF0E1AA82E296.quest_desc: [
@@ -2697,8 +2684,6 @@
 		"Intrinsic Ability:"
 		"- Lava Repair"
 	]
-	quest.199932BF623A6785.quest_desc: ["The Forgotten Guardian is the Boss of the Undergarden. \\n\\nHe rests in the Catacomb Structure."]
-	quest.199932BF623A6785.title: "Kill The Forgotten Guardian"
 	quest.199E7C89584C3DB1.quest_subtitle: "Removes Bad Potion Effects"
 	quest.19A2016B54C6FA34.quest_desc: ["Some Machines in &l&6Theurgy&r need Heat to get started! Except &l&6Theurgy&r is very jealous with how their Machines get Heat, you can only use these two Machines as Heat sources. \\n\\n(The Machines that use Heat are: Liquefaction Cauldron, Calcination Oven, &cMercury&r Distiller, and Incubator.)"]
 	quest.19A2016B54C6FA34.quest_subtitle: "Man you're Hot!"
@@ -3153,7 +3138,7 @@
 	quest.1F114EB0AAB86DB4.quest_subtitle: "The Villager has more than one way to Spawn"
 	quest.1F114EB0AAB86DB4.title: "Purchasing Farm Supplies"
 	quest.1F146FE1002643B2.quest_subtitle: "Brazilwood + Rose Gum"
-	quest.1F18B64C84C8809D.title: "&l&9Overworld Bounty:&r&e Spiders"
+	quest.1F18B64C84C8809D.title: "&2&lOverworld Bounty:&r&e Spiders"
 	quest.1F1B4948FCC14BB4.quest_subtitle: "Silver Fir + Spruce"
 	quest.1F317D3C47F4543B.quest_desc: [
 		"With this special workbench, you can craft magical items."
@@ -3161,7 +3146,7 @@
 	]
 	quest.1F317D3C47F4543B.quest_subtitle: "Also works as a normal Workbench"
 	quest.1F31EBF49079F9D3.quest_desc: ["Overhauled Creepers gives us many different varients of Creepers for different Biomes. \\n\\nEach have different drops and even some are friendly! \\n\\nAll are afraid of cats though..."]
-	quest.1F31EBF49079F9D3.title: "Overhauled Creepers"
+	quest.1F31EBF49079F9D3.title: "&aOverhauled Creepers"
 	quest.1F3B9803AFAEED5F.quest_subtitle: "We're drawing on the ground now."
 	quest.1F442C8E82FB9EB8.quest_desc: ["In genetics, a mutagen is a physical or chemical agent that permanently changes genetic material, usually DNA, in an organism and thus increases the frequency of mutations above the natural background level"]
 	quest.1F442C8E82FB9EB8.quest_subtitle: "TMNT For Sure..."
@@ -3264,8 +3249,6 @@
 	quest.1FFAF26888F6EF00.quest_subtitle: "High Temp Casings... Will it Sausage?"
 	quest.1FFF00B5D90C3905.quest_desc: ["You can get &cMundabitur Dust&r in many different ways so I'll just give you a quick introduction to &bArcane Crystals&r! \\n\\nWhich yes are a crafting ingrediant if you want to craft it. \\n\\nYou'll have to mine for &bArcane Crystals&r first; then, you can use &2&lMA&r or &6&lBees&r to make more!"]
 	quest.1FFF00B5D90C3905.title: "&bArcane Crystals"
-	quest.2001998045ABC04C.quest_desc: ["Tangled Hatred is a Miniboss in Eternal Starlight. \\n\\nIt spawns in Cursed Gardens right with the Lunar Monstrosity."]
-	quest.2001998045ABC04C.title: "Kill a Tangled Hatred"
 	quest.2002AB7D061007FA.quest_desc: ["The &6Artisan Relic&r is found within a few Buildings in Villages. \\n\\nWhen used in the &l&bClibano&r it will allow you to make &5Obsidiansteel&r. \\n\\nWhen used in &6&lForges&r it will give you a discount on &aExperience&r used!"]
 	quest.2002AB7D061007FA.title: "&6Artisan Relic"
 	quest.2007EF64F0406090.quest_subtitle: "&f24 &cAttack Damage"
@@ -3874,8 +3857,6 @@
 	]
 	quest.2543F16043EE2777.title: "&9Ars Nouveau&r"
 	quest.254DD23FB7AEB36B.title: "&dVoid Mining&r"
-	quest.25557E5CB0192471.quest_desc: ["All rights reserved to Rex!lyent for creating this quest progression. This is in no way affiliated with the All the Mods Team."]
-	quest.25557E5CB0192471.title: "All Rights Reserved"
 	quest.2555BA914C466B5C.quest_desc: ["I am sure that  you now see why these plates will be vital. But as you already know, they will provide a great benefit."]
 	quest.2555BA914C466B5C.quest_subtitle: "The Best Casing"
 	quest.2559201BCF5D497C.quest_subtitle: "Makes various Overworld Materials"
@@ -3956,6 +3937,20 @@
 	quest.263C9A0FC04472AB.quest_desc: ["This one can either eat &cLava&r like no other, or be used for the &6&lStar&r. \\n\\nThis one's a hard one, I like seeing &cLava&r disappear instead of my stuff disappearing into &cLava&r."]
 	quest.263C9A0FC04472AB.title: "&464x Magmatic Generator"
 	quest.263FBD9ED2756190.quest_subtitle: "Walnut + Coconut"
+	quest.264268B63251D29F.quest_desc: [
+		"This quest was authored by the &6&lForge Everything Team&r or a &2Community Contributor&r - crafted with love and an unreasonable amount of caffeine."
+		""
+		"All &6Forge Everything&r packs operate under &e&lAll Rights Reserved&r. This means this quest &l— like all content in this pack —&r may not be used, repurposed, or redistributed in any publicly released modpack &lnot officially published by the &6Forge Everything Team&r without explicit written permission. We worked hard on this. Don't be that person."
+		"The majority of mods included in this pack are &lnot&r the intellectual property of the &6Forge Everything Team&r. All third-party mods remain the property of their &2respective authors \\& owners&r and are subject to their own individual licenses. We are simply &lcurators&r — those mods belong to the people who made them."
+		""
+		"That said, certain content &l— including but not limited to ore unification systems, &6Forge Everything&r exclusive items, and other pack-specific additions —&r are the intellectual property of the &6&lForge Everything Team&r and are protected under the same &e&lAll Rights Reserved&r license as the rest of the pack."
+		""
+		"If you'd like to use our content or collaborate, come find us in the Discord. We're reasonable people."
+		""
+		"&7This quest is intentionally hidden from normal gameplay."
+		"If you're reading this, you're in editing mode — welcome behind the curtain."
+		"Don't touch anything.&r"
+	]
 	quest.26466877B66368BE.quest_desc: [
 		"The redstone battery will be used in all of the electric machines. "
 		"To begin to make them you will need battery alloy dust (See JEI for recipe)"
@@ -4421,7 +4416,7 @@
 	]
 	quest.2AFBE48DA832FF02.quest_subtitle: "Tier: &c5"
 	quest.2B0553F307A024F7.quest_subtitle: "Tier: &c5"
-	quest.2B05A29C62676EB2.title: "&l&9Overworld Bounty:&r&e Zombies"
+	quest.2B05A29C62676EB2.title: "&2&lOverworld Bounty:&r&e Zombies"
 	quest.2B08B19B35EEBCBA.quest_desc: ["These Relics can be found in &cThe Nether&r!"]
 	quest.2B08B19B35EEBCBA.title: "&cThe Nether"
 	quest.2B0C3AAAA6D0B0D2.quest_desc: ["&aUranium Quad Fuel Rods&r are a combination of multiple different Blast and Radiactive proof Alloys and of course radioactive Materials. \\n\\nThese will all come together to make a wonderful fuel for a reactor! Or &c&lPhilosphers Fuel&r!  \\n\\nOr you can just use a &cBlaze Burner&r... but come on that's no fun!"]
@@ -4581,8 +4576,6 @@
 	quest.2CA4D7253DA1825F.quest_subtitle: "Spawned using a Wood Nest"
 	quest.2CA71999959C0184.quest_desc: ["Creating this axe allows its user to dish more damage, and occasionally drop the enemies skull."]
 	quest.2CA71999959C0184.quest_subtitle: "Gives head yo."
-	quest.2CA9394459C24012.quest_desc: ["Rotbeasts are Minibosses that spawn all over the Undergarden."]
-	quest.2CA9394459C24012.title: "Kill A Rotbeast"
 	quest.2CB69634F6A6E53E.quest_desc: ["&0Dark Temples&r are hard to miss, considering they have a massive beam of light coming from the center.\\n\\nIn the center of the &9Dark Temple&r is a &aEnvironmental Accumulator&r.\\n\\nWe can use this to empower and create several items that we'll need along the way, including &dLightning Bombs&r!"]
 	quest.2CB69634F6A6E53E.title: "&l&0Dark Temples"
 	quest.2CBBE8EF07B1D3DA.quest_desc: [
@@ -4848,7 +4841,6 @@
 	quest.2F19529214CA9559.quest_desc: ["It's like Thorns but doesn't Damage, just disorients Attackers. \\n\\nIt'll just stop Mobs for a little, it is much more effective (and aggravating) to Players!"]
 	quest.2F19529214CA9559.quest_subtitle: "Blitz?"
 	quest.2F1DF3971B75E63C.quest_desc: ["&l&6Remember&r: Each of these can accept 2 Amps, so if you have two of these Energy Hatches on a multiblock you can actually tier up to &dLuV&r!"]
-	quest.2F28CD0684762567.title: "Gemstone of the sky?"
 	quest.2F2B9938B63A7029.quest_desc: ["Once you have some Raw Crystal chips, run them through an EBF with Emerald Plates, and you can pick up your Crystal CPU's!"]
 	quest.2F2B9938B63A7029.quest_subtitle: "Time to add Heat"
 	quest.2F37E284BB83BFF6.quest_desc: ["The Wrench is used to rotate or destroy certain blocks, shift right-click in the air to change modes."]
@@ -5647,7 +5639,8 @@
 		""
 		"&7No pressure. We're just here to help.&r"
 	]
-	quest.3708A4780ACEB34E.title: "&6&lQuests in Forge Everything&r"
+	quest.3708A4780ACEB34E.title: "&6Quests in Forge Everything&r"
+	quest.3713CCC38304D6F6.title: "Defeat Gold Boss"
 	quest.371A34B297C8A8EF.quest_desc: ["PneumaticCraft is all about Pressure! These quests won't go over everything the mod has, but will still go over a lot! Please remember to check JEI, read the tooltips and read the PCB:R, they are all very useful.\\n\\nTo get started, you'll need to craft some &3Compressed Iron Ingots&r! The easiest way to do this is to make a hole in the ground, throw in some iron ingots (or blocks) and then blow it up with some TNT!\\n\\nSome might get lost in the explosion, but that's a risk we'll have to take!"]
 	quest.371A34B297C8A8EF.quest_subtitle: "The Power of Air"
 	quest.371A34B297C8A8EF.title: "PneumaticCraft: Repressurized"
@@ -5748,8 +5741,6 @@
 	]
 	quest.380D3212D1CBA593.title: "&cRotwalker&r"
 	quest.38135FFD9ED64395.title: "Vibranium-Allthemodium Alloy"
-	quest.3813F5C1760C3A79.quest_desc: ["Piglin Brutes being here might cause controversey but I consider them Minibosses. \\n\\nThey spawn in Bastions with regular Piglins but these are Hostile not Neutral. Personally I hate that, especially since if you hit them all Piglins will turn Hostile on you. \\n\\nThey have 50 Hearts and a Golden Axe to hit you. Usually Golden Axes barely do any damage, but when they use it, it is god somehow! \\n\\nThey drop nothing and act more like an obstacle for Bastions!"]
-	quest.3813F5C1760C3A79.title: "Kill A Piglin Brute"
 	quest.38451B61E3FC075B.quest_desc: [
 		"Wait we have Steel again does that also mean we get our (Coal) Coke back? Yes! \\nTo get (Coal) Coke you'll need a Coke Oven. To make one you'll need 26 Coke Oven Bricks and place them 3x3x3 with 1 block hollow in the center. You'll know it's done when you can access the GUI and it's all one texture. \\n\\nPlace Coal or Coal Blocks to get (Coal) Coke and Liquid Creosote! You can always put any log in to get Charcoal and Creasote."
 		"{image:atm:textures/questpics/railcraft/rail_coke.png width:100 height:100 align:center}"
@@ -6100,7 +6091,7 @@
 		""
 		"&7Good luck. You're going to need it. (affectionate)&r"
 	]
-	quest.3BC0A50886A3222B.title: "&6&lWelcome to Forge Everything!&r"
+	quest.3BC0A50886A3222B.title: "&6Welcome to Forge Everything!&r"
 	quest.3BC94B0B922C0708.quest_desc: ["These are crafting ingredients for stuff that does importing, whether it be items, fluids, or energy."]
 	quest.3BD304D851F49EC0.quest_subtitle: "Elderberry + Silver Fir"
 	quest.3BD5C517AD024A45.quest_desc: ["The last Superconductor we made was a while back. But now each tier's Superconductor will become more important, as well as allow us to have no Amperage loss cabling!"]
@@ -6783,9 +6774,22 @@
 		"{image:atm:textures/questpics/immersive/immersive_blast.png width:100 height:150 align:center}"
 	]
 	quest.41B99DBD03EB74FF.title: "&l&4Improved Blast Furnace"
-	quest.41C0948CD9D50322.quest_desc: ["Here you'll find all of the rewards you can get by slaying enemies."]
-	quest.41C0948CD9D50322.quest_subtitle: "Killing All The Things"
-	quest.41C0948CD9D50322.title: "Bounty Board"
+	quest.41C0948CD9D50322.quest_desc: [
+		"The &eMonster Hunter&r advancement is no small feat — it means you've tracked down and personally dealt with every type of hostile mob the Overworld has to offer. Zombies, skeletons, creepers, the works. Every thing that has ever looked at you funny has now been introduced to your weapon of choice. Professionally."
+		""
+		"Consider this your official induction into &6The Hunt Board&r."
+		""
+		"&e&lWhat this means for you:&r"
+		"&6★&r You've proven you can handle yourself in a fight — now let's see how you handle &lhunting at scale&r"
+		"&6★&r The Hunt Board is just getting started — bigger targets and greater challenges lie ahead"
+		"&6★&r This is the baseline. The mobs only get worse from here. &lGear up accordingly.&r"
+		""
+		"The Overworld's hostile mobs have been handled. But &6Forge Everything&r has a lot more dimensions than just the Overworld, and every single one of them has something that wants you dead."
+		""
+		"&7Welcome to The Hunt Board. Try to keep your health bar above zero.&r"
+	]
+	quest.41C0948CD9D50322.quest_subtitle: "Look at you. A one person extermination service."
+	quest.41C0948CD9D50322.title: "&6Open Season&r"
 	quest.41C661E8630D0146.quest_subtitle: "&f5 &cAttack Damage"
 	quest.41C70F0873E14307.quest_desc: ["There is Trees in the Desert! \\n\\nNo, wait, there was Trees..."]
 	quest.41CF7CAEE4F60CCD.quest_desc: ["When placed in the Nether and given Glowstone, the Glowstone Nest will lure in a Glowing Bee."]
@@ -6872,7 +6876,7 @@
 	quest.427E7112ED0978FB.title: "&2Mystical Agriculture&r"
 	quest.4281BCDCE233F65B.quest_desc: ["These can be found in chests inside Ancient Cities."]
 	quest.4281BCDCE233F65B.quest_subtitle: "Ancient City Chests"
-	quest.42822B1E8A53D051.title: "&l&9Overworld Bounty:&r&e Skeletons"
+	quest.42822B1E8A53D051.title: "&2&lOverworld Bounty:&r&e Skeletons"
 	quest.4285510271B5223D.quest_desc: ["The &dGearbox&r is helpful for sending &dRotational Power&r in a whole bunch of different directions! \\n\\nThe normal &dGearbox&r will have 4 internal &8Shafts&r, on each of the Cardinal Directions: North, East, South, and West. \\n\\nThe other &8Shafts&r will match the Speed and Stress Units but they will also spin in different directions from the original &8Shaft&r."]
 	quest.4285510271B5223D.title: "&dGearbox"
 	quest.428C034C78923B6C.quest_desc: ["When powering multiple machines, keep in mind cable loss!"]
@@ -9124,15 +9128,13 @@
 	quest.56CD54A4422FF473.quest_subtitle: "I WOULD NOT SUGGEST USING THIS WITH CURSED RING CHALLENGE"
 	quest.56CE6CF9C99FB522.quest_desc: ["For &8Radiators&r we'll need the usual &8Steel Sheetmetal&r, a &9Water Bucket&r which is a new one! And &6Constantan Plates&r. \\n\\n&6Constantan&r is an Alloy made by combining &6Copper&r and &7Nickel&r in an &l&6Alloy Kiln&r."]
 	quest.56CE6CF9C99FB522.title: "&8Radiator Block"
-	quest.56DA46DC82F6665D.quest_desc: ["The Wilden Chimera is a Boss added by Ars Nouveau and is needed for progressing through it. \\n\\nHe needs to be summoned through a ritual then fought!"]
-	quest.56DA46DC82F6665D.title: "Kill The Wilden Chimera"
 	quest.56E30438AE512475.quest_desc: ["Let's get these flames burning! \\n\\nThe Preheater is a very simple addition to the &l&4Improved Blast Furnace&r. \\n\\nSimply place them on the Left and Right of the &l&4Improved Blast Furnace&r. Then, connect power to the top of it and it will start speeding up the &l&4Improved Blast Furnace&r."]
 	quest.56EC79AF11B0869E.quest_desc: ["&9Xeovrenth Adjure&r is the maximum tier of &5Possession Rituals&r. It only has two uses: creating Cruelty Essence, the main ingredient in Brown Chalk, and creating an Iesnium Golem, which is basically just an Iron Golem that's immortal and does more damage."]
 	quest.56EC79AF11B0869E.quest_subtitle: "Maximum Possession"
 	quest.56EC79AF11B0869E.title: "&9Xeovrenth Adjure"
 	quest.56FB82DEB944F758.quest_desc: ["Works like the &aMace of Distortion&r, except it causes an AoE explosion instead."]
 	quest.570223A03231DF8C.quest_desc: ["Overhauled Endermen is a similar Mod to Overhauled Creepers! Just with Endermen of course! \\n\\nYou'll find all these Endermen in all different Biomes and each are unique in their own ways! Some have different attacks, some drop different Pearls, and they all look different!"]
-	quest.570223A03231DF8C.title: "Overhauled Endermen"
+	quest.570223A03231DF8C.title: "&5Overhauled Endermen"
 	quest.5703EDAFCF9E7719.quest_subtitle: "Tier: &63"
 	quest.57167FE67CFAC255.quest_subtitle: "Used to add Bees to a Filter"
 	quest.5716E84828EC0C23.quest_desc: ["Plastic Construction Bricks are Blocks made through &l&7PneumaticCraft: Repressurized&r. \\n\\nJust like their real life counter parts they hurt to step on! \\n\\nSo either wear Shoes or smooth down the Bricks."]
@@ -9515,7 +9517,7 @@
 	quest.5AAD0E516762BA53.quest_desc: ["Do you feel like you are levitating yet? Might be all that shulker from that Soul Vial."]
 	quest.5AAD0E516762BA53.quest_subtitle: "Prescient Crystal"
 	quest.5AAF6CA41209B365.title: "&3Vibranium Tools"
-	quest.5AC497F76A086A5C.title: "&l&9Overworld Bounty:&r&e Witches"
+	quest.5AC497F76A086A5C.title: "&2&lOverworld Bounty:&r&e Witches"
 	quest.5ACE97EE75813006.quest_desc: [
 		"This is the main source of information on &dRituals&r. Here's the basics:"
 		""
@@ -10295,7 +10297,7 @@
 		""
 		"&7See you in there.&r"
 	]
-	quest.614AF1BD3705F3EE.title: "&6&lJoin the Forge Everything Discord&r"
+	quest.614AF1BD3705F3EE.title: "&6Join the Forge Everything Discord&r"
 	quest.61500C8F68509E5D.quest_desc: [
 		"On your first visit to &d&lFloral Meadows&r you might not even notice these little buddies hiding in the Grass. \\n\\nRootmin pretend to be Grass Blocks with &dFlowers&r on their head. \\n\\nIf you aren't wearing Bee Armor they might shoot Dirt Pellets at you when you pass by. \\n\\nYou can change the &dFlower&r on their head by Right Clicking them with a different one!"
 		"{image:atm:textures/questpics/bumblezone/bumble_rootmin2.png width:100 height:150 align:center}"
@@ -10795,6 +10797,28 @@
 		""
 		"Cables and wires will burn if given more amps than they are rated for"
 	]
+	quest.66363BA2BA04DA92.quest_desc: [
+		"Let me tell you about &cBlazes.&r"
+		""
+		"Since the dawn of Minecraft, since the very first Nether Fortress was ever discovered, the &cBlaze&r has existed for one singular purpose — to make my life miserable. Before I even knew what a Blaze Rod was, before I understood why I needed one, a &cBlaze&r had already decided we were enemies. I didn't choose this rivalry. It was chosen &lfor&r me."
+		""
+		"The fireballs. The spinning. The smug little way they float around like they're untouchable. The audacity of a mob that sets you on fire &lwhile you're already in the Nether.&r I have died to these things more times than I am willing to admit in a public questbook and every single death has been personal."
+		""
+		"But then &eCreate&r gave me something beautiful. A &lBlaze Burner.&r"
+		""
+		"No more freedom. No more fireballs. No more floating around like they own the place. Just an eternity of being a heating element, powerless, trapped, and useful for once in their miserable lives."
+		""
+		"Craft &a100 Blaze Burners.&r Every single one is a victory. Every single one is a message."
+		""
+		"&6★&r Find them in &cNether Fortresses&r — they'll know why you're there"
+		"&6★&r Check your Create guidebook for the recipe"
+		"&6★&r Do this 100 times and feel nothing but peace"
+		""
+		"This quest has been in my heart since the first fireball hit me. It lives in the questbook now. It's real. We're doing this."
+		""
+		"&7This isn't over. It will never be over. But this helps.&r"
+	]
+	quest.66363BA2BA04DA92.title: "&6It's Personal&r"
 	quest.6648BC7D14233006.quest_desc: ["Augments are similar to Upgrades but for the individual Modules!"]
 	quest.6648BC7D14233006.title: "&lAugments"
 	quest.665B4A8FF5277316.quest_desc: ["Makes gravity affect a Mana Burst, making it move in an arc. It also slightly increases the time before it starts to lose mana."]
@@ -11622,8 +11646,6 @@
 	quest.6DB65926EE6D6C2E.quest_desc: ["These &cTracks Kits&r are for changing momentum with your &7Carts&r. \\n\\nThe &cTransition Kits&r change the speed of the passing &5Locomotive&r, needs redstone power. \\nThe &cBooster Kits&r will speed up the &7Cart&r if powered and slow down the &7Cart&r if not powered. \\nThe &cControl Kit&r gives the &7Carts&r a little push, when powered it'll change the direction it pushes it in. \\nThe &cThrottle Kit&r will change the speed of a passing &5Locomotive&r to whatever speed is configured, needs to be powered with redstone. \\nThe &cLauncher Kit&r will quite literally throw your &7Cart&r!"]
 	quest.6DB65926EE6D6C2E.title: "&cTrack Kits&r for moving &7Carts&r"
 	quest.6DBF9CAB37B9BBF3.quest_subtitle: "Increases Bee Productivity by 120%"
-	quest.6DCDD55786025911.quest_desc: ["The Starlight Golem is the second Boss in the Eternal Starlight. \\n\\nHe is charging in the Golem Forge awaiting for a Player to come fight him!"]
-	quest.6DCDD55786025911.title: "Kill The Starlight Golem"
 	quest.6DD7D0A248FEAC00.quest_desc: [
 		"Once you make it to the Hidden Realm, you'll find a chest with some basic loot in it."
 		""
@@ -12171,8 +12193,6 @@
 	quest.72717D1135486D7F.title: "Punch the Grass"
 	quest.7279700A93E8630B.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_unobtainium.png width:100 height:150 align:center}"]
 	quest.7279700A93E8630B.title: "&5Unobtainium&r"
-	quest.728BE1816DA23DC0.quest_desc: ["The Ender Dragon is the Boss that guards The End. \\n\\nWhen you enter an End Portal you'll arrive at the End Island where she spawns. \\n\\nShe has 200 Hearts and can attack with Fireballs or ramming into you. \\n\\nYou'll have to break the End Crystals on the pillars as they heal her, in order to kill her! \\n\\nOnce you do kill her, she'll drop: Arcane Essence, Epic Shaderbags, Dragonskin, Dragon Scales from two different mods, and a bunch of experience! \\n\\nThen the Portal will open up so you can return to the Overworld, or you can find an End Gateway to explore the outer islands. You'll also find a Dragon Egg on the Portal."]
-	quest.728BE1816DA23DC0.title: "Kill The Ender Dragon"
 	quest.72917C96C322A922.title: "La Bee-da Loca"
 	quest.7297391D026EE9A6.quest_desc: ["Want something exciting and new to make Energy? What about using &dPotions&r for it! That's what the &dPotion Generator&r does, it will take your &dPotions&r and make Energy out of it depending on its strength and duration."]
 	quest.7297391D026EE9A6.title: "&dPotion Generator"
@@ -12330,8 +12350,6 @@
 	quest.73362EDC984B8A0F.quest_subtitle: "They are Moderators, not Coolants."
 	quest.73362EDC984B8A0F.title: "Reactor Moderators"
 	quest.7338CA23B27B2AF8.quest_subtitle: "&f12 &cAttack Damage"
-	quest.734411D931A8CDBF.quest_desc: ["The Ravager is a Miniboss that only spawns in harder Raids. \\n\\nIf you don't know what Raids are or don't understand the updated way, that's perfectly fine, that's what Quests are for! \\n\\nBy killing Pillager Captains (ones that are holding Banners) you can get Ominous Potions, when you drink them you'll get Bad Omen Effect. Then, you can walk near a Village and start a Raid. \\n\\nRaids will spawn Pillagers, Vindicators, Evokers, Witches, and Ravagers to fight!"]
-	quest.734411D931A8CDBF.title: "Kill A Ravager"
 	quest.734A72A4C898BDFB.quest_subtitle: "Iron + Nickel"
 	quest.734A72A4C898BDFB.title: "Invar Bee"
 	quest.734F61A03FFA13ED.quest_subtitle: "CreeBee + Iron"
@@ -12566,7 +12584,7 @@
 		""
 		"&7Unclaimed chunks are public property. Claimed chunks are yours. It's that simple.&r"
 	]
-	quest.75C8A370F1975784.title: "&6&lTeams \\& Chunk Claiming&r"
+	quest.75C8A370F1975784.title: "&6Teams \\& Chunk Claiming&r"
 	quest.75CBB5BD8C1DFEA1.quest_desc: ["The &8Basin&r is similar to the &eDepot&r, but can hold &eItems&r and &bFluids&r. \\n\\nThis will be helpful for using the &6Mechanical Mixer&r to Mix and Brew. \\n\\nAnd with the &6Mechanical Press&r to Autocraft!"]
 	quest.75CBB5BD8C1DFEA1.title: "&8Basin"
 	quest.75CD4EE6A542D687.quest_subtitle: "Crystalline + Ashy Mining"
@@ -12751,7 +12769,7 @@
 	quest.77F241BEE9902751.quest_desc: ["The biggest of the chests from Sophisticated Storage"]
 	quest.77F241BEE9902751.quest_subtitle: "So much room for activities!"
 	quest.77F241BEE9902751.title: "&dNetherite Chest"
-	quest.77FC692AC94D2EEF.title: "&l&9Overworld Bounty:&r&e Creepers"
+	quest.77FC692AC94D2EEF.title: "&2&lOverworld Bounty:&r&e Creepers"
 	quest.780DE5A24ED53F60.quest_desc: [
 		"The mod &dApotheosis&r adds a massive overhaul to lots of items and systems in Minecraft to give more of an RPG feel. "
 		""
@@ -13939,7 +13957,6 @@
 	task.36397CBA6D39DC0D.title: "Tungsten Ingot"
 	task.363BADA865C39474.title: "AllRightsReserved"
 	task.366CA7D53571A552.title: "Utilities"
-	task.369AA132D01EF35D.title: "Defeat Silver Boss"
 	task.36BBEFDBCCEC8DE0.title: "Tier 3 Sigils"
 	task.36E378BF22554E0A.title: "Energy Cables"
 	task.36E85C17C558F436.title: "Torchmaster"
@@ -14043,6 +14060,7 @@
 	task.497485048E0AD20D.title: "Auxiliary Process Sieve"
 	task.498AA33867046334.title: "Armor"
 	task.49A8320F9EA7F4BD.title: "Compressed Iron Automation"
+	task.49D81AEFCB2500E9.title: "&6&lForge Everything — Quest Authorship \\& Usage Rights&r"
 	task.49F387C7EAD579A2.title: "Completed Macaw"
 	task.49F46466DB8EDD61.title: "Iron Chests"
 	task.4A6ADD52B113E3CA.title: "Leafcutter Bee"
@@ -14293,6 +14311,7 @@
 	task.7B7C1C5BFEC92058.title: "Emerald Comb"
 	task.7BB13793B38DFC2C.title: "AllRightsReserved"
 	task.7BBE300C1AB19CCC.title: "Besides Pollinations"
+	task.7BED4ED14A9FAE25.title: "&6&lForge Everything — Quest Authorship \\& Usage Rights&r"
 	task.7C6F7EF2B3AC2824.title: "AllRightsReserved"
 	task.7C88F80D05E62AC7.title: "Iron Furnaces"
 	task.7C91AC93D782A4BE.title: "Stage 2 EBF"

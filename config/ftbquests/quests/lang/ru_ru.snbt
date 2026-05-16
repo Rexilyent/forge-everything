@@ -11,7 +11,6 @@
 	chapter.12AD9789D962B179.title: "Apothic Enchanting"
 	chapter.18A429E7F56AF5A9.title: "Доска объявлений"
 	chapter.193F91842D2ED7D9.title: "Industrial Foregoing"
-	chapter.1BE666F01EFFC00D.title: "Советы и рекомендации"
 	chapter.1D42B373285DEF81.title: "Silent Gear"
 	chapter.1DB294A8F8686321.title: "Базовое хранение"
 	chapter.1FAAEF0B9FD05CB9.title: "Productive Trees"
@@ -27,7 +26,6 @@
 	chapter.3DEB33F78398EAD6.chapter_subtitle: ["И ЛазерыIO"]
 	chapter.3DEB33F78398EAD6.title: "Базовая логистика"
 	chapter.415BA265E2C00859.title: "Начало работы"
-	chapter.4293754F9B2D05F0.title: "AllTheModium"
 	chapter.4791C8461B1B4D5F.title: "Базовая броня"
 	chapter.48410B67C276ED1F.title: "The Bumblezone"
 	chapter.48Основные410B67C276ED1F.title: "The Bumblezone"
@@ -46,7 +44,6 @@
 	chapter.73180B829B960E63.title: "Генераторы и Печки"
 	chapter.732824E03978A934.title: "&aГлава 1&r: &bНачало"
 	chapter.76DF5FAA7961E5E7.title: "Iron's Spells 'n Spellbooks"
-	chapter.7A5C327771634A7D.title: "Советы по строительству"
 	chapter.7A72E12C3839D165.title: "Nature's Aura"
 	chapter.7AF827D2D101D343.title: "Artifacts"
 	chapter_group.02FE661031A105D8.title: "Магия"
@@ -86,7 +83,6 @@
 	quest.07FDA46D83F8360D.title: "Телепортационная панель"
 	quest.089B1B9837AF4938.title: "&5Унобтаниумные Инструменты"
 	quest.08AC2D81A1004984.title: "&5Сплавной &6всемодиевый &3тризубец"
-	quest.08B60D8A25008CCC.quest_desc: ["Этот квест был написан &6AllTheMods Staff&r или &2Community contributor&r для использования в модпаках AllTheMods. \\n\\nПоскольку все паки &6AllTheMods&r лицензированы под &eAll Rights Reserved&r, этот квест не может быть использован в любых публичных паках, не выпущенных &6AllTheMods Team&r без явного разрешения. \\n\\nЭтот квест намеренно скрыт, если вы видите это, вы находитесь в режиме редактирования."]
 	quest.0A9D5C5D2F4CDCC3.title: "&5Унобтаниумный молот"
 	quest.0CC0632E8276C787.quest_desc: ["Поместите телепортационную панель в &l&cНезер&r, чтобы отправиться в &b&lДругой Мир&r."]
 	quest.0CC0632E8276C787.title: "&c&lНезер"

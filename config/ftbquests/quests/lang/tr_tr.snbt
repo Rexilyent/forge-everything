@@ -2,17 +2,14 @@
 	chapter.05E614FDA677D85E.title: "Gıda ve Çiftçilik"
 	chapter.0A093D8C4429B627.title: "Mekanism: Reaktörler"
 	chapter.18A429E7F56AF5A9.title: "Ödül Panosu"
-	chapter.1BE666F01EFFC00D.title: "İpuçları ve Püf Noktaları"
 	chapter.1DB294A8F8686321.title: "Temel Depolama"
 	chapter.37BC0E99F564D560.title: "Buhar Çağı"
 	chapter.3DEB33F78398EAD6.chapter_subtitle: ["Ve LaserIO"]
 	chapter.3DEB33F78398EAD6.title: "Temel Lojistik"
-	chapter.4293754F9B2D05F0.title: "&aBölüm 2&r: &eAllTheModium"
 	chapter.4791C8461B1B4D5F.title: "Zırhlar"
 	chapter.4B9D26E0087CD163.title: "Aletler"
 	chapter.5B00676D79306EA2.title: "Hoş Geldin"
 	chapter.732824E03978A934.title: "&aBölüm 1&r: &bBaşlangıç"
-	chapter.7A5C327771634A7D.title: "Yapı İpuçları"
 	chapter_group.02FE661031A105D8.title: "Büyü"
 	chapter_group.15E5B587D291A4AA.title: "Aletler ve Ekipmanlar"
 	chapter_group.1AC60211DE7427FC.title: "Depolama"
@@ -149,8 +146,6 @@
 	quest.08AC2D81A1004984.title: "&6Allthemodium &5Alaşımı &3Üçlü Mızrak"
 	quest.08C66BCA3AAE765B.quest_desc: ["Bu &2&lMinecraft&r'ta Olmayan Bloklar ekler, bu yüzden tartışmamayı tercih ederim."]
 	quest.08CE14FFED813992.quest_subtitle: "13 Islak Koyu Pembe Blok"
-	quest.08D1CC753F6B4283.quest_desc: ["Yaşlı Gardiyan, Muhafız'dan önce Minecraft için üçüncü Patron olarak kabul edildi, ancak ben onu bir Mini Patron olarak görüyorum. \\n\\nYaşlı Gardiyanlar, Okyanus Anıtlarında ortaya çıkar. Üç tanesi orada ortaya çıkar ve yakındaki herkese Madenci Yorgunluğu verir. \\n\\nOkyanus Anıtı'nın hazinelerini istiyorsan, Gardiyan'ları bulup öldürmen gerekecek! (İpucu: Ben her zaman en üstteki Odada 1 tane, en soldaki Odada 1 tane ve en sağdaki Odada 1 tane buldum!) \\n\\n80 Kalpleri var ve normal Gardiyanlar gibi saldırıyorlar, Lazerler ve Dikenler! \\n\\nÖldüklerinde şunları düşürecekler: Süngerler, Prizmarin ve yemeklerini..."]
-	quest.08D1CC753F6B4283.title: "Bir Yaşlı Gardiyan Öldür"
 	quest.08E47A27EFFB7C6B.quest_subtitle: "5 Kuru Pembe Blok"
 	quest.0923C941A9696122.quest_desc: ["Maceraya çıkarken 256 Milyon Eşyayı yanında götürmek zorunda kalırsan diye!"]
 	quest.0947B4ED95B0267E.quest_desc: ["Eşyaları ve aletleri kaplar.\\n\\nNetherit, harika bir kaplama malzemesidir."]
@@ -159,8 +154,6 @@
 	quest.09733948CBCB3FB9.title: "&dKırma Kademesi 6"
 	quest.09955CF85F579E0F.quest_desc: ["Bunu eninde sonunda elde edeceksin, kelimenin tam anlamıyla &2&lMinecraft&r'daki en bol Blok."]
 	quest.09955CF85F579E0F.title: "Taş Bloklar"
-	quest.09C82CDDA800D8C9.quest_desc: ["Wither ikinci Minecraft Patron'udur, bu isteğe bağlı bir Patron'dur. \\n\\nOnu ortaya çıkarmak için Wither'ı inşa etmen gerekecek. T şeklinde 4 Ruh Kumu ve üstüne 3 Wither İskelet Kafatası yerleştirmek onu ortaya çıkaracaktır! \\n\\n300 Kalbi vardır ve etrafta uçarak Oyunculara veya Yaratıklara Wither Kafaları fırlatır. \\n\\nYarı Sağlığa düştüğünde, Uzak Mesafe Saldırılarına karşı bir kalkan kazanacak ve Kılıç veya Balta ile öldürülmesi gerekecektir. \\n\\nOnu öldürdüğünde şunları düşürecek: Nether Yıldızı, Solduran Ruh için şans ve tonlarca Corail Eşyası."]
-	quest.09C82CDDA800D8C9.title: "Wither'ı Öldür"
 	quest.09D18512037386C1.quest_desc: ["İksir Etkilerini içine koymak için bir Potion Filter'ı doldurman gerekir. \\n\\nBunu yapmak için: üzerinde bir İksir Etkisi olsun, ardından Potion Filter'a sağ tıklayarak onu üzerinden kaldır ve Filter'a ekle ve dolup aktif olana kadar tekrarla. \\n\\nBu aynı zamanda modifiye edilmiş İksir Etkileri, Acele veya Direnç gibi genellikle İksirlerle elde edemeyeceğin etkilerle de çalışır."]
 	quest.09D76E9B8CABC31E.quest_desc: ["&5&lYaratıcı Mod Öz&r için 4 &5Insanium Öz Bloğuna&r ihtiyacın olacak. Her Blok, 9 &5Öz&r ediyor. Şimdi, hesap yapmam için bana müsaade et... \\n\\nSadece bu Blokları elde etmek için 9,216 &aInferium Öz&r'üne ihtiyacın olacak."]
 	quest.09D76E9B8CABC31E.title: "4 &5Insanium Bloğu"
@@ -206,8 +199,6 @@
 	quest.0E057B7F76401421.title: "&6Bakır Sırt Çantası"
 	quest.0E0CAA31480EC0A1.quest_desc: ["Sırt Çantasının eşyaları almasını sağlar."]
 	quest.0E0CAA31480EC0A1.quest_subtitle: "Sırt çantasının eşyaları almasını sağlar."
-	quest.0E20A9B79D1C6637.quest_desc: ["Muhafız 1.20'de eklenen bir patrondur. \\n\\nDoğal olarak ortaya çıkan 3 Sculk Çığırtkanı'nın arka arkaya patlamasıyla veya ilk Muhafız ortaya çıktıktan sonra herhangi bir Çığırtkan'ın patlamasıyla ortaya çıkar. \\n\\nMinecraft tarafından eklenen en güçlü Yaratık'dır, 500 Kalp ve 20 Kalpten fazla hasar veren saldırılarıyla. \\n\\nSaldırıları arasında sana vurmak ve daha uzaktakiler için Sonar Patlamaları yer alır. \\n\\nTek zayıflığı kör olması, ama tıpkı Daredevil gibi bu onun diğer duyularını çok daha güçlü hale getirdi! Eğer yakındaysan kokunu alabilir ve gürültü yapmamaya dikkat eder! \\n\\nEğer onu bir şekilde öldürürsen, şunları düşürecektir: Sculk Katalizörleri, Muhafız Karapaksı ve Derinin Kalbi."]
-	quest.0E20A9B79D1C6637.title: "Muhafız'ı Öldür"
 	quest.0E2515424291BB59.quest_desc: ["&d&lArs&r Zırhlarının, &bElmas&r versiyonu!"]
 	quest.0E2515424291BB59.title: "&5Battlemages Kıyafetleri"
 	quest.0E5AE195158CF344.quest_subtitle: "x32 Depolama Yükseltmesi"
@@ -237,9 +228,6 @@
 		"{image:atm:textures/questpics/gettingstarted/example_netherportal.png width:175 height:201 align:1}"
 	]
 	quest.0F3D51FFD2FE8DCB.title: "&cNether'a&r!"
-	quest.0F55D0B4D5094EDB.quest_desc: ["ATM7 için birçok görev serisi hazırlarken, Seyyar Tüccar beni görev ekranında sürekli itip durmanın komik olacağını düşündü.\\n\\n\"Hepsini yok et. Hepsini.\"\\n\\n- AlfredGG \\n\\n\"Bunu destekliyorum!\" \\n\\n- Toshiba"]
-	quest.0F55D0B4D5094EDB.quest_subtitle: "“Bu Kişisel Bir Mesele” - AlfredGG"
-	quest.0F55D0B4D5094EDB.title: "Seyyar Tüccar'ı ve Onun Sinir Bozucu Lamalarını Öldür"
 	quest.0F89BFD4A3F63A48.quest_desc: ["Bazı yaratıklar (çoğunlukla canavarlar) ortaya çıkmak için belirli Işık Seviyelerine ihtiyaç duyarlar. Düşman olanlar daha düşük seviyelere, pasif olanlar ise daha yüksek seviyelere ihtiyaç duyar. Ruh Feneri kullanmak, Işık Seviyeleri hakkında endişelenmene gerek kalmamasını sağlar, çünkü onları yok sayar! Bu, çiftlik hayvanlarının Çimen'e ihtiyaç duyması gibi diğer ortaya çıkma gereksinimlerini göz ardı etmez."]
 	quest.0F89BFD4A3F63A48.title: "Işığı Yoksay"
 	quest.0F8F37D7E12078F5.quest_subtitle: "Tüm ipuçlarını tamamla!"
@@ -295,8 +283,6 @@
 	quest.1366B946928C873B.title: "Arı Zırhı 1"
 	quest.13AFCD3B6F62B986.quest_desc: ["Buz ve Kar tarifleri sunar!"]
 	quest.13AFCD3B6F62B986.title: "Buz Yükseltmesi"
-	quest.13BB75A7E1973488.quest_desc: ["Lunar Monstrosity, Eternal Starlight'a eklenen ilk Patron'dur. \\n\\nBu Cursed Garden'ın ortasında yaşıyor, onu bulma ve onunla savaşma konusunda iyi şanslar!"]
-	quest.13BB75A7E1973488.title: "Lunar Monstrosity'i Öldür"
 	quest.140DE53DC0FCD9F4.quest_desc: [
 		"Önündeki blokları otomatik olarak kırmak ve blok tarafından düşürülen her şeyi doğrudan ME ağına geri göndermek için &bME Yok Etme Düzlemi&f kullanılabilir. "
 		""
@@ -413,8 +399,6 @@
 	quest.1972B36F72808D55.title: "&l&bChipped&r Taşları"
 	quest.1985CFD1F0425E88.quest_subtitle: "Daha Fazla Filtreleme Seçeneği"
 	quest.1985CFD1F0425E88.title: "&eGelişmiş Alma Yükseltmesi"
-	quest.199932BF623A6785.quest_desc: ["Forgotten Guardian, Undergarden'ın Patron'udur. \\n\\nCatacomb Yapısı'nda dinleniyor."]
-	quest.199932BF623A6785.title: "Forgotten Guardian'ı Öldür"
 	quest.19B393433FB0C62F.quest_desc: ["Lavgezer'in &cLav&r üzerinde yürümesinin sırrı Bacaklarında. Bu yüzden Bacaklarını onlardan aldık ve onun yerine senin kullanmanı sağladık! \\n\\nEğilirken &cLav&r'ın üzerinde güvenle yürüyebilirsin! Eğilmeyi bıraktığında &cLav&r'ın içine düşeceksin. Bunlar, ayrıca Magma bloklarının ve diğer sıcak blokların üzerinde güvenle yürümene de izin verir!"]
 	quest.19DFAEB6D88F3580.quest_desc: ["İtici Yükseltmesi, Çekmecelerin eşyaları herhangi bir tarafa itmesini sağlar."]
 	quest.19E356E67EF17E4A.quest_desc: ["Tarihteki en iyi alet! İsviçre çakısı gibi ama daha iyisi! \\n\\nEn Yüksek Madencilik Kademesi, Ağaçları tereyağı gibi keser, yollar yapar ve elbette vurulacak çok şeye vurur!"]
@@ -496,8 +480,6 @@
 	quest.1FE47F03B5DF492D.title: "&5Unobtainium Arcanist Zırhı"
 	quest.1FFF00B5D90C3905.quest_desc: ["&cMundabitur Dust&r'ı birçok farklı şekilde elde edebilirsin. Bu yüzden sana sadece &bArcane Crystal&r'lerini nasıl alacağını kısaca anlatacağım! \\n\\nEvet bu bir üretim malzemesidir, eğer üretmek istiyorsan.  \\n\\nÖnce &bArcane Crystal&r'ler için madencilik yapman gerekecek; daha sonra daha fazlasını yapmak için &2&lMA&r ya da &6&lArıları&r kullanabilirsin!"]
 	quest.1FFF00B5D90C3905.title: "&bArcane Crystal'ler"
-	quest.2001998045ABC04C.quest_desc: ["Tangled Hatred, Eternal Starlight'ta bir Mini Patron'dur. \\n\\nCursed Garden'da Lunar Monstrosity ile birlikte ortaya çıkar."]
-	quest.2001998045ABC04C.title: "Bir Tangled Hatred Öldür"
 	quest.2007EF64F0406090.quest_subtitle: "&f24 &cSaldırı Hasarı"
 	quest.201EE3566D4D3123.quest_desc: [
 		"&6Allthemodium&r'u kazmak için &5Netherit&r Kademesi veya daha yüksek kademede Kazmaya ihtiyacın olacak! \\n\\nNihayet Cevheri elde ettiğinde (daha fazlasını elde etmek için önce Servet, Occultism veya Mekanism ile işlemeni tavsiye ederim), onunla ne yapacağına dair birkaç seçenek elde edebilirsin. \\n\\n&6Parçalar&r ile 2 Işınlanma Pedi yapmanı tavsiye ederim! Bunları &7&lMadencilik Boyutuna&r giderek daha fazla &6Allthemodium&r bulmak için ya da &b&lOther&r'da daha fazla macera bulmak için kullanabilirsin. \\n\\nBundan sonra Kazmanı yükseltmeni tavsiye ederim. Böylece &3Vibranium&r'u kazabilirsin. Gerisi tamamen sana kalmış!"
@@ -670,8 +652,6 @@
 	quest.2C387BFA6EE6FDB7.title: "&cUtherium Zırhı"
 	quest.2C4299D33D419AA0.quest_desc: ["Işınlanma Pedi'ni &2&lAna Dünya&r'ya yerleştirerek &7&lMadencilik Boyutu&r'na git."]
 	quest.2C4299D33D419AA0.title: "&2&lAna Dünya"
-	quest.2CA9394459C24012.quest_desc: ["Rotbeast'ler Undergarden'ın her yerinde ortaya çıkan Mini Patron'lardır."]
-	quest.2CA9394459C24012.title: "Bir Rotbeast Öldür"
 	quest.2CCAA7C0FEDEB573.quest_desc: ["Eğer sen de çoğu kişi gibiysen, peşinde olduğun güç budur. Tek yapman gereken onu olabildiğince yükseğe yerleştirmek ve bedava güç elde etmek. "]
 	quest.2CCAA7C0FEDEB573.title: "Rüzgar Gücü"
 	quest.2CECCA9D05D3EF12.quest_desc: ["&2Eternal Stella&r oldukça pahalıdır. Önce Tier 3 Forge'a ihtiyacın olacak! \\n\\nArdından, kırarak elde edebileceğin &7Stellarite Piece&r'e ihtiyacın olacak. Ve artık kıramayacağın 3 &aXpetried Orb&r elde etmen gerekecek. Bunun yerine onu elde etmek için Black Hole &aEXP&r beslemen gerekecek! \\n\\nSon olarak, &2Eternal Stella&r elde etmek için &6AllTheModium Külçesi&r'ne ihtiyacın olacak. Neden bu kadar pahalı olduğu anlaşılıyor. Çünkü herhangi bir Aletle birleştirilerek Kırılmaz hale getirilebilir!"]
@@ -866,8 +846,6 @@
 		"{image:atm:textures/questpics/hnn.png width:150 height:150 align:center}"
 	]
 	quest.37EBB8E0D6E5F821.title: "&9Hostile Neural Networks&r'e Hoşgeldin!"
-	quest.3813F5C1760C3A79.quest_desc: ["Zalim Piglinlerin burada olması tartışmalara neden olabilir ama ben onları Mini Patron olarak görüyorum. \\n\\nBastion'larda normal Piglinlerle birlikte ortaya çıkarlar ancak bunlar Tarafsız değil Düşmandır. Şahsen bundan nefret ediyorum, özellikle de onlara vurursan tüm Piglinler sana Düşmanca davrandığı için. \\n\\nSana vurmak için 50 Kalpleri ve bir Altın Baltaları var. Genellikle Altın Baltalar neredeyse hiç hasar vermez, ancak onlar onu kullandıklarında, bir şekilde çok güçlüdürler! \\n\\nHiçbir şey düşürmüyorlar ve daha çok Bastion'lar için bir engel gibi davranıyorlar!"]
-	quest.3813F5C1760C3A79.title: "Bir Zalim Piglin Öldür"
 	quest.3889D0255074CE85.quest_desc: ["&bMacaw&r mobilyaların yeterli olmadığına, Macaw evinin &b&lMacaw Pencerelerinden&r gelen doğal ışıktan daha fazlasına sahip olması gerektiğine karar verdi. \\n\\nBöylece artık her türlü Işık Kaynağını ekleyen &b&lMacaw's Lights and Lamps&r'e sahibiz. \\n\\nLambalardan Fenerlere ve Avizelere!"]
 	quest.38BFF6F845EA479E.title: "&6&lATM Yıldızı&r'nın Sol Alt parçası"
 	quest.38F9E9A830D3EA0C.quest_desc: ["Bu modun sadece eşya depolamak için olduğunu düşünüyorsan yanılıyorsun, Akışkan Çekmeceleri de var!\\n\\nNormal Çekmecelerle aynı şekilde çalışırlar, ancak bunun yerine sıvıları depolarlar."]
@@ -1274,8 +1252,6 @@
 	quest.56970D44D4C9015A.quest_subtitle: "&f7 &cSaldırı Hasarı"
 	quest.56B80A7EBFE21428.quest_subtitle: "Daha Fazla Filtreleme Seçeneği"
 	quest.56B80A7EBFE21428.title: "&eGelişmiş Pompa Yükseltmesi"
-	quest.56DA46DC82F6665D.quest_desc: ["Yabani Chimera, Ars Nouveau tarafından eklenen bir Patron'dur ve ilerlemek için gereklidir. \\n\\nBir ritüel aracılığıyla çağrılması ve sonra da savaşılması gerekiyor!"]
-	quest.56DA46DC82F6665D.title: "Yabani Chimera'yı Öldür"
 	quest.570223A03231DF8C.quest_desc: ["Overhauled Endermen, Overhauled Creepers'a benzer bir moddur! Sadece Enderman'ler ile tabii ki! \\n\\nTüm bu Enderman'leri farklı Biyomlarda bulacaksın ve her biri kendi tarzlarında benzersiz olacak! Bazılarının farklı saldırıları var, bazıları farklı İnciler düşürüyor ve hepsi farklı görünüyor!"]
 	quest.570223A03231DF8C.title: "Yenilenmiş Enderman'ler"
 	quest.5716E84828EC0C23.quest_desc: ["Plastic Construction Bricks, &l&7PneumaticCraft: Repressurized&r aracılığıyla yapılan bloklardır. \\n\\nTıpkı gerçek hayattaki benzerleri gibi üzerine basmak can yakıyor! \\n\\nBu yüzden ya Ayakkabı giy ya da Tuğlaları düzleştir."]
@@ -1560,8 +1536,6 @@
 	quest.6D738730B371B152.quest_desc: ["&l&7Madencilik Boyutu&r, yüzeyinde kesinlikle hiçbir şey bulunmayan Süperdüz bir dünyadır. \\n\\nYüzeyin altında neredeyse her Cevher var. \\n\\n&7&lMadencilik Boyutu&r'nda Mağaralar, Yaratık Doğmaları ve yoluna çıkacak hiçbir şey yok. Sadece Taş türleri ve Cevherler var! \\n\\nCevher ortaya çıkışları Y Seviyesi ve &7&lMadencilik Boyutu&r'ndaki katman için farklılık gösterir.\\n\\nMaden Ocağı (Quarry) kurmanı tavsiye ederim."]
 	quest.6D738730B371B152.title: "&l&7Madencilik Boyutu"
 	quest.6D88C19F47D0D469.title: "Kademe: &7Küçük"
-	quest.6DCDD55786025911.quest_desc: ["Starlight Golem, Eternal Starlight'taki ikinci Patron'dur. \\n\\nGolem Forge'da şarj oluyor ve bir Oyuncunun gelip onunla savaşmasını bekliyor!"]
-	quest.6DCDD55786025911.title: "Starlight Golem'i Öldür"
 	quest.6E04A314CD796254.quest_desc: ["Her Büyü Modu neye ihtiyaç duyar? Silah mı dedin! Umarım silah demişsindir! \\n\\nNobu, elbette 3 farklı ateşleme Moduna sahip bir silahtır."]
 	quest.6E0624750DF8CD18.quest_desc: ["Artık bunları üretemezsin, artık &5Netherit&r'den yükseltmen gerekiyor. \\nEvet, Büyüleri aktarır ve aletleri Onarır!"]
 	quest.6E0624750DF8CD18.title: "&6Allthemodium Aletler"
@@ -1672,8 +1646,6 @@
 	quest.72717D1135486D7F.quest_desc: ["Biraz tohum toplayalım."]
 	quest.72717D1135486D7F.quest_subtitle: "Blok El 1, Blok Çimen 0"
 	quest.72717D1135486D7F.title: "Çimenleri Yumrukla"
-	quest.728BE1816DA23DC0.quest_desc: ["Ender Ejderhası, End'i koruyan Patron'dur. \\n\\nEnd Geçidine girdiğinde, Ejderha'nın ortaya çıktığı End Adasına varacaksın. \\n\\n200 Kalbi vardır ve Ateş Topları ile saldırabilir veya sana çarpabilir. \\n\\nOnu öldürmek için onu iyileştirirken, sütunlardaki End Kristallerini kırman gerekecek! \\n\\nOnu öldürdüğünde şunları düşürecek: Arcane Essence, Epic Shaderbags, Dragonskin, iki farklı moddan Ejderha Pulları(Dragon Scale) ve tonlarca TP! \\n\\nSonra Geçit açılacak, böylece Ana Dünyaya dönebilir veya dış adaları keşfetmek için bir End Geçidi bulabilirsin. Ayrıca Geçitte bir Ejderha Yumurtası bulacaksın."]
-	quest.728BE1816DA23DC0.title: "Ender Ejderhasını Öldür"
 	quest.72989212DD45DC10.quest_desc: ["Bu yumurtayı bulmak için Sıcak Okyanus Harabelerinde &aŞüpheli Kum&r'u fırçalaman gerekecek.\\n\\nYumurtayı dünyaya yerleştirebilirsin ve o yavaşça &dYavru Koklayıcı&r'ya dönüşecektir. Normalde yumurtadan çıkması yaklaşık 20 dakika sürer, ancak yumurtadan çıkma hızını iki katına çıkarmak için Yosun bloğunun üzerine yerleştirebilirsin ve yumurtadan çıkması böylece yalnızca 10 dakika sürer.\\n\\nYavru Koklayıcı sonunda yetişkin bir &dKoklayıcı&r'ya dönüşecek ve kazabilecekleri blokların üzerinde dolaşırken &2Meşale Çiçeği Tohumu&r veya &2Sürahi Bitkisi Tohum Zarfı&r gibi eşyaları koklayacak.\\n\\nMeşale çiçeklerini kullanarak 2 yetişkin Koklayıcı'yı çiftleştirebilirsin."]
 	quest.72989212DD45DC10.quest_subtitle: "Scruff McGruff'ın Uzak Kuzeni"
 	quest.72989212DD45DC10.title: "&5Koklayıcı"
@@ -1699,8 +1671,6 @@
 	quest.73325912C84F64A5.quest_desc: ["Başka bir seçenek de Zaman Değişim kullanmaktır; 12 saat boyunca &4Mahou&r kazan, ardından 12 saat boyunca harca. \\n\\nİkinci bir Zaman Değişim çemberi yaparsan, ilki harcamaya başladığında bu bir döngü haline gelir."]
 	quest.73325912C84F64A5.title: "Zaman Değişimi"
 	quest.7338CA23B27B2AF8.quest_subtitle: "&f12 &cSaldırı Hasarı"
-	quest.734411D931A8CDBF.quest_desc: ["Yıkıcı, yalnızca daha zorlu Baskınlarda ortaya çıkan bir Mini Patron'dur. \\n\\nBaskınların ne olduğunu bilmiyorsan veya güncellenmiş şeklini anlamıyorsan, bu tamamen sorun değil, Görevler bunun için var! \\n\\nYağmacı Kaptanları (Sancak tutan) öldürerek Uğursuz İksirler elde edebilirsin, bunları içtiğinde Kötü Alamet Etkisi elde edersin. Sonra, bir Köyün yakınına gidebilir ve bir Baskın başlatabilirsin. \\n\\nBaskınlarda savaşmak için Yağmacılar, İntikamcılar, Uyandırıcılar, Cadılar ve Yıkıcılar ortaya çıkacaktır!"]
-	quest.734411D931A8CDBF.title: "Bir Yıkıcı Öldür"
 	quest.7377C657CED885AC.quest_desc: ["&2&lMystical Agriculture&r tarımla ilgili bir mod, ama ne için tarım yapacaksın?\\n\\nBaldan Çeliğe ve Wither İskeletlere kadar hemen hemen her şey.\\n\\nBu mod ile &6&lATM Yıldızı&r yapmak için çok fazla tarım yapman gerekecek!"]
 	quest.73B73870B29DFAD9.quest_desc: ["Bizden biri! Bizden biri! \\n\\n&eVillager Hat&r, Köylüleri aynı Kasabadan olduğuna inandırır. Böylece Kasaba Dışı Vergisinden muaf olursun. Köylü Ticaretleri daha ucuzdur."]
 	quest.73B73870B29DFAD9.quest_subtitle: "Kafa"

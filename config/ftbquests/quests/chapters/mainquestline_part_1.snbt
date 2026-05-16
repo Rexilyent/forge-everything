@@ -9,45 +9,12 @@
 	id: "732824E03978A934"
 	images: [
 		{
-			height: 3.0d
-			image: "atm:textures/questpics/gettingstarted/titleimage1.png"
-			order: -1
-			rotation: 0.0d
-			width: 13.671d
-			x: 7.5d
-			y: -2.0d
-		}
-		{
 			height: 0.01d
 			image: "ftbquests:textures/shapes/square/outline.png"
 			rotation: 0.0d
 			width: 15.4d
 			x: 6.5d
 			y: -1.5d
-		}
-		{
-			height: 4.0d
-			image: "atm:textures/questpics/gettingstarted/sniffer3.png"
-			rotation: 0.0d
-			width: 4.0d
-			x: -5.5d
-			y: 8.25d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/torchflower"
-			rotation: 0.0d
-			width: 1.0d
-			x: -7.0d
-			y: 9.75d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/torchflower"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.0d
-			y: 9.75d
 		}
 		{
 			height: 0.5d
@@ -64,38 +31,6 @@
 			width: 0.5d
 			x: 4.75d
 			y: 2.0d
-		}
-		{
-			height: 5.0d
-			image: "atm:textures/questpics/gettingstarted/wither2.png"
-			rotation: 0.0d
-			width: 5.0d
-			x: 18.0d
-			y: 8.0d
-		}
-		{
-			height: 5.0d
-			image: "atm:textures/questpics/gettingstarted/enderdragon.png"
-			rotation: 0.0d
-			width: 5.0d
-			x: 17.0d
-			y: 1.5d
-		}
-		{
-			height: 5.0d
-			image: "atm:textures/questpics/gettingstarted/warden_roar.png"
-			rotation: 0.0d
-			width: 5.0d
-			x: 12.0d
-			y: 10.5d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/torchflower"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: 10.25d
 		}
 		{
 			height: 1.0d
