@@ -1423,5 +1423,129 @@
 			x: 5.0d
 			y: -1.1d
 		}
+		{
+			id: "335FE658710DBE53"
+			tasks: [{
+				entity: "aether:cockatrice"
+				id: "19B26911C46D5066"
+				type: "kill"
+				value: 5L
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["335FE658710DBE53"]
+			id: "6F02661380DB9AD2"
+			tasks: [{
+				entity: "aether:cockatrice"
+				id: "123267B528CDE28F"
+				type: "kill"
+				value: 10L
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F02661380DB9AD2"]
+			id: "2E86AC5E23A46A98"
+			tasks: [{
+				entity: "aether:cockatrice"
+				id: "1AB2934D828E2D19"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2E86AC5E23A46A98"]
+			id: "19D19C043EEC8CAD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C2289D0260B76D8"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+				{
+					id: "75056827B4E99645"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "aether:cockatrice"
+				id: "10A4F7100F45FF69"
+				type: "kill"
+				value: 100L
+			}]
+			x: -9.0d
+			y: -7.050000000000001d
+		}
+		{
+			id: "2025E7EEBF42826E"
+			tasks: [{
+				entity: "aether:zephyr"
+				id: "2366E87D3E7DD1D4"
+				type: "kill"
+				value: 5L
+			}]
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2025E7EEBF42826E"]
+			id: "195ED92C14367907"
+			tasks: [{
+				entity: "aether:zephyr"
+				id: "65C306228A266E6C"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["195ED92C14367907"]
+			id: "11A2758AB2DC25F8"
+			tasks: [{
+				entity: "aether:zephyr"
+				id: "4F1AA25282E3AC0E"
+				type: "kill"
+				value: 50L
+			}]
+			x: -11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["11A2758AB2DC25F8"]
+			id: "6C01432C0B34CF1E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2436165E3DFF4F60"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+				{
+					id: "2490D0CBA9F92DBF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "aether:zephyr"
+				id: "73C9C2DF715CCEBE"
+				type: "kill"
+				value: 100L
+			}]
+			x: -11.0d
+			y: -7.0d
+		}
 	]
 }

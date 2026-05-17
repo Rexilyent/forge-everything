@@ -10,13 +10,13 @@
 	drop_loot_crates: false
 	emergency_items_cooldown: 300
 	fallback_locale: ""
-	grid_scale: 0.1d
+	grid_scale: 0.04d
 	hide_excluded_quests: false
 	icon: {
 		components: {
-			"ftbquests:missing_item": "allthetweaks:atm_star"
+			"ftbquests:icon": "modern_industrialization:item/steel_hammer"
 		}
-		id: "ftbquests:missing_item"
+		id: "ftbquests:custom_icon"
 	}
 	lock_message: ""
 	loot_crate_no_drop: {

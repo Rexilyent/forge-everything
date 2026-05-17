@@ -336,8 +336,8 @@
 				id: "119F2C7437404640"
 				type: "advancement"
 			}]
-			x: 1.4d
-			y: -1.8d
+			x: 1.72d
+			y: -1.76d
 		}
 		{
 			dependencies: [

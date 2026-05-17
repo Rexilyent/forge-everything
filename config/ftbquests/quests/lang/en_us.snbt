@@ -54,7 +54,7 @@
 	chapter.6AEDA2F9BEB57759.title: "Ars Nouveau"
 	chapter.6B13AF321AC831D1.title: "Age of Oil and Blastproof Plates"
 	chapter.73180B829B960E63.title: "Generators N Furnaces"
-	chapter.732824E03978A934.title: "&aChapter 1&r: &bThe Beginning"
+	chapter.732824E03978A934.title: "&aChapter 1&r: &bThe Basics"
 	chapter.76DF5FAA7961E5E7.title: "Iron's Spells 'n Spellbooks"
 	chapter.7732CF7AAA63DB3A.title: "The Twilight Forest"
 	chapter.7A72E12C3839D165.title: "Nature's Aura"
@@ -560,8 +560,22 @@
 	quest.0515422E36E4E9A3.quest_desc: ["Grants invisibility when sneaking."]
 	quest.0518551637F76C50.quest_desc: ["For the &9Echoing&r upgrade we'll need a few different Items. \\n\\nCandles which are relatively easy to get! And &9Echo Shards&r... which definitely aren't... \\n\\nThe best chance at getting them is by Looting an &6Ancient City&r, but you can Craft them with a few different Rituals. \\n\\n(Or even later on with &5Enchanting&r!) \\n\\nThe &9Echoing Deepshelves&r will give a whole lot more &5Arcana&r at &515%&r! Along with raising the max &aEterna&r to &a75&r."]
 	quest.0518551637F76C50.title: "&9Echoing Deepshelf"
-	quest.051E0C85E7B71CE0.quest_desc: ["I'm going to assume you've been out mining, right? It is MINEcraft after all.\\n\\nYou'll find a ton of new ores that might confuse you, but you can stick to the vanilla materials to get you started!\\n\\nCopper is abundant and has plenty of uses for things like &aOre Hammers&r or &eDrawer Upgrades&r, so make sure to grab plenty of it!\\n\\nIron is probably one of the most important ores you'll want to get every time you run into it. The world of modded MC pretty much runs on Iron."]
-	quest.051E0C85E7B71CE0.title: "The &9Metal&r Age"
+	quest.051E0C85E7B71CE0.quest_desc: [
+		"I'm going to go ahead and assume you've been out mining. You have been mining, right? It's literally in the name. &lMINE&r. &lcraft&r. We've been over this."
+		""
+		"Welcome to the part where things get interesting. The deeper you dig the more you'll start running into ores that make absolutely no sense to a vanilla player — and that's okay. That's the &6Forge Everything&r experience. For now, stick to the classics and get comfortable. The chaos comes later."
+		""
+		"&e&lCopper&r — don't sleep on it. It's everywhere for a reason. Tech mods will burn through your Copper supply on wiring alone before you've even touched anything else. &eCreate&r has an entire early progression built around Copper — casings, pipes, and components that will have you questioning why you ever thought you had enough. You didn't. You never do. Keep mining."
+		""
+		"&b&lIron&r — the backbone of modded Minecraft. If Copper is everywhere, Iron is &leverywhere and mandatory.&r Tech mods will devour your Iron supply like it personally wronged them. Machines, casings, pipes, plates, gears — if it exists in a tech mod, Iron is probably somewhere in the recipe. Mine it every single time you see it. No exceptions. Your future self will thank you."
+		""
+		"&6★&r Don't ignore unfamiliar ores — check &eJEI&r to see what they're used for"
+		"&6★&r Keep dedicated storage for &eCopper&r and &bIron&r early — you will burn through both faster than you think"
+		"&6★&r The deeper you mine the better the ores — don't stay at surface level for long"
+		""
+		"&7The real ore grind begins now. May your pickaxe be swift and your inventory never full.&r"
+	]
+	quest.051E0C85E7B71CE0.title: "Welcome to the &6Metal&r Age"
 	quest.052BE1D845794702.quest_subtitle: "Teak + Acacia"
 	quest.053483E3349B2F8A.quest_desc: [
 		"This structure looks similar to the Hanging Gardens, but there's only one Garden and it's massive. You'll know it's the &bBlue Sempiternal Sanctum&r by the &bBlue&r in the &bLuminescent Ancient Wax&r. \\n\\nGo into the structure and follow the way to the bottom room, (careful of Sentry Watchers) there you will find &bBlue Essence&r. \\n\\nWalk into it and get ready to hold your breathe. You'll need to fight off hordes of Drowneds, Guardians, and Elder Guardians underwater. Once all are dead you'll get..."
@@ -1760,7 +1774,6 @@
 	quest.10DF2125B647379E.quest_subtitle: "Do Not Touch!"
 	quest.10E8BC20D406D9FB.quest_subtitle: "Makes various Nether Materials"
 	quest.10EF30B919EBA5C6.quest_desc: ["It's a pickaxe with Fortune V on it. That's all.\\n\\nDefinitely won't summon spirits when you are mining. &o&5&lDefinitely won't&r."]
-	quest.110BF3A2BE85F911.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks.\\n\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission.\\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
 	quest.110D27EA86CDA62B.quest_desc: ["Magnets items into the Backpack."]
 	quest.1112E4E2CCEB2467.quest_desc: ["So now, you should have 5 machines ready to go to process your ores. Are you ready to make it even more complicated?\\n\\nYour factory should be: Chemical Injection Chamber > Purifying Chamber > Crusher > Enrichment Chamber > Furnace/Smelter.\\n\\nEasy so far, right?\\n\\nWell buckle up. It's about to get wild."]
 	quest.1112E4E2CCEB2467.quest_subtitle: "Tier 3 Ore Factory"
@@ -3258,6 +3271,7 @@
 		"{image:atm:textures/questpics/allthemodium/all_1.png width:100 height:100 align:center}"
 	]
 	quest.201EE3566D4D3123.title: "&6Allthemodium Ingot"
+	quest.2025E7EEBF42826E.title: "&b&lAether Bounty:&r&e Zephyr"
 	quest.202B1F54D3F06DAB.quest_desc: ["This is the Tier 6 Essence, made by combining 4 Supremium together with an Infusion Crystal."]
 	quest.202B1F54D3F06DAB.quest_subtitle: "Tier: &56"
 	quest.202B1F54D3F06DAB.title: "&5Insanium"
@@ -3784,8 +3798,6 @@
 	quest.24C0F267B330CD23.quest_desc: ["With the damage of a Diamond Sword, the &2Terra Blade&r will sometimes fire a beam that will deal as much as a melee hit would."]
 	quest.24C757B8AA6841F6.quest_desc: ["&5&lApotheosis&r knows how annoying &3Tridents&r can be to get so they made it easier... well kinda easier! \\n\\nYou can now make an &3Inert Trident&r and &d&lInfuse&r it to get a normal &3Trident&r. \\n\\nThe &3Trident&r requires between &a40 Eterna&r, &c20%-50% Quanta&r, and atleast &535% Arcana&r. \\n\\nYou can get this with 1 &7Bookshelf&r, 4 &9Echoing Sculkshelf&r, and 1 &2Melonshelf&r."]
 	quest.24C757B8AA6841F6.title: "Making a real &3Trident"
-	quest.24C9BA6DC32CFAD9.quest_desc: ["Coal is your first real source of power. If you are running low and cant find any Coal a better alternative for you will be Charcoal. "]
-	quest.24C9BA6DC32CFAD9.quest_subtitle: "Smelt your logs"
 	quest.24D38DA8E86DD897.quest_desc: [
 		"The smallest and weakest of the &cRot Mobs&r. \\n\\nThese have 5 Hearts. \\n\\nLike all &cRot Mobs&r they will target &2Stoneborns&r and &7Forgottens&r and will drop &cUtheric Shards&r."
 		"{image:atm:textures/questpics/undergarden/undergarden_rotling.png width:100 height:100 align:center}"
@@ -4091,8 +4103,19 @@
 		"2) If you right-click a Blood Altar with it, you'll see how much LP is stored, the max it can store, and what tier the altar is."
 	]
 	quest.28260B53A3F9E57D.title: "&bVibranium Armor&r"
-	quest.282CE3A088AE5CFB.quest_desc: ["I'm going to assume you've been crafting, right? It is MineCRAFT after all.\\n\\nSure, you could craft in your inventory using the 2x2 crafting grid, but that won't get you far. We need to upgrade by making a Crafting Table!"]
-	quest.282CE3A088AE5CFB.title: "Putting the Craft in Minecraft"
+	quest.282CE3A088AE5CFB.quest_desc: [
+		"Okay, I'm going to go ahead and assume you've been crafting. You have been crafting, right? It's literally in the name. &lMine&r. &lCRAFT&r. The game was not subtle about its intentions."
+		""
+		"Sure, your inventory's 2x2 crafting grid is cute. Adorable, even. It'll get you sticks and a crafting table and not much else. And before you ask — yes, you need the crafting table to make the crafting table. We know. Just trust the process."
+		""
+		"The &e&lCrafting Table&r is where &6Forge Everything&r actually begins. Hundreds of mods, thousands of recipes, and an absolutely unreasonable number of things to craft — and it all flows through this one humble wooden square. Respect it accordingly."
+		""
+		"&6★&r Open your inventory and place &a4 Wooden Planks&r in your 2x2 grid to get a Crafting Table"
+		"&6★&r Place it down and right click to open the &e3x3 crafting grid&r"
+		"&6★&r Try not to get too attached — you'll be upgrading beyond this eventually"
+	]
+	quest.282CE3A088AE5CFB.quest_subtitle: "&7The humble beginning of something completely unhinged. Welcome aboard.&r"
+	quest.282CE3A088AE5CFB.title: "&eIt's Called MineCRAFT for a Reason&r"
 	quest.283AB56F81EF03A5.quest_desc: ["In order to power your &6Electric Rails&r and your &eElectric Locomotive&r you'll need &eFrames. Frames&r need to be powered and will move power to each connected to &eFrame&r."]
 	quest.283AB56F81EF03A5.title: "&eFrames"
 	quest.283D7E65F2AD45F2.quest_desc: [
@@ -4397,8 +4420,6 @@
 	quest.2ADA491A2485061C.title: "&aExperience"
 	quest.2AEA51044AD44BE8.quest_desc: ["&eDepots&r will hold &eItems&r. They can hold them to process the &eItems&r, or deposit to a &eChute&r, or even just for decoration! \\n\\nYou can place a &eChute&r near the end of a &eBelt&r to bring &eItems&f from the &eBelt &fonto the &eDepot&r. \\n\\nThe &eDepot&r can also be placed beneath a &6Machine&r to process &eItems&r within it. "]
 	quest.2AEA51044AD44BE8.title: "&eDepot"
-	quest.2AEBE3F28996A6ED.quest_desc: ["With our new metals, we can upgrade our Furnace using the mod &aIron Furnaces&r!\\n\\nIron Furnaces (furnaces from the mod itself, not just the Iron version) allow you to add &aAugments&r to upgrade its speed, change the function of the furnace, and more!\\n\\nThese furnaces make automation easier by allowing you to auto-pull or push from the sides using the config on the left of the interface."]
-	quest.2AEBE3F28996A6ED.title: "&aFurnace Upgrades&r!"
 	quest.2AECDD9E2DEA708C.quest_subtitle: "Tier: &a2"
 	quest.2AED15E3AC0346FE.quest_desc: [
 		"Below are some &3Upgrades&r you can use early on in this mod. Shift while hovering over an &3Upgrade&r to see what it can be used in, or shift while hovering over something to see what upgrades it can use."
@@ -4612,8 +4633,6 @@
 	quest.2CC82170BCE61940.quest_desc: ["Double check you &l&n&cdon't&r&r&r have the &aEBF&r set to &bProgram 1&r, or else it can start cooking the Silicon dust into ingots"]
 	quest.2CC97CF32D9C017B.quest_desc: ["The &6Allthemodium Metals&r can be used to make extremely fast furnaces!"]
 	quest.2CC97CF32D9C017B.title: "&dFaster Furnaces&r"
-	quest.2CCAA7C0FEDEB573.quest_desc: ["If you are like most this is the power you are after. All you do is place it as high as you can and get free power. "]
-	quest.2CCAA7C0FEDEB573.title: "Wind Power"
 	quest.2CCFEE98FE3B2E97.quest_desc: ["These machines are used to automate block placing/breaking. This is especially useful when automating latex."]
 	quest.2CCFEE98FE3B2E97.title: "Blocks"
 	quest.2CD58FC229BC0C28.quest_desc: ["The &dGauntlet of the Guard&r is the drop from the &d&lEnder Guardian&r. \\n\\nWhen you hold it in either Hand, you can Hold Right Click to bring all Mobs near you, even closer! \\n\\nYou can also smack Mobs with it in your Main Hand to deal Damage. \\n\\nTry using the pull mechanic with flying to drop Mobs!"]
@@ -5280,6 +5299,7 @@
 	quest.33436ED0D9F128BD.quest_desc: ["&4Augment&r: Smoking transforms your Iron Furnace into an Iron Smoker. Now it will only smoke Food items but twice as fast! Like &4Augment&r: Blasting this one also stacks with other upgrades!"]
 	quest.33436ED0D9F128BD.title: "&4Augment&r: Smoking"
 	quest.33532408B21A5378.quest_desc: ["The Pitiful Generator generates a small amount of FE using burnable fuels like Coal."]
+	quest.335FE658710DBE53.title: "&b&lAether Bounty:&r&e Cockatrice"
 	quest.3365017C9B24C0A9.quest_desc: ["Use Bows or Crossbows to shoot 32 Stingers. \\n\\nYes, you can do that!"]
 	quest.33682F4B44950123.quest_desc: ["To gain further knowledge of spells, we'll need a specific type of magical wood! \\n\\nArchwood trees can be found in the overworld."]
 	quest.3371570F189DF994.quest_desc: ["The &6Scepter of Fortification&r summons shields around you for protection.\\n\\nTo recharge, combine with &6Golden Apples&r in a crafting grid."]
@@ -5355,8 +5375,6 @@
 	quest.34592A8F4B661D8D.quest_subtitle: "This Goes Boom Too"
 	quest.3459CAEB59CBD60E.quest_desc: ["Looks like someone flipped the ON switch this time! \\n\\n&4The Prowler&r is a miniboss guarding the &4Ancient Factory&r. He has 640 &4Hearts&r. \\n\\nHe has 3 attacks. The Saw for close up Enemies. And for farther Enemies he has Shoulder Missiles, similar to the WASW, and a Laser from his eye. \\n\\nOn death he'll drop Redstone and Iron. \\n(Tip he's also weak to the EMP attacks)"]
 	quest.3459CAEB59CBD60E.title: "&4The Prowler&r"
-	quest.346860B8EBC4C28C.quest_desc: ["Now that you have all this lava what will you do with it? More early game power! "]
-	quest.346860B8EBC4C28C.title: "Lava Power"
 	quest.346A926E23840EF7.quest_desc: [
 		"The options for ZPM tier cables arent the best when it comes to Amperage loss. "
 		""
@@ -5685,8 +5703,24 @@
 	quest.377D6CF86BC1C64F.title: "&8Tome of Superior Scrapping"
 	quest.378105383747DD48.quest_desc: ["Now this ones complicated. \\n\\nTo get &8&lReplica&r first have 5 Souls, Damage Exchange, and Immunity Exchange ready. \\n\\nThen, hold your Strengthened Shield to block an attack, then you'll get &8&lReplica&r!"]
 	quest.378105383747DD48.title: "&8&lReplica"
-	quest.378BF828DC931F0C.quest_desc: ["Personally, I hate having to run to a block just to craft. That's where the &2Crafting Table on a Stick&r comes in!\\n\\nThis item works as a &aPortable Crafting Table&r!\\n\\nTip: You can also put this in your &aCurios&r slot and set a &bKeybind&r to open it!"]
-	quest.378BF828DC931F0C.title: "Crafting, but on a Stick"
+	quest.378BF828DC931F0C.quest_desc: [
+		"We put a man on the moon. We split the atom. We invented the internet."
+		""
+		"And then, in what can only be described as the natural next step in human achievement, someone looked at a Crafting Table and thought &l\"what if it was on a stick.\"&r"
+		""
+		"Introducing the &eCrafting Table on a Stick&r — a portable, handheld crafting table that goes wherever you go. No more running back to base because you forgot to craft something. No more placing and breaking crafting tables in the middle of nowhere like some kind of animal. Just you, a stick, and a crafting table, united in perfect harmony."
+		""
+		"Is it necessary? &lAbsolutely not.&r"
+		"Is it the greatest mod in this pack? &lDebatable but valid.&r"
+		"Will you use it constantly once you have one? &lWithout question.&r"
+		""
+		"&6★&r Craft a &eCrafting Table on a Stick&r and never be without a crafting surface again"
+		"&6★&r Right click to open your portable crafting table from anywhere"
+		"&6★&r Feel the quiet, dignified satisfaction of a problem solved elegantly"
+		""
+		"&7Somewhere out there, the person who made this mod is very proud. As they should be.&r"
+	]
+	quest.378BF828DC931F0C.title: "Peak Human Innovation"
 	quest.378C95C18798D413.quest_desc: ["A quick way to switch between tools.\\n\\nUpgrade with belt pouches in an anvil to increase capacity."]
 	quest.378C95C18798D413.title: "Tool Belt"
 	quest.3799ACDA92F96FD1.quest_desc: [
@@ -5969,8 +6003,6 @@
 	quest.3AD4367855B3E595.quest_subtitle: "Tier: &b4"
 	quest.3ADC0CBB059FF927.quest_desc: ["To use this 1. Have it in your Offhand 2. Have it being Daytime 3. Be exposed to the sky. \\n\\nThen you will get Regeneration, Saturation, Speed, Haste, and Resistance. It will also repair your Armor Durability. \\n\\nOnce used up it will have a 10 Minute cooldown."]
 	quest.3ADC0CBB059FF927.title: "&eEssence of Radiance"
-	quest.3ADCAD65EA6900BA.quest_desc: ["&2Achaeology&r allows players to find items inside of &aSuspicious&r blocks like Sand and Gravel.\\n\\nThese blocks can be found in various structures like Warm Ocean Ruins, Desert Pyramids, Desert Wells, and &eTrail Ruins&r.\\n\\nTo uncover an item from a Suspicious block, you need to create a &aBrush&r to brush away the block to unveil an item."]
-	quest.3ADCAD65EA6900BA.title: "&2Archaeology&r!"
 	quest.3AE0198177A8E91B.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_coast.png width:100 height:150 align:center}"]
 	quest.3AE0198177A8E91B.quest_subtitle: "Shipwrecks and Buried Treasure"
 	quest.3AE0198177A8E91B.title: "Coast Armor Trim"
@@ -6043,8 +6075,6 @@
 	quest.3B570B3DB5F6D2CB.title: "&eGold Upgrade&r"
 	quest.3B577572FA7A413E.quest_desc: ["The &3Wrath of the &eDesert&r is a combination of the &3Cursed Bow&r and &eSandstorm in a Bottle&r. \\n\\nThis Bow doesn't shoot Arrows like normal, instead it will shoot &3Cursed &eSandstorms&r! \\n\\nThree of them to be exact! \\n\\nIt also doesn't need Arrows to shoot, which is also nice."]
 	quest.3B577572FA7A413E.title: "&3Wrath of the &eDesert"
-	quest.3B6F1BD64C0C570F.quest_desc: ["Just like wind generation this will give you lots of power without giving it any resources. The only downside here is it has to be daytime. "]
-	quest.3B6F1BD64C0C570F.title: "Solar Power"
 	quest.3B6F723B03C4BF55.quest_desc: ["Digestion (very crude form of processing) is how we change &3Alchemical Niters&r to different forms. \\n\\nFirst we'll need Purified Gold which can be made from putting Gold, &bAlchemical Salt&r, and &9Water&r into the Digestion Vat and Shift Right Click to close it like the Fermentation Vat. \\n\\nThen we can either combine 4 of one &3Alchemical Niter&r with Purified Gold and &dSal Ammoniac&r to get a higher Tier or do the reverse for a lower Tier."]
 	quest.3B6F723B03C4BF55.title: "Digestion Vat"
 	quest.3B7BB08D6AA2E7FE.quest_desc: [
@@ -7470,13 +7500,6 @@
 	]
 	quest.48600733998CA349.quest_subtitle: "Fluids and more"
 	quest.486060882E507CF1.quest_subtitle: "Spawns from a Dirt Nest"
-	quest.4869C413646CC4CC.quest_desc: [
-		"Transferring power out of your generators is probably a good idea, but how can you do it? "
-		""
-		"To start, you can use &cEnergy Pipes&r from the &aPipez&r mod, or you can use the &9Powah&r &cEnergy Cables&r if you have already started using that mod. "
-		""
-		"Or if you want a throwback, this pack has &6EnderIO&r and you can use the &6Energy Conduits&r from it."
-	]
 	quest.486B5A605D79EA10.quest_desc: ["These we can actually farm for! Milk that &cPyromancer&r!"]
 	quest.486B5A605D79EA10.title: "&cFire&r Upgrade Orb"
 	quest.487275B970530E3F.quest_desc: ["An upgrade to our Will storage. This will hold a max of 256 Will."]
@@ -8178,8 +8201,6 @@
 	quest.4E4C4C962753B6AB.title: "Bronze Machine Casing"
 	quest.4E4C8BCD45766F03.quest_desc: ["This Drawer will auto convert the item placed inside it into it's compacted form."]
 	quest.4E4C8BCD45766F03.quest_subtitle: "Auto Compacts/Decompacts"
-	quest.4E5238F00CEED8B2.quest_desc: ["Smelting down raw ores in the beginning is necessary, but you are missing out on extra resources!\\n\\nThere are several ways to double your output per raw ore, but one of the easiest ways is by creating and using an &eOre Hammer&r.\\n\\nThese will break down 1 raw ore into 2 dusts which can be smelting into ingots, effectively doubling your ingot output!\\n\\nWant more per raw ore? Check out the mod &5Occultism&r!"]
-	quest.4E5238F00CEED8B2.title: "&eBasic Ore Doubling"
 	quest.4E55A1169742B901.quest_desc: ["Eventually you'll want more steam than the single block boilers can provide. When that happens, make way for the Large Bronze Boiler!"]
 	quest.4E55A1169742B901.quest_subtitle: "Steam producing Multiblock"
 	quest.4E5FE40373675AED.quest_desc: ["Back into the &ecutter&r!"]
@@ -9190,7 +9211,6 @@
 	quest.577A5FC500E14C05.quest_subtitle: "Lawson Cypress + Oak"
 	quest.5791F3000D18E2C9.quest_desc: ["The &8Wither&r has a tendency to break and blow up Blocks. \\n\\nMost players do not enjoy this, so the &8Witherproof Bricks&r are just what you are looking for! \\n\\nThey are just like &8Witherproof Blocks&r, just with a better design!"]
 	quest.5791F3000D18E2C9.title: "&8Witherproof Bricks"
-	quest.5792CC9E3AFAB229.quest_desc: ["We also have the mod called &aGenerators Galore&r! This mod adds unique generators that use coal or other items."]
 	quest.57940981E8DE55D4.quest_desc: ["It's easy to get lost in the &9Twilight Forest&r. In your travels, you'll run into &5Obsidian Pillars&r.\\n\\nThese pillars will have &8Ravens&r around them. Kill them and they'll drop their feathers, which you can use to create a map for the &9Twilight Forest&r!"]
 	quest.57940981E8DE55D4.title: "&8Raven Feathers"
 	quest.579A41570D610B07.quest_desc: [
@@ -9778,8 +9798,19 @@
 	]
 	quest.5CF2A069A3CC4EF6.quest_subtitle: "Resin + Reed"
 	quest.5CF2A069A3CC4EF6.title: "Silky Bee"
-	quest.5CF320E9C4C1B1E1.quest_desc: ["ATM10 is a &aKitchensink&r pack, meaning you are free to explore and play the modpack any way that you want!\\n\\nHowever, there is an endgame goal: Making the &6ATM Star&r!\\n\\nThis questline serves as a guide for all players, whether you are brand new to Minecraft or you've played through previous ATM packs.\\n\\nJust like almost every modpack, gather some wood to get started!"]
-	quest.5CF320E9C4C1B1E1.title: "&eWelcome to Getting Started&r!"
+	quest.5CF320E9C4C1B1E1.quest_desc: [
+		"Welcome to &6&lForge Everything&r."
+		""
+		"Let's get one thing straight — this is not a &aKitchensink&r pack. This is the entire kitchen, the sink, the cabinets, the fridge, and whatever has been growing in the back of it for the past three weeks. There are no limits here. No single path. No wrong way to play. You want to build a massive tech empire? Go for it. You want to dive headfirst into magic and never touch a machine? Valid. You want to spend three hours reorganizing your storage system before doing anything else? We've all been there."
+		""
+		"This questline is here to guide you through the basics and beyond — whether you're brand new to Minecraft, brand new to modded, or a seasoned veteran who just wants a checklist to follow."
+		""
+		"There is no endgame goal &l— yet.&r The &6&lForge Everything Team&r is hard at work on something big for the future, but for now the goal is simple: &lplay, explore, build, and have fun.&r We'll let you know when the stakes get higher."
+		""
+		"For now though? Go punch a tree. It always starts with a tree."
+	]
+	quest.5CF320E9C4C1B1E1.quest_subtitle: "&7Some things never change. Thankfully.&r"
+	quest.5CF320E9C4C1B1E1.title: "&eEvery Journey Starts with a Tree&r"
 	quest.5CFBA24B3E0CDEDD.quest_desc: [
 		"While holding your Spellbook, you can press C to open up the spell creation page. \\n\\nEach spell must have a form. You start off with 3 basic forms: Projectile, Self-cast, and Touch. \\n\\nFor the Effect, this determines what happens when you cast the spell. You can have up to 9 effects per spell. \\n\\nFor starters, you have Harm and Break. \\n\\nSelect one Form and one Effect, name your spell, and click create!"
 		""
@@ -10362,6 +10393,21 @@
 	quest.61D6C9461F10CCF1.title: "&dEvilCraft&r"
 	quest.61D9E67FFA14A8F8.quest_desc: ["We have seen many liquids that are the result of processing by the Fusion Reactor."]
 	quest.61D9E67FFA14A8F8.quest_subtitle: "Nitrogen Plasma"
+	quest.61D9FB1F9E66F433.quest_desc: [
+		"This quest was authored by the &6&lForge Everything Team&r or a &2Community Contributor&r - crafted with love and an unreasonable amount of caffeine."
+		""
+		"All &6Forge Everything&r packs operate under &e&lAll Rights Reserved&r. This means this quest &l— like all content in this pack —&r may not be used, repurposed, or redistributed in any publicly released modpack &lnot officially published by the &6Forge Everything Team&r without explicit written permission. We worked hard on this. Don't be that person."
+		""
+		"The majority of mods included in this pack are &lnot&r the intellectual property of the &6Forge Everything Team&r. All third-party mods remain the property of their &2respective authors \\& owners&r and are subject to their own individual licenses. We are simply &lcurators&r — those mods belong to the people who made them."
+		""
+		"That said, certain content &l— including but not limited to ore unification systems, &6Forge Everything&r exclusive items, and other pack-specific additions —&r are the intellectual property of the &6&lForge Everything Team&r and are protected under the same &e&lAll Rights Reserved&r license as the rest of the pack."
+		""
+		"If you'd like to use our content or collaborate, come find us in the Discord. We're reasonable people."
+		""
+		"&7This quest is intentionally hidden from normal gameplay."
+		"If you're reading this, you're in editing mode — welcome behind the curtain."
+		"Don't touch anything.&r"
+	]
 	quest.61DA3D61D7103647.quest_desc: ["&eAlchemical Sulfurs&r can be made from practically anything and can be made into practically anything! \\n\\nThere's a few different groups of Items in &eAlchemical Sulfurs&r which might be explained more in another Quest. \\n\\nThere's 3 different paths you can take with processing &eAlchemical Sulfurs&r. 1. Fermentation and Digestion for making Niter. 2. Incubation for making those Items again and 3. Changing the Item with Reformation."]
 	quest.61DA3D61D7103647.title: "&eAlchemical Sulfurs"
 	quest.61DCECE1FC38E151.title: "Reactor (Nitro)"
@@ -10878,13 +10924,6 @@
 	quest.66FE4552E09B5EFF.title: "&3Elementarium"
 	quest.6718043D0F2D1830.quest_desc: ["DireWolf was asked to make an addition of his Cards to work with &5&lMekanism&r and its... other states of matter. Everything Pressurized Tubes can move, these cards can. Gas, Infuse Types, and Pigments."]
 	quest.6718043D0F2D1830.title: "&5Chemical Card"
-	quest.672134A1A620EEAB.quest_desc: [
-		"There are many ways to store power! "
-		""
-		"&9Powah&r offers great storage using &aEnergy Cells&r that can be upgraded, or you can always go with the multiblock style of &aRFTools&r using &aPowercells&r! The choice is yours. "
-		""
-		"Note: You only have to make one of the items to complete the quest."
-	]
 	quest.67216EC5274F08B9.quest_subtitle: "Used by Shear-perds"
 	quest.67258590FA14BE44.quest_desc: ["For 250mB of &9Water&r and 2 &bArcane Crystal Dust&r, in the &b&lRunic Crucible&r, we can get 250mB of &bLiquid Aureal&r! \\n\\nYou will need 1000 &dSource&r to get it started though..."]
 	quest.67258590FA14BE44.title: "&bLiquid Aureal"
@@ -12196,9 +12235,6 @@
 	quest.72917C96C322A922.title: "La Bee-da Loca"
 	quest.7297391D026EE9A6.quest_desc: ["Want something exciting and new to make Energy? What about using &dPotions&r for it! That's what the &dPotion Generator&r does, it will take your &dPotions&r and make Energy out of it depending on its strength and duration."]
 	quest.7297391D026EE9A6.title: "&dPotion Generator"
-	quest.72989212DD45DC10.quest_desc: ["To find this egg, you'll need to brush away &aSuspicious Sand&r in Warm Ocean Ruins.\\n\\nYou can place the Egg into the world and it will slowly hatch into a &dSnifflet&r. This takes around 20 minutes to hatch normally, but can be placed on a Moss block to double the hatch speed, taking only 10 minutes to hatch.\\n\\nThe Snifflet will eventually grow into an adult &dSniffer&r that can sniff up items like &2Torchflower Seeds&r or &2Pitcher Pods&r when they wander over blocks they can dig in.\\n\\nYou can breed 2 adult Sniffers by using Torchflowers."]
-	quest.72989212DD45DC10.quest_subtitle: "Scruff McGruff's Distant Cousin"
-	quest.72989212DD45DC10.title: "&aThe &5Sniffer"
 	quest.729DCB919A92B735.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_bolt.png width:100 height:150 align:center}"]
 	quest.729DCB919A92B735.quest_subtitle: "Trial Chambers"
 	quest.729DCB919A92B735.title: "Bolt Armor Trim"
@@ -12274,8 +12310,6 @@
 	quest.72DDA413D73E3235.title: "&3Vibranium Armor"
 	quest.72DEF9BA758BCDC0.quest_desc: ["Once the ritual has started you will notice the Lake being made. It will grow to about a 20x20 block area full of murky water. The Murky Water will not kill you unless you forget to go for air."]
 	quest.72DEF9BA758BCDC0.title: "Mahou Lake"
-	quest.72E1C19156633391.quest_desc: ["Buckets and Tanks are a great early way to move around lava."]
-	quest.72E1C19156633391.title: "Lava Bucket"
 	quest.72E5439299E957A8.quest_desc: [
 		"Use that &eExtractor&r to get your copper in a liquid state"
 		""
@@ -12715,8 +12749,6 @@
 	quest.773543FFEF631C5E.quest_subtitle: "Basic Building Blocks"
 	quest.77382D4114E901CB.quest_desc: ["The &bHose Pulley&r is used to take and place full Source Blocks of &bFluids&r, yes not just &9Water&r. \\n\\nFirst, set how far the &bHose&r actually goes down or up with the &8Shaft&r at one side. Either with a &6Cog&f, &8Shaft&r, or &dHand Crank&r which is easiest. \\n\\nThen, on the other side of the &bHose Pulley&r we can put some &bFluid Pipes&r. With &bMechanical Pumps&r we can choose whether the &bHose Pulley&r picks up &bFluid&r Sources or place them down. \\n\\nThe &bHose Pulley&r only has an Inventory of 1.5 Buckets or 1500mB, but the &bFluids&r can be &bPiped&r into other Inventories or &bTanks&r! \\n\\nIf the &9Water&r Source is infinite, the &bHose Pulley&r won't take out Source Blocks, but will keep taking &bFluid&r out. \\n\\nThis will also work with &cLava&r Source Blocks, but those aren't infinite. So you might want to check out &c&lThe Nether&r for that as it is pretty much infinite there!"]
 	quest.77382D4114E901CB.title: "&bHose Pulley"
-	quest.7741905EA8380B25.quest_desc: ["&aArmor Trims&r are items used to add trims to your armor! This can be done in Smithing Tables.\\n\\nWhile they do have a recipe, most of the trims are rare finds in from loot chests or archaeology digs. Once you find one, you can dupe the Template by using the recipe to create more!"]
-	quest.7741905EA8380B25.title: "&dArmor Trims"
 	quest.7744BEC5CD328262.quest_desc: ["In order to mine Blocks &bunderwater&r you'll need this Upgrade. \\n\\nIt also gives you Aqua Affinity! (That means being in &bWater&r doesn't slow down your Mining.)"]
 	quest.7749703A10B78AB1.quest_desc: ["First Ability with &8Drowned Belt&r is in the name, it's a Belt, it holds Talismans. \\n \\nThe Second one works with swimming in the &9Water&r. Ever get jealous of how the Drowned move through the &9Water&r as if it were their home? Well with this Ability you can get similar! \\n \\nThe Third one works like Impaling, you'll do increased Damage in the &9Water&r. \\n \\nAnd the Last Ability also works with Trident Enchanting, you can now use Channeling anywhere regardless of how wet!"]
 	quest.7749703A10B78AB1.quest_subtitle: "Found in Shipwrecks and Ocean Ruins"
@@ -12898,8 +12930,6 @@
 	quest.78ECC28DD4BA9696.title: "Tools of the Trade: Divination Rod"
 	quest.78FEDE6FA4845585.quest_desc: ["Some &d&lInfusions&r need very, very exact amounts of &aEterna&r, &cQuanta&r, or &5Arcana&r. \\n\\nTo get these you might need one of these &7Shelves&r. \\n\\nEach lowers the amount of its respective quantities."]
 	quest.78FEDE6FA4845585.title: "&4Negative&r amounts"
-	quest.790EC3EDC2DB1FB0.quest_desc: ["Like it was mentioned before. This mod adds a ton of fun ways to generate power that require specific builds."]
-	quest.790EC3EDC2DB1FB0.title: "Generators Galore"
 	quest.790F509BAA15A68E.quest_desc: [
 		"Tools can be made of MANY materials, the first of which could be iron!"
 		""
@@ -12960,8 +12990,20 @@
 	]
 	quest.79757F66DF263FA0.quest_subtitle: "Frickin' Laser Beams"
 	quest.79757F66DF263FA0.title: "Laser Focus"
-	quest.7975C7145572C438.quest_desc: ["Whether you are an experienced modded player, or a complete noob to MC, everyone has to make a &2Wooden Pickaxe&r.\\n\\nPickaxes allow you to break most stone and metal blocks. This wooden one won't last long, so make sure to gather some &3Cobblestone&r with it!"]
-	quest.7975C7145572C438.title: "Our First Pick"
+	quest.7975C7145572C438.quest_desc: [
+		"It doesn't matter if you've sunk thousands of hours into modded Minecraft or if you just learned what a creeper is — everyone, without exception, has to make a &2Wooden Pickaxe&r. There is no skipping this step. There is no tech mod or magic spell that gets you out of this particular rite of passage. You are making a wooden pickaxe and you are going to be grateful for it."
+		""
+		"Pickaxes are your primary means of breaking stone and metal blocks — which, in a pack with this many mods and this many materials to collect, is going to be &la lot of blocks.&r Your wooden one won't last long. It knows this. It has accepted its fate."
+		""
+		"Use what little time you have together wisely."
+		""
+		"&6★&r Craft a &2Wooden Pickaxe&r using &a2 Sticks&r and &a3 Wooden Planks&r in your crafting table"
+		"&6★&r Head out and gather &3Cobblestone&r before it gives up on you entirely"
+		"&6★&r Upgrade to a &7Stone Pickaxe&r as soon as humanly possible — your wooden one is already tired"
+		""
+		"&7Every overpowered modded playthrough starts here. Every single one.&r"
+	]
+	quest.7975C7145572C438.title: "The OG Tool"
 	quest.7985FD6195CF45FD.quest_desc: [
 		"&cEnergium Dust&r inside an &6HV Autoclave&r will make an &bEnergium Battery&r"
 		""
@@ -13357,8 +13399,22 @@
 	quest.7D359283625C1869.quest_desc: ["&4&lCataclysm&r is an adventure Mod that is all about adding new Bosses! And everything from and around them! \\n\\nYou'll find the Structures all around the &2&lOverworld&r, &4&lThe Nether&r, and &5&lThe End&r. \\n\\nWithin will be new Mobs, Minibosses, and very difficult Bosses. You can kill them all to get new Weapons, Armor, and Items!"]
 	quest.7D359283625C1869.title: "&4&lCataclysm"
 	quest.7D3648FF86B0EB85.title: "Alloy Blade"
-	quest.7D38BC3DB3406F51.quest_desc: ["With our Wooden Pickaxe, stone shouldn't be a problem to break!\\n\\n&3Cobblestone&r unlocks the next part of the progression by using it to craft a Furnace to smelt our ores.\\n\\nYou'll also want to upgrade your pickaxe to stone to mine better ores like &bIron&r!"]
-	quest.7D38BC3DB3406F51.title: "Stone Age"
+	quest.7D38BC3DB3406F51.quest_desc: [
+		"Look at you, graduated from wood already. The wooden pickaxe sacrificed itself so you could be here. Honor its memory."
+		""
+		"&3Cobblestone&r is your new best friend — ugly, abundant, and surprisingly essential. It's not glamorous. It's not going to win any aesthetic awards. But without it you're not making a &eFurnace&r, and without a Furnace you're not smelting anything, and without smelting anything you're basically just a person standing in a hole. So. Cobblestone it is."
+		""
+		"This is where the real progression begins. Stone tools, furnaces, and the first glimpse of something better waiting just a little deeper underground."
+		""
+		"&6★&r Craft a &eFurnace&r using &38 Cobblestone&r in your crafting table — leave the center empty"
+		"&6★&r Upgrade your pickaxe to a &7Stone Pickaxe&r so you can actually mine something worth mining"
+		"&6★&r Start digging deeper — &bIron&r is down there waiting for you and it's not coming to you"
+		""
+		"The Stone Age isn't where you're staying. It's where you're starting. There's a significant difference and you'll feel it the moment you find your first &bIron Ore.&r"
+		""
+		"&7Cobblestone today. Something far more ridiculous tomorrow. Trust the process.&r"
+	]
+	quest.7D38BC3DB3406F51.title: "Welcome to the Stone Age"
 	quest.7D40B80DBBC4E160.quest_desc: ["The Manual Rolling Machine will be your little crafting machine for many things material for railcraft! \\n\\nWhen you put the recipe in and it can make more than 1 it will autocraft while you're still looking at it. When you leave the Rolling Machine while crafting it will abort the crafting and put it in your inventory. \\n\\nYou must manually build the last recipe!"]
 	quest.7D43016926E77150.title: "&9Imperium Armor&r"
 	quest.7D49A41E4D63A596.quest_subtitle: "Reduces Catalyst Usage"
@@ -13500,8 +13556,6 @@
 	quest.7EA6B942D1294ED6.quest_subtitle: "A bigger robot friend."
 	quest.7EAFF64FFE8B5378.quest_subtitle: "Iron + Sweat"
 	quest.7EAFF64FFE8B5378.title: "Zinc Bee"
-	quest.7EC01E7DB045DB05.quest_desc: ["&aAugments&r are Furnace upgrades that can either change or upgrade the function of a Furnace.\\n\\n - Blasting: Converts the Furnace to only allow for Blasting recipes.\\n\\n - Smoking: Converts the Furnace to only allow for Smoking recipes.\\n\\n - Factory: Converts the Furnace to use power instead of fuel, and upgrades it to a factory, allowing it to smelt multiple items at once. This increases depending on the tier of Furnace.\\n\\n - Speed: Doubles the speed of the furnace at the cost of double the fuel.\\n\\n - Fuel Efficiency: Doubles the amount of items smelted per fuel, but reduces the speed by 25%"]
-	quest.7EC01E7DB045DB05.title: "Furnace &aAugments"
 	quest.7EC7E12C0880F8F5.quest_subtitle: "Tier: &e5"
 	quest.7EC8814940C4C3D7.quest_desc: ["Use this item to shrink. Helpful for working on automation and also just overall fun."]
 	quest.7EC8814940C4C3D7.quest_subtitle: "Honey I Shrunk Myself"
@@ -14079,6 +14133,7 @@
 	task.4CAF79C3D1E35958.title: "Powering the Forge"
 	task.4CC5C3088A4F5C7D.title: "Voltage Loss"
 	task.4CCB830CFDD43B5E.title: "AllRightsReserved"
+	task.4D419285CD13D831.title: "&6&lForge Everything — Quest Authorship \\& Usage Rights&r"
 	task.4DA6445DB5F3B85E.title: "Lumium Comb"
 	task.4DFDEAD81868CEF4.title: "Chocolate Mining Bee"
 	task.4E04F8F091D18EA4.title: "Observe Fissile Fuel in a Machine"
@@ -14167,6 +14222,7 @@
 	task.5DFD1C0334466FF2.title: "Expanded Tank Construction"
 	task.5E017E6B7E3F56B7.title: "Slimy Comb"
 	task.5E4B74F97BDED243.title: "AllRightsReserved"
+	task.5E71B16ADC42272D.title: "&6&lForge Everything — Quest Authorship \\& Usage Rights&r"
 	task.5E90B977ACB0C900.title: "AllRightsReserved"
 	task.5F45BABFD89DE0EC.title: "AllRightsReserved"
 	task.5F9F725E2AD5FD3C.title: "AllRightsReserved"

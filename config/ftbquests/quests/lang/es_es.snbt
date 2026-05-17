@@ -1723,7 +1723,6 @@
 	quest.10DF2125B647379E.quest_subtitle: "¡No Tocar!"
 	quest.10E8BC20D406D9FB.quest_subtitle: "Hace varios Materiales del Nether"
 	quest.10EF30B919EBA5C6.quest_desc: ["Es un pico con Fortuna V. Eso es todo.\\n\\nDefinitivamente no invocará espíritus cuando estés minando. &o&5&lDefinitivamente no&r."]
-	quest.110BF3A2BE85F911.quest_desc: ["Esta Misión ha sido creada por el &6Personal de AllTheMods&r, o un &2contribuidor de la Comunidad&r para su uso en los Modpacks de AllTheMods.\\n\\nComo todos los packs de &6AllTheMods&r están licenciados bajo &eTodos los Derechos Reservados&r, esta Misión no puede ser utilizada en ningún pack público no lanzado por el &6Equipo de AllTheMods&r sin permiso explícito.\\n\\nEsta misión está intencionalmente oculta, si estás viendo esto, estás en modo edición."]
 	quest.110D27EA86CDA62B.quest_desc: ["Atrae objetos hacia la Mochila."]
 	quest.1112E4E2CCEB2467.quest_desc: ["Así que ahora, deberías tener 5 máquinas listas para procesar tus minerales. ¿Estás listo para hacerlo aún más complicado?\\n\\nTu fábrica debería ser: Cámara de Inyección Química > Cámara de Purificación > Trituradora > Cámara de Enriquecimiento > Horno/Fundidor.\\n\\nFácil hasta ahora, ¿verdad?\\n\\nBueno, abróchate el cinturón. Está a punto de ponerse salvaje."]
 	quest.1112E4E2CCEB2467.quest_subtitle: "Fábrica de Minerales Tier 3"
@@ -3745,8 +3744,6 @@
 	quest.24C0F267B330CD23.quest_desc: ["Con el daño de una Espada de Diamante, la &2Hoja de Terra&r a veces disparará un rayo que infligirá tanto daño como un golpe cuerpo a cuerpo."]
 	quest.24C757B8AA6841F6.quest_desc: ["&5&lApotheosis&r sabe lo molesto que puede ser conseguir &3Tridentes&r así que lo hicieron más fácil... ¡bueno, algo más fácil! \\n\\nPuedes hacer ahora un &3Tridente Inerte&r e &d&lInfundirlo&r para obtener un &3Tridente&r normal. \\n\\nEl &3Tridente&r requiere entre &a40 Eterna&r, &c20%-50% Quanta&r, y al menos &535% Arcana&r. \\n\\nPuedes conseguir esto con 1 &7Estantería&r, 4 &9Estantería de Sculk Resonante&r, y 1 &2Estantería de Melón&r."]
 	quest.24C757B8AA6841F6.title: "Haciendo un &3Tridente real"
-	quest.24C9BA6DC32CFAD9.quest_desc: ["El carbón es tu primera fuente real de energía. Si te estás quedando sin él y no encuentras Carbón, una mejor alternativa para ti será el Carbón Vegetal. "]
-	quest.24C9BA6DC32CFAD9.quest_subtitle: "Funde tus troncos"
 	quest.24D38DA8E86DD897.quest_desc: [
 		"El más pequeño y débil de los &cMobs de Podredumbre&r. \\n\\nEstos tienen 5 Corazones. \\n\\nComo todos los &cMobs de Podredumbre&r apuntarán a los &2Stoneborns&r y &7Olvidados&r y soltarán &cFragmentos Utéricos&r."
 		"{image:atm:textures/questpics/undergarden/undergarden_rotling.png width:100 height:100 align:center}"
@@ -4340,8 +4337,6 @@
 	quest.2ADA491A2485061C.title: "&aExperiencia"
 	quest.2AEA51044AD44BE8.quest_desc: ["Los &eDepósitos&r contendrán &eObjetos&r. ¡Pueden contenerlos para procesar los &eObjetos&r, o depositarlos en una &eCanaleta&r, o incluso solo para decoración! \\n\\nPuedes colocar una &eCanaleta&r cerca del final de una &eCinta&r para llevar &eObjetos&f de la &eCinta &f al &eDepósito&r. \\n\\nEl &eDepósito&r también puede colocarse debajo de una &6Máquina&r para procesar &eObjetos&r dentro de él. "]
 	quest.2AEA51044AD44BE8.title: "&eDepósito"
-	quest.2AEBE3F28996A6ED.quest_desc: ["Con nuestros nuevos metales, ¡podemos mejorar nuestro Horno usando el mod &aIron Furnaces&r!\\n\\nLos Hornos de Hierro (hornos del propio mod, no solo la versión de Hierro) te permiten añadir &aAumentos&r para mejorar su velocidad, cambiar la función del horno, ¡y más!\\n\\nEstos hornos facilitan la automatización permitiéndote tirar o empujar automáticamente desde los lados usando la configuración a la izquierda de la interfaz."]
-	quest.2AEBE3F28996A6ED.title: "¡&aMejoras de Horno&r!"
 	quest.2AECDD9E2DEA708C.quest_subtitle: "Tier: &a2"
 	quest.2AED15E3AC0346FE.quest_desc: [
 		"A continuación se muestran algunas &3Mejoras&r que puedes usar al principio en este mod. Mantén Shift mientras pasas el ratón sobre una &3Mejora&r para ver en qué puede usarse, o mantén shift mientras pasas el ratón sobre algo para ver qué mejoras puede usar."
@@ -4555,8 +4550,6 @@
 	quest.2CC82170BCE61940.quest_desc: ["Comprueba doblemente que &l&n&cno&r&r&r tienes el &aAAF&r configurado en el &bPrograma 1&r, o de lo contrario puede empezar a cocinar el polvo de Silicio en lingotes"]
 	quest.2CC97CF32D9C017B.quest_desc: ["¡Los &6Metales de Allthemodium&r pueden usarse para hacer hornos extremadamente rápidos!"]
 	quest.2CC97CF32D9C017B.title: "&dHornos Más Rápidos&r"
-	quest.2CCAA7C0FEDEB573.quest_desc: ["Si eres como la mayoría, esta es la energía que buscas. Todo lo que haces es colocarla lo más alto posible y obtener energía gratis. "]
-	quest.2CCAA7C0FEDEB573.title: "Energía Eólica"
 	quest.2CCFEE98FE3B2E97.quest_desc: ["Estas máquinas se usan para automatizar la colocación/rotura de bloques. Esto es especialmente útil al automatizar el látex."]
 	quest.2CCFEE98FE3B2E97.title: "Bloques"
 	quest.2CD58FC229BC0C28.quest_desc: ["El &dGuantelete de Guardia&r es el drop del &d&lGuardián del Ender&r. \\n\\nCuando lo sostienes en cualquiera de las Manos, puedes Mantener Click Derecho para atraer a todos los Mobs cerca de ti, ¡incluso más cerca! \\n\\nTambién puedes golpear Mobs con él en tu Mano Principal para infligir Daño. \\n\\n¡Intenta usar la mecánica de atracción volando para dejar caer Mobs!"]
@@ -5296,8 +5289,6 @@
 	quest.34592A8F4B661D8D.quest_subtitle: "Esto También Explota"
 	quest.3459CAEB59CBD60E.quest_desc: ["¡Parece que alguien encendió el interruptor esta vez! \\n\\n&4El Merodeador&r es un minijefe que guarda la &4Fábrica Antigua&r. Tiene 640 &4Corazones&r. \\n\\nTiene 3 ataques. La Sierra para Enemigos cercanos. Y para Enemigos más lejanos tiene Misiles de Hombro, similares al WASW, y un Láser desde su ojo. \\n\\nAl morir soltará Redstone y Hierro. (Consejo, también es débil a los ataques PEM)"]
 	quest.3459CAEB59CBD60E.title: "&4El Merodeador&r"
-	quest.346860B8EBC4C28C.quest_desc: ["Ahora que tienes toda esta lava, ¿qué harás con ella? ¡Más energía para el juego temprano! "]
-	quest.346860B8EBC4C28C.title: "Energía de Lava"
 	quest.346A926E23840EF7.quest_desc: [
 		"Las opciones para cables de tier ZPM no son las mejores en cuanto a pérdida de Amperaje. "
 		""
@@ -5898,8 +5889,6 @@
 	quest.3AD4367855B3E595.quest_subtitle: "Tier: &b4"
 	quest.3ADC0CBB059FF927.quest_desc: ["Para usar esto 1. Tenlo en tu Mano Secundaria 2. Que sea de Día 3. Estar expuesto al cielo. \\n\\nEntonces obtendrás Regeneración, Saturación, Velocidad, Prisa y Resistencia. También reparará la Durabilidad de tu Armadura. \\n\\nUna vez usado tendrá un tiempo de reutilización de 10 Minutos."]
 	quest.3ADC0CBB059FF927.title: "&eEsencia de Resplandor"
-	quest.3ADCAD65EA6900BA.quest_desc: ["La &2Arqueología&r permite a los jugadores encontrar objetos dentro de bloques &aSospechosos&r como Arena y Grava.\\n\\nEstos bloques pueden encontrarse en varias estructuras como Ruinas Oceánicas Cálidas, Pirámides del Desierto, Pozos del Desierto y &eRuinas del Sendero&r.\\n\\nPara descubrir un objeto de un bloque Sospechoso, necesitas crear un &aCepillo&r para cepillar el bloque y desvelar un objeto."]
-	quest.3ADCAD65EA6900BA.title: "¡&2Arqueología&r!"
 	quest.3AE0198177A8E91B.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_coast.png width:100 height:150 align:center}"]
 	quest.3AE0198177A8E91B.quest_subtitle: "Naufragios y Tesoro Enterrado"
 	quest.3AE0198177A8E91B.title: "Coast Armor Trim"
@@ -5972,8 +5961,6 @@
 	quest.3B570B3DB5F6D2CB.title: "&eMejora de Oro&r"
 	quest.3B577572FA7A413E.quest_desc: ["La &3Ira del &eDesierto&r es una combinación del &3Arco Maldito&r y la &eTormenta de Arena en una Botella&r. \\n\\n¡Este Arco no dispara Flechas como los normales, en cambio disparará &3Tormentas de Arena &eMalditas&r! ¡Tres de ellas para ser exactos! \\n\\nAdemás no necesita Flechas para disparar, lo cual también es agradable."]
 	quest.3B577572FA7A413E.title: "&3Ira del &eDesierto"
-	quest.3B6F1BD64C0C570F.quest_desc: ["Al igual que la generación eólica, esto te dará mucha energía sin darle ningún recurso. La única desventaja aquí es que tiene que ser de día. "]
-	quest.3B6F1BD64C0C570F.title: "Energía Solar"
 	quest.3B6F723B03C4BF55.quest_desc: ["La Digestión (una forma muy cruda de procesamiento) es cómo cambiamos los &3Níteres Alquímicos&r a diferentes formas. \\n\\nPrimero necesitaremos Oro Purificado que puede hacerse poniendo Oro, &bSal Alquímica&r, y &9Agua&r en el Tanque de Digestión y Hacer Shift Click Derecho para cerrarlo como el Tanque de Fermentación. \\n\\nLuego podemos combinar 4 de un &3Niter Alquímico&r con Oro Purificado y &dSal Amoniacal&r para obtener un Tier superior o hacer lo contrario para un Tier inferior."]
 	quest.3B6F723B03C4BF55.title: "Tanque de Digestión"
 	quest.3B7BB08D6AA2E7FE.quest_desc: [
@@ -7372,13 +7359,6 @@
 	]
 	quest.48600733998CA349.quest_subtitle: "Fluidos y más"
 	quest.486060882E507CF1.quest_subtitle: "Aparece de un Nido de Tierra"
-	quest.4869C413646CC4CC.quest_desc: [
-		"Transferir energía fuera de tus generadores es probablemente una buena idea, pero ¿cómo puedes hacerlo?"
-		""
-		"Para empezar, puedes usar &cTuberías de Energía&r del mod &aPipez&r, o puedes usar los &cCables de Energía&r de &9Powah&r si ya has empezado a usar ese mod."
-		""
-		"O si quieres algo retro, este pack tiene &6EnderIO&r y puedes usar los &6Conductos de Energía&r de él."
-	]
 	quest.486B5A605D79EA10.quest_desc: ["¡Estos sí que los podemos farmear! ¡Ordeña a ese &cPyromancer&r!"]
 	quest.486B5A605D79EA10.title: "Orbe de Mejora de &cFuego&r"
 	quest.487275B970530E3F.quest_desc: ["Una mejora para nuestro almacenamiento de Voluntad. Esto contendrá un máximo de 256 de Voluntad."]
@@ -8064,8 +8044,6 @@
 	quest.4E4C4C962753B6AB.title: "Carcasa de Máquina de Bronce"
 	quest.4E4C8BCD45766F03.quest_desc: ["Este Cajón convertirá automáticamente el objeto colocado dentro en su forma compactada."]
 	quest.4E4C8BCD45766F03.quest_subtitle: "Compacta/Descompacta Automáticamente"
-	quest.4E5238F00CEED8B2.quest_desc: ["Fundir minerales crudos al principio es necesario, ¡pero te estás perdiendo recursos adicionales!\\n\\nHay varias formas de duplicar tu producción por mineral crudo, pero una de las formas más fáciles es creando y usando un &eMartillo de Mineral&r.\\n\\n¡Estos descompondrán 1 mineral crudo en 2 polvos que se pueden fundir en lingotes, duplicando efectivamente tu producción de lingotes!\\n\\n¿Quieres más por mineral crudo?\n¡Echa un vistazo al mod &5Occultism&r!"]
-	quest.4E5238F00CEED8B2.title: "&eDuplicación Básica de Minerales"
 	quest.4E55A1169742B901.quest_desc: ["Eventualmente querrás más vapor del que pueden proporcionar las calderas de un solo bloque.\nCuando eso suceda, ¡da paso a la Gran Caldera de Bronce!"]
 	quest.4E55A1169742B901.quest_subtitle: "Multibloque productor de Vapor"
 	quest.4E5FE40373675AED.quest_desc: ["¡De vuelta al &ecortador&r!"]
@@ -9054,7 +9032,6 @@
 	quest.577A5FC500E14C05.quest_subtitle: "Ciprés de Lawson + Roble"
 	quest.5791F3000D18E2C9.quest_desc: ["El &8Wither&r tiene tendencia a romper y explotar Bloques. \\n\\nA la mayoría de los jugadores no les gusta esto, ¡así que los &8Ladrillos a Prueba de Wither&r son justo lo que estás buscando! \\n\\n¡Son como los &8Bloques a Prueba de Wither&r, solo que con un mejor diseño!"]
 	quest.5791F3000D18E2C9.title: "&8Ladrillos a Prueba de Wither"
-	quest.5792CC9E3AFAB229.quest_desc: ["¡También tenemos el mod llamado &aGenerators Galore&r! Este mod añade generadores únicos que usan carbón u otros objetos."]
 	quest.57940981E8DE55D4.quest_desc: ["Es fácil perderse en el &9Bosque Crepuscular&r. En tus viajes, te encontrarás con &5Pilares de Obsidiana&r.\\n\\nEstos pilares tendrán &8Cuervos&r a su alrededor. ¡Mátalos y soltarán sus plumas, que puedes usar para crear un mapa para el &9Bosque Crepuscular&r!"]
 	quest.57940981E8DE55D4.title: "&8Plumas de Cuervo"
 	quest.579A41570D610B07.quest_desc: [
@@ -10658,13 +10635,6 @@
 	quest.66FE4552E09B5EFF.title: "&3Elementarium"
 	quest.6718043D0F2D1830.quest_desc: ["Se le pidió a DireWolf que hiciera una adición de sus Tarjetas para que funcionaran con &5&lMekanism&r y sus... otros estados de la materia. Todo lo que los Tubos Presurizados pueden mover, estas tarjetas pueden. Gas, Tipos de Infusión y Pigmentos."]
 	quest.6718043D0F2D1830.title: "&5Tarjeta Química"
-	quest.672134A1A620EEAB.quest_desc: [
-		"¡Hay muchas maneras de almacenar energía!"
-		""
-		"&9Powah&r ofrece un gran almacenamiento usando &aCélulas de Energía&r que se pueden mejorar, ¡o siempre puedes optar por el estilo multibloque de &aRFTools&r usando &aCélulas de Energía&r! La elección es tuya."
-		""
-		"Nota: Solo tienes que hacer uno de los objetos para completar la misión."
-	]
 	quest.67216EC5274F08B9.quest_subtitle: "Usado por Pastores Esquiladores"
 	quest.67258590FA14BE44.quest_desc: ["¡Por 250mB de &9Agua&r y 2 &bPolvos de Cristal Arcano&r, en el &b&lCrisol Rúnico&r, podemos obtener 250mB de &bAureal Líquido&r! \\n\\nAunque necesitarás 1000 de &dFuente&r para empezar..."]
 	quest.67258590FA14BE44.title: "&bAureal Líquido"
@@ -11955,9 +11925,6 @@
 	quest.72917C96C322A922.title: "La Abeja-da Loca"
 	quest.7297391D026EE9A6.quest_desc: ["¿Quieres algo emocionante y nuevo para generar Energía? ¿Qué tal usar &dPociones&r para ello? ¡Eso es lo que hace el &dGenerador de Pociones&r, tomará tus &dPociones&r y generará Energía a partir de ellas dependiendo de su fuerza y duración."]
 	quest.7297391D026EE9A6.title: "&dGenerador de Pociones"
-	quest.72989212DD45DC10.quest_desc: ["Para encontrar este huevo, necesitarás cepillar &aArena Sospechosa&r en Ruinas Oceánicas Cálidas.\\n\\nPuedes colocar el Huevo en el mundo y lentamente eclosionará en un &dSnifflet&r. Esto toma alrededor de 20 minutos para eclosionar normalmente, pero puede colocarse en un bloque de Musgo para duplicar la velocidad de eclosión, tomando solo 10 minutos para eclosionar.\\n\\nEl Snifflet eventualmente crecerá en un &dSniffer&r adulto que puede olfatear objetos como &2Semillas de Flor de Antorcha&r o &2Vainas de Jarra&r cuando deambulan sobre bloques en los que pueden cavar.\\n\\nPuedes criar 2 Sniffers adultos usando Flores de Antorcha."]
-	quest.72989212DD45DC10.quest_subtitle: "El Primo Lejano de Scruff McGruff"
-	quest.72989212DD45DC10.title: "&aEl &5Sniffer"
 	quest.729DCB919A92B735.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_bolt.png width:100 height:150 align:center}"]
 	quest.729DCB919A92B735.quest_subtitle: "Cámaras de Prueba"
 	quest.729DCB919A92B735.title: "Diseño de Armadura Rayo"
@@ -12033,8 +12000,6 @@
 	quest.72DDA413D73E3235.title: "&3Armadura de Vibranium"
 	quest.72DEF9BA758BCDC0.quest_desc: ["Una vez que el ritual haya comenzado, notarás que se está creando el Lago. Crecerá hasta un área de aproximadamente 20x20 bloques llena de agua turbia. El Agua Turbia no te matará a menos que olvides salir a tomar aire."]
 	quest.72DEF9BA758BCDC0.title: "Lago Mahou"
-	quest.72E1C19156633391.quest_desc: ["Los cubos y tanques son una excelente manera temprana de mover la lava."]
-	quest.72E1C19156633391.title: "Cubo de Lava"
 	quest.72E5439299E957A8.quest_desc: [
 		"Usa ese &eExtractor&r para obtener tu cobre en estado líquido"
 		""
@@ -12455,8 +12420,6 @@
 	quest.773543FFEF631C5E.quest_subtitle: "Bloques de Construcción Básicos"
 	quest.77382D4114E901CB.quest_desc: ["La &bPolea de Manguera&r se usa para tomar y colocar Bloques de Fuente llenos de &bFluidos&r, sí, no solo &9Agua&r. \\n\\nPrimero, establece qué tan lejos llega la &bManguera&r hacia abajo o hacia arriba con el &8Eje&r en un lado. Ya sea con un &6Engranaje&f, &8Eje&r, o &dManivela&r que es lo más fácil. \\n\\nLuego, en el otro lado de la &bPolea de Manguera&r podemos poner algunas &bTuberías de Fluido&r. Con &bBombas Mecánicas&r podemos elegir si la &bPolea de Manguera&r recoge Fuentes de &bFluido&r o las coloca. \\n\\nLa &bPolea de Manguera&r solo tiene un Inventario de 1.5 Cubos o 1500mB, ¡pero los &bFluidos&r pueden ser &bCanalizados&r a otros Inventarios o &bTanques&r! \\n\\nSi la Fuente de &9Agua&r es infinita, la &bPolea de Manguera&r no extraerá Bloques de Fuente, pero seguirá extrayendo &bFluido&r. \\n\\nEsto también funcionará con Bloques de Fuente de &cLava&r, pero esos no son infinitos. ¡Así que quizás quieras echar un vistazo a &c&lEl Nether&r para eso, ya que es prácticamente infinito allí!"]
 	quest.77382D4114E901CB.title: "&bPolea de Manguera"
-	quest.7741905EA8380B25.quest_desc: ["¡Los &aDiseños de Armadura&r son objetos usados para añadir diseños a tu armadura! Esto se puede hacer en Mesas de Herrería.\\n\\nAunque tienen una receta, la mayoría de los diseños son hallazgos raros en cofres de botín o excavaciones arqueológicas. ¡Una vez que encuentres uno, puedes duplicar la Plantilla usando la receta para crear más!"]
-	quest.7741905EA8380B25.title: "&dDiseños de Armadura"
 	quest.7744BEC5CD328262.quest_desc: ["Para minar Bloques &bbajo el agua&r necesitarás esta Mejora. \\n\\n¡También te da Afinidad Acuática! (Eso significa que estar en &bAgua&r no ralentiza tu Minería.)"]
 	quest.7749703A10B78AB1.quest_desc: ["La Primera Habilidad con el &8Cinturón de Ahogado&r está en el nombre, es un Cinturón, sostiene Talismanes. \\n \\nLa Segunda funciona al nadar en el &9Agua&r. ¿Alguna vez te has puesto celoso de cómo los Ahogados se mueven por el &9Agua&r como si fuera su hogar? ¡Pues con esta Habilidad puedes conseguir algo similar! \\n \\nLa Tercera funciona como Empalamiento, harás más Daño en el &9Agua&r. \\n \\n¡Y la Última Habilidad también funciona con Encantamiento de Tridente, ahora puedes usar Canalización en cualquier lugar sin importar qué tan mojado estés!"]
 	quest.7749703A10B78AB1.quest_subtitle: "Encontrado en Naufragios y Ruinas del Océano"
@@ -12638,8 +12601,6 @@
 	quest.78ECC28DD4BA9696.title: "Herramientas del Oficio: Vara de Adivinación"
 	quest.78FEDE6FA4845585.quest_desc: ["Algunas &d&lInfusiones&r necesitan cantidades muy, muy exactas de &aEterna&r, &cQuanta&r, o &5Arcana&r. \\n\\nPara obtenerlas, podrías necesitar una de estas &7Estanterías&r. \\n\\nCada una reduce la cantidad de sus respectivas cualidades."]
 	quest.78FEDE6FA4845585.title: "Cantidades &4Negativas&r"
-	quest.790EC3EDC2DB1FB0.quest_desc: ["Como se mencionó antes. Este mod añade un montón de formas divertidas de generar energía que requieren construcciones específicas."]
-	quest.790EC3EDC2DB1FB0.title: "Generadores en Abundancia"
 	quest.790F509BAA15A68E.quest_desc: [
 		"¡Las herramientas se pueden hacer de MUCHOS materiales, el primero de los cuales podría ser hierro!"
 		""
@@ -13238,8 +13199,6 @@
 	quest.7EA6B942D1294ED6.quest_subtitle: "Un amigo robot más grande."
 	quest.7EAFF64FFE8B5378.quest_subtitle: "Hierro + Sudor"
 	quest.7EAFF64FFE8B5378.title: "Abeja de Zinc"
-	quest.7EC01E7DB045DB05.quest_desc: ["Los &aAumentos&r son mejoras de Horno que pueden cambiar o mejorar la función de un Horno.\\n\\n - Voladura: Convierte el Horno para permitir solo recetas de Voladura.\\n\\n - Ahumado: Convierte el Horno para permitir solo recetas de Ahumado.\\n\\n - Fábrica: Convierte el Horno para usar energía en lugar de combustible, y lo mejora a una fábrica, permitiéndole fundir múltiples objetos a la vez. Esto aumenta dependiendo del nivel del Horno.\\n\\n - Velocidad: Duplica la velocidad del horno a costa del doble de combustible.\\n\\n - Eficiencia de Combustible: Duplica la cantidad de objetos fundidos por combustible, pero reduce la velocidad en un 25%"]
-	quest.7EC01E7DB045DB05.title: "&aAumentos de Horno"
 	quest.7EC7E12C0880F8F5.quest_subtitle: "Nivel: &e5"
 	quest.7EC8814940C4C3D7.quest_desc: ["Usa este objeto para encogerte. Útil para trabajar en automatización y también simplemente divertido en general."]
 	quest.7EC8814940C4C3D7.quest_subtitle: "Cariño, me encogí"

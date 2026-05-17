@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "stellaris"
 	group: "5A4775CCD6D26C80"
+	icon: {
+		id: "stellaris:earth_globe"
+	}
 	id: "6036B787FF96088F"
 	order_index: 4
 	quest_links: [ ]

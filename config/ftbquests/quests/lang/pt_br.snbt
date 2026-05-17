@@ -3366,14 +3366,6 @@
 	]
 	quest.2AB457E29360E3B8.quest_subtitle: "Batata quente"
 	quest.2ACB94B77EF072EB.quest_desc: ["Finalmente chegou a era do &dLuV&r - parabéns!"]
-	quest.2AEBE3F28996A6ED.quest_desc: [
-		"Com nossos novos metais, podemos atualizar nosso forno usando o mod &aIron Furnaces&r! "
-		""
-		"Fornos de Ferro (fornos do próprio mod, não apenas da versão Iron) permitem que você adicione &aAugments&r para atualizar sua velocidade, alterar a função do forno e muito mais! "
-		""
-		"Esses fornos facilitam a automação, permitindo que você puxe ou empurre automaticamente pelas laterais usando a configuração à esquerda da interface."
-	]
-	quest.2AEBE3F28996A6ED.title: "&aAtualização do forno&r!"
 	quest.2AECDD9E2DEA708C.title: "Sementes de Lula"
 	quest.2AEDB489A017AAF9.quest_desc: ["Isso usa ainda mais vapor! Talvez seja hora de construir outra caldeira"]
 	quest.2AEDB489A017AAF9.quest_subtitle: "A todo vapor!"
@@ -3538,8 +3530,6 @@
 	quest.2CC82170BCE61940.quest_desc: ["Verifique novamente se você &l&n&cnão&r&r&r tem o &aEBF&r definido como &bPrograma 1&r, ou então ele pode começar a transformar o pó de silício em lingotes"]
 	quest.2CC97CF32D9C017B.quest_desc: ["O &6Allthemodium Metals&r pode ser usado para fazer fornos extremamente rápidos!"]
 	quest.2CC97CF32D9C017B.title: "&dFornos mais rápidos&r"
-	quest.2CCAA7C0FEDEB573.quest_desc: ["Se você for como a maioria, esse é o gerador que você está procurando. Tudo o que precisa fazer é colocá-lo o mais alto que puder e obter energia de graça."]
-	quest.2CCAA7C0FEDEB573.title: "Energia do Vento"
 	quest.2CCFEE98FE3B2E97.quest_desc: ["Automatize a colocação/quebra de blocos usando-os, especialmente úteis ao automatizar o látex."]
 	quest.2CCFEE98FE3B2E97.title: "Blocos"
 	quest.2CD58FC229BC0C28.quest_desc: ["A Manopla da Guarda é mais uma ferramenta do que uma arma, ela aproxima os mobs quando você clica com o botão direito nela. Então você pode acertar os inimigos com ele para causar um pouco de dano."]
@@ -4067,8 +4057,6 @@
 	quest.34592A8F4B661D8D.quest_subtitle: "Isso também faz sucesso"
 	quest.3459CAEB59CBD60E.quest_desc: ["&4The Prowler&r é um miniboss que guarda a &4Ancient Factory&r. Ele pode parecer desanimado, mas quando você chegar perto demais, descobrirá que isso é muito errado. Ele tem 1.500 corações e 2 ataques: mísseis de ombro semelhantes ao WASW e uma serra que ele usa para combate corpo a corpo. Ao morrer, ele derrubará Redstone e Iron mais exp. (Dica ele também é fraco para os ataques EMP)"]
 	quest.3459CAEB59CBD60E.title: "&4O Prowler&r"
-	quest.346860B8EBC4C28C.quest_desc: [" Agora que você tem toda essa lava, o que você fará com ela? Mais energia!"]
-	quest.346860B8EBC4C28C.title: "Energia da Lava"
 	quest.346A926E23840EF7.quest_desc: [
 		"As opções para cabos de nível ZPM não são as melhores quando se trata de perda de amperagem."
 		""
@@ -4426,14 +4414,6 @@
 		""
 		"Se você não tiver LP suficiente, tudo bem também. Só vai tirar 5 corações de você. Não é nada demais."
 	]
-	quest.3ADCAD65EA6900BA.quest_desc: [
-		"&2Achaeology&r é um novo recurso do MC v1.20 que permite ao jogador encontrar itens dentro de blocos &aSuspicious&r como Areia e Cascalho. "
-		""
-		"Esses blocos podem ser encontrados em várias estruturas, como Warm Ocean Ruins, Desert Pyramids, Desert Wells e as novíssimas &eTrail Ruins&r. "
-		""
-		"Para descobrir um item de um bloco Suspeito, você precisa criar um &aBrush&r para remover o bloco e revelar um item."
-	]
-	quest.3ADCAD65EA6900BA.title: "&2Arqueologia&r!"
 	quest.3AF30E1EC163E2E3.quest_subtitle: "Alimente uma Abelha Diamante com uma Safira!"
 	quest.3AF30E1EC163E2E3.title: "Abelha Safira"
 	quest.3AF4E5D4839CEF8B.quest_desc: ["Assim que tivermos em mãos o &eYellow Cake Uranium&r, podemos enviá-lo através de um &aChemical Oxidizer&r para criar o gás, &2Uranium Oxide&r."]
@@ -4474,8 +4454,6 @@
 	quest.3B560B2ECE331CAF.title: "Tampa do Pilar do Carregador Starlight Tier 3"
 	quest.3B570B3DB5F6D2CB.quest_subtitle: "Atualização de armazenamento x16"
 	quest.3B570B3DB5F6D2CB.title: "&eAtualização Gold&r"
-	quest.3B6F1BD64C0C570F.quest_desc: ["Assim como o gerador de vento, isso irá gerar muita energia sem precisar fornecer nenhum recurso. O uníco problema aqui é que precisa estar de dia."]
-	quest.3B6F1BD64C0C570F.title: "Energia Solar"
 	quest.3B81800EE6E77EF2.quest_desc: [
 		"O reator de fissão precisa de &3Fissile Fuel&r para funcionar. Se você procurar Combustível Físsil agora mesmo no JEI, aposto que ficará sobrecarregado com tudo o que precisa para fazê-lo. Está tudo bem, você consegue. Vamos dar um passo de cada vez."
 		""
@@ -5522,14 +5500,6 @@
 	quest.48600733998CA349.quest_subtitle: "Fluidos e muito mais"
 	quest.486060882E507CF1.quest_subtitle: "Surge de um ninho de terra"
 	quest.486060882E507CF1.title: "Abelha Mineira de Chocolate"
-	quest.4869C413646CC4CC.quest_desc: [
-		"Transferir a energia dos seus geradores é provavelmente uma boa ideia, mas como você pode fazer isso? "
-		""
-		"Para começar, você pode usar &cEnergy Pipes&r do mod &aPipez&r ou pode usar &9Powah&r &cEnergy Cables&r se já tiver começado a usar esse mod. "
-		""
-		"Ou se você quiser um retrocesso, este modpack tem o &6EnderIO&r e você pode usar os &6Energy Conduits&r dele."
-	]
-	quest.4869C413646CC4CC.title: "Cabos de Energia"
 	quest.487275B970530E3F.quest_desc: ["Uma atualização para nosso armazenamento Will. Isso conterá um máximo de 256 Will."]
 	quest.4875FB6628C1FCDC.quest_desc: [
 		"Muitas máquinas usam uma configuração de circuito programado para determinar quais receitas podem ser processadas"
@@ -5944,16 +5914,6 @@
 		"Eu me pergunto se o titânio líquido brilharia com iridescência como o metal faz quando é introduzido no calor..."
 	]
 	quest.4E384F9FEF629386.quest_subtitle: "Ah, tão forte!"
-	quest.4E5238F00CEED8B2.quest_desc: [
-		"É necessário fundir minérios brutos no início, mas você está perdendo recursos extras! "
-		""
-		"Existem várias maneiras de dobrar sua produção por minério bruto, mas uma das maneiras mais fáceis é criar e usar um &eOre Hammer&r. "
-		""
-		"Isso irá quebrar 1 minério bruto em 2 pós que podem ser fundidos em lingotes, efetivamente dobrando sua produção de lingotes! "
-		""
-		"Quer mais por minério bruto? Confira o mod &5Occultism&r!"
-	]
-	quest.4E5238F00CEED8B2.title: "&eDuplicação básica de minério"
 	quest.4E55A1169742B901.quest_desc: ["Eventualmente, você vai querer mais vapor do que as caldeiras de bloco único podem fornecer. Quando isso acontecer, abram caminho para a Grande Caldeira de Bronze!"]
 	quest.4E55A1169742B901.quest_subtitle: "Multibloco de produção de vapor"
 	quest.4E5FE40373675AED.quest_desc: ["De volta ao &ecutter&r!"]
@@ -6682,8 +6642,6 @@
 	]
 	quest.5766C8B9E850C186.quest_subtitle: "Criando joias de origem"
 	quest.576ABF43FCF886B7.title: "&2Terras agrícolas Prudentium&r"
-	quest.5792CC9E3AFAB229.quest_desc: ["Nós também temos o mod chamado &aGenerators Galore&r! Esse mod adiciona geradores únicos que usam carvão ou outros itens."]
-	quest.5792CC9E3AFAB229.title: "Gerador de Cobre"
 	quest.57940981E8DE55D4.quest_desc: [
 		"É fácil se perder na Floresta. Em suas viagens, você encontrará pilares de obsidiana."
 		""
@@ -7850,14 +7808,6 @@
 		"Você pode encontrar todas as descrições no &aLexica Botania&r."
 	]
 	quest.66F1609053B5407C.title: "&aGaia Equipamentos e bugigangas&r"
-	quest.672134A1A620EEAB.quest_desc: [
-		"Existem muitas maneiras de armazenar energia! "
-		""
-		"&9Powah&r oferece ótimo armazenamento usando &aEnergy Cells&r que pode ser atualizado, ou você sempre pode usar o estilo multibloco de &aRFTools&r usando &aPowercells&r! A escolha é sua. "
-		""
-		"Nota: Você só precisa fazer um dos itens para completar a missão."
-	]
-	quest.672134A1A620EEAB.title: "Armazenamento de energia"
 	quest.67216EC5274F08B9.title: "Projeto de tesoura"
 	quest.672B308FD1DC0F45.quest_desc: [
 		"Dê ao &eBoiler&r um pouco de &bwater&r, insira uma &6fonte de combustível&r, observe-o esquentar e ele começará a criar &7vapor&r!"
@@ -8768,17 +8718,6 @@
 	quest.7255B9A6E1319DCA.title: "Veia Almandina"
 	quest.72717D1135486D7F.quest_desc: ["Vamos colher algumas sementes."]
 	quest.72717D1135486D7F.title: "Dê um soco na grama"
-	quest.72989212DD45DC10.quest_desc: [
-		"Para encontrar este ovo, você precisará limpar &aSuspicious Sand&r nas Ruínas do Oceano Quente. "
-		""
-		"Você pode colocar o ovo no mundo e ele chocará lentamente em um &dSnifflet&r. Isso leva cerca de 20 minutos para eclodir normalmente, mas pode ser colocado em um bloco de musgo para dobrar a velocidade de eclosão, levando apenas 10 minutos para eclodir. "
-		""
-		"O Snifflet eventualmente se transformará em um &dSniffer&r adulto que pode farejar itens como &2Torchflower Seeds&r ou &2Pitcher Pods&r quando eles vagam sobre blocos que podem cavar. "
-		""
-		"Você pode criar 2 Sniffers adultos usando Torchflowers."
-	]
-	quest.72989212DD45DC10.quest_subtitle: "Primo distante de Scruff McGruff"
-	quest.72989212DD45DC10.title: "&aO &5Sniffer"
 	quest.72A2AA6274D6FA9A.quest_desc: [
 		"O &aProcessing Array&r pode executar 16 receitas &din paralelamente&r para qualquer uma das máquinas de bloco único que você puder fazer!"
 		""
@@ -8816,8 +8755,6 @@
 	quest.72DCE154E1714890.quest_desc: ["O &n&5Saw&r colherá árvores na frente dele. Também pode ser usada como serraria. Se tiver um inventário conectado, os itens serão armazenados nele."]
 	quest.72DEF9BA758BCDC0.quest_desc: ["Assim que o ritual começar você notará o Lago sendo feito. Ele crescerá para uma área de blocos de cerca de 20x20 cheia de água turva. A Água Turva não irá matá-lo, a menos que você se esqueça de respirar."]
 	quest.72DEF9BA758BCDC0.title: "Lago Mahou"
-	quest.72E1C19156633391.quest_desc: ["Baldes e Tanques são uma maneira fácil de mover lava no começo do jogo."]
-	quest.72E1C19156633391.title: "Balde de Lava"
 	quest.72E5439299E957A8.quest_desc: [
 		"Use aquele &eExtractor&r para colocar o cobre no estado líquido"
 		""
@@ -9100,12 +9037,6 @@
 	quest.773543FFEF631C5E.quest_desc: ["As células-tronco são as matérias-primas do corpo – células a partir das quais são geradas todas as outras células com funções especializadas."]
 	quest.773543FFEF631C5E.quest_subtitle: "Blocos de construção básicos"
 	quest.77382D4114E901CB.quest_desc: ["A &n&5Hose Pulley&r é uma bomba que pode extrair líquidos ou colocar líquidos no mundo."]
-	quest.7741905EA8380B25.quest_desc: [
-		"&aSmithing Templates&r são itens totalmente novos usados ​​para adicionar acabamentos à sua armadura! Isso pode ser feito nas Tabelas de Metalurgia. "
-		""
-		"Embora tenham uma receita, a maioria dos enfeites são achados raros em baús de saque ou escavações arqueológicas. Depois de encontrar um, você pode enganar o modelo usando a receita para criar mais!"
-	]
-	quest.7741905EA8380B25.title: "&dAparas de armadura"
 	quest.7759519157B8C1D8.quest_desc: [
 		"O aço de alta resistência e baixa liga (HSLA) é um tipo de aço-liga que apresenta melhores propriedades mecânicas ou maior resistência à corrosão do que o aço carbono."
 		""
@@ -9232,8 +9163,6 @@
 		"Você ainda precisará estar sob os efeitos do &3Third Eye&r para poder coletar o bloco do Outro Mundo."
 	]
 	quest.78ECC28DD4BA9696.title: "Caçando materiais do outro mundo"
-	quest.790EC3EDC2DB1FB0.quest_desc: ["Como foi mencionado antes. Esse mod adiciona várias maneiras de gerar energia que precisam de construções específicas."]
-	quest.790EC3EDC2DB1FB0.title: "Generators Galore"
 	quest.790F509BAA15A68E.quest_desc: [
 		"As ferramentas podem ser feitas de MUITOS materiais, o primeiro deles pode ser o ferro!"
 		""
@@ -9768,20 +9697,6 @@
 	quest.7EA6B942D1294ED6.quest_subtitle: "Um amigo robô maior."
 	quest.7EAFF64FFE8B5378.quest_subtitle: "Ferro + Suor"
 	quest.7EAFF64FFE8B5378.title: "Abelhas de Zinco"
-	quest.7EC01E7DB045DB05.quest_desc: [
-		"&aAugments&r são atualizações de forno que podem alterar ou atualizar a função de um forno. "
-		""
-		"- Jateamento: Converte a fornalha para permitir apenas receitas de Jateamento "
-		""
-		"- Fumar: Converte a fornalha para permitir apenas receitas de Fumar "
-		""
-		"- Fábrica: Converte a fornalha para usar energia em vez de combustível, e atualiza-o para uma fábrica, permitindo-lhe fundir vários itens ao mesmo tempo. Isso aumenta dependendo do nível da fornalha."
-		""
-		"- Velocidade: dobra a velocidade da fornalha ao custo do dobro do combustível. "
-		""
-		"- Eficiência de Combustível: Dobra a quantidade de itens fundidos por combustível, mas reduz a velocidade em 25%."
-	]
-	quest.7EC01E7DB045DB05.title: "Forno &aAugments&r"
 	quest.7EC8814940C4C3D7.quest_desc: ["Use este item para encolher. Útil para trabalhar com automação e também divertido em geral."]
 	quest.7EC8814940C4C3D7.quest_subtitle: "Querida, eu me encolhi"
 	quest.7EC8814940C4C3D7.title: "Dispositivo de encolhimento pessoal"

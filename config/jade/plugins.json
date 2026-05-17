@@ -107,6 +107,9 @@
   "gravestone": {
     "grave": true
   },
+  "camera": {
+    "image_frame": true
+  },
   "cookingforblockheads": {
     "fridge": true,
     "oven": true,
@@ -157,6 +160,10 @@
   "modern_industrialization": {
     "overclock": true,
     "pipe": true
+  },
+  "occultism": {
+    "foliot": true,
+    "sacrificial": true
   },
   "apothic_enchanting": {
     "ench": true

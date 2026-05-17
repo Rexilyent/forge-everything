@@ -559,8 +559,6 @@
 	quest.24934231538B6492.title: "Antik Piramit"
 	quest.24A7B2902E7430A1.quest_desc: ["&7Deri Zırh&r, sadece üzerine biraz Arcane serpiştirilmiş. \\n\\nBüyüler için Mana'ya az miktarda destek verir."]
 	quest.24A7B2902E7430A1.title: "&9Wandering Magician Ekipmanları"
-	quest.24C9BA6DC32CFAD9.quest_desc: ["Kömür ilk gerçek güç kaynağındır. Eğer kömürün azalıyorsa ve hiç kömür bulamıyorsan, senin için daha iyi bir alternatif Odun Kömür'ü olacaktır. "]
-	quest.24C9BA6DC32CFAD9.quest_subtitle: "Kütüklerini erit"
 	quest.24F3E90C14BFD1B4.quest_desc: ["&7&lModern Industrialization&r adı kadar büyük bir mod! \\n\\nBirden fazla makine kademesi var ve neyse ki &6&lYıldız&r için sonuncusuna gitmemize gerek yok."]
 	quest.24FDA15A7ACDF021.quest_desc: ["&5Unobtainium Zırhı&r ama ayrıyeten &e&lIron's Spells&r Büyülerine güçlendirmeler ekliyor!"]
 	quest.24FDA15A7ACDF021.title: "&5Unobtainium Büyücü Kıyafetleri"
@@ -628,8 +626,6 @@
 	quest.2A72B262AF4F11C9.quest_desc: ["&6Socotra Dragon&r Sapling elde etmek için &7Wenge&r ile &4Cocobolo&r'u melezlemen gerekiyor. \\n\\n&7Wenge&r elde etmek için &4Cocobolo&r ile &fBalsa&r'yı melezlemen gerekiyor. \\n\\n&4Cocobolo&r elde etmek için Balsa ile &8Koyu Meşe&r'yi melezlemen gerekiyor. \\n\\n&fBalsa&r elde etmek için &cAkasya&r ile &eTeak&r'i melezlemen gerekiyor. \\n\\n&fTeak&r elde etmek için &2Orman Ağacı&r ile &8Koyu Meşe&r'yi melezlemen gerekiyor."]
 	quest.2AD78E22988A92D3.quest_desc: ["Seni görüyorum! \\n\\n&2Night Vision Goggles&r taktığında, karanlıkta görme yeteneğine sahip olursun! Başka bir şeye değil..."]
 	quest.2AD78E22988A92D3.quest_subtitle: "Kafa"
-	quest.2AEBE3F28996A6ED.quest_desc: ["Yeni metallerimizle, &aIron Furnaces&r modunu kullanarak Ocağımızı yükseltebiliriz!\\n\\nIron Furnaces (sadece Demir versiyonunu değil, modun kendisindeki ocaklar) hızını yükseltmek, ocağın işlevini değiştirmek ve daha fazlası için &aAugment&r'ler eklemene olanak tanır!\\n\\nBu ocaklar, arayüzün solundaki yapılandırmayı kullanarak yanlardan otomatik çekme veya itme yapmana olanak tanıyarak otomasyonu kolaylaştırır."]
-	quest.2AEBE3F28996A6ED.title: "&aOcak Yükseltmeleri&r!"
 	quest.2B05A29C62676EB2.title: "&l&9Ana Dünya Ödülü:&r&e Zombiler"
 	quest.2B08B19B35EEBCBA.quest_desc: ["Bu Relic'ler, &cNether&r'da bulunabilir!"]
 	quest.2B08B19B35EEBCBA.title: "&cNether"
@@ -652,8 +648,6 @@
 	quest.2C387BFA6EE6FDB7.title: "&cUtherium Zırhı"
 	quest.2C4299D33D419AA0.quest_desc: ["Işınlanma Pedi'ni &2&lAna Dünya&r'ya yerleştirerek &7&lMadencilik Boyutu&r'na git."]
 	quest.2C4299D33D419AA0.title: "&2&lAna Dünya"
-	quest.2CCAA7C0FEDEB573.quest_desc: ["Eğer sen de çoğu kişi gibiysen, peşinde olduğun güç budur. Tek yapman gereken onu olabildiğince yükseğe yerleştirmek ve bedava güç elde etmek. "]
-	quest.2CCAA7C0FEDEB573.title: "Rüzgar Gücü"
 	quest.2CECCA9D05D3EF12.quest_desc: ["&2Eternal Stella&r oldukça pahalıdır. Önce Tier 3 Forge'a ihtiyacın olacak! \\n\\nArdından, kırarak elde edebileceğin &7Stellarite Piece&r'e ihtiyacın olacak. Ve artık kıramayacağın 3 &aXpetried Orb&r elde etmen gerekecek. Bunun yerine onu elde etmek için Black Hole &aEXP&r beslemen gerekecek! \\n\\nSon olarak, &2Eternal Stella&r elde etmek için &6AllTheModium Külçesi&r'ne ihtiyacın olacak. Neden bu kadar pahalı olduğu anlaşılıyor. Çünkü herhangi bir Aletle birleştirilerek Kırılmaz hale getirilebilir!"]
 	quest.2CF6EA138B53CE1B.quest_desc: ["&3Vibranium&r'un, &5Unobtainium&r ile birleşmiş hâli!"]
 	quest.2CF6EA138B53CE1B.title: "&5Unobtainium&r - &3Vibranium&r Alaşımı Külçesi"
@@ -752,8 +746,6 @@
 	quest.3416DB9F58D8AA2C.title: "&3Neptünyum Zırh"
 	quest.3446803FB59D8875.quest_desc: ["Sana Dikenli özelliği verir. Zırhına değil, sana! Kirpi balığı gibi!"]
 	quest.3446803FB59D8875.quest_subtitle: "Kolye"
-	quest.346860B8EBC4C28C.quest_desc: ["Şimdi bu kadar lavın olduğuna göre onunla ne yapacaksın? Daha fazla oyun başlarında kullanılabileceğin güç! "]
-	quest.346860B8EBC4C28C.title: "Lav Gücü"
 	quest.3497C2E05DF5A87C.quest_desc: ["&cRedstone&r, &9Lapis&r, Kuvars, &5Ametist&r, &aZümrüt&r ve &bElmaslar&r hepsi Değerli Taşlardır. \\n\\nBu yüzden elbette onları Bloklara dönüştürüyoruz, tam olarak belirtmek gerekirse çok güzel değerli Bloklara!"]
 	quest.3497C2E05DF5A87C.title: "&l&bChipped&r Değerli Taş Blokları"
 	quest.34CD54347E9821B5.quest_desc: ["İlk Veri Modelini oluşturduktan sonra, kullanışlı olması için seviyesini yükseltmen gerekecektir.\\n\\nVeri Modelleri ilk şu kademede başlar: &7Kusurlu&r. Üzerinde bazı simülasyonlar çalıştırmak istiyorsan en azından &aBasit&r seviyesine yükseltmen gerekir!\\n\\nDerin Öğrenicinin içine yerleştirildikten sonra, HUD sana seviye atlamak için kaç öldürme gerektiğini söyleyecektir. Bu bilgiyi Modelin alet ipucunda da görebilirsin."]
@@ -876,8 +868,6 @@
 	quest.3ABE7074E500494D.quest_desc: ["&7Çelik&r, &5&lMekanism&r'deki çoğu Makine için kullanılır... Ayrıca Zırh'ı da güzeldir!"]
 	quest.3ABE7074E500494D.title: "&7Çelik Zırh"
 	quest.3AC03D1FA5C341A7.quest_desc: ["Recrystallizer; silah, alet ve zırh yapımında kullanmak üzere yeni kristaller yapmak için farklı kristalleri bir araya getirmeni sağlar."]
-	quest.3ADCAD65EA6900BA.quest_desc: ["&2Arkeoloji&r oyuncuların Kum ve Çakıl gibi &aŞüpheli&r blokların içindeki eşyaları bulmalarını sağlar.\\n\\nBu bloklar Sıcak Okyanus Harabeleri, Çöl Piramitleri, Çöl Kuyuları ve &eSınama Harabeleri&r gibi çeşitli yapılarda bulunabilir.\\n\\nŞüpheli bir bloktan bir eşyayı ortaya çıkarmak için bir &aFırça&r oluşturman ve eşyayı ortaya çıkarmak için bloğu fırçalaman gerekir."]
-	quest.3ADCAD65EA6900BA.title: "&2Arkeoloji&r!"
 	quest.3AE0198177A8E91B.quest_subtitle: "Gemi Enkazları ve Gömülü Hazineler"
 	quest.3AE0198177A8E91B.title: "Kıyı Zırh Süslemesi"
 	quest.3B3BD39BA02DCA13.quest_desc: ["&6Pocket Piston&r ile Saldırıların, Düşmanlarını çok daha uzağa fırlatacak! \\n\\nAcaba hangisi kazanır merak ediyorum. &6Pocket Piston&r mı yoksa &7Steadfast Boots&r mu?"]
@@ -889,8 +879,6 @@
 	quest.3B560B2ECE331CAF.quest_desc: ["Bu, Starlight Charger için Tier 3 Sütun Başlığıdır."]
 	quest.3B570B3DB5F6D2CB.quest_subtitle: "x16 Depolama Yükseltmesi"
 	quest.3B570B3DB5F6D2CB.title: "&eAltın Yükseltmesi&r"
-	quest.3B6F1BD64C0C570F.quest_desc: ["Tıpkı rüzgar üretimi gibi, bu da sana herhangi bir kaynak vermeden çok fazla güç sağlayacaktır. Buradaki tek dezavantaj gündüz olması gerekliliğidir. "]
-	quest.3B6F1BD64C0C570F.title: "Güneş Enerjisi"
 	quest.3B88D58B11B5DC78.quest_subtitle: "Kademe: &54"
 	quest.3BA4504DEFB87264.quest_desc: ["&lSimply Lights&r'a benzer şekilde çalışır, Inverted, üzerine Redstone uygulanmadığında yanar, normal ise sadece Redstone ile çalışır. \\n\\nBunların yerleştirilebilmesi için bir Duvara bağlı olması gerekir."]
 	quest.3BB0926C4C00BE1D.quest_desc: ["Jetpack'indeki Enerjinin bitmesi seninde hoşuna gitmiyor mu? Artık bu konuda endişelenmene gerek yok! \\n\\nİlk başta bundan önceki her Jetpack'i, bir &6&lATM Yıldızı&r'nı, artı daha pahalı Eşyalar yapman gerekebilir ama hey buna değer! \\n\\nSadece tak ve normal şekilde kullan. Sadece daha az şarjla."]
@@ -1048,13 +1036,6 @@
 	quest.480FA9FE57743B66.quest_subtitle: "&f5 &cSaldırı Hasarı"
 	quest.485D5664A17E16DF.quest_subtitle: "x8 Depolama Yükseltmesi"
 	quest.485D5664A17E16DF.title: "&6Bakır Yükseltmesi"
-	quest.4869C413646CC4CC.quest_desc: [
-		"Jeneratörlerinden güç aktarmak muhtemelen iyi bir fikirdir, ancak bunu nasıl yapabilirsin? "
-		""
-		"Başlamak için &aPipez&r modundaki &cEnerji Kabloları&r'nı kullanabilir veya bu modu kullanmaya başladıysan &9Powah&r'ın &cEnerji Kabloları&r'nı kullanabilirsin."
-		""
-		"Ya da geçmişe dönmek istiyorsan, bu pakette &6EnderIO&r var ve ondaki &6Enerji Oluklarını&r kullanabilirsin."
-	]
 	quest.486B5A605D79EA10.quest_desc: ["Bunların gerçekten üretim yerini yapabiliriz! Öldür o &cPyromancer&r'ı!"]
 	quest.48971CE964CF037F.quest_desc: ["Nükleer Reaktörlerimizi korumak önemli olmakla birlikte, içeriklerini görmek güvenlikle ilgilidir. \\n\\nCam, üslerimizin daha iyi görünmesini sağlamak için de kullanılabilir! \\n\\nVe gerçekten hangisi daha önemli: nükleer reaktörlerimizin güvenliği ve korunması mı? Ya da üslerimizin daha iyi görünmesini sağlamak mı ?!"]
 	quest.4933CF4675E77D50.quest_desc: ["Alev Hasarından darbe aldıktan sonra, &5Obsidian Skull&r etkinleştirilerek sana bir süreliğine Ateş Direnci verir. Umarım alevlerden kaçmaya yetecek kadar uzun bir süredir!"]
@@ -1130,8 +1111,6 @@
 	quest.4E28B67554CBDAB7.title: "&6Allthemodium &5Alaşımı &3Kılıç"
 	quest.4E4C8BCD45766F03.quest_desc: ["Bu Çekmece, içine yerleştirilen eşyayı otomatik olarak sıkıştırılmış forma dönüştürecektir."]
 	quest.4E4C8BCD45766F03.quest_subtitle: "Otomatik Sıkıştırır/Açar"
-	quest.4E5238F00CEED8B2.quest_desc: ["Başlangıçta ham cevherleri eritmek gerekli, ancak ekstra kaynakları kaçırıyorsun!\\n\\nHam cevher başına üretiminizi iki katına çıkarmanın birkaç yolu var, ancak en kolay yollardan biri &eCevher Çekici&r oluşturmak ve kullanmaktır.\\n\\nBunlar, 1 ham cevheri 2 toza dönüştürerek eritme işlemiyle külçeye çevrilebilir ve külçe üretimini etkili bir şekilde iki katına çıkarır!\\n\\nHam cevher başına daha fazlasını mı istiyorsun? &5Occultism&r moduna göz at!"]
-	quest.4E5238F00CEED8B2.title: "&eBasit Cevher Katlama"
 	quest.4E737C490DCC5D6C.quest_desc: [
 		"Elde edebileceğin en iyi temel zırh! \\n\\nDaha iyi olan Mekasuit'i yapmak için gerekli olacak!"
 		"{image:atm:textures/questpics/allthemodium/all_armor_uno.png width:100 height:175 align:center}"
@@ -1260,7 +1239,6 @@
 	quest.5758645223B4B5BA.quest_subtitle: "Gemi Enkazları ve Okyanus Harabelerinde Bulunur"
 	quest.5791F3000D18E2C9.quest_desc: ["&8Wither&r, Blokları kırma ve havaya uçurma eğilimindedir. \\n\\nÇoğu oyuncu bundan hoşlanmaz, bu yüzden &8Wither'a Dayanıklı Tuğla&r tam da aradığın şey! \\n\\nTıpkı &8Wither'a Dayanıklı Blok&r'lar gibidir, sadece daha iyi bir tasarıma sahiptirler!"]
 	quest.5791F3000D18E2C9.title: "&8Wither'a Dayanaklı Tuğla"
-	quest.5792CC9E3AFAB229.quest_desc: ["Ayrıca &aGenerators Galore&r! adlı bir modumuz da var! Bu mod, kömür veya diğer eşyaları kullanan benzersiz jeneratörler ekler."]
 	quest.579DA82672BF632C.quest_subtitle: "&f6 &cSaldırı Hasarı"
 	quest.57CF8C6C867B9BDA.quest_subtitle: "Daha Fazla Filtreleme Seçeneği"
 	quest.57CF8C6C867B9BDA.title: "&eGelişmiş Filtre Yükseltmesi"
@@ -1462,13 +1440,6 @@
 	quest.66C21934DAFFAC7F.title: "Gelgit Zırh Süslemesi"
 	quest.66E88F916B638B3B.quest_desc: ["Bu biraz kafa karıştırıcı olabilir. Oldukça fazla &5Yaratıcı &eBüyü Kitabı&r var! Ama bizim istediğimiz &d&lAllTheArcanist Gear&r'daki büyü kitabı. \\n\\nBunu yapmak için &l&dArs Nouveau&r'dan bir tane üretmemiz gerekiyor. Bu &eBüyü Kitabı&r; &eArchmage Büyü Kitabı&r, &6&lATM Yıldızı&r ve birkaç ekstra Eşyaya ihtiyaç duyar. \\n\\n&eUnobtainium Spell Book&r ile aynı konfigürasyonlara sahip ancak sonsuz Mana'sı var ve tüm Gliflerin kilidi açık! \\n\\nAll the Spell Power BWAHAHAHAHA!"]
 	quest.66ECC26BC81D0093.title: "Kademe: &bBasit"
-	quest.672134A1A620EEAB.quest_desc: [
-		"Güç depolamanın birçok yolu var! "
-		""
-		"&9Powah&r, yükseltilebilen &aEnerji Hücreleri&r kullanarak harika bir depolama sunar veya &aPowercell&r'ler kullanarak &aRFTools&r'un çoklu blok stilini her zaman tercih edebilirsin! Seçim senin. "
-		""
-		"Not: Görevi tamamlamak için eşyalardan yalnızca birini yapman gerekir."
-	]
 	quest.67216EC5274F08B9.quest_subtitle: "Çobanlar tarafından kullanılır"
 	quest.67704F7341EDCC49.title: "&bElmas Sırt Çantası"
 	quest.677365A816994C8B.quest_desc: [
@@ -1646,9 +1617,6 @@
 	quest.72717D1135486D7F.quest_desc: ["Biraz tohum toplayalım."]
 	quest.72717D1135486D7F.quest_subtitle: "Blok El 1, Blok Çimen 0"
 	quest.72717D1135486D7F.title: "Çimenleri Yumrukla"
-	quest.72989212DD45DC10.quest_desc: ["Bu yumurtayı bulmak için Sıcak Okyanus Harabelerinde &aŞüpheli Kum&r'u fırçalaman gerekecek.\\n\\nYumurtayı dünyaya yerleştirebilirsin ve o yavaşça &dYavru Koklayıcı&r'ya dönüşecektir. Normalde yumurtadan çıkması yaklaşık 20 dakika sürer, ancak yumurtadan çıkma hızını iki katına çıkarmak için Yosun bloğunun üzerine yerleştirebilirsin ve yumurtadan çıkması böylece yalnızca 10 dakika sürer.\\n\\nYavru Koklayıcı sonunda yetişkin bir &dKoklayıcı&r'ya dönüşecek ve kazabilecekleri blokların üzerinde dolaşırken &2Meşale Çiçeği Tohumu&r veya &2Sürahi Bitkisi Tohum Zarfı&r gibi eşyaları koklayacak.\\n\\nMeşale çiçeklerini kullanarak 2 yetişkin Koklayıcı'yı çiftleştirebilirsin."]
-	quest.72989212DD45DC10.quest_subtitle: "Scruff McGruff'ın Uzak Kuzeni"
-	quest.72989212DD45DC10.title: "&5Koklayıcı"
 	quest.729DCB919A92B735.quest_subtitle: "Sınama Odaları"
 	quest.729DCB919A92B735.title: "Şimşek Zırh Süslemesi"
 	quest.72D6265E35814927.quest_desc: [
@@ -1660,8 +1628,6 @@
 	quest.72DB967E59EEA729.quest_desc: ["&3&lGlassential&r inşa için çok önemli bir moddur, hatta amacı olan yapılar için bile! \\nBu sadece normal Cam değil, bunların Eşya üzerinde gezinirken okunabilen özellikleri var! \\n\\nİçinden geçebildiğin ancak Yaratıkların geçemediği Ethereal Glass gibi. (Bunu 9sky'daki Arı Kubbem için kullandım!)"]
 	quest.72DDA413D73E3235.quest_desc: ["Sıradaki &6&lAllTheModium&r Zırhı olan &3Vibranium&r'la her şeyde çok daha yüksek özellikler! \\n\\nBunu oluşturmak için &6AllTheModium Zırhına&r ihtiyacın olacak."]
 	quest.72DDA413D73E3235.title: "&3Vibranium Zırhı"
-	quest.72E1C19156633391.quest_desc: ["Kovalar ve Tanklar lavları etrafta taşımak için oyunun başlarında kullanılabilecek harika bir yöntemdir."]
-	quest.72E1C19156633391.title: "Lav Kovası"
 	quest.730130CCF1CF5119.quest_desc: ["Bu Relic'ler, &2Ana Dünya&r'da bulunabilir!"]
 	quest.730130CCF1CF5119.title: "&2Ana Dünya"
 	quest.731A4846BC556AE1.quest_desc: ["&8&lReplika&r için ihtiyacın olan son şey, tabii ki başka bir &7Parşomen&r. \\n\\n&7Ölüm Toplayıcı Mistik Gözler Parşomeni&r. \\n\\nYaratıkların ölümünü izleyerek Ruhları toplamana izin verecek. \\n\\nHer ölüm sadece çok az bir Ruh'tur. Bu yüzden çok fazla ölüm görmen gerekecek. \\n\\n100'e ulaştığında &8&lReplika&r elde etmeye hazırsın demektir."]
@@ -1709,8 +1675,6 @@
 	quest.76C63670624C3C56.quest_desc: ["&c&lGenerator Galore&r bize tonlarca yararlı ve basit Güç Jeneratörleri sunuyor!  \\n\\nHatta bazıları daha güçlü olmak için birbirleriyle birleştirilebilir. \\n\\nOnlar için bir Görev sayfası var. Sadece &7&lIron Furnaces&r ile oda arkadaşları."]
 	quest.76CDF08465700AA2.quest_subtitle: "Antik Şehirler"
 	quest.76CDF08465700AA2.title: "Sessizlik Zırh Süslemesi"
-	quest.7741905EA8380B25.quest_desc: ["&aZırh Süslemeleri&r zırhına süs eklemek için kullanılan eşyalardır! Bu işlem Demirci Masası'nda yapılabilir.\\n\\nBir tarifi olsa da, süslemelerin çoğu ganimet sandıklarından veya arkeoloji kazılarından nadiren bulunur. Bir tane bulduğunda, daha fazlasını oluşturmak için tarifi kullanarak Şablonu çoğaltabilirsin!"]
-	quest.7741905EA8380B25.title: "&dZırh Süslemeleri&r"
 	quest.7749703A10B78AB1.quest_desc: ["İlk Yetenek; &8Drowned Belt&r, adı üstünde bu bir Kemer, Tılsımları tutar. \\n \\nİkincisi ise &9Su&r'da yüzmekle ilgili. Boğukların &9Su&r'da sanki kendi evleriymiş gibi hareket etmelerini hiç kıskandın mı? Bu Yetenek ile sen de benzerini yapabilirsin! \\n \\nÜçüncüsü Saplama gibi çalışır, &9Su&r'da daha fazla Hasar verirsin. \\n \\nVe Son Yetenek, Üçlü Mızrak Büyüsü ile de çalışır. Artık ne kadar ıslak olursa olsun her yerde Yıldırım Yönlendirmesi kullanabilirsin!"]
 	quest.7749703A10B78AB1.quest_subtitle: "Gemi Enkazları ve Okyanus Harabelerinde Bulunur"
 	quest.7766E66A14643F4D.quest_desc: ["&6Uyanış&r, &2&lMystical Agriculture&r'a nispeten yeni bir eklentidir. &6Uyanış Ritüeli&r aracılığıyla &6Uyandırılmış Öz&r yapabilirsin. \\n\\nSonra bunları Külçelerle birleştirerek bu Bloğu elde edebilirsin!"]
@@ -1751,7 +1715,6 @@
 	]
 	quest.789AF6D0A6321945.quest_subtitle: "Benzersiz"
 	quest.78E51D22C16C4686.quest_desc: ["Depo Denetleyicisi ayrıca diğer depolara kablosuz olarak bağlanabilir. Bu, Depo Aleti kullanılarak mümkündür. Bağlamak için Depo Denetleyicisine sağ tıkla ve bağlamak için depolara sağ tıkla.\\n\\nKablosuz bağlantı için menzil normal ile aynıdır, 14 blok alan."]
-	quest.790EC3EDC2DB1FB0.quest_desc: ["Daha önce de belirtildiği gibi. Bu mod, belirli yapılar gerektiren, güç üretmek için bir ton eğlenceli yöntem ekler."]
 	quest.791A981914CE345F.quest_subtitle: "&f10 &cSaldırı Hasarı"
 	quest.791AE62ACACBD5BA.quest_subtitle: "Açarsın, kapatırsın, sonra tekrar açarsın, çünkü sıkılmışsındır"
 	quest.792990DC06DB98F9.quest_desc: ["&2&lAna Dünya&r'da &5&lEternal Starlight&r Portal Ruin'leri bulabilirsin. Orada Gatekeeper'a meydan okuyabilirsin! \\n\\nKazanırsan sana bazı Eşyalar verecek ve onlarla keşfedilecek yepyeni bir dünyaya açılan Portala girebileceksin!"]
@@ -1838,8 +1801,6 @@
 	quest.7E92ED270C67FDE5.title: "Dielektrik Matlarla Başlamak"
 	quest.7E9E03274A88347D.quest_desc: ["Sırt Çantasındaki istif boyutunu 2 artırır."]
 	quest.7E9E03274A88347D.title: "&fİstif Yükseltmesi Kademe 1"
-	quest.7EC01E7DB045DB05.quest_desc: ["&aAugment&r'ler, bir Ocağın işlevini değiştirebilen veya yükseltebilen Ocak yükseltmeleridir.\\n\\n - Blasting: Ocağı sadece Maden Ateşleme tariflerine izin verecek şekilde dönüştürür.\\n\\n - Smoking: Ocağı sadece Tütsüleme tariflerine izin verecek şekilde dönüştürür.\\n\\n - Factory: Ocağı yakıt yerine güç kullanacak şekilde dönüştürür ve bir fabrikaya yükselterek aynı anda birden fazla eşya eritmesini sağlar. Bu özellik Ocağın kademesine bağlı olarak artar.\\n\\n - Speed: İki kat yakıt karşılığında ocağın hızını iki katına çıkarır.\\n\\n - Fuel Efficiency: Yakıt başına eritilen eşya miktarını iki katına çıkarır, ancak hızı %25 azaltır"]
-	quest.7EC01E7DB045DB05.title: "Ocak &aEklentileri"
 	quest.7EC7E12C0880F8F5.quest_subtitle: "Kademe: &e5"
 	quest.7EC8814940C4C3D7.quest_desc: ["Küçülmek için bu eşyayı kullan. Otomasyon üzerinde çalışmak için yararlı ve aynı zamanda genel olarak eğlenceli."]
 	quest.7EC8814940C4C3D7.quest_subtitle: "Tatlım, Kendimi Küçülttüm"
