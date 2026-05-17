@@ -10,6 +10,8 @@ xaero/
 XaeroWaypoints_BACKUP240807/
 .mixin.out
 debug/
+ESM/
+blueprints/
 
 #Files
 usercache.json
