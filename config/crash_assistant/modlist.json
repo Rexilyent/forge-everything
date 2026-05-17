@@ -834,6 +834,14 @@
     "curseForgeHash": 2232043766,
     "modrinthHash": "6a91f304a1e023e8b9b34ccf95f19dd74c3edd55"
   },
+  "create-confectionery1.21.1_v1.1.2.jar": {
+    "jarName": "create-confectionery1.21.1_v1.1.2.jar",
+    "modId": "create_confectionery",
+    "name": "Create Confectionery",
+    "version": "1.1.2",
+    "curseForgeHash": 3151542676,
+    "modrinthHash": "03110e94c56c74118d1fdd7c463f0e18e32a1a37"
+  },
   "create-enchantment-industry-2.3.1.jar": {
     "jarName": "create-enchantment-industry-2.3.1.jar",
     "modId": "create_enchantment_industry",
@@ -913,6 +921,14 @@
     "version": "1.10.1",
     "curseForgeHash": 1801152909,
     "modrinthHash": "0759898cc7ca22ece49e7d7a210db8becfd79cdf"
+  },
+  "CreateNumismatics-1.0.20+neoforge-mc1.21.1.jar": {
+    "jarName": "CreateNumismatics-1.0.20+neoforge-mc1.21.1.jar",
+    "modId": "numismatics",
+    "name": "Create: Numismatics",
+    "version": "1.0.20+neoforge-mc1.21.1",
+    "curseForgeHash": 878203067,
+    "modrinthHash": "9883bfd6fef5bd5068f9174ddccba5047849c922"
   },
   "createoreexcavation-1.21-1.6.8.jar": {
     "jarName": "createoreexcavation-1.21-1.6.8.jar",
@@ -1193,6 +1209,14 @@
     "version": "2.5.1+neoforge.1.21.1",
     "curseForgeHash": 3283171823,
     "modrinthHash": "22b63e1c852fbbedb9f7add64990fd9f8eca0787"
+  },
+  "escalated-1.2.1+create.6.0.8-mc.1.21.1-neoforge.jar": {
+    "jarName": "escalated-1.2.1+create.6.0.8-mc.1.21.1-neoforge.jar",
+    "modId": "escalated",
+    "name": "Create: Escalated",
+    "version": "1.2.1",
+    "curseForgeHash": 2850378459,
+    "modrinthHash": "c0c2a66ecf4204972920bfd4d62314aea83dc64e"
   },
   "eternalstarlight-0.7.0-hotfix+1.21.1+neoforge.jar": {
     "jarName": "eternalstarlight-0.7.0-hotfix+1.21.1+neoforge.jar",
@@ -1489,6 +1513,14 @@
     "version": "1.2.12",
     "curseForgeHash": 1484771835,
     "modrinthHash": "d86f641b67d4b01d99da8424ba2a3edc0e6690b6"
+  },
+  "garnished-april-foods-26-neoforged.jar": {
+    "jarName": "garnished-april-foods-26-neoforged.jar",
+    "modId": "garnished",
+    "name": "Create: Garnished",
+    "version": "26-april-foods",
+    "curseForgeHash": 2511804720,
+    "modrinthHash": "d636d7e99a016184a9fba8fb408a135ff3e1e02b"
   },
   "geckolib-neoforge-1.21.1-4.8.4.jar": {
     "jarName": "geckolib-neoforge-1.21.1-4.8.4.jar",
@@ -2534,6 +2566,14 @@
     "version": "0.26.2",
     "curseForgeHash": 3035047011,
     "modrinthHash": "fa16d80d0805eb4c2998bbe0e4eec5185f53c21d"
+  },
+  "oritech-neoforge-1.21.1-1.2.6.jar": {
+    "jarName": "oritech-neoforge-1.21.1-1.2.6.jar",
+    "modId": "oritech",
+    "name": "Oritech",
+    "version": "1.2.6",
+    "curseForgeHash": 4192386342,
+    "modrinthHash": "f5b5b6713c221ac976c9174104d07e7b3b29b8dc"
   },
   "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar": {
     "jarName": "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
