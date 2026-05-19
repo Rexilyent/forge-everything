@@ -55,6 +55,9 @@
   "apothic_spawners": {
     "spawner": true
   },
+  "mekanismcovers": {
+    "cover_component": true
+  },
   "immersiveengineering": {
     "multiblock_icon": true
   },
@@ -97,6 +100,9 @@
     "fluid": true,
     "energy": true,
     "tooltip_renderer": true
+  },
+  "pipez": {
+    "pipe": true
   },
   "productivemetalworks": {
     "casting": true

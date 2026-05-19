@@ -1,0 +1,49 @@
+Detected that Windows reported recent critical or error events in the Application log,
+which can indicate that a process (including the Minecraft JVM) terminated unexpectedly.
+Scope: Application log; Levels: Error & Critical; Window: last ~15 seconds.
+
+If no java.exe (or related JVM processes) are listed below, you can disregard this message.
+To inspect these events manually:
+  1) Press Win+R, type "eventvwr.msc", press Enter.
+  2) Open "Windows Logs" → "Application".
+  3) Sort by Date and look for entries with Level = Error or Critical near the crash time.
+
+-----------------------
+Time: 2026-05-17 19:51:59.948 CDT
+Source: Application Error
+Event ID: 1000
+Level: Error
+
+Message:
+  Faulting application name: javaw.exe, version: 21.0.7.0, time stamp: 0xc8c8d77f
+  Faulting module name: OpenAL.dll, version: 1.23.1.0, time stamp: 0x647635a1
+  Exception code: 0xc0000409
+  Fault offset: 0x00000000000a2b05
+  Faulting process id: 0xBBBC
+  Faulting application start time: 0x1DCE66068591912
+  Faulting application path: C:\Users\Terra\AppData\Roaming\ModrinthApp\meta\java_versions\zulu21.42.19-ca-jre21.0.7-win_x64\bin\javaw.exe
+  Faulting module path: C:\Users\Terra\AppData\Roaming\ModrinthApp\meta\natives\1.21.1-21.1.228\OpenAL.dll
+  Report Id: 66339f17-0ac4-4286-9dd6-48896d626e11
+  Faulting package full name: 
+  Faulting package-relative application ID:
+
+
+Details:
+  - AppName: javaw.exe
+  - AppVersion: 21.0.7.0
+  - AppTimeStamp: c8c8d77f
+  - ModuleName: OpenAL.dll
+  - ModuleVersion: 1.23.1.0
+  - ModuleTimeStamp: 647635a1
+  - ExceptionCode: c0000409
+  - FaultingOffset: 00000000000a2b05
+  - Process ID: 48060 [0xbbbc]
+  - ProcessCreationTime: 0x1dce66068591912
+  - AppPath: C:\Users\Terra\AppData\Roaming\ModrinthApp\meta\java_versions\zulu21.42.19-ca-jre21.0.7-win_x64\bin\javaw.exe
+  - ModulePath: C:\Users\Terra\AppData\Roaming\ModrinthApp\meta\natives\1.21.1-21.1.228\OpenAL.dll
+  - IntegratorReportId: 66339f17-0ac4-4286-9dd6-48896d626e11
+  - Process ID: 48060 [0xBBBC]
+  - Start Time: 2026-05-17 19:51:05.619 CDT [0x1DCE66068591912]
+  - Exception Code: 3221226505 [0xc0000409]
+-----------------------
+

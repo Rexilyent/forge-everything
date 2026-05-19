@@ -7,3 +7,6 @@
 /gamemode survival
 /gamemode creative
 /time set 0
+/ftb filter test
+/data get entity @s
+/time set 0

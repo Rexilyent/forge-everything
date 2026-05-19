@@ -390,7 +390,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: -0.8d
+			y: -1.04d
 		}
 		{
 			id: "17F3AC15ADCFB175"
@@ -1546,6 +1546,72 @@
 			}]
 			x: -11.0d
 			y: -7.0d
+		}
+		{
+			dependencies: ["2B05A29C62676EB2"]
+			hide_until_deps_complete: true
+			id: "22CC518115833BE5"
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				id: "6C87F621775B1D32"
+				type: "kill"
+				value: 5L
+			}]
+			x: -7.0d
+			y: 0.52d
+		}
+		{
+			dependencies: ["42822B1E8A53D051"]
+			hide_until_deps_complete: true
+			id: "217AC620EBD4178F"
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				id: "021E5C61741A85E3"
+				type: "kill"
+				value: 5L
+			}]
+			x: -5.0d
+			y: 0.52d
+		}
+		{
+			dependencies: ["77FC692AC94D2EEF"]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			id: "65D06AB455A6E525"
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				id: "55DBE12EDA5B7321"
+				type: "kill"
+				value: 5L
+			}]
+			x: -3.0d
+			y: 0.52d
+		}
+		{
+			dependencies: ["17F3AC15ADCFB175"]
+			hide_until_deps_complete: true
+			id: "26CF4C74870A9EED"
+			tasks: [{
+				entity: "mutantmonsters:mutant_enderman"
+				id: "5086903299B31F36"
+				type: "kill"
+				value: 5L
+			}]
+			x: 7.0d
+			y: 0.52d
+		}
+		{
+			dependencies: ["1F18B64C84C8809D"]
+			hide_until_deps_complete: true
+			id: "3486B05498B64112"
+			tasks: [{
+				entity: "mutantmonsters:spider_pig"
+				id: "15EF7E0E8A4F23B9"
+				type: "kill"
+				value: 5L
+			}]
+			x: -1.04d
+			y: 0.52d
 		}
 	]
 }

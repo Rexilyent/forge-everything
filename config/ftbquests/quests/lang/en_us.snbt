@@ -24,6 +24,7 @@
 	chapter.2A6EBEEBAB882679.title: "Powah"
 	chapter.2FB24A5A597459FC.title: "RailCraft"
 	chapter.306DBE1EBB85D02E.title: "The Electric Age"
+	chapter.32605337BE82FC1D.title: "The Builder's Handbook"
 	chapter.3456E0C530C0038E.title: "EvilCraft"
 	chapter.37BC0E99F564D560.title: "Steam Age"
 	chapter.399A4F6D9CF8E1C9.title: "The Nuclear Age"
@@ -41,6 +42,7 @@
 	chapter.4EAAE0CEB26378A6.title: "Just Dire Things"
 	chapter.4EBB2171D5A3AAAC.title: "Forbidden \\& Arcanus"
 	chapter.4F399E6C5C694F3E.title: "The Aether"
+	chapter.4FC562F875B577B4.title: "Witchery"
 	chapter.5712300EF4E5E846.title: "Pylons"
 	chapter.59395B6806F2A98A.title: "Cataclysm"
 	chapter.5B00676D79306EA2.title: "Welcome"
@@ -732,8 +734,6 @@
 	quest.0672462DA3599484.quest_subtitle: "512,000mb"
 	quest.06767BA0AFE8C1EE.quest_desc: ["1... 2... there's a 4 somewhere as well. \\n\\nTo set a Number put the Item in then you can Left or Right Click to change the amount. Shift and do the same to go by 10s. Once you have a set Number through it into a Card! \\n\\nIt will then wait until that set Number of Items is there to start taking Items. It will also leave that amount in the first Inventory."]
 	quest.067A1CDF6F754A8E.quest_desc: [
-		"Oh look, you found a book. How very academic of you."
-		""
 		"The &9Book of Lore&r is &9The Aether's&r built-in guide — and honestly? Actually read it. We know, we know, nobody reads the manual. But this isn't your average wall of text. It's packed with useful information about the dimension's mobs, dungeons, items, and general \"why is this happening to me\" moments that you will absolutely encounter."
 		""
 		"Think of it less as homework and more as &lfield notes from everyone who died before you&r so that maybe, just maybe, you don't have to repeat their mistakes."
@@ -746,6 +746,7 @@
 		""
 		"&7Seriously though. Read the book. We're not above saying we told you so.&r"
 	]
+	quest.067A1CDF6F754A8E.quest_subtitle: "Oh look, you found a book. How very academic of you."
 	quest.067A1CDF6F754A8E.title: "&9Book of Lore&r"
 	quest.067AB3E4C4492F0D.quest_desc: [
 		"Don't feel like Mining a bunch of Ores you got? Why not let Routers do it for you? \\n\\nYou can use a Placer to place down the Ores, then let an Enchanted Breaker Mine the Ores. Breaker needs the Pickaxe used to craft it to be Enchanted first, the Module itself can't be Enchanted. \\n\\nYou might need another Router to pick up the dropped Ores."
@@ -3423,6 +3424,7 @@
 	quest.2171DC0B13C4BD43.quest_desc: ["&a&lRoots Classic&r may look small in JEI but I can promise you there's so much to it! \\n\\nRoots is all about using nature's gifts to make rituals.\\n\\nTrust me you'll find these items everywhere!"]
 	quest.2171DC0B13C4BD43.title: "&a&lRoots Classic"
 	quest.21770049843DD275.quest_subtitle: "Part 2 of 2"
+	quest.217AC620EBD4178F.title: "Mutant Skeleton"
 	quest.217DB12EA32E1724.quest_desc: ["The &bInfusion Crystal&r is need in order to \"tier up\" seeds. For example if you combine the crystal with 4 Inferium Essence you will get 1 Prudentium Essence.\\n\\nLater on you will be able to craft an Infusion Crystal that doesn't break."]
 	quest.217DB12EA32E1724.title: "&bInfusion Crystal"
 	quest.217DF3B66A07A8DE.quest_desc: [""]
@@ -3562,6 +3564,7 @@
 	quest.22C4318523A43B49.quest_desc: ["&eTerminals&f provide access to any of the contents of an ME network. The standard &eME Terminal&f simply lists everything in the network as one large grid to pull from and insert into, akin to a single inventory.\\n\\nThe &eME Crafting Terminal&f is an extension of the ME Terminal which also provides a built-in crafting grid, allowing for convenient crafting using any item contained in the network and visible through the terminal screen."]
 	quest.22C4318523A43B49.quest_subtitle: "[Linux user joke goes here]"
 	quest.22C4318523A43B49.title: "Terminals"
+	quest.22CC518115833BE5.title: "Mutant Zombie"
 	quest.22D0C3F454F5E8F1.quest_subtitle: "Tier: &b4"
 	quest.22D2CFDDB06C720C.quest_desc: ["Tools are very important in &2&lMinecraft&r but so is inventory space. So why not clear some space up by making a Paxel! \\nPaxels are a combination of Pickaxes (P), Axes (axe), and Shovels (els). \\n\\nThey can strip wood, make paths, and mine any blocks that same pickaxe/axe/shovel tier can!"]
 	quest.22D2CFDDB06C720C.title: "Paxel"
@@ -4003,6 +4006,7 @@
 	quest.26B462F2F41A77C7.quest_desc: ["All gifts from Mother Nature... can be mercilessly burned down in an Oven to nothing but &bSalt&r! \\n\\nLogs, Leaves, and Crops can get Toasted into &bPlant Salts&r."]
 	quest.26B462F2F41A77C7.title: "&bPlant Salt"
 	quest.26BEA64C80ECE1A6.quest_desc: ["Each &3Logistic Frame&r can be used for different types of automation."]
+	quest.26CF4C74870A9EED.title: "&5Mutant Enderman&r"
 	quest.26D1F1ECF66194E6.quest_desc: [
 		"&e32x Silicon Dust&r and a &aSmall Pile of Gallium Arsenide Dust&r on &bProgram 2&r will make you one of these "
 		""
@@ -5384,6 +5388,7 @@
 	quest.346B9339E3D66478.quest_desc: ["Energy is something used by practically everything so you need to send it almost everywhere. Thankfully the Energy Module will help with that! \\n\\nThe Energy Module will move any energy pushed into it, somewhere else! To wherever you set it to!"]
 	quest.3475E12711B6BB98.quest_desc: ["This machine is mostly for extracting dyes from flowers, or ore blends back into their components."]
 	quest.3475E12711B6BB98.quest_subtitle: "Separates Items into their Crafting Components"
+	quest.3486B05498B64112.title: "Spider Pig"
 	quest.3497C2E05DF5A87C.quest_desc: ["&cRedstone&r, &9Lapis&r, Quartz, &5Amethyst&r, &aEmerald&r, and &bDiamonds&r are all precious Gems. \\n\\nSo of course we are turning them into Blocks, very pretty precious Blocks to be exact!"]
 	quest.3497C2E05DF5A87C.title: "&l&bChipped&r Gem Blocks"
 	quest.349D19F2FCC34B84.quest_desc: ["Placing the Nether Brick Nest in the Nether will lure in a Magmatic Bee when given Magma Cream."]
@@ -9604,6 +9609,7 @@
 	quest.5B2FD54E425D5C9D.title: "&dVoid &cForge"
 	quest.5B36DE3826F26963.quest_desc: ["&dRotational Power&r is the most important and confusing part of &6&lCreate&r. \\n\\nAll Machines will need some sort of &dRotational Power&r to work, but what is it and how do we use it? \\n\\n&dRotational Power&r is simply our Machines moving. Blocks like Shafts and Cogs will move that &dRotational Power&r to our Machines. \\n\\nTalking about Shafts, that is our start to &dRotational Power&r. They can be placed in a straight line, next to each other. \\n\\nWhen one &8Shaft&r is moved, all &8Shafts&r connected to it (on the same axis) will move with it. \\n\\nCraft 2 &8Andesite Alloys&r to create 8 &8Shafts&r."]
 	quest.5B36DE3826F26963.title: "&d&lRotational Power"
+	quest.5B3CB0D8F897500B.title: "Upgraded Furnaces"
 	quest.5B3CC3F66F2C3DE5.quest_desc: ["{atm9.quest.enchant.desc.seashelf}"]
 	quest.5B3CC3F66F2C3DE5.title: "{atm9.quest.enchant.seashelf}"
 	quest.5B4397D4EC23E702.quest_desc: [
@@ -10806,6 +10812,7 @@
 		"You'll then want to put the Pattern into a crafter!"
 	]
 	quest.65C8A43FEDBA3835.title: "Pattern Grid"
+	quest.65D06AB455A6E525.title: "&aMutant Creeper&r"
 	quest.65D89991A45BC042.quest_desc: ["Place a Crafting Interfaces on a crafting table and right-click on it, this will give you some slots for &bVariable Cards&r. \\n\\nUsing the Logic Programmer, search for &eRecipe&r in the top left, and create one for autocrafting, then save it to a &bVariable Card&r. If a recipe &c&lrequires&r items that need to be crafted, create a recipe for each of those, then put everything in the Crafting Interface."]
 	quest.65D89991A45BC042.quest_subtitle: "&l&cA&6U&eT&aO &bC&dR&9A&3F&0T"
 	quest.65D993EB95726067.title: "Bee-ware of the Temple"
@@ -13773,6 +13780,7 @@
 	task.073D1C45B3018BBA.title: "Chests"
 	task.0740BC10E4D2568F.title: "Regions Unexplored Stones"
 	task.074BDA389D0FB989.title: "Chipped Copper"
+	task.0808A0A681284799.title: "To Space"
 	task.083086610639994F.title: "To &9Everbright&r!"
 	task.0837FA64B9C50048.title: "Ammo for Buzzsaw"
 	task.083DE18D8C046344.title: "Valid Ores"
@@ -14372,6 +14380,7 @@
 	task.7C88F80D05E62AC7.title: "Iron Furnaces"
 	task.7C91AC93D782A4BE.title: "Stage 2 EBF"
 	task.7CA8741CA073C1DA.title: "Powercells"
+	task.7D1F42DE9A39ACB4.title: "Iron Furnaces"
 	task.7D9A58EBADE91F54.title: "Inferium Tools"
 	task.7DE03D4A420D1028.title: "Visit a Dark Temple"
 	task.7E0D9E6342295AB0.title: "Foreword on Channels"
