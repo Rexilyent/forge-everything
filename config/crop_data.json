@@ -1,0 +1,64 @@
+[
+  {
+    "items": "farmersdelight:rope",
+    "default_item": "supplementaries:rope"
+  },
+  {
+    "items": "actuallyadditions:laser_relay_advanced",
+    "default_item": "actuallyadditions:laser_relay_item_advanced"
+  },
+  {
+    "items": [
+      "actuallyadditions:rice",
+      "farmersdelight:rice"
+    ],
+    "default_item": "pamhc2crops:riceitem"
+  },
+  {
+    "items": "actuallyadditions:rice_seeds",
+    "default_item": "pamhc2crops:riceseeditem"
+  },
+  {
+    "items": "actuallyadditions:canola",
+    "default_item": "pamhc2crops:canolaitem"
+  },
+  {
+    "items": "farmersdelight:cabbage_seeds",
+    "default_item": "pamhc2crops:cabbageseeditem"
+  },
+  {
+    "items": "farmersdelight:cabbage",
+    "default_item": "pamhc2crops:cabbageitem"
+  },
+  {
+    "items": "farmersdelight:tomato_seeds",
+    "default_item": "pamhc2crops:tomatoseeditem"
+  },
+  {
+    "items": "actuallyadditions:laser_relay",
+    "default_item": "actuallyadditions:laser_relay_item"
+  },
+  {
+    "items": "farmersdelight:tomato",
+    "default_item": "pamhc2crops:tomatoitem"
+  },
+  {
+    "items": "actuallyadditions:canola_seeds",
+    "default_item": "pamhc2crops:canolaseeditem"
+  },
+  {
+    "items": [
+      "actuallyadditions:flax_seeds",
+      "supplementaries:flax_seeds"
+    ],
+    "default_item": "pamhc2crops:flaxseeditem"
+  },
+  {
+    "items": "supplementaries:flax",
+    "default_item": "pamhc2crops:flaxitem"
+  },
+  {
+    "items": "farmersdelight:onion",
+    "default_item": "pamhc2crops:onionitem"
+  }
+]

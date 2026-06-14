@@ -143,6 +143,11 @@ logFoundExploits = true
 			#Determines whether this Recipe Type Mapper is enabled.
 			enabled = true
 
+		#Recipe mapper for Ice and Fire DragonForge recipes
+		[mappers.Crafting-Mapper.IceAndFireDragonForgeMapper]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
 	#Set EMC=0 for everything in the c:raw_materials tag.
 	[mappers.Raw-Ore-Blacklist-Mapper]
 		#Determines whether this EMC Mapper is enabled.
@@ -155,6 +160,11 @@ logFoundExploits = true
 
 	#Adds back and forth conversions of objects and their Tag variant. (EMC values assigned to tags will not behave properly if this mapper is disabled)
 	[mappers.Tag-Mapper]
+		#Determines whether this EMC Mapper is enabled.
+		enabled = true
+
+	#Allows KubeJS ProjectE to function
+	[mappers.KubeJSProjectE]
 		#Determines whether this EMC Mapper is enabled.
 		enabled = true
 

@@ -2,7 +2,7 @@
   "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
   "c:ingots/constantan": "tfmg:constantan_ingot",
   "c:ingots/tin": "mekanism:ingot_tin",
-  "c:gems/sapphire": "projectred_core:sapphire",
+  "c:gems/sapphire": "irons_jewelry:sapphire",
   "c:ingots/bronze": "createbigcannons:bronze_ingot",
   "c:ingots/electrum": "modern_industrialization:electrum_ingot",
   "c:silicon": "ae2:silicon",
@@ -18,11 +18,11 @@
   "c:ingots/iridium": "modern_industrialization:iridium_ingot",
   "c:ingots/zinc": "create:zinc_ingot",
   "c:ingots/invar": "modern_industrialization:invar_ingot",
-  "c:gems/ruby": "projectred_core:ruby",
+  "c:gems/ruby": "irons_jewelry:ruby",
   "c:dusts/niter": "null",
   "c:ingots/brass": "create:brass_ingot",
   "c:rubbers": "null",
   "c:dusts/sulfur": "mekanism:dust_sulfur",
-  "c:gems/peridot": "projectred_core:peridot",
+  "c:gems/peridot": "irons_jewelry:peridot",
   "c:ingots/nickel": "tfmg:nickel_ingot"
 }

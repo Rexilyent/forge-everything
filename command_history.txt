@@ -10,3 +10,23 @@
 /ftb filter test
 /data get entity @s
 /time set 0
+/weather2
+/weather2 debug
+/weather2 debug storm_chance
+/weather thunder
+/weather2 debug storm_chance
+/gamemode sp
+/gamemode spectator
+/gamemode creative
+/execute positioned ~ -50 ~ run detect ~ ~ ~ everythingores:tin_ore
+/execute if block ~ ~ ~ everythingores:tin_ore
+/tp @s ~ -50 ~
+/execute in minecraft:overworld positioned ~ ~ ~ if entity @s
+/execute if block ~ ~ ~ everythingores:tin_ore
+/gamemode spectator
+/rtp
+/gamemode spectator
+/gamemode creative
+/rtp
+/gamemode spectator
+/gamemode creative

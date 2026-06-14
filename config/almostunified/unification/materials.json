@@ -1,5 +1,6 @@
 {
   "mod_priorities": [
+		"everythingores",
     "minecraft",
     "kubejs",
     "create",
