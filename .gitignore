@@ -1,0 +1,52 @@
+# Mixin
+.mixin.out/
+
+# Logs
+logs/
+crash-reports/
+
+# Data
+data/
+local/
+moddata/
+
+# Scripts
+kubejs/
+
+# Minimap
+xaero/
+XaeroWaypoints_BACKUP240807/
+
+# Saves
+saves/
+
+# User Cache
+usercache.json
+usernamecache.json
+
+# Options
+options.txt
+
+# Dynamic pack cache
+dynamic-data-pack-cache/
+dynamic-resource-pack-cache/
+
+# Fancy Menu
+fancymenu_data/
+
+# Spiffy
+spiffy_instance_data/
+
+# Data packs
+datapacks/
+
+# Resource packs
+resourcepacks/
+
+# Shader packs
+shaderpacks/
+
+# Moonlight
+moonlight-global-datapacks/
+
+command_history.txt
