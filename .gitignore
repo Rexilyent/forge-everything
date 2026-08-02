@@ -1,52 +1,33 @@
-# Mixin
-.mixin.out/
+#Assets
+assets/*
 
-# Logs
-logs/
-crash-reports/
+#Debug
+.cf-cache.json
+.cf-ratelimit.json
+atl-voltaic-tfmg-confirmation/*
+atl-voltaic-tfmg-confirmation.zip
+scan_ore_items.ps1
+Process-ModList.ps1
+List-Mods.ps1
+Get-VersionHashInfo.ps1
+Find-CorrectLoaderVersion.ps1
+find-and-disasm-ingredient.ps1
+Confirm-VoltaicTFMG.ps1
+compare_modlists.py
 
-# Data
-data/
-local/
-moddata/
+#Logs
+hash-resolution-report.csv
+loader-version-corrections.csv
+mod-folder-inventory.csv
+mod-folder-inventory.meta.json
+ore_item_scan.csv
+mod-list-processing-report.csv
+modlist-comparison.txt
 
-# Scripts
-kubejs/
+links_to_mods.txt
+links_to_mods.resolved.txt
+links_to_mods.resolved-by-hash.txt
 
-# Minimap
-xaero/
-XaeroWaypoints_BACKUP240807/
 
-# Saves
-saves/
-
-# User Cache
-usercache.json
-usernamecache.json
-
-# Options
-options.txt
-
-# Dynamic pack cache
-dynamic-data-pack-cache/
-dynamic-resource-pack-cache/
-
-# Fancy Menu
-fancymenu_data/
-
-# Spiffy
-spiffy_instance_data/
-
-# Data packs
-datapacks/
-
-# Resource packs
-resourcepacks/
-
-# Shader packs
-shaderpacks/
-
-# Moonlight
-moonlight-global-datapacks/
-
-command_history.txt
+#Secrets
+secrets.local.env

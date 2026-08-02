@@ -1,0 +1,38 @@
+# Forge Everything - JVM Arguments
+# These arguments are automatically read by NeoForge on launch.
+# DO NOT modify unless you know what you are doing.
+#
+# Memory is intentionally not set here - configure it in your launcher.
+# Recommended: 12G minimum, 16G optimal for 32GB systems.
+# IMPORTANT: set Xms == Xmx in the launcher profile. A mismatched min/max
+# lets the heap resize mid-session, which causes its own stutter separate
+# from GC pause behavior.
+
+# -- Garbage Collector --------------------------------------------------------
+# Generational ZGC (Java 21+). At 12GB+ heaps, G1's pause time scales with
+# live-set size no matter how well region size/IHOP are tuned. ZGC does
+# almost all of its work concurrently with the game thread instead, so
+# pause time stays sub-millisecond regardless of heap size. This is the
+# single biggest lever for eliminating large-heap stutter.
+-XX:+UseZGC
+-XX:+ZGenerational
+
+# Commit all heap pages at startup instead of on first touch. Adds a couple
+# seconds to launch time but removes page-fault stalls during play - matters
+# more as heap size grows.
+-XX:+AlwaysPreTouch
+
+# Speeds up reference processing (weak/soft refs) - Minecraft leans on these
+# heavily for model/texture/resource caching.
+-XX:+ParallelRefProcEnabled
+
+# -- GC Behaviour -------------------------------------------------------------
+# Prevent mods from forcing garbage collection manually.
+# Some mods call System.gc() aggressively, which would otherwise force a
+# full stop-the-world collection even under ZGC.
+-XX:+DisableExplicitGC
+
+# -- Memory optimisation -------------------------------------------------------
+# Deduplicate identical strings in memory - meaningful saving for large
+# modpacks due to the volume of duplicate ResourceLocation objects.
+-XX:+UseStringDeduplication
