@@ -5,6 +5,10 @@ file = "config/alltheleaks.json"
 hash = "a0e1c6f9c998caf0dfdf39e0de4f7b9f788fc7e12d266dcca37ba20ea6d5c2c3"
 
 [[files]]
+file = "config/ballistix-common.toml"
+hash = "c87c15b5814aa0aad05b9c55304a8c0baffdaf2f1a1259597eeff72c143b6614"
+
+[[files]]
 file = "config/getittogetherdrops-server.toml"
 hash = "3bc412d7aaf7557be4acd6e45c53def66e8849aa327081cab8064c65d3b5a279"
 
@@ -27,6 +31,54 @@ hash = "e2af1941be2109cafc4fe2f40c8d2da0b383c61442641d47c6419ea53b4e6bd8"
 [[files]]
 file = "config/modernfix-mixins.properties"
 hash = "cbc88cf92fb261d7250024a95b25e634eea8cbf9ab39c8245c04611dee42803a"
+
+[[files]]
+file = "config/paxi/datapack_load_order.json"
+hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/forgeeverything/neoforge/biome_modifier/README.md"
+hash = "8f0e39823a45073fa536c2fe2dfe0f68fa2762b7e6768a069ec619835c151404"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/forgeeverything/recipes/README.md"
+hash = "4bc0834bcff3dee90feb92072d3ddd22634aae5d22fceeb1f6f54cef2f040260"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/forgeeverything/structures/README.md"
+hash = "04af975b9d27fe8212921f96e5b7b3a8045cf0aa138ddcdfe1c55069b58906cf"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/immersiveengineering/neoforge/biome_modifier/silver.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/occultism/neoforge/biome_modifier/add_ore_silver.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/occultism/neoforge/biome_modifier/add_ore_silver_deepslate.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/railcraft/neoforge/biome_modifier/add_silver_ore.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/railcraft/neoforge/biome_modifier/add_silver_ore_lower.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/pack.mcmeta"
+hash = "7f81a27e5b01634e65bfe2975ef50630b8e639b7607d212d49d70add66204a0f"
+
+[[files]]
+file = "config/paxi/resourcepack_load_order.json"
+hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
+
+[[files]]
+file = "config/quark-common.toml"
+hash = "e6f891c0d34baa39f02a72fd6dc6782325060b63540b09ebae76ecd43fad868b"
 
 [[files]]
 file = "config/sodium-options.json"
