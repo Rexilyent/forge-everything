@@ -1,6 +1,6 @@
 name = "Colorful Hearts"
 filename = "colorfulhearts-neoforge-1.21.1-10.5.9.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/wQfMUdZT/versions/us0gze50/colorfulhearts-neoforge-1.21.1-10.5.9.jar"

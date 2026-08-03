@@ -1,6 +1,6 @@
 name = "Rainbows"
 filename = "Rainbows-1.21-1.5.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/MdWygI5q/versions/8TqxNXTn/Rainbows-1.21-1.5.jar"

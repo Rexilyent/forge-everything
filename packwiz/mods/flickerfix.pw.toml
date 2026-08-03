@@ -1,6 +1,6 @@
 name = "FlickerFix"
 filename = "flickerfix-1.21.0.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/KSyWOxT5/versions/OsIttlef/flickerfix-1.21.0.jar"

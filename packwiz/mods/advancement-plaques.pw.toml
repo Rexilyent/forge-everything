@@ -1,6 +1,6 @@
 name = "Advancement Plaques"
 filename = "AdvancementPlaques-1.21.1-neoforge-1.6.8.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/9NM0dXub/versions/OWylG33I/AdvancementPlaques-1.21.1-neoforge-1.6.8.jar"

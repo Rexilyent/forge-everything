@@ -1,6 +1,6 @@
 name = "Auroras"
 filename = "Auroras-1.21-1.6.2.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/Q7VPWopC/versions/L0KPECkM/Auroras-1.21-1.6.2.jar"

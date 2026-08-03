@@ -1,6 +1,6 @@
 name = "Additional Lights"
 filename = "additional_lights-neoforge-1.21-2.1.10.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
