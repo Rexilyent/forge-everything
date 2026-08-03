@@ -139,7 +139,6 @@ The installed jar's SHA1 is ground truth. Resolving *that* against platform APIs
 | `Resolve-InstanceByHash.ps1` | Resolves SHA1s against Modrinth + CurseForge, writes `.pw.toml`. Also `-SelfTest`, `-TestCfKey`, `-CfStatus` |
 | `Build-CurseforgeEntries.ps1` | Builds CurseForge entries with **no API access**, from a hand-completed worksheet |
 | `Set-ModSides.ps1` | Sets `side` from the server's mods folder |
-| `Get-InstanceFileList.ps1` | *(fill me in)* |
 
 ### The CurseForge governor
 
