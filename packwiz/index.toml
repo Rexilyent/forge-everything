@@ -280,11 +280,6 @@ hash = "461264bdda9227b29ffbe3dfea91d626ba6741cba5e0ca9e0f5297f4f8eb7825"
 metafile = true
 
 [[files]]
-file = "mods/ars-elemental-elemental-spell-foci.pw.toml"
-hash = "1882d043e146601a583bfc3a5b809e294100232b6096059b0247b3a286f548a4"
-metafile = true
-
-[[files]]
 file = "mods/ars-energistique.pw.toml"
 hash = "c32bdc8ff44a988cced48bd98d29a542db64183980d4c174bddb733a52bfb8e7"
 metafile = true
@@ -303,6 +298,10 @@ metafile = true
 file = "mods/ars-unification.pw.toml"
 hash = "988afeedc3537f55a1b2d5e5ad27260398d6dd31b350b455d42b66af0f412d00"
 metafile = true
+
+[[files]]
+file = "mods/ars_elemental-1.21.1-0.7.10.0.jar"
+hash = "f4578d5df798c757c20b90cf318d18eb578e332ebf3fb4d3c9273b92ad3e5a76"
 
 [[files]]
 file = "mods/ars_technica.pw.toml"
@@ -520,9 +519,8 @@ hash = "994b484469c9b18d2404a2f18bea5c18e5e25dae68d5d9efa1b82bd2a1b57356"
 metafile = true
 
 [[files]]
-file = "mods/chiselsandbits.pw.toml"
-hash = "d235736560c85ff1c8cc9e283d2d0e7f615c83cceb5dd7338156ba5805516b68"
-metafile = true
+file = "mods/chisels-and-bits-neoforge-21.1.32.jar"
+hash = "982f4523abc12c5de1e84410f4e0ee29e134e854272c3bdb2c8fe24841a21265"
 
 [[files]]
 file = "mods/chromacarvings.pw.toml"
