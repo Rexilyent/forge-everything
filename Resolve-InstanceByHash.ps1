@@ -55,9 +55,33 @@
         against what's actually installed (projects linked but not installed,
         installed but not linked, and Modrinth version-ID mismatches).
 
+    CONFIGURATION
+    Every path below can be set once in secrets.local.env rather than typed on
+    each run. Keys are shared across all five scripts, so the inventory this
+    script reads is by construction the one Get-ModFolderInventory wrote:
+
+        MODPACK_ROOT=C:\Users\Terra\projects\Minecraft Modpacks\forge_everything
+        INSTANCE_ROOT=C:\Users\Terra\AppData\Roaming\ModrinthApp\profiles\NeoForge 1.21.1
+        PACK_DIR=${MODPACK_ROOT}\packwiz
+        OUTPUT_DIR=${MODPACK_ROOT}\reports
+        LINKS_FILE=${MODPACK_ROOT}\links_to_mods.txt
+        CF_STATE_DIR=${MODPACK_ROOT}\.cfstate
+        CF_API_KEY=$2a$10$...
+        MODRINTH_TOKEN=...
+
+    A parameter typed on the command line always beats the file. -Apply is
+    intentionally not configurable: the dry-run-by-default posture of the
+    pipeline should not be flippable from a config file.
+
+.PARAMETER SecretsFile
+    Path to the settings file. Defaults to $env:FORGE_EVERYTHING_SECRETS, else
+    secrets.local.env beside this script.
+
 .PARAMETER InventoryCsv
     Path to mod-folder-inventory.csv from Get-ModFolderInventory.ps1
     (needs FileName + SHA1 columns). Preferred over live hashing.
+    Falls back to INVENTORY_CSV, then OUTPUT_DIR\mod-folder-inventory.csv if
+    that file exists.
 
 .PARAMETER InstanceModsFolder
     Used to hash jars live when -InventoryCsv is omitted, and (always) to
@@ -104,7 +128,10 @@ param(
 
     [string]$ApiToken,
     [string]$CfApiKey,
-    [string]$SecretsFile = (Join-Path $PSScriptRoot "secrets.local.env"),
+    # No default here: PackConfig.ps1 owns the fallback chain
+    # (-SecretsFile, then $env:FORGE_EVERYTHING_SECRETS, then
+    # secrets.local.env beside the script) so all five scripts agree.
+    [string]$SecretsFile,
 
     [int]$ChunkSize = 100,
     [int]$DelaySeconds = 1,
@@ -213,32 +240,97 @@ if ($SelfTest) {
     else { Write-Host "Fingerprint self-test FAILED - do not trust CF fingerprint results" -ForegroundColor Red; exit 1 }
 }
 
-# ================================ Secrets ================================
-$secrets = @{}
-if (Test-Path $SecretsFile) {
-    foreach ($line in Get-Content -Path $SecretsFile) {
-        $line = $line.Trim()
-        if (-not $line -or $line.StartsWith("#")) { continue }
-        $idx = $line.IndexOf("=")
-        if ($idx -lt 1) { continue }
-        $secrets[$line.Substring(0, $idx).Trim()] = $line.Substring($idx + 1).Trim().Trim('"').Trim("'")
-    }
+# ========================== Secrets and settings ==========================
+$PackConfigPath = Join-Path $PSScriptRoot "PackConfig.ps1"
+if (-not (Test-Path -LiteralPath $PackConfigPath)) {
+    Write-Error "PackConfig.ps1 was not found at $PackConfigPath. It ships alongside this script and is required; without it, settings in secrets.local.env would be ignored silently."
+    exit 1
 }
+. $PackConfigPath
+Initialize-PackConfig -SecretsFile $SecretsFile -ScriptRoot $PSScriptRoot
+# Pin the resolved path so every later diagnostic (-TestCfKey especially) names
+# the file that was actually read, not an empty parameter.
+$SecretsFile = Resolve-PackSecretsFile -SecretsFile $SecretsFile
+
 # Provenance matters when diagnosing a 401: a stale env var silently wins over a
 # freshly-corrected secrets.local.env, and you can stare at the good file for an
 # hour while the bad value is the one on the wire.
 $CfApiKeySource = "-CfApiKey parameter"
 if (-not $CfApiKey) { $CfApiKey = $env:CF_API_KEY; $CfApiKeySource = "`$env:CF_API_KEY" }
-if (-not $CfApiKey -and $secrets.ContainsKey("CF_API_KEY")) { $CfApiKey = $secrets["CF_API_KEY"]; $CfApiKeySource = "secrets file ($SecretsFile)" }
+if (-not $CfApiKey) {
+    $CfApiKey = Get-PackSetting -Name CF_API_KEY
+    if ($CfApiKey) { $CfApiKeySource = "secrets file ($SecretsFile)" }
+}
 if (-not $CfApiKey) { $CfApiKeySource = "none" }
 if (-not $ApiToken) { $ApiToken = $env:MODRINTH_TOKEN }
-if (-not $ApiToken -and $secrets.ContainsKey("MODRINTH_TOKEN")) { $ApiToken = $secrets["MODRINTH_TOKEN"] }
+if (-not $ApiToken) { $ApiToken = Get-PackSetting -Name MODRINTH_TOKEN }
+
+# --- Path settings. Same rule everywhere: an explicitly-passed parameter wins,
+# --- otherwise fall back to the settings file, otherwise the built-in default.
+# The inventory is an INPUT, so it does not go through Get-PackOutputPath: that
+# helper invents a .\<name> default, and inventing an input path is how you end
+# up resolving against a stale CSV you forgot was in the working directory. An
+# INVENTORY_CSV you actually set is honoured as written - and still hard-errors
+# below if it is missing, rather than quietly falling back to live hashing.
+# Only the OUTPUT_DIR-derived guess is conditional on the file existing.
+if (-not $PSBoundParameters.ContainsKey('InventoryCsv')) {
+    $InventoryCsv = Get-PackSetting -Name INVENTORY_CSV -AsPath -Default $InventoryCsv
+    if (-not $InventoryCsv) {
+        $inventoryOutDir = Get-PackSetting -Name OUTPUT_DIR -AsPath
+        if ($inventoryOutDir) {
+            $inventoryGuess = Join-Path $inventoryOutDir "mod-folder-inventory.csv"
+            if (Test-Path -LiteralPath $inventoryGuess) { $InventoryCsv = $inventoryGuess }
+        }
+    }
+}
+if (-not $PSBoundParameters.ContainsKey('InstanceModsFolder')) {
+    $InstanceModsFolder = Get-PackFolderSetting -Name INSTANCE_MODS_FOLDER -ParentName INSTANCE_ROOT -ChildFolder "mods" -Default $InstanceModsFolder
+}
+if (-not $PSBoundParameters.ContainsKey('LinksFile')) {
+    $LinksFile = Get-PackSetting -Name LINKS_FILE -AsPath -Default $LinksFile
+}
+if (-not $PSBoundParameters.ContainsKey('PackDir')) {
+    $PackDir = Get-PackSetting -Name PACK_DIR -AsPath -Default $PackDir
+}
+if (-not $PSBoundParameters.ContainsKey('CfStateDir')) {
+    $CfStateDir = Get-PackSetting -Name CF_STATE_DIR -AsPath -Default $CfStateDir
+}
+# The default state dir is the script folder and always exists. A configured one
+# may not, and discovering that at ledger-write time means losing the rate-limit
+# accounting for a run that already spent the requests.
+if ($CfStateDir -and -not (Test-Path -LiteralPath $CfStateDir)) {
+    New-Item -ItemType Directory -Path $CfStateDir -Force | Out-Null
+}
+if (-not $PSBoundParameters.ContainsKey('OutputCsv')) {
+    $OutputCsv = Get-PackOutputPath -Name RESOLUTION_REPORT_CSV -DefaultFileName "hash-resolution-report.csv" -Default $OutputCsv
+}
+if (-not $PSBoundParameters.ContainsKey('ResolvedLinksOut')) {
+    $ResolvedLinksOut = Get-PackOutputPath -Name RESOLVED_LINKS_OUT -DefaultFileName "links_to_mods.resolved-by-hash.txt" -Default $ResolvedLinksOut
+}
+if (-not $PSBoundParameters.ContainsKey('DriftCsv')) {
+    $DriftCsv = Get-PackOutputPath -Name DRIFT_CSV -DefaultFileName "links-drift-report.csv" -Default $DriftCsv
+}
 
 if (-not $TestCfKey -and -not $CfStatus -and -not $InventoryCsv -and -not $InstanceModsFolder) {
-    Write-Error "Provide -InventoryCsv (preferred) and/or -InstanceModsFolder"; exit 1
+    Write-Error "Provide -InventoryCsv (preferred) and/or -InstanceModsFolder, or set INVENTORY_CSV / INSTANCE_MODS_FOLDER (or INSTANCE_ROOT) in $SecretsFile."
+    exit 1
 }
 if ($Apply -and -not ($PackDir -and (Test-Path (Join-Path $PackDir "pack.toml")))) {
-    Write-Error "-Apply requires a valid -PackDir (no pack.toml found)"; exit 1
+    Write-Error "-Apply requires a pack directory containing pack.toml. Pass -PackDir, or set PACK_DIR in $SecretsFile. Current value: $(if ($PackDir) { $PackDir } else { '<not set>' })"
+    exit 1
+}
+
+if (-not $TestCfKey -and -not $CfStatus) {
+    Show-PackConfigSummary -Values @{
+        InventoryCsv       = $InventoryCsv
+        InstanceModsFolder = $InstanceModsFolder
+        LinksFile          = $LinksFile
+        PackDir            = $PackDir
+        CfStateDir         = $CfStateDir
+        OutputCsv          = $OutputCsv
+        ResolvedLinksOut   = $ResolvedLinksOut
+        DriftCsv           = $DriftCsv
+    }
 }
 
 # ================================ Helpers ================================

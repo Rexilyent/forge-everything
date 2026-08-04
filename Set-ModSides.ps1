@@ -30,6 +30,27 @@
 
     Defaults to a dry run. Nothing is written without -Apply.
 
+    CONFIGURATION
+    All four locations can be set once in secrets.local.env:
+
+        PACK_DIR=${MODPACK_ROOT}\packwiz
+        SERVER_MODS_FOLDER=\\SERVER\forge_everything\mods
+        SERVER_FILE_LIST=.\server-mods.txt      # alternative to the folder
+        CLIENT_MODS_FOLDER=${INSTANCE_ROOT}\mods
+
+    A command-line parameter always beats the file. Note that -Apply is
+    deliberately NOT configurable from the file: the dry-run default is a safety
+    property, and a setting that silently turns a preview into a write is not a
+    convenience.
+
+.PARAMETER SecretsFile
+    Path to the settings file. Defaults to $env:FORGE_EVERYTHING_SECRETS, else
+    secrets.local.env beside this script.
+
+.EXAMPLE
+    # Server folder and pack dir both from secrets.local.env
+    .\Set-ModSides.ps1
+
 .EXAMPLE
     .\Set-ModSides.ps1 -ServerModsFolder "\\SERVER\forge_everything\mods" -PackDir ".\packwiz"
 
@@ -44,9 +65,53 @@ param(
     # line. Useful when the server is remote and you only have `ls` output.
     [string]$ServerFileList,
 
-    [Parameter(Mandatory)][string]$PackDir,
-    [switch]$Apply
+    # Was [Parameter(Mandatory)]. A mandatory parameter prompts before the body
+    # runs, so it could never be satisfied from secrets.local.env. Validated
+    # explicitly below instead.
+    [string]$PackDir,
+    [switch]$Apply,
+
+    [string]$SecretsFile
 )
+
+# ============================ Configuration ============================
+$PackConfigPath = Join-Path $PSScriptRoot "PackConfig.ps1"
+if (-not (Test-Path -LiteralPath $PackConfigPath)) {
+    Write-Error "PackConfig.ps1 was not found at $PackConfigPath. It ships alongside this script and is required; without it, settings in secrets.local.env would be ignored silently."
+    exit 1
+}
+. $PackConfigPath
+Initialize-PackConfig -SecretsFile $SecretsFile -ScriptRoot $PSScriptRoot
+
+if (-not $PSBoundParameters.ContainsKey('PackDir')) {
+    $PackDir = Get-PackSetting -Name PACK_DIR -AsPath -Default $PackDir
+}
+if (-not $PSBoundParameters.ContainsKey('ServerModsFolder')) {
+    $ServerModsFolder = Get-PackSetting -Name SERVER_MODS_FOLDER -AsPath -Default $ServerModsFolder
+}
+if (-not $PSBoundParameters.ContainsKey('ClientModsFolder')) {
+    $ClientModsFolder = Get-PackSetting -Name CLIENT_MODS_FOLDER -AsPath -Default $ClientModsFolder
+}
+if (-not $PSBoundParameters.ContainsKey('ServerFileList')) {
+    $ServerFileList = Get-PackSetting -Name SERVER_FILE_LIST -AsPath -Default $ServerFileList
+}
+
+# SERVER_MODS_FOLDER and SERVER_FILE_LIST answer the same question, and
+# Get-JarNameSet always prefers the list when both are present. That is fine
+# when both came from the settings file, but it means a SERVER_FILE_LIST left in
+# the file would silently outrank a -ServerModsFolder you just typed. An
+# explicitly-passed source clears the other one so the command line wins.
+if ($PSBoundParameters.ContainsKey('ServerModsFolder') -and -not $PSBoundParameters.ContainsKey('ServerFileList')) {
+    $ServerFileList = $null
+}
+elseif ($PSBoundParameters.ContainsKey('ServerFileList') -and -not $PSBoundParameters.ContainsKey('ServerModsFolder')) {
+    $ServerModsFolder = $null
+}
+
+if (-not $PackDir) {
+    Write-Error "No pack directory configured. Pass -PackDir, or set PACK_DIR in $(Resolve-PackSecretsFile -SecretsFile $SecretsFile)."
+    exit 1
+}
 
 function Get-JarNameSet {
     param([string]$Folder, [string]$ListFile)
@@ -66,10 +131,18 @@ function Get-JarNameSet {
 }
 
 if (-not $ServerModsFolder -and -not $ServerFileList) {
-    Write-Error "Provide -ServerModsFolder or -ServerFileList"; exit 1
+    Write-Error "Provide -ServerModsFolder or -ServerFileList, or set SERVER_MODS_FOLDER / SERVER_FILE_LIST in $(Resolve-PackSecretsFile -SecretsFile $SecretsFile)."
+    exit 1
 }
 $modsDir = Join-Path $PackDir "mods"
 if (-not (Test-Path $modsDir)) { Write-Error "No mods folder under $PackDir"; exit 1 }
+
+Show-PackConfigSummary -Values @{
+    PackDir          = $PackDir
+    ServerModsFolder = $ServerModsFolder
+    ServerFileList   = $ServerFileList
+    ClientModsFolder = $ClientModsFolder
+}
 
 $serverSet = Get-JarNameSet -Folder $ServerModsFolder -ListFile $ServerFileList
 Write-Host "Server jars: $($serverSet.Count)" -ForegroundColor Cyan

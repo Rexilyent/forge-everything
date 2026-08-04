@@ -19,21 +19,45 @@
     list - that cross-referencing is the next script, which will join on ModId/slug and
     compare Version against what's in links_to_mods.resolved.txt.
 
+    CONFIGURATION
+    The mods folder and output location can live in secrets.local.env instead of
+    the command line:
+
+        INSTANCE_ROOT=C:\Users\Terra\AppData\Roaming\ModrinthApp\profiles\NeoForge 1.21.1
+        INSTANCE_MODS_FOLDER=${INSTANCE_ROOT}\mods      # optional; derived if omitted
+        OUTPUT_DIR=.\reports
+        MODPACK_VERSION=2026-07-31-a
+
+    A command-line parameter always beats the file.
+
 .PARAMETER ModsFolder
-    Path to the folder containing your .jar files (e.g. the instance's \mods folder)
+    Path to the folder containing your .jar files (e.g. the instance's \mods folder).
+    Falls back to INSTANCE_MODS_FOLDER, then INSTANCE_ROOT\mods.
 
 .PARAMETER OutputCsv
-    Where to write the inventory. Default: mod-folder-inventory.csv in the current directory.
+    Where to write the inventory. Falls back to INVENTORY_CSV, then
+    OUTPUT_DIR\mod-folder-inventory.csv, then the current directory.
 
 .PARAMETER Recurse
     Also scan subfolders (useful if you keep client-only/server-only jars split out).
+
+.PARAMETER SecretsFile
+    Path to the settings file. Defaults to $env:FORGE_EVERYTHING_SECRETS, else
+    secrets.local.env beside this script.
+
+.EXAMPLE
+    # Mods folder read from secrets.local.env
+    .\Get-ModFolderInventory.ps1
 
 .EXAMPLE
     .\Get-ModFolderInventory.ps1 -ModsFolder "C:\Users\Terra\AppData\Roaming\ModrinthApp\profiles\NeoForge 1.21.1\mods"
 #>
 
 param(
-    [Parameter(Mandatory = $true)]
+    # Deliberately NOT [Parameter(Mandatory)] any more: a mandatory parameter
+    # prompts before the first line of the script body runs, which would make it
+    # impossible to satisfy the value from secrets.local.env. It is validated
+    # below instead, with a message that names both ways to supply it.
     [string]$ModsFolder,
 
     [string]$OutputCsv = ".\mod-folder-inventory.csv",
@@ -41,33 +65,47 @@ param(
     [switch]$Recurse,
 
     [string]$ModpackVersion,
-    [string]$SecretsFile = (Join-Path $PSScriptRoot "secrets.local.env")
+    [string]$SecretsFile
 )
 
+# ============================ Configuration ============================
+$PackConfigPath = Join-Path $PSScriptRoot "PackConfig.ps1"
+if (-not (Test-Path -LiteralPath $PackConfigPath)) {
+    Write-Error "PackConfig.ps1 was not found at $PackConfigPath. It ships alongside this script and is required; without it, settings in secrets.local.env would be ignored silently."
+    exit 1
+}
+. $PackConfigPath
+Initialize-PackConfig -SecretsFile $SecretsFile -ScriptRoot $PSScriptRoot
+
+if (-not $PSBoundParameters.ContainsKey('ModsFolder')) {
+    $ModsFolder = Get-PackFolderSetting -Name INSTANCE_MODS_FOLDER -ParentName INSTANCE_ROOT -ChildFolder "mods" -Default $ModsFolder
+}
+if (-not $PSBoundParameters.ContainsKey('OutputCsv')) {
+    $OutputCsv = Get-PackOutputPath -Name INVENTORY_CSV -DefaultFileName "mod-folder-inventory.csv" -Default $OutputCsv
+}
+if (-not $PSBoundParameters.ContainsKey('ModpackVersion')) {
+    $ModpackVersion = Get-PackSetting -Name MODPACK_VERSION -Default $ModpackVersion
+}
+
+if (-not $ModsFolder) {
+    Write-Error "No mods folder configured. Pass -ModsFolder, or set INSTANCE_MODS_FOLDER (or INSTANCE_ROOT) in $(Resolve-PackSecretsFile -SecretsFile $SecretsFile)."
+    exit 1
+}
 if (-not (Test-Path $ModsFolder)) {
     Write-Error "Mods folder not found: $ModsFolder"
     exit 1
 }
+
+Show-PackConfigSummary -Values @{ ModsFolder = $ModsFolder; OutputCsv = $OutputCsv }
 
 # MODPACK_VERSION is a manually-bumped value YOU control (in secrets.local.env or via
 # -ModpackVersion) - not a timestamp. Bump it any time you change the mods folder in a
 # way that matters (add/update/remove a mod). This gets stamped into the inventory so
 # consumers (Process-ModList.ps1) can tell at a glance whether the inventory still
 # reflects the current state of the pack, or needs regenerating.
-if (-not $ModpackVersion -and (Test-Path $SecretsFile)) {
-    foreach ($line in Get-Content -Path $SecretsFile) {
-        $line = $line.Trim()
-        if (-not $line -or $line.StartsWith("#")) { continue }
-        $idx = $line.IndexOf("=")
-        if ($idx -lt 1) { continue }
-        if ($line.Substring(0, $idx).Trim() -eq "MODPACK_VERSION") {
-            $ModpackVersion = $line.Substring($idx + 1).Trim().Trim('"').Trim("'")
-        }
-    }
-}
 if (-not $ModpackVersion) {
     Write-Host "No MODPACK_VERSION found (param or secrets.local.env) - stamping inventory as 'unversioned'" -ForegroundColor Yellow
-    Write-Host "Add 'MODPACK_VERSION=<something>' to $SecretsFile and bump it whenever the pack changes, for reliable freshness checks." -ForegroundColor Yellow
+    Write-Host "Add 'MODPACK_VERSION=<something>' to $(Resolve-PackSecretsFile -SecretsFile $SecretsFile) and bump it whenever the pack changes, for reliable freshness checks." -ForegroundColor Yellow
     $ModpackVersion = "unversioned"
 }
 else {

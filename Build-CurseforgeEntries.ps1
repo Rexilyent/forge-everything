@@ -40,6 +40,28 @@
     CurseForge mods do not license redistribution. metadata:curseforge exists
     precisely so the client fetches from CurseForge itself.
 
+    CONFIGURATION
+    Every path below can be set once in secrets.local.env:
+
+        MODPACK_ROOT=C:\Users\Terra\projects\Minecraft Modpacks\forge_everything
+        PACK_DIR=${MODPACK_ROOT}\packwiz
+        INSTANCE_ROOT=C:\Users\Terra\AppData\Roaming\ModrinthApp\profiles\NeoForge 1.21.1
+        OUTPUT_DIR=${MODPACK_ROOT}\reports
+        LINKS_FILE=${MODPACK_ROOT}\links_to_mods.txt
+
+    RESOLUTION_REPORT_CSV and CURSEFORGE_WORKSHEET_CSV override the OUTPUT_DIR
+    defaults individually if you need them somewhere else. The report key is
+    shared with Resolve-InstanceByHash.ps1 on purpose, so the file this script
+    reads is by construction the file the resolver wrote.
+
+.PARAMETER SecretsFile
+    Path to the settings file. Defaults to $env:FORGE_EVERYTHING_SECRETS, else
+    secrets.local.env beside this script.
+
+.EXAMPLE
+    # Report, links file and mods folder all from secrets.local.env
+    .\Build-CurseforgeEntries.ps1
+
 .EXAMPLE
     .\Build-CurseforgeEntries.ps1 -ReportCsv .\hash-resolution-report.csv `
         -LinksFile .\links_to_mods.txt `
@@ -57,8 +79,43 @@ param(
     [string]$WorksheetCsv = ".\curseforge-worksheet.csv",
 
     [switch]$Apply,
-    [string]$PackDir
+    [string]$PackDir,
+
+    [string]$SecretsFile
 )
+
+# ============================ Configuration ============================
+$PackConfigPath = Join-Path $PSScriptRoot "PackConfig.ps1"
+if (-not (Test-Path -LiteralPath $PackConfigPath)) {
+    Write-Error "PackConfig.ps1 was not found at $PackConfigPath. It ships alongside this script and is required; without it, settings in secrets.local.env would be ignored silently."
+    exit 1
+}
+. $PackConfigPath
+Initialize-PackConfig -SecretsFile $SecretsFile -ScriptRoot $PSScriptRoot
+
+if (-not $PSBoundParameters.ContainsKey('ReportCsv')) {
+    $ReportCsv = Get-PackOutputPath -Name RESOLUTION_REPORT_CSV -DefaultFileName "hash-resolution-report.csv" -Default $ReportCsv
+}
+if (-not $PSBoundParameters.ContainsKey('WorksheetCsv')) {
+    $WorksheetCsv = Get-PackOutputPath -Name CURSEFORGE_WORKSHEET_CSV -DefaultFileName "curseforge-worksheet.csv" -Default $WorksheetCsv
+}
+if (-not $PSBoundParameters.ContainsKey('LinksFile')) {
+    $LinksFile = Get-PackSetting -Name LINKS_FILE -AsPath -Default $LinksFile
+}
+if (-not $PSBoundParameters.ContainsKey('InstanceModsFolder')) {
+    $InstanceModsFolder = Get-PackFolderSetting -Name INSTANCE_MODS_FOLDER -ParentName INSTANCE_ROOT -ChildFolder "mods" -Default $InstanceModsFolder
+}
+if (-not $PSBoundParameters.ContainsKey('PackDir')) {
+    $PackDir = Get-PackSetting -Name PACK_DIR -AsPath -Default $PackDir
+}
+
+Show-PackConfigSummary -Values @{
+    ReportCsv          = $ReportCsv
+    WorksheetCsv       = $WorksheetCsv
+    LinksFile          = $LinksFile
+    InstanceModsFolder = $InstanceModsFolder
+    PackDir            = $PackDir
+}
 
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 
@@ -160,7 +217,8 @@ function Get-EntryName {
 if ($Apply) {
     if (-not (Test-Path $WorksheetCsv)) { Write-Error "Worksheet not found: $WorksheetCsv"; exit 1 }
     if (-not ($PackDir -and (Test-Path (Join-Path $PackDir "pack.toml")))) {
-        Write-Error "-Apply requires -PackDir pointing at a folder containing pack.toml"; exit 1
+        Write-Error "-Apply requires a pack directory containing pack.toml. Pass -PackDir, or set PACK_DIR in $(Resolve-PackSecretsFile -SecretsFile $SecretsFile). Current value: $(if ($PackDir) { $PackDir } else { '<not set>' })"
+        exit 1
     }
 
     # Blank trailing rows are normal when a spreadsheet round-trips a CSV.
