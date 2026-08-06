@@ -17,11 +17,6 @@
 -XX:+UseZGC
 -XX:+ZGenerational
 
-# Commit all heap pages at startup instead of on first touch. Adds a couple
-# seconds to launch time but removes page-fault stalls during play - matters
-# more as heap size grows.
--XX:+AlwaysPreTouch
-
 # Speeds up reference processing (weak/soft refs) - Minecraft leans on these
 # heavily for model/texture/resource caching.
 -XX:+ParallelRefProcEnabled
