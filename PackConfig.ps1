@@ -288,6 +288,127 @@ function Get-PackOutputPath {
     return $result
 }
 
+function ConvertTo-PackCsvField {
+    <#
+    .SYNOPSIS
+        Quotes and escapes one CSV field. Always quotes - a value that gains a
+        comma later should not silently change the shape of the file.
+    #>
+    param([string]$Value)
+
+    if ($null -eq $Value) { $Value = "" }
+    return '"' + ($Value -replace '"', '""') + '"'
+}
+
+function Write-PackTextFile {
+    <#
+    .SYNOPSIS
+        Writes text and confirms it landed.
+
+    .DESCRIPTION
+        Set-Content can fail silently under some conditions, which turns a bad
+        run into a stale file that looks fine. WriteAllText plus an existence
+        check makes the failure loud. Creates the parent directory if needed.
+    #>
+    param(
+        [Parameter(Mandatory = $true)][string]$Path,
+        [Parameter(Mandatory = $true)][AllowEmptyString()][string]$Content
+    )
+
+    $dir = Split-Path -Parent $Path
+    if ($dir -and -not (Test-Path -LiteralPath $dir)) {
+        New-Item -ItemType Directory -Path $dir -Force | Out-Null
+    }
+
+    [System.IO.File]::WriteAllText($Path, $Content, (New-Object System.Text.UTF8Encoding($false)))
+
+    if (-not (Test-Path -LiteralPath $Path)) {
+        throw "Write failed (file not present afterwards): $Path"
+    }
+}
+
+function Write-PackCsvFile {
+    <#
+    .SYNOPSIS
+        Writes objects to CSV via StringBuilder rather than Export-Csv.
+
+    .DESCRIPTION
+        Export-Csv infers columns from the first object, which quietly drops
+        properties when later rows are shaped differently. Passing -Columns
+        explicitly means the header is a contract, not a guess.
+
+        An empty row set still writes a header-only file. A missing file then
+        always means a bug rather than "there was nothing to report".
+
+    .PARAMETER Label
+        Shown in the console tally. Defaults to the file name.
+    #>
+    param(
+        [Parameter(Mandatory = $true)][AllowEmptyCollection()][object[]]$Rows,
+        [Parameter(Mandatory = $true)][string[]]$Columns,
+        [Parameter(Mandatory = $true)][string]$Path,
+        [string]$Label,
+        [switch]$Quiet
+    )
+
+    if (-not $Label) { $Label = Split-Path -Leaf $Path }
+
+    $sb = New-Object System.Text.StringBuilder
+    $header = @()
+    foreach ($c in $Columns) { $header += (ConvertTo-PackCsvField -Value $c) }
+    [void]$sb.AppendLine(($header -join ','))
+
+    $count = 0
+    if ($Rows) {
+        foreach ($row in $Rows) {
+            if ($null -eq $row) { continue }
+            $fields = @()
+            foreach ($c in $Columns) {
+                $v = $null
+                if ($row.PSObject.Properties[$c]) { $v = $row.PSObject.Properties[$c].Value }
+                if ($null -eq $v) { $v = "" }
+                $fields += (ConvertTo-PackCsvField -Value ([string]$v))
+            }
+            [void]$sb.AppendLine(($fields -join ','))
+            $count++
+        }
+    }
+
+    Write-PackTextFile -Path $Path -Content $sb.ToString()
+    if (-not $Quiet) { Write-Host ("  {0,-34} {1} row(s)" -f $Label, $count) -ForegroundColor DarkGray }
+    return $count
+}
+
+function Get-PackOutputFolder {
+    <#
+    .SYNOPSIS
+        The folder equivalent of Get-PackOutputPath, for scripts that emit a
+        set of files rather than one.
+
+    .DESCRIPTION
+        Precedence: the setting's own key, then OUTPUT_DIR\<DefaultFolderName>,
+        then .\<DefaultFolderName>. The folder itself is created.
+    #>
+    param(
+        [Parameter(Mandatory = $true)][string]$Name,
+        [Parameter(Mandatory = $true)][string]$DefaultFolderName
+    )
+
+    $result = Get-PackSetting -Name $Name -AsPath
+    if (-not $result) {
+        $outDir = Get-PackSetting -Name "OUTPUT_DIR" -AsPath
+        if ($outDir) { $result = Join-Path $outDir $DefaultFolderName }
+    }
+    if (-not $result) {
+        $result = Join-Path (Get-Location).ProviderPath $DefaultFolderName
+    }
+
+    if (-not (Test-Path -LiteralPath $result)) {
+        New-Item -ItemType Directory -Path $result -Force | Out-Null
+    }
+    return $result
+}
+
 function Show-PackConfigSummary {
     <#
     .SYNOPSIS
