@@ -510,11 +510,11 @@
 	"Dragon Scales" = true
 	"Dyeable Item Frames" = true
 	Emotes = true
-	"Enhanced Ladders" = true
-	"Glass Shard" = true
+	"Enhanced Ladders" = false
+	"Glass Shard" = false
 	"Gold Tools Have Fortune" = false
 	"Grab Chickens" = false
-	"Hoe Harvesting" = true
+	"Hoe Harvesting" = false
 	"Horses Swim" = true
 	"Improved Sponges" = true
 	"Lock Rotation" = false
@@ -1689,20 +1689,20 @@
 	[experimental.game_nerfs]
 		#Makes Mending act like the Unmending mod
 		#https://www.curseforge.com/minecraft/mc-mods/unmending
-		"Nerf Mending" = false
+		"Nerf Mending" = true
 		#Makes Mending II still work even if mending is nerfed.
 		#If you want Mending II, disable the sanity check on Ancient Tomes and add minecraft:mending to the tomes.
 		"No Nerf for Mending II" = false
 		#Makes Iron Golems not drop Iron Ingots
-		"Disable Iron Farms" = false
+		"Disable Iron Farms" = true
 		#Makes Boats not glide on ice
 		"Disable Ice Roads" = true
 		#Makes Sheep not drop Wool when killed
 		"Disable Wool Drops" = true
 		#Disables mob griefing for only specific entities
-		"Enable Selective Mob Griefing" = false
+		"Enable Selective Mob Griefing" = true
 		#Force Elytra to only work in specific dimensions
-		"Enable Dimension Locked Elytra" = false
+		"Enable Dimension Locked Elytra" = true
 		#Makes falling blocks not able to be duped via dimension crossing
 		"Disable Falling Block Dupe" = true
 		#Fixes several piston physics exploits, most notably including TNT duping
@@ -1880,7 +1880,7 @@
 	Backpack = true
 	Crate = true
 	Magnets = true
-	"Matrix Enchanting" = true
+	"Matrix Enchanting" = false
 	Pipes = true
 	"Tiny Potato" = true
 	"Totem Of Holding" = true
