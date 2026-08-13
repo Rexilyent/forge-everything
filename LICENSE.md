@@ -302,7 +302,6 @@ Less scary than the row count suggests: these cluster hard by author. The Aurili
 | Enderman Overhaul | All Rights Reserved | All Rights Reserved | [Modrinth](https://modrinth.com/mod/enderman-overhaul) | | |
 | Energy Meter | All Rights Reserved | All Rights Reserved | [Modrinth](https://modrinth.com/mod/energymeter) | | |
 | Entangled | All Rights Reserved | All Rights Reserved | [Modrinth](https://modrinth.com/mod/entangled) | | |
-| Everything Bugs | All Rights Reserved | All Rights Reserved | — | | |
 | Everything is Copper | All Rights Reserved | All Rights Reserved | — | | |
 | Explore Ruins Aether | All Rights Reserved | All Rights Reserved | [Modrinth](https://modrinth.com/mod/explore-ruins-aether) | | |
 | Explorify | All Rights Reserved | All Rights Reserved | [Modrinth](https://modrinth.com/mod/explorify) | | |
@@ -621,7 +620,7 @@ All 496 mods in the pack, alphabetically. **Modpack use permitted** is pre-fille
 | Euphoria Patcher | SpacEagle17 | MPL-2.0 | MPL-2.0 | Apache-2.0+BSD | [Modrinth](https://modrinth.com/mod/euphoria-patches) |  | |
 | Everything Bugs | Forge Everything Team | All Rights Reserved | — | — | — |  | |
 | Everything is Copper | LobsterJonn | All Rights Reserved | — | — | — |  | |
-| Everything Ores |  | MIT | — | — | — |  | |
+| Everything Ores | Forge Everything Team | All Rights Reserved | — | — | — |  | |
 | EvilCraft / EvilCraft-Compat | rubensworks (aka kroeser) | MIT | MIT | — | [Modrinth](https://modrinth.com/mod/evilcraft) |  | |
 | Explore Ruins Aether | NoCube | Undeclared ⚠️ | All Rights Reserved | — | [Modrinth](https://modrinth.com/mod/explore-ruins-aether) |  | |
 | Explorer's Compass | ChaosTheDude | CC BY-NC-SA | CC BY-NC-SA | — | [Modrinth](https://modrinth.com/mod/explorers-compass) |  | |
