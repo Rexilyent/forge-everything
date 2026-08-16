@@ -1,6 +1,10 @@
 	[common.explosives]
-		#Whether explosions will be cached; may use a lot of memory!
-		should_cache_explosions = false
+		#Whether explosions will be cached; may use a lot of memory! (It definitely does use a lot of memory - Forge Everything Team)
+		#Seriously... Just trust us on this one bestie
+		#We have tested this and it used nearly 2GB of RAM just to cache explosion calculations.
+		#When we say explosion calculations, we mean the calculations for the blast radius, block destruction, and entity damage.
+		#With the option disabled, the game will calculate the explosion every time it happens, which is slower but uses much less memory.
+		should_cache_explosions = false #(DO NOT ENABLE EVEN IF YOU HAVE AN EXTREMELY HIGH END PC - Forge Everything Team)
 		#NB! This is ONLY useful for very slow pc's. Like very slow. It is very BAD for slow - mediocre - good pc's and will make raytracing SLOWER for these!!!
 		should_multithread_raytracing = false
 
