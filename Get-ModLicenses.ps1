@@ -59,6 +59,10 @@ param(
     [switch]$DumpLicenseFiles,
     [string]$LicenseTextDir,
 
+    # Also inspect small root-level text files whose names give nothing away
+    # (README.md, ATTRIBUTION.txt) for embedded license text. Slower.
+    [switch]$SniffLicenseText,
+
     # Skip SHA1 computation. Incompatible with -VerifyModrinth.
     [switch]$NoHash,
 
@@ -72,6 +76,11 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
+
+# Version banner first, always - stale-file detection depends on it.
+$ScriptVersion = '2.0.0'
+Write-Host "Get-ModLicenses.ps1 v$ScriptVersion" -ForegroundColor Magenta
+
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 
 # ===========================================================================
@@ -141,15 +150,29 @@ $ApiBase = 'https://api.modrinth.com/v2'
 # Helpers
 # ===========================================================================
 
+# Basic strings may contain escaped quotes: license="CoFH \"Don't Be a Jerk\" License".
+# The old pattern "(?<v>[^"]*)" stopped at the first \" and captured 'CoFH \' -
+# which is how three CoFH-licensed mods ended up categorized as garbage.
 $TomlValuePattern = @'
-(?m)^[ \t]*{0}[ \t]*=[ \t]*(?:"""(?<v>[\s\S]*?)"""|'''(?<v>[\s\S]*?)'''|"(?<v>[^"]*)"|'(?<v>[^']*)')
+(?m)^[ \t]*{0}[ \t]*=[ \t]*(?:"""(?<v>[\s\S]*?)"""|'''(?<v>[\s\S]*?)'''|"(?<v>(?:[^"\\]|\\.)*)"|'(?<v>[^']*)')
 '@
+
+function ConvertFrom-TomlBasicString {
+    # Minimal unescape for the escapes that actually appear in mod tomls.
+    param([string]$Value)
+    if ([string]::IsNullOrEmpty($Value)) { return $Value }
+    $v = $Value -replace '\\"', '"'
+    $v = $v -replace '\\n', ' '
+    $v = $v -replace '\\t', ' '
+    $v = $v -replace '\\\\', '\'
+    return $v
+}
 
 function Get-TomlString {
     param([string]$Toml, [string]$Key)
     if ([string]::IsNullOrEmpty($Toml)) { return $null }
     $m = [regex]::Match($Toml, ($TomlValuePattern -f ([regex]::Escape($Key))))
-    if ($m.Success) { return $m.Groups['v'].Value.Trim() }
+    if ($m.Success) { return (ConvertFrom-TomlBasicString $m.Groups['v'].Value).Trim() }
     return $null
 }
 
@@ -158,7 +181,7 @@ function Get-TomlStringAll {
     if ([string]::IsNullOrEmpty($Toml)) { return @() }
     $out = New-Object System.Collections.Generic.List[string]
     foreach ($m in [regex]::Matches($Toml, ($TomlValuePattern -f ([regex]::Escape($Key))))) {
-        $val = $m.Groups['v'].Value.Trim()
+        $val = (ConvertFrom-TomlBasicString $m.Groups['v'].Value).Trim()
         if ($val -and -not $out.Contains($val)) { [void]$out.Add($val) }
     }
     return $out.ToArray()
@@ -177,14 +200,61 @@ function Get-ZipEntryText {
 
 # One normalizer, fed BOTH the free-text jar string and the Modrinth SPDX id,
 # so the two sides land in comparable buckets.
+#
+# v2: matches SPELLED-OUT names on a word-preserving normalization FIRST, then
+# falls back to compact (punctuation-stripped) matching. The old version
+# stripped punctuation before matching, so "GNU Lesser General Public License
+# v3.0" collapsed to a string containing no 'lgpl' and ~20 obviously-LGPL mods
+# landed in "Custom - review manually". Keep this in lockstep with the Python
+# bucket() in the LICENSE.md generator - the CSV is the public audit trail and
+# the two MUST agree.
 function Get-LicenseCategory {
     param([string]$Raw)
 
     if ([string]::IsNullOrWhiteSpace($Raw)) { return @{ Norm = 'UNDECLARED'; Cat = 'Unknown' } }
 
     $s = $Raw.Trim()
+    # Word-preserving normalization: lowercase, unify separators to single spaces.
+    $w = (($s.ToLowerInvariant()) -replace '[_\-\./,:;()\[\]]+', ' ') -replace '\s+', ' '
+    # Compact normalization (legacy): strip everything but alphanumerics.
     $c = ($s -replace '[^a-zA-Z0-9]', '').ToLowerInvariant()
 
+    # --- Split declarations first. A handful of authors declare both an open
+    # code license and ARR assets inside one free-text string (e.g. L_Ender's
+    # Cataclysm). Reducing that to the open half overstates the grant.
+    $openish = ($w -match 'mit|lgpl|lesser general|apache|mpl|mozilla|gpl|general public|bsd|cc0|unlicense')
+    $arrish  = ($w -match 'all rights reserved|\barr\b|unlicensed and all rights')
+    if ($openish -and $arrish) {
+        return @{ Norm = $s; Cat = 'Split / multiple - review' }
+    }
+
+    # --- Pass 1: spelled-out names, most specific first. Order matters:
+    # Affero before GPL, Lesser before GPL, BY-NC-ND before BY-NC before BY.
+    $wordMap = @(
+        @{ Match = 'gnu affero|affero general public';                    Norm = 'AGPL';   Cat = 'Strong copyleft' },
+        @{ Match = 'gnu lesser|lesser general public|lesser gnu';        Norm = 'LGPL';   Cat = 'Weak copyleft' },
+        @{ Match = 'gnu general public|general public license|gnu gpl';  Norm = 'GPL';    Cat = 'Strong copyleft' },
+        @{ Match = 'mozilla public';                                     Norm = 'MPL-2.0';Cat = 'Weak copyleft' },
+        @{ Match = 'apache license|apache 2';                            Norm = 'Apache-2.0'; Cat = 'Permissive' },
+        @{ Match = 'the mit license|mit license';                        Norm = 'MIT';    Cat = 'Permissive' },
+        @{ Match = 'creative commons zero|cc0';                          Norm = 'CC0';    Cat = 'Permissive' },
+        @{ Match = 'public domain|unlicense\b';                          Norm = 'Public/Permissive'; Cat = 'Permissive' },
+        # CC variants, spelled out or abbreviated with or without the CC prefix
+        # ("BY-NC-ND-4.0" is a real toml value in this pack). ND checked before
+        # NC because BY-NC-ND is filed under its most restrictive property.
+        @{ Match = '(^|[^a-z])by nc nd|noncommercial noderivatives|non commercial no deriv'; Norm = 'CC BY-NC-ND'; Cat = 'CC (no derivatives)' },
+        @{ Match = '(^|[^a-z])by nd|noderivatives|no derivatives';       Norm = 'CC BY-ND';    Cat = 'CC (no derivatives)' },
+        @{ Match = '(^|[^a-z])by nc sa|noncommercial sharealike';        Norm = 'CC BY-NC-SA'; Cat = 'CC (non-commercial)' },
+        @{ Match = '(^|[^a-z])by nc|noncommercial|non commercial';       Norm = 'CC BY-NC';    Cat = 'CC (non-commercial)' },
+        @{ Match = '(^|[^a-z])by sa|sharealike|share alike';             Norm = 'CC BY-SA';    Cat = 'CC (share-alike)' },
+        @{ Match = 'creative commons attribution|(^|[^a-z])cc by(\b|$)'; Norm = 'CC BY';       Cat = 'CC (attribution)' },
+        @{ Match = 'all rights reserved';                                Norm = 'All Rights Reserved'; Cat = 'ARR - check terms' }
+    )
+    foreach ($rule in $wordMap) {
+        if ($w -match $rule.Match) { return @{ Norm = $rule.Norm; Cat = $rule.Cat } }
+    }
+
+    # --- Pass 2: compact identifiers (SPDX ids, run-together spellings).
     $map = @(
         @{ Match = '^(mit|mitlicense|themitlicense)';               Norm = 'MIT';               Cat = 'Permissive' },
         @{ Match = 'apache';                                        Norm = 'Apache-2.0';        Cat = 'Permissive' },
@@ -194,15 +264,16 @@ function Get-LicenseCategory {
         @{ Match = 'mpl|mozillapublic';                             Norm = 'MPL-2.0';           Cat = 'Weak copyleft' },
         @{ Match = 'agpl';                                          Norm = 'AGPL';              Cat = 'Strong copyleft' },
         @{ Match = '(?<!l)(?<!a)gpl';                               Norm = 'GPL';               Cat = 'Strong copyleft' },
-        @{ Match = 'ccbyncsa|creativecommonsattributionnoncommercialsharealike'; Norm = 'CC BY-NC-SA'; Cat = 'CC (non-commercial)' },
+        @{ Match = 'ccbyncnd|byncnd';                                Norm = 'CC BY-NC-ND';       Cat = 'CC (no derivatives)' },
+        @{ Match = 'ccbynd|bynd\d*$';                                Norm = 'CC BY-ND';          Cat = 'CC (no derivatives)' },
+        @{ Match = 'ccbyncsa';                                       Norm = 'CC BY-NC-SA';       Cat = 'CC (non-commercial)' },
         @{ Match = 'ccbync';                                        Norm = 'CC BY-NC';          Cat = 'CC (non-commercial)' },
         @{ Match = 'ccbysa';                                        Norm = 'CC BY-SA';          Cat = 'CC (share-alike)' },
         @{ Match = '^ccby';                                         Norm = 'CC BY';             Cat = 'CC (attribution)' },
         @{ Match = 'creativecommons|^cc';                           Norm = 'Creative Commons';  Cat = 'CC (other)' },
-        @{ Match = 'allrightsreserved|^arr$|^arr[^a-z]|licenserefallrightsreserved'; Norm = 'All Rights Reserved'; Cat = 'ARR - check terms' },
+        @{ Match = '^arr$|^arr[^a-z]|licenserefallrightsreserved';  Norm = 'All Rights Reserved'; Cat = 'ARR - check terms' },
         @{ Match = 'eupl';                                          Norm = 'EUPL';              Cat = 'Strong copyleft' }
     )
-
     foreach ($rule in $map) {
         if ($c -match $rule.Match) { return @{ Norm = $rule.Norm; Cat = $rule.Cat } }
     }
@@ -230,6 +301,12 @@ function New-LicenseRow {
         Homepage                = $null
         IssueTracker            = $null
         BundledLicenseFiles     = $null
+        LicenseFileCount        = 0
+        RootLicenseFiles        = $null   # mod-level candidates: may drive the effective license
+        ComponentLicenseFiles   = $null   # asset/dependency-scoped: must NOT drive the effective license
+        AmbiguousLicenseFiles   = $null   # root-level but suffix doesn't name this mod: human eyes needed
+        SplitLicenseHint        = $false  # true when an assets-scoped license file rides alongside a code one
+        SniffedLicenseFiles     = $null
         Sha1                    = $null
         PackVersion             = $PackVersion
         ModrinthProjectId       = $null
@@ -291,18 +368,129 @@ function Read-ModMetadata {
         else { $row.Loader = 'Unknown / not a mod' }
     }
 
-    $licFiles = @()
+    # -----------------------------------------------------------------
+    # License file detection, in three layers. The old single-segment
+    # pattern missed multi-word suffixes (LICENSE_The_Bumblezone) and
+    # anything not sitting at the archive root or in META-INF.
+    # -----------------------------------------------------------------
+    $licFiles  = @()
+    $sniffed   = @()
+
     foreach ($e in $Archive.Entries) {
-        if ($e.FullName -match '(?i)^(META-INF/)?(LICENSE|LICENCE|COPYING|NOTICE)([-_.][A-Za-z0-9]+)?(\.(txt|md|rst))?$') {
-            $licFiles += $e.FullName
-            if ($DumpLicenseFiles) {
-                $safe = ($SourceLabel -replace '[\\/:*?"<>|]', '_')
-                $dest = Join-Path (Join-Path $LicenseTextDir $safe) (($e.FullName -replace '[\\/]', '_'))
-                Write-PackTextFile -Path $dest -Content (Get-ZipEntryText -Archive $Archive -EntryName $e.FullName)
+        $full = $e.FullName
+        if ($full.EndsWith('/')) { continue }                    # directory entry
+        # jar-in-jar deps are their own mods; only scan them when asked
+        if ($full -match '(?i)^META-INF/jarjar/') { continue }
+
+        $leaf = [System.IO.Path]::GetFileName($full)
+        $isLic = $false
+
+        # Layer 1 - filename. Any depth, any number of suffix segments,
+        # so LICENSE, LICENSE.txt, LICENSE_The_Bumblezone.md,
+        # COPYING.LESSER, LICENSE-ASSETS.md and NOTICE all match.
+        if ($leaf -match '(?i)^(LICEN[CS]E|COPYING|COPYRIGHT|NOTICE|UNLICEN[CS]E|EULA|TERMS)([-_. ].*)?$') {
+            # ...but not source or resources that merely start with the word
+            if ($leaf -notmatch '(?i)\.(class|java|json|png|jpg|jpeg|gif|ogg|nbt|mcmeta|zip|jar|so|dll|dylib)$') {
+                $isLic = $true
+            }
+        }
+
+        # Layer 2 - anything filed under a licenses/ or legal/ folder,
+        # whatever it happens to be called (THIRD-PARTY, deps.txt, ...)
+        if (-not $isLic -and $full -match '(?i)(^|/)(licen[cs]es?|legal)/[^/]+$') {
+            if ($leaf -notmatch '(?i)\.(class|png|jpg|jpeg|gif|ogg|nbt|mcmeta)$') { $isLic = $true }
+        }
+
+        if ($isLic) { $licFiles += $full; continue }
+
+        # Layer 3 - content sniff. Some authors ship the license as
+        # README.md, ATTRIBUTION.txt or credits.txt with no giveaway in
+        # the name. Only small text files near the root, to stay cheap.
+        if ($SniffLicenseText -and
+            $leaf -match '(?i)\.(txt|md|rst|html?)$' -and
+            ($full -split '/').Count -le 2 -and
+            $e.Length -gt 120 -and $e.Length -lt 262144) {
+
+            $probe = $null
+            try { $probe = Get-ZipEntryText -Archive $Archive -EntryName $full } catch { }
+            if ($probe) {
+                $head = $probe.Substring(0, [Math]::Min(4000, $probe.Length))
+                if ($head -match '(?i)(GNU (Lesser |Affero )?General Public License|Apache License, Version|Permission is hereby granted, free of charge|Mozilla Public License|CC0 1\.0 Universal|Creative Commons Attribution|All Rights Reserved|Redistribution and use in source and binary forms)') {
+                    $sniffed += $full
+                    $licFiles += $full
+                }
             }
         }
     }
-    $row.BundledLicenseFiles = ($licFiles -join '; ')
+
+    if ($DumpLicenseFiles) {
+        foreach ($f in $licFiles) {
+            $safe = ($SourceLabel -replace '[\\/:*?"<>|]', '_')
+            $dest = Join-Path (Join-Path $LicenseTextDir $safe) (($f -replace '[\\/]', '_'))
+            try {
+                Write-PackTextFile -Path $dest -Content (Get-ZipEntryText -Archive $Archive -EntryName $f)
+            }
+            catch { Write-Verbose "Could not dump $f from $SourceLabel" }
+        }
+    }
+
+    # -----------------------------------------------------------------
+    # Scope classification. Finding a license file is not the same as
+    # finding THE license file. Three scopes:
+    #   Root      - archive root, and its name is bare or names this mod.
+    #               These may drive the effective license.
+    #   Component - lives under assets/, data/, thirdparty/, licenses/,
+    #               legal/, or META-INF/ (Maven-shade drops dependency
+    #               LICENSE/NOTICE files there - Ars Nouveau's META-INF
+    #               Apache text is a shaded dep, not the mod's license),
+    #               or is an explicit assets license (LICENSE-ASSETS.md).
+    #               These must never drive the effective license.
+    #   Ambiguous - root-level, but the filename suffix names something
+    #               other than this mod (LICENSE-netty.txt at the root of
+    #               IntegratedDynamics is netty's license). Human review.
+    # -----------------------------------------------------------------
+    $componentPathRx = '(?i)^(assets|data|thirdparty|third[-_]party|licen[cs]es|legal|META-INF)/'
+    $assetsNameRx    = '(?i)^(LICEN[CS]E|COPYING|NOTICE)[-_. ]?(ASSETS?|ART|TEXTURES?|SOUNDS?|MUSIC)\b'
+    $bareNameRx      = '(?i)^(LICEN[CS]E|COPYING|COPYRIGHT|NOTICE|UNLICEN[CS]E|EULA|TERMS)(\.(txt|md|rst|html?))?$|^COPYING\.LESSER$'
+
+    # Fuzzy tokens that identify "this mod" in a filename suffix.
+    $selfTokens = New-Object System.Collections.Generic.List[string]
+    foreach ($t in @($row.ModIds -split ',') + @($row.DisplayName -split '\|')) {
+        $tok = ($t -replace '[^a-zA-Z0-9]', '').ToLowerInvariant()
+        if ($tok -and $tok -ne 'neoforge' -and $tok -ne 'minecraft') { [void]$selfTokens.Add($tok) }
+    }
+
+    $rootFiles = @(); $compFiles = @(); $ambigFiles = @()
+    foreach ($f in $licFiles) {
+        $leafName = [System.IO.Path]::GetFileName($f)
+        $inSubdir = ($f -match '/')
+        if ($leafName -match $assetsNameRx) { $compFiles += $f; $row.SplitLicenseHint = $true; continue }
+        if ($inSubdir -and $f -match $componentPathRx) { $compFiles += $f; continue }
+        if ($inSubdir) { $ambigFiles += $f; continue }   # unexpected subdir - do not trust
+        if ($leafName -match $bareNameRx) { $rootFiles += $f; continue }
+        # Root-level with a suffix: LICENSE_<something>. Trust it only when
+        # <something> names this mod; otherwise it is likely a dependency's.
+        $suffix = ($leafName -replace '(?i)^(LICEN[CS]E|COPYING|COPYRIGHT|NOTICE|UNLICEN[CS]E|EULA|TERMS)[-_. ]*', '')
+        $suffix = ($suffix -replace '\.[a-zA-Z0-9]+$', '')
+        $sufTok = ($suffix -replace '[^a-zA-Z0-9]', '').ToLowerInvariant()
+        $isSelf = $false
+        if ($sufTok) {
+            foreach ($tok in $selfTokens) {
+                if ($tok.Length -ge 4 -and ($sufTok -like "*$tok*" -or $tok -like "*$sufTok*")) { $isSelf = $true; break }
+            }
+        }
+        if ($isSelf) { $rootFiles += $f } else { $ambigFiles += $f }
+    }
+    if ($rootFiles.Count -gt 0 -and ($compFiles | Where-Object { $_ -match $assetsNameRx -or $_ -match '(?i)^assets/' })) {
+        $row.SplitLicenseHint = $true
+    }
+
+    $row.BundledLicenseFiles   = ($licFiles -join '; ')
+    $row.LicenseFileCount      = $licFiles.Count
+    $row.RootLicenseFiles      = ($rootFiles -join '; ')
+    $row.ComponentLicenseFiles = ($compFiles -join '; ')
+    $row.AmbiguousLicenseFiles = ($ambigFiles -join '; ')
+    $row.SniffedLicenseFiles   = ($sniffed -join '; ')
 
     $norm = Get-LicenseCategory $row.LicenseDeclared
     $row.LicenseNormalized = $norm.Norm
@@ -523,7 +711,9 @@ if ($VerifyModrinth) {
 $columns = @(
     'File','Nested','ContainerJar','Loader','ModIds','DisplayName','Version',
     'Authors','Credits','LicenseDeclared','LicenseNormalized','LicenseCategory',
-    'Homepage','IssueTracker','BundledLicenseFiles','Sha1','PackVersion'
+    'Homepage','IssueTracker','BundledLicenseFiles','LicenseFileCount',
+    'RootLicenseFiles','ComponentLicenseFiles','AmbiguousLicenseFiles',
+    'SplitLicenseHint','SniffedLicenseFiles','Sha1','PackVersion'
 )
 if ($VerifyModrinth) {
     $columns += @(
@@ -539,6 +729,33 @@ $null = Write-PackCsvFile -Rows $results.ToArray() -Columns $columns -Path $OutC
 # ---------------------------------------------------------------------------
 # Report
 # ---------------------------------------------------------------------------
+
+Write-Host "`n=== Bundled license file coverage ===" -ForegroundColor Cyan
+$withFile = @($results | Where-Object { $_.LicenseFileCount -gt 0 })
+$noFile   = @($results | Where-Object { $_.LicenseFileCount -eq 0 })
+$pct = if ($results.Count) { [Math]::Round(($withFile.Count / $results.Count) * 100, 1) } else { 0 }
+Write-Host ("  {0} of {1} jars ship a license file ({2}%)" -f $withFile.Count, $results.Count, $pct)
+Write-Host ("  {0} declare a license in metadata only" -f $noFile.Count) -ForegroundColor DarkGray
+$sniffHits = @($results | Where-Object { $_.SniffedLicenseFiles })
+if ($sniffHits.Count -gt 0) {
+    Write-Host ("  {0} found only by content sniffing:" -f $sniffHits.Count) -ForegroundColor Yellow
+    $sniffHits | Select-Object File, SniffedLicenseFiles | Format-Table -AutoSize -Wrap
+}
+elseif (-not $SniffLicenseText) {
+    Write-Host "  (run with -SniffLicenseText to also check oddly-named text files)" -ForegroundColor DarkGray
+}
+
+# A jar with no license file is normal, not a failure - the toml declaration is
+# the license statement. Only flag it where there is nothing to fall back on.
+$noEvidence = @($results | Where-Object {
+    $_.LicenseFileCount -eq 0 -and
+    [string]::IsNullOrWhiteSpace($_.LicenseDeclared) -and
+    [string]::IsNullOrWhiteSpace($_.ModrinthLicenseId)
+})
+if ($noEvidence.Count -gt 0) {
+    Write-Host "`n=== No license evidence from any source ===" -ForegroundColor Red
+    $noEvidence | Select-Object File, ModIds, Authors | Format-Table -AutoSize
+}
 
 Write-Host "`n=== License category breakdown ===" -ForegroundColor Cyan
 $results | Group-Object LicenseCategory | Sort-Object Count -Descending |
