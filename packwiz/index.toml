@@ -5,8 +5,36 @@ file = "config/alltheleaks.json"
 hash = "a0e1c6f9c998caf0dfdf39e0de4f7b9f788fc7e12d266dcca37ba20ea6d5c2c3"
 
 [[files]]
+file = "config/almostunified/debug.json"
+hash = "435ad46870d033c8652097d64c6ec592907e5ab6f1877240532a6a1743d4fca5"
+
+[[files]]
+file = "config/almostunified/duplicates.json"
+hash = "b70f57eadf6eec0ce43acd4c441f08feac1432826e04cb8e2736a73997c20c08"
+
+[[files]]
+file = "config/almostunified/placeholders.json"
+hash = "76b924b9f3e15339e28e5f61393553951f8e6a6b5d9a64e93f31d52f2ec3f765"
+
+[[files]]
+file = "config/almostunified/startup.json"
+hash = "37f013c49586db025c17f9fa6657c6f239e0169ebc97ef682ff114a2ede43c5e"
+
+[[files]]
+file = "config/almostunified/tags.json"
+hash = "5150aeaf97b4a5ee0bbf516c686715eb9ce02683a99f7e7be0852e1f612548c2"
+
+[[files]]
+file = "config/almostunified/unification/materials.json"
+hash = "0bfd8bb8d7a72501c8835febbcc9e85f432c2f090b8dde6a97ca2a304edbedea"
+
+[[files]]
 file = "config/ballistix-common.toml"
-hash = "c87c15b5814aa0aad05b9c55304a8c0baffdaf2f1a1259597eeff72c143b6614"
+hash = "5ab8f659b9df7e3c95bfe156d15d5249df44c6df6c909eac287777d775b5849b"
+
+[[files]]
+file = "config/create-server.toml"
+hash = "d8c3ee343c95566bd4fa36709c702aa95875ee0ea16ed3090b1eba26bca85130"
 
 [[files]]
 file = "config/getittogetherdrops-server.toml"
@@ -27,6 +55,10 @@ hash = "f5053219e00cfc22228f4beb838f6dec78bbd08cf04aab2207f68e324e7fc20f"
 [[files]]
 file = "config/iris.properties"
 hash = "e2af1941be2109cafc4fe2f40c8d2da0b383c61442641d47c6419ea53b4e6bd8"
+
+[[files]]
+file = "config/modern_industrialization-client.toml"
+hash = "124b0b94cbfe22781ad509d0196900dc10d7c4594acae7679d5db48b1aaa484d"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
@@ -78,11 +110,15 @@ hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "e6f891c0d34baa39f02a72fd6dc6782325060b63540b09ebae76ecd43fad868b"
+hash = "51eae76e735982e4ac3ceafba8f23914e7cf59805eee9df39f388f2177a2a83f"
 
 [[files]]
 file = "config/sodium-options.json"
 hash = "ade679c5cadd4b9d2dce255f05b75c2f3d2c7611d70e8c16821e388fb8133021"
+
+[[files]]
+file = "config/supplementaries-common.toml"
+hash = "71c046f6886bf52628d09f0bc2eb5e8a7974486026135e84a8270bcd6f37264c"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -653,6 +689,11 @@ hash = "3bd6464cf19e6cc705d84b654d32c98a7e1753d055217c21e323024f47efbc36"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics.pw.toml"
+hash = "5fab8d2e412683dfd72f08cf6750e51b03cb43192e8eb783e962ba28d20978bc"
+metafile = true
+
+[[files]]
 file = "mods/create-applied-kinetics.pw.toml"
 hash = "e3a507c195c2e26413517edafc067ca8cdef837a8c40590a9a4bbfb54ed3dc11"
 metafile = true
@@ -665,6 +706,11 @@ metafile = true
 [[files]]
 file = "mods/create-big-cannons.pw.toml"
 hash = "84d59cb128310f94ff74b144bddba65e63bca395fabe2a479c2c7544038fbe5a"
+metafile = true
+
+[[files]]
+file = "mods/create-coasters-simulated.pw.toml"
+hash = "d5aad6415413aa777ed89ae55912f33c86757321c7c16c8392ce2e1429b920d5"
 metafile = true
 
 [[files]]
@@ -972,6 +1018,10 @@ hash = "49662e374bfbc44fd80691d18218a9b59358637bcb7e0215ac4be405b44996d2"
 metafile = true
 
 [[files]]
+file = "mods/everythingfood-0.0.1.jar"
+hash = "5900e7cae8e4e56f68d13061a9a2fcc11b1199ffe56ef332a3bfca5571c4490a"
+
+[[files]]
 file = "mods/everythingores.jar"
 hash = "15ce15fe894d22b424e10ef8498dd1672aeb7feeae38b0f902b24399da441c95"
 
@@ -982,7 +1032,7 @@ metafile = true
 
 [[files]]
 file = "mods/evologintimeout.pw.toml"
-hash = "0b19848814624dfb13cb2867bd33ac09511f880ea32d36891a570166b54f81ed"
+hash = "e59c3aac44b405f0cf463a2e1739b5d9cb6f0425e75c1f19523413b686bca1eb"
 metafile = true
 
 [[files]]
@@ -2116,6 +2166,11 @@ hash = "0e046b5003d18600bb090012d0c196b04c23445bad6509df6587899321479133"
 metafile = true
 
 [[files]]
+file = "mods/sable.pw.toml"
+hash = "674aaf0dc67f808f0054cfc7bbe041d6725fcbbe97644a85ffbd946a22d35666"
+metafile = true
+
+[[files]]
 file = "mods/scalable-cats-force.pw.toml"
 hash = "968fcdc5c2fe0b613caa2ea10ba5e96317f2493a80dda68c8827121bf84678b3"
 metafile = true
@@ -2582,4 +2637,4 @@ metafile = true
 
 [[files]]
 file = "user_jvm_args.txt"
-hash = "1e5a0c53aa4319c4c5189f4ef837ed688bed1a98cf39796a62efc41bad89a16d"
+hash = "26aee2d8f79d513432a88c58f5ab3925f0ed323892d8ad50d56fada14c1a7966"
