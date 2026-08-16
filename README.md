@@ -179,12 +179,13 @@ The client installer passes no `-s` flag and gets `both` + `client`. The server 
 
 ## Loose jars
 
-Four jars ship directly from this repo rather than as metadata:
+Five jars ship directly from this repo rather than as metadata:
 
 | Jar | Why |
 |---|---|
 | `everythingores.jar` | Ours. Not published anywhere. |
 | `everythingbugs.jar` | Ours. Not published anywhere. |
+| `everythingfood.jar` | Ours. Not published anywhere. |
 | `ars_elemental-*.jar` | LGPL; author disabled CurseForge third-party distribution |
 | `chisels-and-bits-*.jar` | LGPL; same |
 
