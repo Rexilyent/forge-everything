@@ -1745,6 +1745,86 @@ file = "config/utilitarian-server.toml"
 hash = "47141b3e9cc48d9a511d58304dd7e4d0a95a162b2eb549511d0463a70ba560e7"
 
 [[files]]
+file = "config/xaero/lib/client.cfg"
+hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
+preserve = true
+
+[[files]]
+file = "config/xaero/lib/common.cfg"
+hash = "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2"
+preserve = true
+
+[[files]]
+file = "config/xaero/lib/profiles/default.cfg"
+hash = "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907"
+preserve = true
+
+[[files]]
+file = "config/xaero/lib/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+preserve = true
+
+[[files]]
+file = "config/xaero/minimap/client.cfg"
+hash = "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
+preserve = true
+
+[[files]]
+file = "config/xaero/minimap/common.cfg"
+hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
+preserve = true
+
+[[files]]
+file = "config/xaero/minimap/default_radar_categories_client.json"
+hash = "94fc0e69a1754ef80c54e1f3c9193526c620b0ac646f94a4a0f560bcc58826a8"
+preserve = true
+
+[[files]]
+file = "config/xaero/minimap/default_radar_categories_server.json"
+hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
+preserve = true
+
+[[files]]
+file = "config/xaero/minimap/profiles/default.cfg"
+hash = "49da9ce72c6d4c5cb7fde9b565d2822ea2ba95942022e269b7811cf54995b84c"
+preserve = true
+
+[[files]]
+file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
+hash = "f828d2b4908cee566443bca45d945402e80a4792b320a336db9f7fe89b44959c"
+preserve = true
+
+[[files]]
+file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+hash = "353b1d3f3abd8c3bf5deef9f21e031afd422aa18ff90454e1ee97440ae1c7a50"
+preserve = true
+
+[[files]]
+file = "config/xaero/minimap/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+preserve = true
+
+[[files]]
+file = "config/xaero/world-map/client.cfg"
+hash = "d0f079a8df083f6f60a0e0c1316a25fc841755a91bdcb2f86c66ead8e7d4d13d"
+preserve = true
+
+[[files]]
+file = "config/xaero/world-map/common.cfg"
+hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
+preserve = true
+
+[[files]]
+file = "config/xaero/world-map/profiles/default.cfg"
+hash = "5422abf9c83fedef6509144293fad20f588d4bb6ce0cf1af78cbcd2bcd0d2ccf"
+preserve = true
+
+[[files]]
+file = "config/xaero/world-map/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+preserve = true
+
+[[files]]
 file = "kubejs/client_scripts/hide_duplicate_fluids.js"
 hash = "34ffa8acd04a2237f0d2ce170cbbb6ab589e950372883c32d2785683448697dd"
 
@@ -4289,6 +4369,11 @@ metafile = true
 file = "mods/zeta.pw.toml"
 hash = "e48f7cf914d3f7ccef1c137768e8d6b2505d913bf23abc1bf060b37bc8ecfb0e"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "5d6906a8578a97891f87a5fd982a95e1ed41a21c8d77d43053576624822ca872"
+preserve = true
 
 [[files]]
 file = "resourcepacks/icon-xaeros.pw.toml"
