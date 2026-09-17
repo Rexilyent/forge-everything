@@ -1987,6 +1987,11 @@ hash = "7e1542e56b27ef2244743a4dacd5c2e5e6156e0a36ad3e8c05e99d679c3a8b97"
 metafile = true
 
 [[files]]
+file = "mods/ascended-quark.pw.toml"
+hash = "439ecce312b5bfbbd2b04ad6ab63ce032cdfad53df1b35c89a9ba362f25e484a"
+metafile = true
+
+[[files]]
 file = "mods/assembly-lines.pw.toml"
 hash = "d957c0576bcb8951dd8ab7bf20087cbc34efd7a26d5e22d91e76d46d7daf2c7e"
 metafile = true
