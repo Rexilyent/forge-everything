@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/Mekanism/world.toml"
+hash = "a13a70fea7d926111f1375ffa8397cd218930644bdcd75d7e0941f42ff985e0a"
+
+[[files]]
+file = "config/ProjectE/common.toml"
+hash = "9327faca9f0b94ff77ecf114eb31644f4ae117b549fe5272b65d04a0d2af3017"
+
+[[files]]
 file = "config/alltheleaks.json"
 hash = "a0e1c6f9c998caf0dfdf39e0de4f7b9f788fc7e12d266dcca37ba20ea6d5c2c3"
 
@@ -22,7 +30,15 @@ hash = "37f013c49586db025c17f9fa6657c6f239e0169ebc97ef682ff114a2ede43c5e"
 
 [[files]]
 file = "config/almostunified/tags.json"
-hash = "5150aeaf97b4a5ee0bbf516c686715eb9ce02683a99f7e7be0852e1f612548c2"
+hash = "85ed8ba1d8fad655b575b92966f18e395fb5eb8011e7119db6f2aa08288b327d"
+
+[[files]]
+file = "config/almostunified/unification/fluid_buckets.json"
+hash = "3c161a033e38c3ce1ea638a60c1c4a0e82e446da6d1a7f37e3eb8ecf28d3bcb1"
+
+[[files]]
+file = "config/almostunified/unification/foods.json"
+hash = "b7018756cec77dd2a550633c4dddda8223e489949cf45dfa5db706eec5c68c69"
 
 [[files]]
 file = "config/almostunified/unification/materials.json"
@@ -33,12 +49,28 @@ file = "config/ballistix-common.toml"
 hash = "5ab8f659b9df7e3c95bfe156d15d5249df44c6df6c909eac287777d775b5849b"
 
 [[files]]
+file = "config/crash_assistant/config.toml"
+hash = "8b708df5f9fc5a9d41f2c53c586bdf257b83c4eabf9506efe660d64075e1bdec"
+
+[[files]]
+file = "config/crashutilities-server.toml"
+hash = "b3b468329686161350ed57d9bbaa0838b201477453de7a7d8ab5e48bb8b3f982"
+
+[[files]]
 file = "config/create-server.toml"
 hash = "d8c3ee343c95566bd4fa36709c702aa95875ee0ea16ed3090b1eba26bca85130"
 
 [[files]]
+file = "config/ftbchunks-client.snbt"
+hash = "997d59816832c7193ae0f3f656b89c684b6935f87d2df9a703f73a1845cb915a"
+
+[[files]]
 file = "config/getittogetherdrops-server.toml"
 hash = "3bc412d7aaf7557be4acd6e45c53def66e8849aa327081cab8064c65d3b5a279"
+
+[[files]]
+file = "config/gravestone-server.toml"
+hash = "3e24786bafda1a35e38f490da2a823a3d0af523bc22b3bbac9e7ba2cafc588b5"
 
 [[files]]
 file = "config/iceandfire/iaf-client.json"
@@ -53,24 +85,364 @@ file = "config/incontrol/spawn.json"
 hash = "f5053219e00cfc22228f4beb838f6dec78bbd08cf04aab2207f68e324e7fc20f"
 
 [[files]]
-file = "config/iris.properties"
-hash = "e2af1941be2109cafc4fe2f40c8d2da0b383c61442641d47c6419ea53b4e6bd8"
+file = "config/memorysettings.json"
+hash = "2532cf7c335a22d9acae302f2caa3e39d639c03944a9e8897b66265bcf8e1afa"
 
 [[files]]
 file = "config/modern_industrialization-client.toml"
-hash = "124b0b94cbfe22781ad509d0196900dc10d7c4594acae7679d5db48b1aaa484d"
+hash = "c23d8d13defd0c5ddbdd4e0110f1ec40c15dd12a5ebadf2b854e8953b7d2986b"
+
+[[files]]
+file = "config/modern_industrialization-server.toml"
+hash = "45f41ebb459bb7b7f1186fa3d44a3f999f3d1eaf5d1b5f3190b4f541ee0e71e1"
+
+[[files]]
+file = "config/modern_industrialization-startup.toml"
+hash = "1793fd321f7e598a93d7d2c6331e9b936cd999e4a05cf9acd75087e8751beeb0"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "cbc88cf92fb261d7250024a95b25e634eea8cbf9ab39c8245c04611dee42803a"
+hash = "bef408f6ce7943765c51209420166a4ed9ac051d797566d4b227757c4ba6b1fd"
+
+[[files]]
+file = "config/mystcraft_reborn-common.toml"
+hash = "e81f89afca1c1d0bdd32fdba356172928451abe0d57e935e4357db50e3fefdfe"
 
 [[files]]
 file = "config/paxi/datapack_load_order.json"
 hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/c/tags/fluid/biodiesel.json"
+hash = "6b73dce1b3ad803c6376a836185538afe993a9f8855f79967ca20d663cfa3dbb"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/c/tags/fluid/biofuel.json"
+hash = "3b9750146b5ec21088524f74fcf9624e7dd3030bc304e0df57a86234f354d616"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/c/tags/fluid/creosote.json"
+hash = "2ad6cc6ae2762c9dc7392d73e5eaef7598e0ace1315ce7e09d78dc680ec9813b"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/c/tags/fluid/crude_oil.json"
+hash = "e8df8df5cc61203ff2a8fe29fe27458d24fa4fa7090d6fcc0ff1175b73f0ce74"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/c/tags/fluid/diesel.json"
+hash = "86895bc1b3215fdd3196edceb8c428349340dc76dc62fa7a21b112ab1f4f8cf5"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/c/tags/fluid/ethanol.json"
+hash = "5e2f42117e5dbd2c83bbf4e4c7c5311e131447282910933ffa821f2c9ebc22d4"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/c/tags/fluid/fuel.json"
+hash = "5630d1e74fe224056e423ae005931ea24c56e508828b4cf38af299cd4543dfa4"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/c/tags/fluid/gasoline.json"
+hash = "76e9f34b17f4f8eb5a3486610bcaa62c864c4f8507af051a91ed8c03dcdd7e57"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/c/tags/fluid/heavy_oil.json"
+hash = "9eb0e214968ef34f0297cf0dde4f2b8a001ed438fb597ee0600dbcff5e833f35"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/c/tags/fluid/kerosene.json"
+hash = "d67bed7cccef7713bb6a1f5d6e3a4ecdf27ba3ada0b64003b8074dbfad8f6621"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/c/tags/fluid/lpg.json"
+hash = "344e44c12e70584bb04e18fe6feacaebd9c20ba589b5de1e80932de9dda14cfb"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/c/tags/fluid/lubricant.json"
+hash = "a055b46ad4b5dc5c92d056c678b604a31b1fd8e4af808f384b08fb7aa94d91c4"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/c/tags/fluid/lubrication_oil.json"
+hash = "a055b46ad4b5dc5c92d056c678b604a31b1fd8e4af808f384b08fb7aa94d91c4"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/c/tags/fluid/oil.json"
+hash = "b581d89eb236f96ca02b69d8649909033516cf3a8933d5c62f588d7b52770b63"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/c/tags/fluid/sulfuric_acid.json"
+hash = "dae8a9991aa82bc3ef570c7743f008ea1453c185d16ba1b12047d8b68a1ee3eb"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/create/neoforge/biome_modifier/zinc_ore.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/createaddition/recipe/mixing/bioethanol.json"
+hash = "877f8d3ca075108cf108832d1fa7e4850f5e59e2da4d58494082a638f14b1e2a"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/createnuclear/neoforge/biome_modifier/lead_ore.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/createnuclear/neoforge/biome_modifier/striated_ores_overworld.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/createnuclear/neoforge/biome_modifier/uranium_ore.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/ore_aluminum.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/ore_chromium.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/ore_fluorite.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/ore_lead.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/ore_lithium.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/ore_monazite.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/ore_niter.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/ore_salt.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/ore_silver.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/ore_sulfur.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/ore_tin.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/ore_titanium.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/ore_uranium.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/orealuminum.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/orechromium.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/orefluorite.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/orelead.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/orelithium.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/oremonazite.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/oreniter.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/oresalt.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/oresilver.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/oresulfur.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/oretin.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/oretitanium.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/neoforge/biome_modifier/oreuranium.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/impure_aluminum_from_dirty_aluminum.json"
+hash = "35df693c49fb96950618bf78e40e9d49ef14ecf6b2c3ad338b5a721f9d4722fa"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/impure_chromium_from_dirty_chromium.json"
+hash = "8857e4ce35966c83b7327b01bbe97a555f6e9f27b74c03d0dff22b9dbad67fe2"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/impure_copper_from_dirty_copper.json"
+hash = "639ed8bd6d3fea0e6a1523a90b1974e839da3762e2064412579f89d680efa23e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/impure_gold_from_dirty_gold.json"
+hash = "959855cc29b7ff64b6e6f72ed442fa8e03bea8cb8be6373d99bbfbebf727ad62"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/impure_iron_from_dirty_iron.json"
+hash = "71ae7bf8289ab68202568e8c779e66b3bfdb93bd4fabe58e98fe38479afbbff6"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/impure_lead_from_dirty_lead.json"
+hash = "db2504cd55130d319fe746c6652a6dfea38ef9414d521d901e2d67b021e9c842"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/impure_lithium_from_dirty_lithium.json"
+hash = "c31811fb9677cb895ae2badb68b63183f082c349b6b6d32aec7227f72dafeb41"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/impure_molybdenum_from_dirty_molybdenum.json"
+hash = "f4931b7fbcdb8e85436ab0afad3d3eb3787e67339e5e86b63614c426558378a4"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/impure_netherite_from_dirty_netherite.json"
+hash = "56947d8cc9c0b1751d65531d55eef9a7c2fc97be480616741c86c7759101fa2a"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/impure_silver_from_dirty_silver.json"
+hash = "cc43acf9fb21de6863f67b02ef3f418796f38a8129583fe4b7d2e28eef23b36c"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/impure_tin_from_dirty_tin.json"
+hash = "9bf19d2be970e86148ad335d4657fe0ce868f103b251d27d50d1464ba6f1feca"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/impure_titanium_from_dirty_titanium.json"
+hash = "82a8ca7ff95be79f95ee2259466591faad6fbc07d7d4a9237c9a24e6fd700dc3"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/impure_vanadium_from_dirty_vanadium.json"
+hash = "633d027bdab01a070ef24cbff29b6b26e73d1129edd6df71fceddb00db1488ae"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/pure_copper_from_copper_sulfate.json"
+hash = "6d0e2c5ae0b3d5afc1d09386106f0edb3a00f0158790856c475f03424d94a5d7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/pure_gold_from_gold_sulfate.json"
+hash = "f5784f99c48c9ddfcb656aaf1db486b69cc46ad471f50852c37350838b542937"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/pure_iron_from_iron_sulfate.json"
+hash = "51548853f3050fc15bbe002007852a857740a4b7014854e9a906d2668d148d09"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/pure_lead_from_lead_sulfate.json"
+hash = "d93be7a6dbd1da931c23876825368320b3415d9c8956ea57bca8258f6b9e9435"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/pure_lithium_from_lithium_sulfate.json"
+hash = "ad7db2ce58c62acd6e7895f8f2bb6df42dc1d385bc9b2a6a483f4c0afaf2b7f6"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/pure_molybdenum_from_molybdenum_sulfate.json"
+hash = "f2b1bba97b3a5a20082b75afd0f63ff859a8992fc03d7ae6b1e258b7a1774316"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/pure_netherite_from_netherite_sulfate.json"
+hash = "9c212f588e7cbb6393b9b26224e976a5eeab238f8eaf59ed2fca85d1772c1187"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/pure_silver_from_silver_sulfate.json"
+hash = "079680fbe9ce2cdb0bf8891c07a799501b05f4d1c9b8becd9a598e87f7ca6c0b"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/pure_tin_from_tin_sulfate.json"
+hash = "275ec12b685c852bb1dca3b9de9d8f1e5b8db64cfd1972e67e228680dd67ed0d"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/chemicalreactor/pure_vanadium_from_vanadium_sulfate.json"
+hash = "c8da4e28aed0312759d42fed0951f2e6b1b86194dfaa6f70c13b3a52f30aff65"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/fluiditem2fluid/chemical_mixer/sulfuric_acid.json"
+hash = "31eaa55b71d5aaea487bab2fdad1ef0cd22acaf3fb99430d85061b5ca0a6ead0"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/fluiditem2fluid/fermentation_plant/ethanol_from_carrots.json"
+hash = "bc4cf5c083ba67983a37f8d04f3e5aebb0598314f7a438d416077a4ea3f6a667"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/fluiditem2fluid/fermentation_plant/ethanol_from_melon_slices.json"
+hash = "65b6d70c1fd07b4a381749bd76ff8d6f67862c9507c1e4b931789815b8ef3fc8"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/fluiditem2fluid/fermentation_plant/ethanol_from_mushrooms.json"
+hash = "a4eb3e06ed376e2d4bc715a96068643995eb086465cbe7a19c32bddc57af37a4"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/fluiditem2fluid/fermentation_plant/ethanol_from_potatos.json"
+hash = "051b5c42dc66d32c9fd5fa754aa484369eb1e7a365332b0c92ad07ec8b78a232"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/fluiditem2fluid/fermentation_plant/ethanol_from_pumpkins.json"
+hash = "3903ef182812826e894109a0d33c4299f6b83b42383b659af4591b02f61f10a6"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/fluiditem2fluid/fermentation_plant/ethanol_from_seeds.json"
+hash = "473960a22a0fbff8a70742032736d388573f96456f568b579ab89afab2f6d40d"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/fluiditem2fluid/fermentation_plant/ethanol_from_sugar_cane.json"
+hash = "9a37912bc4a6376c4baafc4d878113ff2d676e068cff53dd2011d22b33739235"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/electrodynamics/recipe/fluiditem2fluid/fermentation_plant/ethanol_from_wheat.json"
+hash = "f4ce1a7a32deff1697c316ea52f74af985212f29d76541eb9ce97b245b33bfee"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/extended_industrialization/recipe/npk_processing/phosphoric_acid.json"
+hash = "877c24fd387356703299b26566ec2a2a0afa410f95c6e0ecf08f7274fa8265f1"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/farmersdelight/recipe/integration/immersiveengineering/fermenter/tomato.json"
+hash = "7f5c9c1998329feab3bf9a82c4fba53737424c312795e1ac7c03738e01c19606"
+
+[[files]]
 file = "config/paxi/datapacks/forgeeverything_datapack/data/forgeeverything/neoforge/biome_modifier/README.md"
 hash = "8f0e39823a45073fa536c2fe2dfe0f68fa2762b7e6768a069ec619835c151404"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/forgeeverything/recipe/README.md"
+hash = "580692cdd6e6cc074824c1b925e4eeb28ca63d146194445acdc697f90bed1f77"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/forgeeverything/recipe/uraninite_raw_from_raw_uranium.json"
+hash = "1ddf6e6c6e8ec51f7cdcec3d1c8f59641fc3f146efad8a2b4d3b9ef43140f32a"
 
 [[files]]
 file = "config/paxi/datapacks/forgeeverything_datapack/data/forgeeverything/recipes/README.md"
@@ -81,8 +453,836 @@ file = "config/paxi/datapacks/forgeeverything_datapack/data/forgeeverything/stru
 hash = "04af975b9d27fe8212921f96e5b7b3a8045cf0aa138ddcdfe1c55069b58906cf"
 
 [[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/iceandfire/neoforge/biome_modifier/silver_ore.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/immersiveengineering/neoforge/biome_modifier/bauxite.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/immersiveengineering/neoforge/biome_modifier/deep_nickel.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/immersiveengineering/neoforge/biome_modifier/lead.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/immersiveengineering/neoforge/biome_modifier/nickel.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
 file = "config/paxi/datapacks/forgeeverything_datapack/data/immersiveengineering/neoforge/biome_modifier/silver.json"
 hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/immersiveengineering/neoforge/biome_modifier/uranium.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/immersiveengineering/recipe/fermenter/apple.json"
+hash = "7022974b039392f4e905075f83809bb208991e54079986f3c9027c6feb083b60"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/immersiveengineering/recipe/fermenter/beetroot.json"
+hash = "acff101844ce4d4285d64e8bdc684f53771f356800050a860942a91351f897dc"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/immersiveengineering/recipe/fermenter/glow_berries.json"
+hash = "49dd6924a510ed197c58218c1e5d1ddb22a0970acc0126fdebd29edc1086045c"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/immersiveengineering/recipe/fermenter/honey.json"
+hash = "7f5aed3b8d5a3df6b237c889f43c7571ffd79fa50a7b198bd0300129aad28935"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/immersiveengineering/recipe/fermenter/melon_slice.json"
+hash = "d2a5c66be37c983d1a0e52d0a833eb34045ef27059f7de4ab1b6461ae6f92b91"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/immersiveengineering/recipe/fermenter/potato.json"
+hash = "4569e059fcb4846b667cb7421d46d9b632f1e16e3ea49921b4cae42884f4193b"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/immersiveengineering/recipe/fermenter/sugar_cane.json"
+hash = "b40fd88b8d94408e6e46b0c9736c3e0a77625c1724b6cba803b3d706fee14ce4"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/immersiveengineering/recipe/fermenter/sweet_berries.json"
+hash = "252833b9f49e2e47a6510f77296a1d16613a1253e83ee7b5643307b33622c1d3"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/immersiveengineering/recipe/refinery/biodiesel.json"
+hash = "ae72e281a3380691623114f584d5ca663e4e2e17130ae628c46293736790fcc1"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/industrialforegoing/recipe/dissolution_chamber/efficiency_addon_6.json"
+hash = "2f59748cc15b5cfaa660d9c0ae1ff0620c71687a32302d78fa32939724403f16"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/industrialforegoing/recipe/dissolution_chamber/processing_addon_6.json"
+hash = "74abf4d278fbbcd2a6753302c51d4e21fd1c2629e36c408f086ac3fec3e16ca6"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/industrialforegoing/recipe/dissolution_chamber/speed_addon_6.json"
+hash = "8b75fbc93934b9fcfe2ec2d807cffe4883ac51ff4b21676aeff413f90030f047"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/industrialforegoing/recipe/laser_drill_fluid/oil.json"
+hash = "5efcd584a1aadbd7901bbcaf4bf324b17f81af0862b041d67511f053a82e7bac"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/industrialization_overdrive/recipe/pyrolyse_oven/charcoal_from_logs.json"
+hash = "3885a8ab0252c867371ceed0cd54704cb48f139ef6ca881c9286e7ec3eb379cc"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/mekanism/neoforge/biome_modifier/fluorite.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/mekanism/neoforge/biome_modifier/lead.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/mekanism/neoforge/biome_modifier/ore_fluorite_buried.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/mekanism/neoforge/biome_modifier/ore_fluorite_normal.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/mekanism/neoforge/biome_modifier/ore_lead_normal.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/mekanism/neoforge/biome_modifier/ore_osmium_middle.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/mekanism/neoforge/biome_modifier/ore_osmium_small.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/mekanism/neoforge/biome_modifier/ore_osmium_upper.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/mekanism/neoforge/biome_modifier/ore_tin_large.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/mekanism/neoforge/biome_modifier/ore_tin_small.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/mekanism/neoforge/biome_modifier/ore_uranium_buried.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/mekanism/neoforge/biome_modifier/ore_uranium_small.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/mekanism/neoforge/biome_modifier/salt.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/mekanism/neoforge/biome_modifier/tin.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/mekanism/neoforge/biome_modifier/uranium.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/mekanism/recipe/rotary/sulfuric_acid.json"
+hash = "00580523d480d41ba32a15ea59e38d550436f14cbab18ed572518291dc536d59"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/data_maps/fluid/fluid_fuels.json"
+hash = "dfb745c1b9ec06a79316dc6f864fccb416589b425fe754573000b27bdca42ccb"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/bauxite_ore.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_bauxite.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_lead.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_monazite.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_nickel.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_salt.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_tin.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_tungsten.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_uranium.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/iridium_ore.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/lead_ore.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/monazite_ore.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/nickel_ore.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/ore_generator_bauxite.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/ore_generator_lead.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/ore_generator_monazite.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/ore_generator_nickel.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/ore_generator_salt.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/ore_generator_tin.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/ore_generator_tungsten.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/ore_generator_uranium.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/platinum_ore.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/salt_ore.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/tin_ore.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/titanium_ore.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/tungsten_ore.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/neoforge/biome_modifier/uranium_ore.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/planks/acacia.json"
+hash = "b480f54404180447a27b95446464e10c01bce5e032b27b09f1bb90eed97f57cd"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/planks/birch.json"
+hash = "841423af67df77a9773c714a1fa669f47b0c428b4d3bb963760358637a245def"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/planks/cherry.json"
+hash = "0585e6f7905f853719b79d87706874b1ea531cd0ea4cfaa00805a871bc36d158"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/planks/crimson.json"
+hash = "e7aef3aac343ece46984b2dcffc7059098c6931bba40718f172272716f1f545d"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/planks/dark_oak.json"
+hash = "1a4130a9d5c64c6f20a5fff92edbf04bbdd99bc70d77c623fe8c43544cf439c4"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/planks/jungle.json"
+hash = "e58cac8afac391cdbc5745959afc1a0766c48503e203d960c88cd689ad4f3cfd"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/planks/mangrove.json"
+hash = "e0bf68ca2c6c3ffd94de5c5b012be7436848fd5386fcad70404d816080cb8c20"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/planks/oak.json"
+hash = "bfc5fe40e3053b5df55a882a6f52d981fbe0521d45832fa429554a472e7f61fb"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/planks/spruce.json"
+hash = "1891c68961b092310c56d6f2ccfcfac147c1e6ccf1700a233c2f2ca6eed465ae"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/planks/warped.json"
+hash = "5e91b71265dcea3117716fe3cf1733bb5fcefd0f9f0bdeb13cb12acac6869ca1"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/slabs/acacia.json"
+hash = "417d63b8b0a18d96ddc3fd480c342385bbe7708c1a2a332a93db74e84cd85267"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/slabs/birch.json"
+hash = "9179f3522d466f6cb0447a105c207dd41fbf11fa5eaa25c3514b47c0fa940c3e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/slabs/cherry.json"
+hash = "752ab8adb3a5ca1230a134c2bb1b2be01dec766ae2b0f4bb27aafc077d3061e1"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/slabs/crimson.json"
+hash = "7292664b994f1826078766a6c011311262ee6177d0fc2afd03469127e7f2c968"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/slabs/dark_oak.json"
+hash = "5006b23644a17e34017aad75b1145ae177cf1f9e33d9393865f3e1f85a82bc8f"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/slabs/jungle.json"
+hash = "45724b333da2d257b44c16711969c49355d195d1f14b1f92486fd32ca97c04db"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/slabs/mangrove.json"
+hash = "465736bb8fe5503b969f70321b631b953aaad105aef842b180765a87f16b3cce"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/slabs/oak.json"
+hash = "cf9cd4016247fabda79e0400de82f3baf40bd946da3528141dd3c22123fb5b5e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/slabs/spruce.json"
+hash = "0a9e731108a6aa16a87309f5c6dd9191da6dd6e00ce36923c6027c0c6a4db1b3"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/slabs/warped.json"
+hash = "f35ef8d4b4570daff04fefcebfb6e70f99537062e7009b973961e2f7a39ed00c"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/stripped/acacia.json"
+hash = "e65751fcdd99ddb9a8ebedd3539e2b76884a1ef4665987f4132bdf3be3053ff6"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/stripped/birch.json"
+hash = "9ee197761e61ff21b8d5a3ae9042ff0b351604a8e63246bec0807336c162c11b"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/stripped/cherry.json"
+hash = "af44f973c48d46c04a43f2eaf1eb3998fc30c6c87f54aa6925fd27b130ecdfbd"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/stripped/crimson.json"
+hash = "6c5a7be3889913aa4dde4bb125c7a2045e52c8081bedaea89ba4f5e6f407a8c0"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/stripped/dark_oak.json"
+hash = "b1ad6c77d9c76109b1778eb2ad8efb8fbe04e5e79a0ba8875d465a7ba009c79c"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/stripped/jungle.json"
+hash = "335ced608ee63c119bbe3c42a7247f0e2c8bf2466b43b8382620423cd4ad8943"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/stripped/mangrove.json"
+hash = "4afc437e310ae2d28c6246f4021230d5e40f8e78ce78b94db1216327b7c6f87c"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/stripped/oak.json"
+hash = "09442fee4d4b13d1c7db49b3485db4c13d7570005b9cc8573faee9c58673a3df"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/stripped/spruce.json"
+hash = "7cdd8481691260379ac6c1ada778e218b9757dad29362011cbb2fce915c7aef7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/stripped/warped.json"
+hash = "b671b11ec4756c04ffae8a7a23892f99bbc39c50bb1dfd8cea0a05d3eaeb2227"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/stripped_wood/acacia.json"
+hash = "e08bdccceba4fec684048864c0674c15d396b9794b7939dba261be52df5b2cd6"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/stripped_wood/birch.json"
+hash = "273bc412e732cb194bbf89ec53d0f5d66f96115c205ddf6d2f7fe71a5a78e4df"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/stripped_wood/cherry.json"
+hash = "f9b93ce50890b5e25d0f44defd9b16a715f34280f1086304262cb64bbe005147"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/stripped_wood/crimson.json"
+hash = "ed3f58c2288aa7b07672ba3f8243a8e08c98e926f040f626bc15bf96ef427bea"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/stripped_wood/dark_oak.json"
+hash = "a4a27a034e0e972cc85426d72a0156e4c0f1ab6aea51dc59006032183b79636c"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/stripped_wood/jungle.json"
+hash = "d25d333667318d57df8ae939c8d3cb220bc7103eeb16b5d6bc960d5d0ff24164"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/stripped_wood/mangrove.json"
+hash = "868c053800fcf8631fb0a5fa280dd1536128a231fbc76b9a577dfd318edf8f0e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/stripped_wood/oak.json"
+hash = "3639901f6566b4d206c97270a2c38294fe3e9c145f4d7a572d747f7fad00a3f2"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/stripped_wood/spruce.json"
+hash = "e84a552be63338867ab1e1a5160586f8ccf642629a23d0d9d387debc274d618e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/cutting_machine/stripped_wood/warped.json"
+hash = "a9c8aaf87a8fadf8acd243a2925cda84b401994164b5573acb139edfc0254e88"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/black/cutting_machine/carpet.json"
+hash = "2a55a38852ba712b9cca102c4325e306db22952df68b52e43b3c1a4573d0b554"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/black/cutting_machine/glass_pane.json"
+hash = "2600efd0036d4c10fd9e1138c4d657b2634518b4750326ea4bd2284e8d90a29a"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/blue/cutting_machine/carpet.json"
+hash = "a8de4c58bbd9f86a31624677e8df73e781b5191e3522bc791ad6ff66babdb973"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/blue/cutting_machine/glass_pane.json"
+hash = "9cab0819e71fa6420d029b2d0a26f8861ae90692b7210ebe1f04cecfadfc10eb"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/brown/cutting_machine/carpet.json"
+hash = "e95e4634ba3715eed117445c0374dcdda10d3e6014c8933cc361792fd22242b3"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/brown/cutting_machine/glass_pane.json"
+hash = "a601105f95e06e5b86ca7b36d92a8363660e451aa8042649decc488b064f3688"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/cyan/cutting_machine/carpet.json"
+hash = "5aa08715cb03654a19c04628b8909c2a7b2c9dc13e3097686bdfc0f61d5a7997"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/cyan/cutting_machine/glass_pane.json"
+hash = "39aeb0b28d0ede7d588e2420ab57827e31b2b7ba23441c9da5d26d73dcc28e2f"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/gray/cutting_machine/carpet.json"
+hash = "73dc5e6064981545ea3c344187d8de636960a4ee8e896fe8bcd2fe04b42e0153"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/gray/cutting_machine/glass_pane.json"
+hash = "a21c6946ec2c6ecebc1d20946e470441c85bd14fc24415e23a5b377b9a514a34"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/green/cutting_machine/carpet.json"
+hash = "f4d5e11d6da3e043f46ed58138c77be6f7fc44d0453e5a5759c4003a5c225b44"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/green/cutting_machine/glass_pane.json"
+hash = "f6c1994b8c0dab05b72a3fcfb83fda5bb3b9fa160f019adcef361be687257cfa"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/light_blue/cutting_machine/carpet.json"
+hash = "083bba096aa39eb430bbc8a2307e93cae3cf129285a78b3eaa0924603d3d02ad"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/light_blue/cutting_machine/glass_pane.json"
+hash = "326e5106beea81c0efb92fba0a2b8f53892c2b6743dd1db7018f68c2adf1feb5"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/light_gray/cutting_machine/carpet.json"
+hash = "acdf198ee46b1f0da3788ea4890b5fb72b277c40cb639bd17de2b68e5fcdbeed"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/light_gray/cutting_machine/glass_pane.json"
+hash = "d76f144a52297aa455956ceb689edc9f487c3471de68d8a6d70885e16723e50c"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/lime/cutting_machine/carpet.json"
+hash = "d8435b7c9680159743265205a017f9498aa21c6f734b3f5f3d4b0793488d28fd"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/lime/cutting_machine/glass_pane.json"
+hash = "f05a65d8997699b075bb67d400695f8a8458f4929dd674616fc7b6003b105c8e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/magenta/cutting_machine/carpet.json"
+hash = "cc80a81443ecbeb0f79eb5674492e54db4317122e4cf3f1e1b1d8f6326bda84f"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/magenta/cutting_machine/glass_pane.json"
+hash = "87fad03fd926eea96e75ebf12dc992608e4c9d8b3980a90119a75b87f2d3d873"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/orange/cutting_machine/carpet.json"
+hash = "d0d344b1e34d76b1b59d78afa5622231f6085cc0e3a17c2ca1858601d2749344"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/orange/cutting_machine/glass_pane.json"
+hash = "ce17aaefbb127aabe63183e8491a49dae854ed56440258322f871c67afa7dfe5"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/pink/cutting_machine/carpet.json"
+hash = "76ba1640567fe90f67ffff7c72a656038f2620decc197fface12b500a2fb7561"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/pink/cutting_machine/glass_pane.json"
+hash = "13f24cddb606b64556881cef2ea395f4fe4b2b88513ca3b03e46f1d15d9103a8"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/purple/cutting_machine/carpet.json"
+hash = "e13aa1ae7a414e007755c135b188569ef0d2d49b39c5aa0055e44f90db30cc51"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/purple/cutting_machine/glass_pane.json"
+hash = "60e72700e6d31f5807a488445250c7fec6db934dd2f8f0899791825a07c2ec4a"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/red/cutting_machine/carpet.json"
+hash = "7d17992c1b35e9787892a141de8c743a72db6ce11483909df0cf5e16635618c3"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/red/cutting_machine/glass_pane.json"
+hash = "2d8e4ddaf28e439b368d0f1ad6158b348cf7d84f55ac92fae9ceca319ec25c0e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/white/cutting_machine/carpet.json"
+hash = "261d6a958b7d99139ffac8ea2c4f131a1b49a1860d95437d10f9f0e3c63211cd"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/white/cutting_machine/glass_pane.json"
+hash = "f1c2961125fcf04478f0917ac883bc383bb9c9a53a9004a9925c3407f514d771"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/yellow/cutting_machine/carpet.json"
+hash = "ba8e529fccb8a3162464ac80ea3c60f72b907963b59fe3d92f5810cc70becb67"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/dyes/yellow/cutting_machine/glass_pane.json"
+hash = "437d382a6a6feba3afb9f0ffdb3f68fd9b6a1bbfa1de2293245c3f89755ec292"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/electric_age/component/cutting_machine/silicon_waffer.json"
+hash = "1c2fa69ad8ddbb60dfb9eeffbf2598aa0060b64dd4ce3ca24de06ff48e8f99e5"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/aluminum/cutting_machine/double_ingot.json"
+hash = "5f9d761fbbde108d0e51c44cc8011cbe2a68f16e470f01ede6372b55ac1c57b0"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/aluminum/cutting_machine/main.json"
+hash = "99136be18147fb7d915360af727cf1e2f8531f65bc3ab77a7736ee62614e3607"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/aluminum/cutting_machine/rod.json"
+hash = "861531d5e9a79f1a82e861e4e74e530a17e9103cfaeea6c36c9fc37f405eba62"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/bronze/cutting_machine/double_ingot.json"
+hash = "8d45deeba0727e002f1d109e0f4301f8ab65cdae4fe7b2451c34c91a5d8f4a0c"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/bronze/cutting_machine/main.json"
+hash = "e15896281d35ad5198f332b06aa0c4d1204764636fbd58cf1a23e6156529213c"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/bronze/cutting_machine/rod.json"
+hash = "49ea1f8b1099da0d3b72055d1ea6d35c7695dac55e2f113b2a04821fe5364237"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/cadmium/cutting_machine/double_ingot.json"
+hash = "4143b4bb1ec9aaae2c06082a4780db9a6e953a49acedd5aad2993fe14317ba74"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/cadmium/cutting_machine/main.json"
+hash = "e1e754ff3e0f63b18938517a5e4ff3fbe20d613eb4b155a3edd4e3d86c11bdcd"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/centrifuge/wax.json"
+hash = "deffb794d2413c604e1e7d9556ae3233f81719e284d093defccae543fbd535ce"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/chemical_reactor/manganese_sulfuric_solution.json"
+hash = "89ac2b3690edbe4f4cd1997037b988a9b06c4ff69410322ec2421273a873e3ea"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/chemical_reactor/platinum_sulfuric_solution.json"
+hash = "bb4732377adc73fb3398e7398dae55404cbe6ab3fd2c569ad268094980ed7068"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/chemical_reactor/sulfuric_acid.json"
+hash = "f36cf6578afece7996dba5399385dbc621b6b608c3db15fe05dbd5a1f6d8c4b6"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/coke_oven/coke.json"
+hash = "d4b75f5ed7433372567fb9aefbbd8a56b6d71bb6995076b019bbd400226b0e8e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/coke_oven/coke_dust.json"
+hash = "973be3d539f9e955bc58129928d0bd57e7a65c7841f37e9dd342a3ea2270112d"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/copper/cutting_machine/double_ingot.json"
+hash = "2f3170760097fb232d2259f637baba8e96fb2f01af3156d51fe0f76d51d3bafb"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/copper/cutting_machine/main.json"
+hash = "0000fa6891f72496c1aba2697f1375afe049e5f23978500e3565cd9ac581214d"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/copper/cutting_machine/rod.json"
+hash = "5c25238ea6ab93b17142e6826862159166b66fa1ed4a972e7c253923dd01e9b6"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/electrolyzer/manganese_tiny_dust.json"
+hash = "4fc611fc7a1ea7cde1ac35352ae390cd76e300eaab7078b45e47120e436aaa59"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/electrolyzer/platinum_tiny_dust.json"
+hash = "548cff0516437da6515b33aa86636af89624af1a8645856bfcc6f25c71e62cee"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/electrolyzer/sulfuric_acid.json"
+hash = "cc8ce3f901bc24845acf1930d13b6b8b0b979f1c902ce663c910afaa4a348684"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/gold/cutting_machine/double_ingot.json"
+hash = "7b448a9aaa2d951bfd46b00d0c20e6da284b0d93a772bf22500d7adffdb18af9"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/gold/cutting_machine/main.json"
+hash = "1fc41805c35e9c71dfec3b824116cb9c7fbea50e99ed9d3a225c41de2fecc7be"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/gold/cutting_machine/rod.json"
+hash = "2bd1dcc81f2409140ca73d48be53eb2cdff9827f1fcccd12ec752642e726f8f6"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/he_mox/cutting_machine/main.json"
+hash = "6077d8b6801dd24fec00ee2d69ba03f3167c7e9cbee6b406b8169c5710439f5e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/he_uranium/cutting_machine/main.json"
+hash = "a1be87887e3b1d9c5faa57a77bf702ffcb28b4727e519ffacb02dd6d4bb395d5"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/invar/cutting_machine/double_ingot.json"
+hash = "c53db320c24dd5222477f1df2ebb1c3e7297b9dbf38873c648f79010ba33c0e2"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/invar/cutting_machine/main.json"
+hash = "308b9280f59fa05bc4986b848e2081e3e653cfa1aecb97314639d7e586335965"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/invar/cutting_machine/rod.json"
+hash = "d8d22a8b59483a1ad9d2793485be1c6f9d71e80d79615af69765afb3c8d217a8"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/iron/cutting_machine/double_ingot.json"
+hash = "bbebccf29a39c04ea176575a09281623ec3213a858cd8041db361a946f295cfa"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/iron/cutting_machine/main.json"
+hash = "4d8fd3ad697910bd7e3f84958eafc1ded8da5c154201e3ab0a96d0a58e447af7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/iron/cutting_machine/rod.json"
+hash = "ea473fdfad64d29b9dab26c52f38fa97ec955a0a84f98d6975c8dbc90fb88d10"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/le_mox/cutting_machine/main.json"
+hash = "5c98079edf27c10b2f70bb682d51200b657db80571f10d784170bdef930f98ee"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/le_uranium/cutting_machine/main.json"
+hash = "f16a69bacf53ee5e039968dff79d56ca07729194a9fccbfefc2671f8e6241985"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/mixer/lubricant.json"
+hash = "0a5c443d3e75edba1a7cfab0e86dad34a97ca038338fd5d913dc129a493dfb6b"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/mixer/lubricant_oil.json"
+hash = "4fe0e174e031d5c6395cbf62b0d6788019f5821262d26d71de2c38590226ea84"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/stainless_steel/cutting_machine/double_ingot.json"
+hash = "ba2c2e9106cce7cee31c81284e67d0dd7b1d9b55f724bd961136c0f016933bf3"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/stainless_steel/cutting_machine/main.json"
+hash = "7b358b696e4b3bc65f903b97e80f3b8e26afbd22c2aaa20fceafb248b0011b0a"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/stainless_steel/cutting_machine/rod.json"
+hash = "2e377ddc0cb6cdb10e4d9638d8967b03e67fa4740a48093e9bd308c604e6ea25"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/steel/cutting_machine/double_ingot.json"
+hash = "62c962da817784e8a82af5d6de57d2964fa5de458415020f18e03798d7be88a1"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/steel/cutting_machine/main.json"
+hash = "ec16e85f872f4b4b4aa7640fab3303ee491e0327fef7e8edc1246dad80266d0c"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/steel/cutting_machine/rod.json"
+hash = "f3d4431286067f82f3d4ab043d8c068b76bd265b4a3f4c7f68334929b9c46e08"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/tin/cutting_machine/double_ingot.json"
+hash = "f248b427e2014cfe475a2a111b8f652065df3e761de4493595898821fd02a7e5"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/tin/cutting_machine/main.json"
+hash = "74348f47247324bc0fdbe06bc4f2d9c123622e1b560c412d01c83298636fbe16"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/tin/cutting_machine/rod.json"
+hash = "aa1578dd3bf5d82c64061e9a64cfeb8647724e138e76cb8fa4ee9fb8dce33d7a"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/titanium/cutting_machine/double_ingot.json"
+hash = "4d04ad6491548b088349e8b42b3f1523835b9eb9f8066a0b997869edfe7e6ec3"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/titanium/cutting_machine/main.json"
+hash = "e22cdd820f41ffe9fc81452f52df14f02e8463d9132a05cfa55cdc7f851822ed"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/titanium/cutting_machine/rod.json"
+hash = "dbc25c4dcfcb7a6ab91be64c7e5ee43f0a2497f46ce9b2ef96203d1fa4d108df"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/materials/uranium/cutting_machine/main.json"
+hash = "36b8024a7e80941a45d03248f8068cbcae9c61028f633435bdd9617cc589afe2"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/oil/chemical_reactor/ethanol_to_butadiene.json"
+hash = "3328f8d0383f7a3b69a373c4375a302a3576149d0e1265f5711057afa500b465"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/oil/chemical_reactor/ethanol_to_diethyl_ether.json"
+hash = "3577b6d196e9da73099495edbaae46a696ddb72daa0939ec13412a5bad93b753"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/oil/chemical_reactor/ethanol_to_ethylene.json"
+hash = "e38339086f1aed4b676c6cfa26c9253baa691dd4fd70aaf2dc67d00503d2e119"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/oil/chemical_reactor/ethylene_to_ethanol.json"
+hash = "bf696ec7a106df6481088918dd6933f55bb9e640f8794b2f157a90280635a9f1"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/oil/chemical_reactor/plant_oil_to_raw_biodiesel.json"
+hash = "a3eefe819231cb7615b8d38428b4e585c8b2f72e24aca7eeb76a7f055feacacb"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/oil/chemical_reactor/raw_biodiesel_to_biodiesel.json"
+hash = "ef48b8792652baa509a7eb1402a4e110790edef75278c3793bae5c43f3b5fc3a"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/oil/crude_oil.json"
+hash = "3bede47ddbd76676db09bce34735de41b33ccc578d7f32823ffa6c57da6ff57a"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/oil/distillation/ethanol_from_sugar.json"
+hash = "de137e972d23151d6b1c80365aa1c796d9d17a1992650ca2c5fbfccdc236e7b5"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/oil/mixer/diesel.json"
+hash = "c822ceed3339814a5096c70c5b45a32464c1105dc8d0b8680bd587faa21fa98e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/oil/mixer/diethyl_ether_biodiesel_boost.json"
+hash = "8222fd033bdc3221f2a517df0ff96eb4e941ec1607b21e0c54c2928b2b572ac4"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/oil/mixer/diethyl_ether_diesel_boost.json"
+hash = "2f49f09ba278f58a28e0cea8ef038bc15f9fbf19b735c7827cbd1806f9e7a31a"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/oil/mixer/lubricant_from_plant_oil.json"
+hash = "f9e34761a1e11ba3973131cb7cb489797d43668070bac972868609404cf57eba"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/petrochem/distillation/crude_oil_0.json"
+hash = "24d49f4f6979a64e16c54ae02fd9ef2b9166b9f492deac42118d4d0d6d6caa16"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/petrochem/distillation/crude_oil_1.json"
+hash = "f0de59cc5ebe1372da3549223ba055cda3300c2d86915bc33fb28a9051d9f390"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/petrochem/distillation/crude_oil_2.json"
+hash = "549210f475c50f969e162cf48392aaf96e13c3d912e251634d16864d1dcbdb64"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/petrochem/distillation/crude_oil_full.json"
+hash = "4a2aa145f377acb751830147ad599d34d807d05c11111a0dfc34c673cc852aaf"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/petrochem/sulfuric_purification/crude_oil.json"
+hash = "701b580f285129f6f51653847dbf785874474634a367a2df9361ddf117003467"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/petrochem/sulfuric_purification/heavy_fuel.json"
+hash = "6ece13188091b9c54c9047fc5405acd380013e4afc86c56d409637a43ee2d474"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/petrochem/sulfuric_purification/light_fuel.json"
+hash = "879d7cd5add5dc388b13e1f06353a18c7641eb2cd18b646f27fb3d51af453328"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/petrochem/sulfuric_purification/naphtha.json"
+hash = "06ae0e48eab69a8b5c331b8ddb4bb6ba318aedcad2a49b5e6536448e64a35c6d"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/vanilla_recipes/cutting_machine/glass_panes.json"
+hash = "765132817d4c62ab4803645bf884a11b9cbb128d0ee616d9ef13aa00b5a450f4"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/modern_industrialization/recipe/vanilla_recipes/cutting_machine/sticks.json"
+hash = "0edab138a5ebdad60685d095ac9b6b6c832de6f6ca8e669d3fb4695485f233e7"
 
 [[files]]
 file = "config/paxi/datapacks/forgeeverything_datapack/data/occultism/neoforge/biome_modifier/add_ore_silver.json"
@@ -93,11 +1293,439 @@ file = "config/paxi/datapacks/forgeeverything_datapack/data/occultism/neoforge/b
 hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
 
 [[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/neoforge/biome_modifier/nickel_ore.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/neoforge/biome_modifier/oil_spring.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/neoforge/biome_modifier/oil_spring_desert.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/neoforge/biome_modifier/ore_nickel.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/neoforge/biome_modifier/ore_platinum.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/neoforge/biome_modifier/platinum_ore.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/neoforge/biome_modifier/uranium_ore.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/neoforge/biome_modifier/uranium_patch.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/centrifuge/fluid/biofuel.json"
+hash = "3a4225f86a7bbf91c108b8a7a422fe34ed1f76c2845a8fccf4b02e0d6fd474d6"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/centrifuge/fluid/clumpacid/copper.json"
+hash = "cfc5b89b1d5b416416a57b3c623d189b39d766d39568746a474b926caab5b0e6"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/centrifuge/fluid/clumpacid/gold.json"
+hash = "3cfa97e5119c15e2e8873b03ef0cb83a35f3c7f9f048d75a59fd5f362258fd40"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/centrifuge/fluid/clumpacid/iron.json"
+hash = "2f2aeb21b1864f8d2dad4c7b91778a956b7c8a0843d6ce491cfa4e6313d40523"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/centrifuge/fluid/clumpacid/nickel.json"
+hash = "58329e93329e34ef9ce036f995dd9cbfe9b0d0c2785f4ab4c37b3b84d2bd31ff"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/centrifuge/fluid/clumpacid/platinum.json"
+hash = "b1c61d14f8a22f25c084ed4115cecdf4ebe5f23099dc33aefaf17b7aa1f2a022"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/centrifuge/fluid/compat/create/clumpacid/zinc.json"
+hash = "304f60047b9ecc9c1c56bdcaa2a1811aacbb083d4410834471fb49df07a7b467"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/centrifuge/fluid/compat/immersiveengineering/treated_planks.json"
+hash = "c9b1d07eb6b71e8d5cd3c604df737a580c160a74ecb34737e46a49803aad023a"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/centrifuge/fluid/compat/industrialforegoing/turbofuel.json"
+hash = "b2eb414b9cb87be7d998f4d3fdcc8e7cf91052e78cb63f47507c8806edcb7750"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/centrifuge/fluid/compat/mekanism/clumpacid/lead.json"
+hash = "c5d8de5717a8c1830d60ee8590fc471fd4f59963d6ae8886a052d8c810dc57fa"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/centrifuge/fluid/compat/mekanism/clumpacid/osmium.json"
+hash = "499d24c800ebcc56f0f45786de368fbfe23e897e7b75c77e9090bfbdadd4a120"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/centrifuge/fluid/compat/mekanism/clumpacid/tin.json"
+hash = "b3d347941845598191aabbc5dc9fdb149c338b209a659bb964a8d007d3336e95"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/centrifuge/fluid/compat/pneumaticcraft/fuel.json"
+hash = "07113b6298ceffa756b47b92d7260f76611b1ef894bab8135d23f9ef75c7e247"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/compat/actuallyadditions/fuel/biofuel.json"
+hash = "a804a99279704fc53a2353c5dc5d16fddd4e612d02a5c4cf004c431bbf598f8f"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/compat/actuallyadditions/pressing/biomass.json"
+hash = "14fe4a7b30525f2ba30633f31722bbc54c57b555beae14b360ea187c30d71ff1"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/compat/productivemetalworks/alloying/biosteel.json"
+hash = "d4c288c25b6b287f8b0145b689ed69f1ad17c687db443236a82a0f91d8d0359d"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/compat/productivemetalworks/alloying/turbofuel.json"
+hash = "d042d4d83d4d2a34f680cfe2662133e05c8c092871065887ebde731837f9cf12"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/compat/productivemetalworks/casting/block/biomass.json"
+hash = "d75f5570f1b8b83d16ce1e86d4b907bdaefbeaeec1e9997071956d596c24524d"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/compat/productivemetalworks/casting/bucket/biofuel.json"
+hash = "a580ec495b226fee60f05b139de3c26fa5b357c8991b363d15ec073d1fe69080"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/compat/productivemetalworks/casting/glob/biomass.json"
+hash = "e8e6a85a32357d7ee3778dbb6db1f659e23059a52e06a89fd7835550a56a3df8"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/compat/productivemetalworks/melting/block/bio.json"
+hash = "f0c1783ae6196ad5f5c6a2d34228e68358a7de7054cefb039504a004a97c3757"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/compat/productivemetalworks/melting/glob/bio.json"
+hash = "b117d47765d5d8acd2fd6e389cd14ee82b639fe60d0e799817988d09c5b28d3e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/fuelgen/compat/immersiveengineering/biodiesel.json"
+hash = "fe926d172ae0e115b2d1db75dd8ebec455ef57b0689b3627b51d618c36b55be7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/fuelgen/compat/industrialforegoing/biofuel.json"
+hash = "0b469f5774fd9d992fd86a0739a2a9f4b6ac5d352dc0511ac15ae3e5d47500d2"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/fuelgen/heavyoil.json"
+hash = "48d7e53bf85ac48a4517233ec86894463c674fa740e5e32f8b2480aff7a83a52"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/refinery/biodiesel.json"
+hash = "3dc6626f8a912e3bbf67e06e29582c63a2e07df81c032082740f0480bf0f2722"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/refinery/heavyoil.json"
+hash = "0f6ec4b7c8f05da968079fbd57e2857939f9cf9f9c2152d8e24ab9068b63b287"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/refinery/lava.json"
+hash = "abf58b9ca81803a2e3cdef4cdc424a2b6f034dbfc6dc05e62b87d9499cf29ed2"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/refinery/lavaalt.json"
+hash = "f1ee3b9d6446d89cdfd3dded551bc68cb38680644cd0ab3217a950f069ec258c"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/refinery/oilalt.json"
+hash = "0e77c012825ffb1425675b64ccf016a50c4f42a6e5eb47ed4fb2426760339608"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/oritech/recipe/refinery/oilbase.json"
+hash = "e1b250fe05f776752c8855aba2ef1c510a092550a35b2ed8826e45ebb1b250cd"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/neoforge/biome_modifier/oil_lake_surface.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/neoforge/biome_modifier/oil_lake_underground.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/amadron/diesel_to_emerald.json"
+hash = "8f30595440910e2b3489aea60e763bfda03c791510758ce27fe4a0c444d5cf18"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/amadron/emerald_to_lubricant.json"
+hash = "c8d7160aa95ed18317cc90ea9d7f9c0b6440c6216aa62865b2fe7cc33adff7a2"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/amadron/emerald_to_oil.json"
+hash = "bd62ce8aad9d0cb0cfbd6a86dabfe1e528ff241d1221ea1a2531986b63603bd9"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/amadron/gasoline_to_emerald.json"
+hash = "3f465ef95e2b73d6b9a22ecdc759bc61f533cef8bd899266164e26d9c7b7e411"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/amadron/kerosene_to_emerald.json"
+hash = "c75bb4be17355d1329d32bf62d72bd75edab3b1b8ffa50e3f9d9c7c909af2edf"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/amadron/lpg_to_emerald.json"
+hash = "2a53e701098010998d64e569cdbf4b23465d5318316825a6187426856f6cbb38"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/amadron/lubricant_to_emerald.json"
+hash = "3ac54133c08a358a45d40c7e43fd1ba1c4bfae278d9a8cc2a2eeef34f00984cb"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/amadron/oil_to_emerald.json"
+hash = "ae4d0288bbbcf19a7819b05f94eca1fc942c1637c63bcab00e549cf3158109d4"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/fluid_mixer/biodiesel.json"
+hash = "3f4d9985c9eab25a39467532afd9df04c780ce2d253c15e4448b51616a497a61"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/refinery/oil_2.json"
+hash = "bb71dcf18d1f9d356558508e5270724a38b4cf0020d658b1f897dfe5b31f37d6"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/refinery/oil_3.json"
+hash = "be339e0ba3285729deacb456e763c5697c0c115d15b2ae6ca9e5110cb971865d"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/refinery/oil_4.json"
+hash = "bb08a44da6599694b1cbf676ae80d2a5a3850d0ed59c5f3d764509ebfdf9970d"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/thermo_plant/ethanol_from_apple.json"
+hash = "3b157ba9f59110e8f42a37f0df13ca35028e5c5e6d4069ab37b9227617f42958"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/thermo_plant/ethanol_from_melon.json"
+hash = "b55efa6ed7cde995885560593578bbf7156529e16e11ca74195292c600b89d88"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/thermo_plant/ethanol_from_poisonous_potato.json"
+hash = "d6a8e8924a1bf3b69ab7a567157f92139dca4cfd10e9c0e95a33ad0868d7adab"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/thermo_plant/ethanol_from_potato.json"
+hash = "0381469acadafc7c74b25aa5520434672168a3f26e8821f90f13b71962cd81f0"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/thermo_plant/ethanol_from_sugar.json"
+hash = "b2ba1c75f8becf97cbbcb8b57fbbbc98ee75055ca819d51e7a23fc660f8f8260"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/thermo_plant/ethanol_from_sweet_berries.json"
+hash = "a162d79d4fef2a35dd410b24daf1cdad652bde2a691f19e02f2c29e197d825bb"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/thermo_plant/gasoline.json"
+hash = "81236b07950df51e41462f89aefb005f57f4b83be0e34efdb1462d54276afda0"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/thermo_plant/kerosene.json"
+hash = "20a7196f5f0c4120b3ed6980b68be8abec1362cd610f75510c1132a03abebede"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/thermo_plant/lpg.json"
+hash = "8f519aa177287a48b92f8cc4621e21da1c3338e6d8c9ea12e14b52a6c608c563"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/thermo_plant/lubricant_from_biodiesel.json"
+hash = "648b19561d3af68914d1b163eb7e0ba5e9813c1ed607be73e69726e4abbe6819"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/recipe/thermo_plant/lubricant_from_diesel.json"
+hash = "3eade6d506e792a8f3e485e11d79dbb627f748063869c489c5ae4d78e3234da9"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/pneumaticcraft/worldgen/configured_feature/oil_lake.json"
+hash = "018a5b1e4c17cd0c1f54a724656d1b2dfafa1c2ce235a4ff46282132bdbdf392"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/powah/neoforge/biome_modifier/uraninite_ore.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/powah/neoforge/biome_modifier/uraninite_ore_dense.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/powah/neoforge/biome_modifier/uraninite_ore_poor.json"
+hash = "45d1aba2f2f185cfb7337f8972f3240fbb1b908ebf140c7d38f50c95a64767a7"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/productivebees/productivebees/oritech/sulfuric_acid.json"
+hash = "b6a677f83f87ea26a9b91b69f5ccd415ae3eb9bf1097a6b5acacdb54ea204eae"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/productivebees/recipe/centrifuge/oritech/honeycomb_sulfuric_acid.json"
+hash = "e210fefd37839d73e0d8b2a5799b3eafdfd281e3a2de7684d1cddabb8e2e1277"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/productivemetalworks/recipe/alloying/pnc/plastic_from_biodiesel.json"
+hash = "23f0bbf94585b1c067bbdc97f621fc85727a7a93bc9ced01541b33af18efb0b0"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/productivemetalworks/recipe/alloying/pnc/plastic_from_lpg.json"
+hash = "ac96c89acc6e06d6be41a92ddb212ac3a77bd0a30dad68b4af0a583e0b6df381"
+
+[[files]]
 file = "config/paxi/datapacks/forgeeverything_datapack/data/railcraft/neoforge/biome_modifier/add_silver_ore.json"
 hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
 
 [[files]]
 file = "config/paxi/datapacks/forgeeverything_datapack/data/railcraft/neoforge/biome_modifier/add_silver_ore_lower.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/stellaris/recipe/fuel_refining.json"
+hash = "4afffc6dd483f071209caa9c35d2ccc1c80a2356692e1c0f1a63ed343404da38"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/stellaris/worldgen/configured_feature/lake_oil.json"
+hash = "16ad0263351986b8348c18598bea662620685baa557940f49b3085dad8a96503"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/neoforge/biome_modifier/lead_ore.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/neoforge/biome_modifier/lithium_ore.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/neoforge/biome_modifier/nickel_ore.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/neoforge/biome_modifier/oil_deposit.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/neoforge/biome_modifier/oil_well.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/neoforge/biome_modifier/tfmg_striated_ores_overworld.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/recipe/coking/charcoal.json"
+hash = "2ee061e6113fa535c4029f215a6e21bb4a62c5635292898a0464a0127cf16ce8"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/recipe/coking/coal.json"
+hash = "95823cb3c1ab9701ddcb2740c73f7791c7880449e724b4da4fcd472f4fbd6b34"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/recipe/compacting/bitumen.json"
+hash = "837b18ed810d9d14c2ccf8e51fb6a8c4d3b8c3a8e8ab2356e1eae2ac9cd44283"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/recipe/distillation/crude_oil.json"
+hash = "b38f734a1f129f19cf2c4a5930df6dfeb495d725121e5c03e170d018b981dde8"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/recipe/distillation/crude_oil_light_distillation.json"
+hash = "3a8fcf83745ac0678c5411d344749023cd9dcb3fbaeefb6c98a36cccab0b644d"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/recipe/distillation/crude_oil_no_naphtha.json"
+hash = "0ca986247041731928932ef69933d9de144e286faea4058f4a33ba91da38b046"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/recipe/distillation/heavy_oil.json"
+hash = "d3ddff06a9fd9565db8d29d5ea9105eeb042ccbbbcacffa22cefe5c882523c77"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/recipe/distillation/heavy_oil_light_distillation.json"
+hash = "71f491a5a21090f080b56cb63c0ed1df8394f0825e62407d501a4c1f0b5ad507"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/recipe/distillation/heavy_oil_no_naphtha.json"
+hash = "571304d19898b62e935ccf51ef800f859ce71635b9328d4943186c18b7eef2c5"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/recipe/filling/hardened_planks.json"
+hash = "5678c607b5557d8abd84ff279ca564c2c41869f462208bdae4c2822b39de8ac5"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/recipe/filling/lpg_tank.json"
+hash = "ea437dcd8bd8f9616f7256a89db098f1a76d1f7a0362e160ca5723877642304f"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/recipe/mixing/copper_sulfate.json"
+hash = "6e98e41504f5a70e8b6f36e159c0807170014fa15ae8a8f150bdd71c3c5d232f"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/recipe/mixing/napalm.json"
+hash = "d484210a096110db7805ac87de4def0de796b5293666bc101eb98fdfc454e64e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/recipe/sequenced_assembly/potentiometer.json"
+hash = "2c703b7fff5d29a2a25dff4fce40904f3db5f674a009ab975db989ef64f1e20c"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/recipe/vat_machine_recipe/etched_circuit_board.json"
+hash = "0c99ab25108c74b4ca9aa5bd99eeb133a206ef0895f1aa9a74db685e35959f98"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/recipe/vat_machine_recipe/rubber.json"
+hash = "e4219d92b02def5902f4ceca18d6eff662367460879951852fce2520dbe47978"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/recipe/vat_machine_recipe/sulfuric_acid.json"
+hash = "d230fea05366e9195f21f9b67c7fdb43f244c42d243f24f7ab94c232f2ffed24"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/tags/fluid/blast_stove_fuel.json"
+hash = "2ad6cc6ae2762c9dc7392d73e5eaef7598e0ace1315ce7e09d78dc680ec9813b"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/tags/fluid/firebox_fuel.json"
+hash = "4dcf2d4b0aea8b6ea5b138f944a715b27dc6b0d704f53e1c2a987d329512dada"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/tags/fluid/flammable.json"
+hash = "bb0aa203e657c7e6dbbdcda91499aebf345f308c45e420430127e0e244ea7a43"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/tags/fluid/gas.json"
+hash = "344e44c12e70584bb04e18fe6feacaebd9c20ba589b5de1e80932de9dda14cfb"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/tfmg/flamethrower_fuel/type/diesel.json"
+hash = "6e0825c63afbcedbf4d730c75b6ad684fb99c04fd77ff8966eeb769d97525dff"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/tfmg/flamethrower_fuel/type/gasoline.json"
+hash = "5dd525350986ec53973d0648f0e1d94c9a2aa46cf3355edab4072004130ce97e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/tfmg/flamethrower_fuel/type/kerosene.json"
+hash = "aff725638d319cba27b330de38a9521922eee39c0e4fab71ae57d50bcb6f64f8"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/tfmg/tfmg/flamethrower_fuel/type/lpg.json"
+hash = "f1e6a653490eb57ce8506c822d957dc8d8036d7f36568022eb9f3fc3e2d84120"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/werewolves/neoforge/biome_modifier/gen/silver_ore.json"
+hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
+
+[[files]]
+file = "config/paxi/datapacks/forgeeverything_datapack/data/xycraft_world/neoforge/biome_modifier/ore_aluminum.json"
 hash = "d47a9327525c734da68f9c5659e4ae15157e8d2cb691c9b910b00e572825cb6e"
 
 [[files]]
@@ -110,15 +1738,23 @@ hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "51eae76e735982e4ac3ceafba8f23914e7cf59805eee9df39f388f2177a2a83f"
-
-[[files]]
-file = "config/sodium-options.json"
-hash = "ade679c5cadd4b9d2dce255f05b75c2f3d2c7611d70e8c16821e388fb8133021"
+hash = "869a36e94ec25ced31d87da6e354d0b196b8838eacc7b3b7bcc6a9b8b4a43edb"
 
 [[files]]
 file = "config/supplementaries-common.toml"
 hash = "71c046f6886bf52628d09f0bc2eb5e8a7974486026135e84a8270bcd6f37264c"
+
+[[files]]
+file = "config/utilitarian-server.toml"
+hash = "47141b3e9cc48d9a511d58304dd7e4d0a95a162b2eb549511d0463a70ba560e7"
+
+[[files]]
+file = "kubejs/client_scripts/hide_duplicate_fluids.js"
+hash = "34ffa8acd04a2237f0d2ce170cbbb6ab589e950372883c32d2785683448697dd"
+
+[[files]]
+file = "kubejs/client_scripts/hide_duplicate_food_fluids.js"
+hash = "fd466d153f5233e0468072b67b70b7e9692a2082891cbe135a4c120baaa01620"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -1019,11 +2655,19 @@ metafile = true
 
 [[files]]
 file = "mods/everythingfood-0.0.1.jar"
-hash = "5900e7cae8e4e56f68d13061a9a2fcc11b1199ffe56ef332a3bfca5571c4490a"
+hash = "27b176c3318b1f5b050f7e940c60b5d5084aeba6d8c91b6bf0e35bb4aacbe164"
 
 [[files]]
 file = "mods/everythingores.jar"
-hash = "15ce15fe894d22b424e10ef8498dd1672aeb7feeae38b0f902b24399da441c95"
+hash = "c1e819a698790e002731b37e2ae51d0d74d519b771343b0ef47a764e19cd7704"
+
+[[files]]
+file = "mods/everythingrelics-1.21.1-0.0.1.jar"
+hash = "618d320a689d9ac20b4e02e5fa6bad2023459f0e0acd8442b236f38512f67f85"
+
+[[files]]
+file = "mods/everythingrgbprofiles-0.0.1.jar"
+hash = "cc22f28a562711855112ca4fcf3dd8bcd1476cfa2fff906a014f9bfb8dec0628"
 
 [[files]]
 file = "mods/evilcraft.pw.toml"
@@ -1032,7 +2676,7 @@ metafile = true
 
 [[files]]
 file = "mods/evologintimeout.pw.toml"
-hash = "e59c3aac44b405f0cf463a2e1739b5d9cb6f0425e75c1f19523413b686bca1eb"
+hash = "0b19848814624dfb13cb2867bd33ac09511f880ea32d36891a570166b54f81ed"
 metafile = true
 
 [[files]]
@@ -2637,4 +4281,4 @@ metafile = true
 
 [[files]]
 file = "user_jvm_args.txt"
-hash = "26aee2d8f79d513432a88c58f5ab3925f0ed323892d8ad50d56fada14c1a7966"
+hash = "b673ec97134890f75004b51658c1aa3cba92a264a5bc05d80d801cf49e1923c8"
