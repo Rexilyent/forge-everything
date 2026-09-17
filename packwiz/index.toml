@@ -2037,6 +2037,11 @@ hash = "a2042cb4a930908f562eae199b8795a068d2dd4092f8a67486ac46cb7e4b3108"
 metafile = true
 
 [[files]]
+file = "mods/bclib-neoforge.pw.toml"
+hash = "561ad31048950924972bdf9f0c156ca9bc11ebbb5928c76e00e58f5b1afb12c3"
+metafile = true
+
+[[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "4979bd97326936ba1645b0e4cfb414635c4dfa7c5d33c90a54d93f9fea40337e"
 metafile = true
@@ -2059,6 +2064,11 @@ metafile = true
 [[files]]
 file = "mods/better-compatibility-checker.pw.toml"
 hash = "6e87341e9873552273b233c23e6a01b813e9293d29a1325019cef73b883da187"
+metafile = true
+
+[[files]]
+file = "mods/betterend-neoforge.pw.toml"
+hash = "d86ed90b803932d8de1404064d02cabf943c81f4b19d8125340a404117a6e48d"
 metafile = true
 
 [[files]]
@@ -2397,7 +2407,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-steam-n-rails-1.21.1.pw.toml"
-hash = "5cb9f5f55a0de9c1b8d6092f73139505591b1bec2774bf6982988118c3f56f2c"
+hash = "80332cead695f1e3c27e99133a48709767d1106f836792bb2fc4d594b88f1a68"
 metafile = true
 
 [[files]]
@@ -2637,7 +2647,7 @@ metafile = true
 
 [[files]]
 file = "mods/euphoria-patches.pw.toml"
-hash = "5cd436ab3339f7b45a8753e112537b7da048912e748ba382faf4dc77bb90ac66"
+hash = "a245469cf91e7f3c8aec3b0f5ad3d79b1846ac0696543f892b426faea5f91cab"
 metafile = true
 
 [[files]]
@@ -4146,6 +4156,16 @@ hash = "c53ebc9acc7efcdb1466b9b7b4f81127063fc13684949ea9fea0a52cfead2173"
 metafile = true
 
 [[files]]
+file = "mods/worldweaver-neoforge.pw.toml"
+hash = "74d696169d84d7893843d322cb8062415e2903603da43128ea665205ff27482f"
+metafile = true
+
+[[files]]
+file = "mods/wunderlib-neoforge.pw.toml"
+hash = "2327c95d7332226e1d8c0372909367ee84c1ecedea9eacd84ddb8328a28d1350"
+metafile = true
+
+[[files]]
 file = "mods/xaero-train-map.pw.toml"
 hash = "8a74d2b8bb7ae742a27a48e546574664225612795217e5a3ecca72a5a0f70c47"
 metafile = true
@@ -4267,12 +4287,12 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "ea258ed5bf495d9017eeadc3cbf9bd67b1e672d843826bc077135548b5bc699e"
+hash = "75d1d2488a0c332a9a58af7e57f980a1b006c02b3a1c580fbd50443088e4eab0"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "608b87f75b2387a9fbd340cb18a8238bbbe5a0afc54202634b34f3000246b6e7"
+hash = "1a3d3663c44dc21e227c39c42ea9b5e3c4f3b2e3b5272ed55b45da9e247a46d7"
 metafile = true
 
 [[files]]
