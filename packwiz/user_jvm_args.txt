@@ -52,9 +52,6 @@
 # to take our entire operating system hostage.
 #
 # We suffered so you don't have to. You're welcome. Scroll down.
-# JK, the most suffering you have to do now is deal with lag spikes.
-# Nothing crazy, reducing your gameplay to 6 fps. Nothing crazy. Totally normal.
-# Best we got for now. Sorry bestie. :/
 # ============================================================================
 
 # -- Heap size ----------------------------------------------------------------
