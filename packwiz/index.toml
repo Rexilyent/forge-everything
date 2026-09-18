@@ -45,6 +45,10 @@ file = "config/ballistix-common.toml"
 hash = "5ab8f659b9df7e3c95bfe156d15d5249df44c6df6c909eac287777d775b5849b"
 
 [[files]]
+file = "config/calmtheleaks-common.toml"
+hash = "c32f9e85833c82d11e2c299423232f745416d5735afde8e9a62009bf4df54349"
+
+[[files]]
 file = "config/crash_assistant/config.toml"
 hash = "8b708df5f9fc5a9d41f2c53c586bdf257b83c4eabf9506efe660d64075e1bdec"
 
